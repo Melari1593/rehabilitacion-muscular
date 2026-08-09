@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rehabilitación en casa</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="app-header">
+  <h1>Rehabilitación en casa</h1>
+</header>
+
+<main id="app">
+
+  <!-- Pantalla de inicio -->
+  <section id="view-home" class="view">
+    <p class="subtitle">Elige el ejercicio que vas a hacer hoy.</p>
+    <div id="exercise-list" class="exercise-grid"></div>
+  </section>
+
+  <!-- Pantalla de prepárate -->
+  <section id="view-prepare" class="view hidden">
+    <h2 id="prepare-title"></h2>
+    <p id="prepare-instructions" class="instructions"></p>
+    <div class="video-wrap">
+      <video id="prepare-video" autoplay playsinline muted></video>
+      <canvas id="prepare-canvas"></canvas>
+    </div>
+    <p id="prepare-message" class="status-message"></p>
+    <div class="actions">
+      <button id="btn-back-home" class="btn-secondary">Volver</button>
+      <button id="btn-start-exercise" class="btn-primary" disabled>Empezar</button>
+    </div>
+  </section>
+
+  <!-- Pantalla de ejercicio en curso -->
+  <section id="view-exercise" class="view hidden">
+    <h2 id="exercise-title"></h2>
+    <div class="video-wrap">
+      <video id="exercise-video" autoplay playsinline muted></video>
+      <canvas id="exercise-canvas"></canvas>
+      <div id="rep-counter-badge" class="rep-counter-badge">0</div>
+      <div id="feedback-message" class="feedback-message hidden"></div>
+      <div id="low-confidence-warning" class="low-confidence-warning hidden">
+        No te vemos bien. Ajusta la cámara o la luz.
+      </div>
+    </div>
+    <div id="inactivity-message" class="status-message hidden">
+      No detectamos movimiento. Ajusta tu posición o la iluminación.
+    </div>
+    <div class="actions">
+      <button id="btn-stop-exercise" class="btn-primary">Detener</button>
+    </div>
+  </section>
+
+  <!-- Pantalla de resumen -->
+  <section id="view-summary" class="view hidden">
+    <h2>Resumen de la sesión</h2>
+    <div class="summary-grid">
+      <div class="summary-card">
+        <span class="summary-number" id="summary-total">0</span>
+        <span class="summary-label">Repeticiones totales</span>
+      </div>
+      <div class="summary-card correct">
+        <span class="summary-number" id="summary-correct">0</span>
+        <span class="summary-label">Correctas</span>
+      </div>
+      <div class="summary-card incorrect">
+        <span class="summary-number" id="summary-incorrect">0</span>
+        <span class="summary-label">Con error</span>
+      </div>
+    </div>
+    <p id="summary-error-type" class="instructions"></p>
+    <p id="summary-low-confidence" class="status-message hidden">
+      Hubo momentos en los que la cámara no te vio bien; algunas mediciones de esta sesión pueden ser menos precisas.
+    </p>
+    <div class="actions">
+      <button id="btn-summary-home" class="btn-primary">Volver al inicio</button>
+    </div>
+  </section>
+
+  <!-- Pantalla de error de cámara -->
+  <section id="view-camera-error" class="view hidden">
+    <h2>No pudimos acceder a tu cámara</h2>
+    <p class="instructions">
+      Esta app necesita permiso de cámara para funcionar. Revisa el ícono de cámara en la barra de
+      direcciones de tu navegador y permite el acceso, luego vuelve a intentarlo.
+    </p>
+    <div class="actions">
+      <button id="btn-camera-error-home" class="btn-secondary">Volver al inicio</button>
+      <button id="btn-camera-error-retry" class="btn-primary">Volver a intentar</button>
+    </div>
+  </section>
+
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
