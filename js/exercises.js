@@ -14,9 +14,9 @@ export const EXERCISES = {
     id: 'squat',
     name: 'Sentadilla',
     icon: '🏋️',
-    instructions: 'Ponte de pie, de perfil o de frente a la cámara, con el cuerpo completo visible. Baja doblando rodillas y cadera como si te sentaras, y vuelve a subir.',
-    joint: { a: 'HIP', b: 'KNEE', c: 'ANKLE' }, // ángulo de rodilla
-    visibilityJoints: ['HIP', 'KNEE', 'ANKLE'],
+    instructions: 'Ponte de pie de frente o de perfil a la cámara, con la cabeza y el torso hasta las rodillas visibles (no hace falta que se vean los pies). Baja doblando rodillas y cadera como si te sentaras, y vuelve a subir.',
+    joint: { a: 'SHOULDER', b: 'HIP', c: 'KNEE' }, // ángulo de cadera (flexión de tronco)
+    visibilityJoints: ['SHOULDER', 'HIP', 'KNEE'],
     direction: 'decreasing', // el ángulo baja al ejecutar el movimiento
     restAngle: 155,          // de pie, casi extendido
     triggerAngle: 135,       // a partir de aquí se considera que empezó a bajar
@@ -24,7 +24,7 @@ export const EXERCISES = {
     extremeMin: 70,
     extremeMax: 100,         // rango correcto de profundidad de la sentadilla
     tooShallowMsg: 'Baja más la cadera',
-    tooDeepMsg: 'No bajes tanto, cuida tus rodillas',
+    tooDeepMsg: 'No bajes tanto, controla el movimiento',
   },
   armRaise: {
     id: 'armRaise',
@@ -32,7 +32,7 @@ export const EXERCISES = {
     icon: '🙆',
     instructions: 'Ponte de pie de frente a la cámara con los brazos abajo. Eleva un brazo estirado hasta la altura del hombro, y vuelve a bajar.',
     joint: { a: 'HIP', b: 'SHOULDER', c: 'ELBOW' }, // ángulo de hombro
-    visibilityJoints: ['HIP', 'SHOULDER', 'ELBOW', 'WRIST'],
+    visibilityJoints: ['HIP', 'SHOULDER', 'ELBOW'],
     direction: 'increasing', // el ángulo sube al ejecutar el movimiento
     restAngle: 25,           // brazo abajo
     triggerAngle: 45,        // a partir de aquí se considera que empezó a subir
