@@ -279,7 +279,7 @@ Pero ojo: **la rodillera acompaña, no reemplaza el ejercicio.** Lo que protege 
 | 1 | 2.1 Contracción con toalla · 2.2 Elevación de pierna recta · 3.1 Puente · 4.1 Apoyo sobre una pierna (con manos) | 2 × 10 (4.1: 3 × 20 s) |
 | 2 | 2.2 Elevación de pierna recta · 2.3 Sentarse y levantarse · 3.1 Puente · 3.2 Almeja · 4.1 Apoyo sobre una pierna | 2 × 10–12 (4.1: 3 × 30 s) |
 | 3 | 2.3 Sentarse y levantarse · 3.1 Puente con banda · 3.3 Abducción de pie · 4.1 Apoyo sin manos · 4.2 Subir escalón | 3 × 10 |
-| 4 | 2.3 Sentarse y levantarse (brazos cruzados) · 3.1 Puente con banda · 3.2 Almeja con banda · 4.2 Subir escalón · 4.3 Minisentadilla a una pierna (opcional) | 3 × 10–12 |
+| 4 | 2.3 Sentarse y levantarse (brazos cruzados) · 3.1 Puente con banda · 3.2 Almeja con banda · 4.2 Subir escalón · 4.3 Minisentadilla a una pierna (opcional) | 3 × 10–12 (4.3: 2 × 6–8) |
 
 **NARRADOR:**
 "Solo pasas a la semana siguiente si terminaste la anterior con dolor de 3 sobre 10 o menos. Si no, repite la semana. No hay prisa: la constancia gana a la intensidad."
