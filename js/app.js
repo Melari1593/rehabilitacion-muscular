@@ -63,6 +63,13 @@ async function goToPrepare(exercise) {
   selectedExercise = exercise;
   document.getElementById('prepare-title').textContent = exercise.name;
   document.getElementById('prepare-instructions').textContent = exercise.instructions;
+  const refStart = document.getElementById('prepare-ref-start');
+  const refEnd = document.getElementById('prepare-ref-end');
+  refStart.src = exercise.reference.start;
+  refStart.alt = `${exercise.name}: posición inicial`;
+  refEnd.src = exercise.reference.end;
+  refEnd.alt = `${exercise.name}: posición final`;
+  document.getElementById('prepare-muscles').textContent = `Músculos que trabajas: ${exercise.muscles.join(', ')}.`;
   const btnStart = document.getElementById('btn-start-exercise');
   btnStart.disabled = true;
 
@@ -235,6 +242,8 @@ function showSummary(summary, lowConfidenceOccurred) {
   } else {
     errorTypeEl.textContent = 'No se detectaron repeticiones en esta sesión.';
   }
+
+  document.getElementById('summary-muscles').textContent = `Músculos trabajados: ${selectedExercise.muscles.join(', ')}.`;
 
   document.getElementById('summary-low-confidence').classList.toggle('hidden', !lowConfidenceOccurred);
 
