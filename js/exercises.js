@@ -14,6 +14,8 @@ export const EXERCISES = {
     id: 'squat',
     name: 'Sentadilla',
     icon: '🏋️',
+    muscles: ['Cuádriceps', 'Glúteos', 'Isquiotibiales'],
+    reference: { start: 'assets/squat-start.svg', end: 'assets/squat-end.svg' },
     instructions: 'Ponte de pie de frente o de perfil a la cámara, con la cabeza y el torso hasta las rodillas visibles (no hace falta que se vean los pies). Baja doblando rodillas y cadera como si te sentaras, y vuelve a subir.',
     joint: { a: 'SHOULDER', b: 'HIP', c: 'KNEE' }, // ángulo de cadera (flexión de tronco)
     visibilityJoints: ['SHOULDER', 'HIP', 'KNEE'],
@@ -30,6 +32,8 @@ export const EXERCISES = {
     id: 'armRaise',
     name: 'Elevación de brazo',
     icon: '🙆',
+    muscles: ['Deltoides', 'Trapecio superior', 'Manguito rotador'],
+    reference: { start: 'assets/armRaise-start.svg', end: 'assets/armRaise-end.svg' },
     instructions: 'Ponte de pie de frente a la cámara con los brazos abajo. Eleva un brazo estirado hasta la altura del hombro, y vuelve a bajar.',
     joint: { a: 'HIP', b: 'SHOULDER', c: 'ELBOW' }, // ángulo de hombro
     visibilityJoints: ['HIP', 'SHOULDER', 'ELBOW'],

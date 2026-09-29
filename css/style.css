@@ -190,3 +190,25 @@ main#app {
 
 .summary-number { display: block; font-size: 1.75rem; font-weight: 700; }
 .summary-label { display: block; color: var(--color-muted); font-size: 0.8rem; margin-top: 0.25rem; }
+
+.reference {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0.75rem 0;
+}
+
+.reference figure {
+  margin: 0;
+  background: var(--color-surface);
+  border-radius: 12px;
+  padding: 0.5rem;
+  text-align: center;
+  flex: 1;
+  max-width: 160px;
+}
+
+.reference img { width: 100%; height: auto; display: block; }
+.reference figcaption { color: var(--color-muted); font-size: 0.85rem; margin-top: 0.25rem; }
+
+.muscles { color: var(--color-muted); font-size: 0.9rem; margin: 0.25rem 0 0.75rem; }
