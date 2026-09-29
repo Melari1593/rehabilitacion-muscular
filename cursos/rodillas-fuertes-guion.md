@@ -296,7 +296,7 @@ Guarda tu plan, ponte un recordatorio para tus tres días de la semana y dale a 
 
 ## Checklist de producción
 - [ ] Revisión clínica completa del guion por un médico con registro médico vigente (dosis, progresiones, señales de alerta).
-- [ ] Incluir nombre y número de registro médico del médico revisor en la Lección 1 y en la página del producto.
+- [ ] Incluir nombre del médico revisor y su Registro RETHUS 1018459438 en la Lección 1 (en Shopify ya aparece el registro).
 - [ ] Grabar cada ejercicio con toma frontal y lateral, y mostrar al menos un error común por ejercicio.
 - [ ] Subtítulos en español en todos los videos.
 - [ ] Diseñar el PDF "Rutina de 4 semanas" con la tabla de la Lección 6 y el semáforo del dolor.

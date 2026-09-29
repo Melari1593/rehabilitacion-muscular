@@ -42,7 +42,7 @@ Los siguientes Términos de Servicio rigen la relación entre usted (el "Cliente
 
 **Uso personal.** El acceso es personal e intransferible. No está permitido compartir, copiar, revender ni distribuir los videos o materiales descargables.
 
-**Contenido educativo.** Los cursos tienen fines educativos y su contenido ha sido revisado por un médico. No sustituyen una consulta, diagnóstico ni tratamiento médico o de rehabilitación. El Cliente debe consultar con un profesional de la salud antes de iniciar un programa de ejercicio si tiene una lesión, una enfermedad o dolor, y suspender la actividad ante cualquier señal de alerta indicada en el curso.
+**Contenido educativo.** Los cursos tienen fines educativos y su contenido ha sido revisado por un médico (Registro RETHUS 1018459438). No sustituyen una consulta, diagnóstico ni tratamiento médico o de rehabilitación. El Cliente debe consultar con un profesional de la salud antes de iniciar un programa de ejercicio si tiene una lesión, una enfermedad o dolor, y suspender la actividad ante cualquier señal de alerta indicada en el curso.
 
 **Reembolsos de cursos.** El Cliente puede solicitar el reembolso de un curso dentro de los 7 días siguientes a la compra, siempre que no haya accedido al contenido ni descargado los materiales. Si hay un problema técnico que impida el acceso, lo resolveremos o reembolsaremos el importe pagado.
 
