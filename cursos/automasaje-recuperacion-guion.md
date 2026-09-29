@@ -1,6 +1,6 @@
 # Guion: Curso "Automasaje y recuperación muscular"
 Fecha: 2026-09-24
-Estado: **Borrador. Pendiente de revisión por fisioterapeuta con tarjeta profesional**
+Estado: **Borrador. Pendiente de revisión por médico con registro médico vigente**
 
 ## Ficha del curso
 | | |
@@ -22,7 +22,7 @@ Mostrar en la página de venta y al inicio de la Lección 1:
 - **[PANTALLA]**: lo que se ve en el video (tomas, textos sobreimpresos).
 - **NARRADOR**: texto que se dice a cámara. Tono cercano, frases cortas, tuteo.
 - **[TEXTO]**: rótulo o texto en pantalla.
-- Tiempos y presiones son un punto de partida conservador y **deben validarse con el fisioterapeuta revisor**.
+- Tiempos y presiones son un punto de partida conservador y **deben validarse con el médico revisor**.
 
 ---
 
@@ -271,8 +271,8 @@ Descarga tu guía, deja el rodillo y la pelota a la vista para acordarte de usar
 ---
 
 ## Checklist de producción
-- [ ] Revisión clínica completa del guion por un fisioterapeuta con tarjeta profesional (contraindicaciones, tiempos, presión).
-- [ ] Incluir nombre y número de tarjeta profesional del fisioterapeuta revisor en la Lección 1 y en la página del producto.
+- [ ] Revisión clínica completa del guion por un médico con registro médico vigente (contraindicaciones, tiempos, presión).
+- [ ] Incluir nombre y número de registro médico del médico revisor en la Lección 1 y en la página del producto.
 - [ ] Grabar cada ejercicio con toma lateral y, cuando aplique, mostrar la versión suave y la de más presión.
 - [ ] Mostrar al menos un error común por ejercicio (rodar sobre articulaciones, zona lumbar, lumbar hundida en cuádriceps).
 - [ ] Subtítulos en español en todos los videos.

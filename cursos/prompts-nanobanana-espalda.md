@@ -16,7 +16,7 @@ Archivo del PDF: `cursos/pdf/plan-5-dias-espalda.pdf`
 2. **En cada prompt siguiente, adjunta esa imagen** y empieza con: *"Usa el personaje de la imagen adjunta."* Nano Banana mantiene mejor la consistencia cuando le das una imagen de referencia.
 3. **Pega siempre el bloque de ESTILO** al final de cada prompt. Así todas las imágenes comparten colores y trazo.
 4. **Sin texto dentro de las imágenes.** Los generadores suelen escribir mal las palabras. Los títulos y números van en el PDF o en el video, no en la imagen.
-5. **Revisión obligatoria:** antes de publicar, el fisioterapeuta revisor debe comprobar que cada postura de las ilustraciones sea correcta. Si una imagen tiene un error (por ejemplo, la espalda arqueada donde debe estar neutra), pide una corrección concreta: *"Corrige: la zona lumbar debe quedar pegada al suelo."*
+5. **Revisión obligatoria:** antes de publicar, el médico revisor debe comprobar que cada postura de las ilustraciones sea correcta. Si una imagen tiene un error (por ejemplo, la espalda arqueada donde debe estar neutra), pide una corrección concreta: *"Corrige: la zona lumbar debe quedar pegada al suelo."*
 
 ---
 

@@ -1,6 +1,6 @@
 # Guion: Curso "Espalda sana para quien trabaja sentado"
 Fecha: 2026-09-24
-Estado: **Borrador. Pendiente de revisión por fisioterapeuta con tarjeta profesional**
+Estado: **Borrador. Pendiente de revisión por médico con registro médico vigente**
 
 ## Ficha del curso
 | | |
@@ -22,7 +22,7 @@ Mostrar en la página de venta y al inicio del Día 1:
 - **[PANTALLA]**: lo que se ve en el video (tomas, textos sobreimpresos).
 - **NARRADOR**: texto que se dice a cámara. Tono cercano, frases cortas, tuteo.
 - **[TEXTO]**: rótulo o texto en pantalla.
-- Series, repeticiones y tiempos son un punto de partida conservador y **deben validarse con el fisioterapeuta revisor**.
+- Series, repeticiones y tiempos son un punto de partida conservador y **deben validarse con el médico revisor**.
 - Cada video termina con un **reto del día**: un solo hábito concreto para practicar hasta el día siguiente.
 
 ---
@@ -107,7 +107,7 @@ La mejor postura es la siguiente."
 **NARRADOR:** "De pie, pies al ancho de la cadera, pon las manos en la parte baja de la espalda o en la cintura. Inclínate suavemente hacia atrás, mirando al frente, y vuelve. Es un movimiento pequeño y cómodo; no tienes que llegar lejos."
 **[TEXTO]** *5 repeticiones, suaves.*
 
-**Nota:** "Si este movimiento te produce dolor que baja por la pierna, sáltatelo y coméntalo con tu fisioterapeuta."
+**Nota:** "Si este movimiento te produce dolor que baja por la pierna, sáltatelo y coméntalo con tu médico o fisioterapeuta."
 
 #### Ejercicio 2.4: Marcha en el sitio o una vuelta
 **NARRADOR:** "Termina caminando: ve por agua, da una vuelta por la casa o la oficina, o marcha en el sitio subiendo las rodillas."
@@ -272,8 +272,8 @@ Recuerda: la mejor postura es la siguiente. ¡Muévete y nos vemos!"
 ---
 
 ## Checklist de producción
-- [ ] Revisión clínica completa del guion por un fisioterapeuta con tarjeta profesional (ejercicios, dosis, señales de alerta).
-- [ ] Incluir nombre y número de tarjeta profesional del fisioterapeuta revisor en el Día 1 y en la página del producto.
+- [ ] Revisión clínica completa del guion por un médico con registro médico vigente (ejercicios, dosis, señales de alerta).
+- [ ] Incluir nombre y número de registro médico del médico revisor en el Día 1 y en la página del producto.
 - [ ] Grabar el Día 1 en un puesto de trabajo real (idealmente uno de casa y uno de oficina).
 - [ ] Grabar cada ejercicio con toma lateral y mostrar al menos un error común y una versión suave.
 - [ ] Grabar la pausa activa del Día 2 en tiempo real (2 min) para que se pueda seguir en directo.

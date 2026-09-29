@@ -1,6 +1,6 @@
 # Guion: Curso "Rodillas fuertes, prevención y cuidado"
 Fecha: 2026-09-24
-Estado: **Borrador — pendiente de revisión por fisioterapeuta con tarjeta profesional**
+Estado: **Borrador — pendiente de revisión por médico con registro médico vigente**
 
 ## Ficha del curso
 | | |
@@ -21,7 +21,7 @@ Mostrar en la página de venta y al inicio de la Lección 1:
 - **[PANTALLA]**: lo que se ve en el video (tomas, textos sobreimpresos).
 - **NARRADOR**: texto que se dice a cámara. Tono cercano, frases cortas, tuteo.
 - **[TEXTO]**: rótulo o texto en pantalla.
-- Las dosis (series, repeticiones, frecuencia) son un punto de partida conservador y **deben validarse con el fisioterapeuta revisor**.
+- Las dosis (series, repeticiones, frecuencia) son un punto de partida conservador y **deben validarse con el médico revisor**.
 
 ---
 
@@ -295,8 +295,8 @@ Guarda tu plan, ponte un recordatorio para tus tres días de la semana y dale a 
 ---
 
 ## Checklist de producción
-- [ ] Revisión clínica completa del guion por un fisioterapeuta con tarjeta profesional (dosis, progresiones, señales de alerta).
-- [ ] Incluir nombre y número de tarjeta profesional del fisioterapeuta revisor en la Lección 1 y en la página del producto.
+- [ ] Revisión clínica completa del guion por un médico con registro médico vigente (dosis, progresiones, señales de alerta).
+- [ ] Incluir nombre y número de registro médico del médico revisor en la Lección 1 y en la página del producto.
 - [ ] Grabar cada ejercicio con toma frontal y lateral, y mostrar al menos un error común por ejercicio.
 - [ ] Subtítulos en español en todos los videos.
 - [ ] Diseñar el PDF "Rutina de 4 semanas" con la tabla de la Lección 6 y el semáforo del dolor.
