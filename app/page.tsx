@@ -3,11 +3,13 @@ import { Activity, Camera, CircleDot, Dumbbell, HeartPulse, Monitor, ShieldCheck
 import { Aparecer } from '@/components/Aparecer';
 import { Encabezado } from '@/components/Encabezado';
 import { PiePagina } from '@/components/PiePagina';
+import { TarjetaCurso } from '@/components/TarjetaCurso';
 import { TarjetaProducto } from '@/components/TarjetaProducto';
+import { CURSOS } from '@/lib/cursos';
 import { obtenerColeccion } from '@/lib/shopify';
+import { WOMPI_CONFIGURADO, WOMPI_MODO_PRUEBA } from '@/lib/wompi';
 
 const REGISTRO = 'Registro médico RETHUS 1018459438';
-const COLECCION_CURSOS = process.env.SHOPIFY_COLECCION_CURSOS ?? 'cursos-en-linea';
 const COLECCION_PRODUCTOS = process.env.SHOPIFY_COLECCION_PRODUCTOS ?? 'rehabilitacion-y-bienestar';
 
 export const revalidate = 300;
@@ -22,8 +24,8 @@ const TEMAS = [
 ];
 
 const PASOS = [
-  { titulo: 'Elige tu curso', texto: 'Espalda, rodillas, recuperación muscular o fuerza en casa. Cada curso explica para quién es y qué incluye.', nota: 'Cursos desde 14,90 USD' },
-  { titulo: 'Paga en línea', texto: 'Pagas en el checkout seguro de Shopify. Al confirmarse el pago recibes en tu correo las instrucciones de acceso.', nota: 'Sin envíos ni esperas' },
+  { titulo: 'Elige tu curso', texto: 'Espalda, rodillas, recuperación muscular o fuerza en casa. Cada curso explica para quién es y qué incluye.', nota: 'Cada curso: 52.150 COP' },
+  { titulo: 'Paga en línea', texto: 'Pagas en el checkout seguro de Wompi con tarjeta, PSE, Nequi o Bancolombia. Al confirmarse el pago recibes en tu correo las instrucciones de acceso.', nota: 'Sin envíos ni esperas' },
   { titulo: 'Practica a tu ritmo', texto: 'Videos cortos y un plan descargable para seguir tu progreso. Cada curso incluye señales de alerta para saber cuándo consultar.', nota: '10 a 25 minutos por sesión' },
 ];
 
@@ -49,11 +51,7 @@ const btnLinea =
   'inline-block rounded-lg border-[1.5px] border-tinta px-7 py-3.5 text-sm font-semibold text-tinta transition-colors hover:border-acento hover:text-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento';
 
 export default async function Inicio({ searchParams }: { searchParams: Promise<{ error?: string }> }) {
-  const [{ error }, cursos, productos] = await Promise.all([
-    searchParams,
-    obtenerColeccion(COLECCION_CURSOS, 9),
-    obtenerColeccion(COLECCION_PRODUCTOS, 12),
-  ]);
+  const [{ error }, productos] = await Promise.all([searchParams, obtenerColeccion(COLECCION_PRODUCTOS, 12)]);
   const productosFisicos = productos.filter((p) => !p.titulo.startsWith('Curso:'));
   const mensajeError = error ? ERRORES[error] : undefined;
 
@@ -212,23 +210,26 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
           </div>
         </section>
 
-        {/* 6. Cursos (Shopify) */}
+        {/* 6. Cursos (pago con Wompi) */}
         <section id="cursos" aria-labelledby="titulo-cursos" className="scroll-mt-20 bg-arena px-[6%] py-24">
           <p className={eyebrow}>Cursos en línea</p>
           <h2 id="titulo-cursos" className={h2}>Aprende a cuidarte, paso a paso.</h2>
-          {cursos.length > 0 ? (
-            <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {cursos.map((curso, i) => (
-                <Aparecer as="li" key={curso.id} retraso={i * 0.12}>
-                  <TarjetaProducto producto={curso} etiqueta="Curso en línea" />
-                </Aparecer>
-              ))}
-            </ul>
-          ) : (
-            <p className="text-suave">Muy pronto: estamos preparando nuestros cursos.</p>
+          {WOMPI_MODO_PRUEBA && (
+            <p role="note" className="mb-8 max-w-3xl rounded-lg border border-dashed border-acento bg-white/70 px-5 py-4 text-sm text-tinta">
+              <strong>Modo de prueba:</strong> los pagos de cursos usan el entorno de pruebas de Wompi. No se cobra dinero real; usa las
+              tarjetas y datos de prueba de Wompi.
+            </p>
           )}
+          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {CURSOS.map((curso, i) => (
+              <Aparecer as="li" key={curso.slug} retraso={Math.min(i, 5) * 0.1}>
+                <TarjetaCurso curso={curso} activo={WOMPI_CONFIGURADO} />
+              </Aparecer>
+            ))}
+          </ul>
           <p className="mt-8 text-[13px] font-light text-suave">
-            El pago se hace en el checkout seguro de Shopify. Los cursos son digitales: no tienen envío ni pago contra entrega.
+            El pago se hace en el checkout seguro de Wompi (Bancolombia), en pesos colombianos. Los cursos son digitales: no tienen envío ni
+            pago contra entrega. Al aprobarse el pago recibes el acceso en el correo que registres en Wompi.
           </p>
         </section>
 

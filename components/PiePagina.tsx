@@ -39,7 +39,7 @@ export function PiePagina() {
       <p className="mt-12 text-center text-xs font-light text-suave">
         Contenido educativo. No reemplaza una consulta, diagnóstico ni tratamiento médico.
       </p>
-      <p className="mt-2 text-center text-[11px] font-light text-suave/70">© {new Date().getFullYear()} BienEstar en Casa · Pagos procesados por Shopify</p>
+      <p className="mt-2 text-center text-[11px] font-light text-suave/70">© {new Date().getFullYear()} BienEstar en Casa · Cursos: pagos con Wompi · Productos: pagos con Shopify</p>
     </footer>
   );
 }
