@@ -27,7 +27,7 @@ Estado: **Borrador. Revisar datos del médico revisor y precio antes de grabar**
 | **12–18 s** · Idea clave | Persona se levanta, estira los brazos y sonríe. | **VOZ:** "Por eso este curso parte de una idea sencilla: la mejor postura es la siguiente." <br>**[TEXTO]** *La mejor postura es la siguiente.* |
 | **18–38 s** · Qué aprendes | Montaje de 5 fragmentos de 3–4 s, uno por día, con el número del día en pantalla: <br>1. Ajustando la altura de la pantalla. <br>2. Pausa activa: círculos de hombros junto al escritorio. <br>3. Gato-camello en la esterilla. <br>4. Perro de muestra. <br>5. Marcando la rutina en el PDF impreso. | **VOZ:** "En cinco días, diez minutos al día, vas a aprender a ajustar tu puesto de trabajo, a hacer pausas activas de dos minutos, a estirar el cuello y la espalda baja, a fortalecer tu abdomen profundo… y a convertirlo en un hábito." <br>**[TEXTO]** *Día 1 Tu puesto · Día 2 Pausas activas · Día 3 Estiramientos · Día 4 Abdomen profundo · Día 5 Tu hábito* |
 | **38–45 s** · Qué incluye | Pantalla del computador mostrando los videos y el PDF "Plan de 5 días y rutina diaria". | **VOZ:** "Incluye cinco videos cortos y un plan descargable para seguir tu progreso." <br>**[TEXTO]** *5 videos · Plan de 5 días en PDF · Sin equipos especiales* |
-| **45–52 s** · Confianza | Médico revisor a cámara (o su foto con nombre). | **VOZ (médico):** "Son ejercicios sencillos, pensados para hacer en casa o en la oficina, y revisados por un profesional." <br>**[TEXTO]** *Contenido revisado por Dr./Dra. [Nombre] · Registro RETHUS 1018459438* |
+| **45–52 s** · Confianza | Médico revisor a cámara (o su foto con nombre). | **VOZ (médico):** "Son ejercicios sencillos, pensados para hacer en casa o en la oficina, y revisados por un profesional." <br>**[TEXTO]** *Contenido revisado por Dr./Dra. [Nombre] · Registro médico RETHUS 1018459438* |
 | **52–60 s** · Cierre | Persona trabajando cómoda, se levanta a hacer una pausa. Logo de la tienda y precio. | **VOZ:** "Diez minutos al día. Tu espalda lo va a notar. Empieza hoy." <br>**[TEXTO]** *Espalda sana para quien trabaja sentado · 14,90 USD* <br>**[TEXTO pequeño]** *Contenido educativo. No reemplaza una valoración profesional.* |
 
 **Música:** instrumental suave y optimista, de biblioteca libre de derechos. Volumen bajo bajo la voz.
@@ -46,7 +46,7 @@ Estado: **Borrador. Revisar datos del médico revisor y precio antes de grabar**
 ---
 
 ## Checklist de grabación
-- [ ] Confirmar el nombre del médico revisor (Registro RETHUS 1018459438).
+- [ ] Confirmar el nombre del médico revisor (Registro médico RETHUS 1018459438).
 - [ ] Grabar los fragmentos de ejercicios con la misma ropa y el mismo espacio que las lecciones.
 - [ ] Revisar que ningún fragmento muestre una técnica incorrecta.
 - [ ] Añadir subtítulos quemados en ambas versiones.

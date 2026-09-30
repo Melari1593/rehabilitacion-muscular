@@ -272,7 +272,7 @@ Descarga tu guía, deja el rodillo y la pelota a la vista para acordarte de usar
 
 ## Checklist de producción
 - [ ] Revisión clínica completa del guion por un médico con registro médico vigente (contraindicaciones, tiempos, presión).
-- [ ] Incluir nombre del médico revisor y su Registro RETHUS 1018459438 en la Lección 1 (en Shopify ya aparece el registro).
+- [ ] Incluir nombre del médico revisor y su Registro médico RETHUS 1018459438 en la Lección 1 (en Shopify ya aparece el registro).
 - [ ] Grabar cada ejercicio con toma lateral y, cuando aplique, mostrar la versión suave y la de más presión.
 - [ ] Mostrar al menos un error común por ejercicio (rodar sobre articulaciones, zona lumbar, lumbar hundida en cuádriceps).
 - [ ] Subtítulos en español en todos los videos.

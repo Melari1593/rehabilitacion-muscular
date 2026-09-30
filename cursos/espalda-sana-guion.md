@@ -273,7 +273,7 @@ Recuerda: la mejor postura es la siguiente. ¡Muévete y nos vemos!"
 
 ## Checklist de producción
 - [ ] Revisión clínica completa del guion por un médico con registro médico vigente (ejercicios, dosis, señales de alerta).
-- [ ] Incluir nombre del médico revisor y su Registro RETHUS 1018459438 en el Día 1 (en Shopify ya aparece el registro).
+- [ ] Incluir nombre del médico revisor y su Registro médico RETHUS 1018459438 en el Día 1 (en Shopify ya aparece el registro).
 - [ ] Grabar el Día 1 en un puesto de trabajo real (idealmente uno de casa y uno de oficina).
 - [ ] Grabar cada ejercicio con toma lateral y mostrar al menos un error común y una versión suave.
 - [ ] Grabar la pausa activa del Día 2 en tiempo real (2 min) para que se pueda seguir en directo.
