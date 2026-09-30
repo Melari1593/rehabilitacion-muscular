@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { Activity, CircleDot, Dumbbell, HeartPulse, Monitor, Snowflake } from 'lucide-react';
+import { Activity, Camera, CircleDot, Dumbbell, HeartPulse, Monitor, ShieldCheck, Snowflake } from 'lucide-react';
 import { Aparecer } from '@/components/Aparecer';
+import { Encabezado } from '@/components/Encabezado';
+import { PiePagina } from '@/components/PiePagina';
 import { TarjetaProducto } from '@/components/TarjetaProducto';
 import { obtenerColeccion } from '@/lib/shopify';
 
-const TIENDA = 'https://orquidbio.com';
 const REGISTRO = 'Registro médico RETHUS 1018459438';
 const COLECCION_CURSOS = process.env.SHOPIFY_COLECCION_CURSOS ?? 'cursos-en-linea';
 const COLECCION_PRODUCTOS = process.env.SHOPIFY_COLECCION_PRODUCTOS ?? 'rehabilitacion-y-bienestar';
@@ -58,23 +59,7 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
 
   return (
     <>
-      {/* Navegación */}
-      <header className="fixed inset-x-0 top-0 z-50 h-[68px] border-b border-borde bg-fondo/95 backdrop-blur-md">
-        <nav className="mx-auto flex h-full items-center justify-between px-[6%]" aria-label="Principal">
-          <Link href="/" className="text-xl text-tinta">
-            <span className="font-serif">BienEstar</span> <span className="font-light">en Casa</span>
-          </Link>
-          <ul className="hidden gap-8 text-sm md:flex">
-            <li><a className="transition-colors hover:text-acento" href="#cursos">Cursos</a></li>
-            <li><a className="transition-colors hover:text-acento" href="#productos">Productos</a></li>
-            <li><a className="transition-colors hover:text-acento" href="#como-funciona">Cómo funciona</a></li>
-            <li><a className="transition-colors hover:text-acento" href="#revision">Revisión médica</a></li>
-          </ul>
-          <a href="#cursos" className="rounded-md bg-tinta px-5 py-2.5 text-[13px] font-semibold text-white transition-colors hover:bg-acento">
-            Ver cursos
-          </a>
-        </nav>
-      </header>
+      <Encabezado />
 
       <main id="contenido" className="pt-[68px]">
         {mensajeError && (
@@ -190,7 +175,44 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
           </ol>
         </section>
 
-        {/* 5. Cursos (Shopify) */}
+        {/* 5. Análisis de postura (app de rehabilitación) */}
+        <section aria-labelledby="titulo-postura" className="bg-tinta px-[6%] py-24 text-white">
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <Aparecer>
+              <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.15em] text-acento-claro">Gratis · Con tu cámara</p>
+              <h2 id="titulo-postura" className="mb-5 font-serif text-[clamp(30px,4vw,48px)] leading-[1.1]">Analiza tu postura mientras haces ejercicio.</h2>
+              <p className="mb-8 max-w-xl text-base leading-relaxed text-white/75">
+                Ponte frente a la cámara, elige un ejercicio y la app cuenta tus repeticiones y te avisa al instante si el movimiento sale
+                del rango correcto. Empieza con la sentadilla y la elevación de brazo.
+              </p>
+              <Link
+                href="/analisis-postura"
+                className="inline-block rounded-lg bg-acento px-8 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-acento-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento-claro"
+              >
+                Probar el análisis de postura
+              </Link>
+            </Aparecer>
+            <Aparecer retraso={0.15}>
+              <ul className="grid gap-4">
+                {[
+                  { icono: Camera, titulo: 'Solo necesitas tu cámara', texto: 'Funciona en el navegador del celular o del computador, sin instalar nada.' },
+                  { icono: ShieldCheck, titulo: 'Tu video no sale de tu equipo', texto: 'La detección de postura ocurre en tu navegador. No grabamos ni enviamos tu video.' },
+                  { icono: Activity, titulo: 'Te dice qué corregir', texto: 'Cuenta repeticiones, marca las correctas y te muestra un resumen al terminar.' },
+                ].map(({ icono: Icono, titulo, texto }) => (
+                  <li key={titulo} className="flex gap-4 rounded-xl border border-white/10 bg-white/5 p-5">
+                    <Icono className="mt-0.5 h-5 w-5 shrink-0 text-acento-claro" aria-hidden="true" />
+                    <div>
+                      <h3 className="text-[15px] font-semibold">{titulo}</h3>
+                      <p className="mt-1 text-[13px] leading-relaxed text-white/70">{texto}</p>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </Aparecer>
+          </div>
+        </section>
+
+        {/* 6. Cursos (Shopify) */}
         <section id="cursos" aria-labelledby="titulo-cursos" className="scroll-mt-20 bg-arena px-[6%] py-24">
           <p className={eyebrow}>Cursos en línea</p>
           <h2 id="titulo-cursos" className={h2}>Aprende a cuidarte, paso a paso.</h2>
@@ -210,7 +232,7 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
           </p>
         </section>
 
-        {/* 6. Productos (Shopify) */}
+        {/* 7. Productos (Shopify) */}
         {productosFisicos.length > 0 && (
           <section id="productos" aria-labelledby="titulo-productos" className="scroll-mt-20 px-[6%] py-24">
             <p className={eyebrow}>Productos de bienestar</p>
@@ -225,7 +247,7 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
           </section>
         )}
 
-        {/* 7. Revisión médica */}
+        {/* 8. Revisión médica */}
         <section id="revision" aria-labelledby="titulo-revision" className="scroll-mt-20 bg-arena px-[6%] py-24">
           <p className={eyebrow}>Quién revisa el contenido</p>
           <h2 id="titulo-revision" className={h2}>Ejercicios sencillos, revisados por un médico.</h2>
@@ -239,7 +261,7 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
           </Aparecer>
         </section>
 
-        {/* 8. Llamado final */}
+        {/* 9. Llamado final */}
         <section aria-labelledby="titulo-cta" className="bg-tinta px-[6%] py-28 text-center text-white">
           <Aparecer>
             <h2 id="titulo-cta" className="font-serif text-[clamp(30px,4.5vw,64px)] leading-tight">¿Listo para moverte mejor?</h2>
@@ -252,42 +274,7 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
         </section>
       </main>
 
-      {/* Pie de página */}
-      <footer className="border-t border-borde px-[6%] pb-8 pt-14">
-        <div className="grid gap-10 md:grid-cols-4">
-          <div>
-            <p className="text-lg"><span className="font-serif">BienEstar</span> <span className="font-light">en Casa</span></p>
-            <p className="mt-2 text-[13px] font-light text-suave">Cursos en línea y productos para moverte mejor desde casa.</p>
-          </div>
-          <div>
-            <p className={eyebrow}>Tienda</p>
-            <ul className="space-y-2 text-[13px] text-suave">
-              <li><a className="hover:text-acento" href="#cursos">Cursos en línea</a></li>
-              <li><a className="hover:text-acento" href="#productos">Productos de bienestar</a></li>
-            </ul>
-          </div>
-          <div>
-            <p className={eyebrow}>Políticas</p>
-            <ul className="space-y-2 text-[13px] text-suave">
-              <li><a className="hover:text-acento" href={`${TIENDA}/policies/terms-of-service`}>Términos del servicio</a></li>
-              <li><a className="hover:text-acento" href={`${TIENDA}/policies/refund-policy`}>Política de reembolso</a></li>
-              <li><a className="hover:text-acento" href={`${TIENDA}/policies/privacy-policy`}>Política de privacidad</a></li>
-              <li><a className="hover:text-acento" href={`${TIENDA}/pages/shipping`}>Envíos</a></li>
-            </ul>
-          </div>
-          <div>
-            <p className={eyebrow}>Contacto</p>
-            <ul className="space-y-2 text-[13px] text-suave">
-              <li><a className="hover:text-acento" href={`${TIENDA}/pages/contact`}>Escríbenos</a></li>
-              <li>Bogotá, Colombia</li>
-            </ul>
-          </div>
-        </div>
-        <p className="mt-12 text-center text-xs font-light text-suave">
-          Contenido educativo. No reemplaza una consulta, diagnóstico ni tratamiento médico.
-        </p>
-        <p className="mt-2 text-center text-[11px] font-light text-suave/70">© {new Date().getFullYear()} BienEstar en Casa · Pagos procesados por Shopify</p>
-      </footer>
+      <PiePagina />
     </>
   );
 }

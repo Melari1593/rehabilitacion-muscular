@@ -1,6 +1,14 @@
 # BienEstar en Casa · sitio web (Vercel + Shopify)
 
-Sitio en **Next.js** para publicar en **Vercel**. Muestra los cursos y productos de la tienda de Shopify y cobra con el **checkout de Shopify**.
+Sitio en **Next.js** para publicar en **Vercel**. Muestra los cursos y productos de la tienda de Shopify, cobra con el **checkout de Shopify** e incluye la app de **análisis de postura** con la cámara.
+
+## Estructura del repositorio
+- `app/`, `components/`, `lib/`: el sitio (Next.js).
+- `app/analisis-postura/`: página que muestra la app de postura.
+- `public/postura/`: la app de análisis de postura (HTML + JavaScript + MediaPipe, sin dependencias). También funciona sola en `/postura/index.html`.
+- `cursos/`: guiones, PDFs y prompts de los cursos.
+- `tienda/`: sección para el tema de Shopify, prompt del sitio y textos legales.
+- `spec.md`, `roadmap.md`, `plan.md`: documentación de la app de postura.
 
 ## Cómo funciona el pago
 1. El sitio lee los productos de Shopify (Storefront API) en el servidor: títulos, fotos y precios siempre al día.
@@ -19,9 +27,10 @@ El sitio nunca ve ni guarda datos de tarjetas. El token de Shopify solo se usa e
 6. Los productos deben estar **Activos** (no borrador) para aparecer y poder comprarse.
 
 ## 2. Publicar en Vercel
-1. En Vercel: **Add New → Project** → importa el repositorio `rehabilitacion-muscular`.
-2. En *Root Directory* elige **`web`**. Vercel detecta Next.js solo.
-3. En *Environment Variables* agrega (ver `.env.example`):
+El proyecto `rehabilitacion-muscular` de Vercel ya está conectado a este repositorio y publica desde la raíz. `vercel.json` le indica que es un proyecto Next.js, así que no hace falta cambiar nada en Vercel: cada cambio que llegue a `master` se publica solo.
+
+1. Si el proyecto tiene configurado otro *Framework Preset* u *Output Directory* en Vercel, déjalos en automático (*Settings → Build and Deployment*).
+2. Para la tienda, en *Settings → Environment Variables* agrega (ver `.env.example`):
 
 | Variable | Valor |
 |---|---|
@@ -31,11 +40,10 @@ El sitio nunca ve ni guarda datos de tarjetas. El token de Shopify solo se usa e
 | `SHOPIFY_COLECCION_CURSOS` | `cursos-en-linea` |
 | `SHOPIFY_COLECCION_PRODUCTOS` | `rehabilitacion-y-bienestar` |
 
-4. **Deploy**. Después puedes conectar un dominio propio en *Settings → Domains*.
+3. Vuelve a desplegar (*Deployments → Redeploy*). Después puedes conectar un dominio propio en *Settings → Domains*.
 
 ## Desarrollo local
 ```bash
-cd web
 npm install
 cp .env.example .env.local   # y pon el token
 npm run dev                  # http://localhost:3000
@@ -43,7 +51,8 @@ npm run dev                  # http://localhost:3000
 Sin token puedes ver el diseño con datos de ejemplo: `MOCK_CATALOG=1 npm run dev` (los botones de compra quedan desactivados).
 
 ## Archivos principales
-- `app/page.tsx`: la página completa (portada, temas, pasos, cursos, productos, revisión médica, llamado final, pie).
+- `app/page.tsx`: la página de inicio (portada, temas, pasos, análisis de postura, cursos, productos, revisión médica, llamado final).
+- `components/Encabezado.tsx` y `components/PiePagina.tsx`: menú y pie compartidos por todas las páginas.
 - `app/actions.ts`: acción del botón **Comprar** → carrito → checkout de Shopify.
 - `lib/shopify.ts`: consultas a la Storefront API (catálogo cacheado 5 minutos; el carrito nunca se cachea).
 - `components/`: animaciones (Framer Motion / `motion`), tarjeta de producto y botón de compra.
