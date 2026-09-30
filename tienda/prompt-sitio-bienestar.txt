@@ -1,0 +1,206 @@
+PROMPT: PÁGINA DE INICIO "BIENESTAR EN CASA" PARA SHOPIFY
+Versión ajustada del brief "Align Clinic" · 2026-09-30
+
+====================================================================
+OBJETIVO
+====================================================================
+Construir la página de inicio de "BienEstar en Casa", una tienda en línea colombiana
+(dominio orquidbio.com) que vende:
+  1) Cursos en línea cortos de ejercicio y cuidado muscular (productos digitales, 14,90 USD c/u).
+  2) Productos físicos de bienestar y rehabilitación (bandas elásticas, rodillo de espuma,
+     pelota de masaje, rodillera, compresa frío/calor, calzado de comodidad).
+Estilo: fondo blanco puro, estructura azul marino, botones azul eléctrico, titulares
+editoriales en DM Serif Display. Clínico pero cálido. Optimizada para vender cursos.
+Todo el texto visible en español (Colombia), tuteo, frases cortas.
+
+====================================================================
+PLATAFORMA Y TECNOLOGÍA
+====================================================================
+- Shopify, tema Horizon (Online Store 2.0).
+- Entregar UNA sección Liquid: sections/bienestar-landing.liquid
+- Solo Liquid + CSS + JavaScript nativo. NO usar React, Vite, Tailwind, Framer Motion,
+  shadcn/ui ni lucide-react (no funcionan dentro de un tema de Shopify).
+- Iconos: SVG en línea (trazo 2px, estilo lucide).
+- Animaciones: transiciones CSS activadas con IntersectionObserver.
+- Todo el CSS acotado al id de la sección (#bel-{{ section.id }}) para no romper el tema.
+- Sin barra de navegación ni pie de página: los pone el tema.
+- Todos los textos, imágenes y enlaces editables desde el personalizador ({% schema %}),
+  con un máximo de 40 ajustes por sección (usar bloques para elementos repetidos).
+- Debe pasar Shopify Theme Check sin errores.
+
+====================================================================
+SISTEMA DE DISEÑO
+====================================================================
+Colores:
+- Fondo: #ffffff
+- Texto / azul marino: #1a2440
+- Principal / azul eléctrico: #1a8cd4 (hover: #1577b5)
+- Fondo de secciones grises: #f5f5f7
+- Texto secundario: #5f6680 (NO usar #8a8fa8: no cumple contraste AA sobre blanco)
+- Bordes: #dde1ea
+- Chip azul: fondo rgba(26,140,212,0.1), texto #1a8cd4
+
+Tipografía (Google Fonts):
+https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap
+- Titulares: DM Serif Display 400
+- Subtítulos y botones: Plus Jakarta Sans 600
+- Cuerpo: Plus Jakarta Sans 400
+- Notas y etiquetas: Plus Jakarta Sans 300
+
+Botones:
+- Principal: fondo #1a2440, texto blanco, 600 14px, radio 8px, padding 14px 28px; hover fondo #1a8cd4.
+- Secundario: transparente, borde 1.5px #1a2440; hover borde y texto #1a8cd4.
+- CTA final: fondo #1a8cd4, 600 15px, padding 16px 40px.
+- Todos con foco visible (outline 2px #1a8cd4).
+
+====================================================================
+REGLAS DE CONTENIDO (OBLIGATORIAS)
+====================================================================
+- Solo datos reales. PROHIBIDO inventar: testimonios, número de pacientes o clientes,
+  años de experiencia, aseguradoras, premios, calificaciones de Google, direcciones,
+  teléfonos o nombres de profesionales.
+- Sin urgencia falsa ("quedan 5 cupos", contadores, "solo hoy").
+- Sin promesas de salud ("sin dolor", "cura", "mejoras en X sesiones", "elimina").
+  Hablar de hábitos, movimiento y sentirse mejor.
+- La tienda NO es una clínica y NO agenda citas: los botones llevan a cursos y productos.
+- Aviso visible: "Contenido educativo. No reemplaza una consulta, diagnóstico ni tratamiento médico."
+- Revisión médica: "Contenido revisado por un médico · Registro médico RETHUS 1018459438".
+- Precios: tomarlos de Shopify (no escribirlos a mano), en la moneda de la tienda.
+
+====================================================================
+ESTRUCTURA DE LA PÁGINA
+====================================================================
+
+1. PORTADA (dos columnas: texto 48% · imagen 52%; alto mínimo min(100vh, 820px))
+   Columna de texto: fondo blanco, padding 64px 6% 64px 8%, contenido máx. 560px.
+   - Chip: "Cursos en línea · Revisados por un médico"
+   - Título (DM Serif, clamp(42px, 6vw, 88px), interlineado 1.0):
+     "Muévete mejor desde casa."
+   - Texto (16px, #5f6680, interlineado 1.6):
+     "Cursos cortos en video y guías descargables para cuidar tu espalda, tus rodillas
+     y tus músculos a tu ritmo. Más productos para acompañar tu rutina."
+   - Botones: "Ver cursos" (principal, → /collections/cursos-en-linea)
+              "Productos de bienestar" (secundario, → /collections/rehabilitacion-y-bienestar)
+   - Tarjeta flotante (debajo de los botones, margen 32px, máx. 340px, fondo blanco,
+     radio 12px, borde 0.5px #dde1ea, sombra 0 8px 32px rgba(26,36,64,0.10),
+     padding 16px 20px, enlaza al curso de espalda):
+       Chip: "CURSO DESTACADO"
+       600 14px: "Espalda sana · 5 días, 10 min al día"
+       300 12px: "Pago en línea · Acceso digital · Plan en PDF"
+   Columna de imagen: foto a sangre, object-fit cover, sin bordes redondeados,
+   degradado blanco→transparente en el 18% izquierdo para fundirla con el texto.
+   Imagen sugerida: personas estirando y haciendo ejercicios suaves en una sala luminosa,
+   paredes blancas, ambiente tranquilo, toma lateral a media altura. Texto alternativo en
+   español. Si no hay imagen, mostrar el placeholder de Shopify.
+   En móvil (<990px): una columna, imagen arriba (4:3), sin degradado.
+
+2. FRANJA DE CONFIANZA (fondo #1a2440, padding 28px 0)
+   Marquesina horizontal, 30s lineal infinita, pausa al pasar el cursor.
+   Texto 13px blanco 85%, separador "·" en #1a8cd4. Un dato por línea, editable:
+     Contenido revisado por un médico
+     Registro médico RETHUS 1018459438
+     Pago en línea seguro
+     Acceso digital a los cursos
+     Guías descargables en PDF
+     Productos con envío a domicilio
+   Con "reducir movimiento": sin animación, datos centrados en varias líneas.
+
+3. TEMAS (fondo #f5f5f7, padding 96px 6%)
+   Antetítulo (600 11px, mayúsculas, espaciado 0.15em, azul): "¿QUÉ QUIERES MEJORAR?"
+   Título (DM Serif, clamp(30px, 4vw, 48px)): "Elige por dónde empezar a cuidarte."
+   Cuadrícula 3×2 (gap 16px; 2 columnas en tablet, 1 en móvil). Bloques editables, máx. 6.
+   Tarjeta: fondo blanco, borde 1px #dde1ea, radio 8px, padding 24px 20px.
+   Hover y foco: fondo #1a8cd4, texto e icono blancos, descripción blanco 85%,
+   borde transparente, sombra 0 4px 16px rgba(26,140,212,0.25), transición 0.2s.
+   Cada tarjeta: icono 22px azul · título 600 15px · descripción 300 13px · enlace.
+     1. Espalda y cuello (icono monitor) / "Para quien pasa muchas horas sentado."
+     2. Rodillas fuertes (icono actividad) / "Fortalece los músculos que protegen tus rodillas."
+     3. Recuperación muscular (icono círculos) / "Automasaje con rodillo y pelota, sin dolor."
+     4. Fuerza en casa (icono pesa) / "Entrena con bandas elásticas, desde cero."
+     5. Frío o calor (icono copo) / "Cómo manejar molestias musculares en casa."
+     6. Productos de bienestar (icono corazón) / "Todo lo que necesitas para tu rutina."
+   Cada icono distinto (no repetir). Aparición escalonada 0.07s.
+
+4. CÓMO FUNCIONA (fondo blanco, padding 96px 6%)
+   Antetítulo: "CÓMO FUNCIONA" · Título: "Empieza hoy en tres pasos."
+   3 columnas (1 en móvil). Bloques editables, máx. 3.
+   Cada paso: número de fondo "01/02/03" (600 72px, #1a2440 al 5% de opacidad, absoluto,
+   no seleccionable) · línea azul 40×2px · título 600 18px · texto 400 15px #5f6680 ·
+   nota 300 12px azul.
+     01 Elige tu curso / "Espalda, rodillas, recuperación muscular o fuerza en casa. Cada
+        curso explica para quién es y qué incluye." / "Cursos desde 14,90 USD"
+     02 Paga en línea / "Compra de forma segura. Al confirmarse el pago recibes en tu correo
+        las instrucciones de acceso." / "Sin envíos ni esperas"
+     03 Practica a tu ritmo / "Videos cortos y un plan descargable para seguir tu progreso.
+        Cada curso incluye señales de alerta para saber cuándo consultar." /
+        "10 a 25 minutos por sesión"
+   Aparición escalonada 0.15s.
+
+5. CURSOS (fondo #f5f5f7, padding 96px 6%)
+   Antetítulo: "CURSOS EN LÍNEA" · Título: "Aprende a cuidarte, paso a paso."
+   Tarjetas de producto generadas desde la colección elegida en el personalizador
+   ("Cursos en línea"), máx. 6, cuadrícula de 3.
+   Tarjeta: fondo blanco, radio 12px, borde #dde1ea; imagen 1:1; chip "Curso en línea";
+   título 600 17px (quitar el prefijo "Curso: "); precio 600 20px con el filtro money.
+   Hover: sombra 0 8px 32px rgba(26,36,64,0.10).
+   Si hay más cursos que el máximo: botón "Ver todos los cursos".
+   Si la colección está vacía: "Muy pronto: estamos preparando nuestros cursos."
+
+6. REVISIÓN MÉDICA (fondo blanco, padding 96px 6%)
+   Antetítulo: "QUIÉN REVISA EL CONTENIDO"
+   Título: "Ejercicios sencillos, revisados por un médico."
+   Tarjeta (máx. 760px): foto opcional 160×160 · nombre (si está vacío: "Médico revisor") ·
+   chip "Registro médico RETHUS 1018459438" · texto: "Todo el contenido de los cursos es
+   revisado por un médico antes de publicarse. Los cursos son educativos y no reemplazan
+   una valoración profesional presencial."
+
+7. TESTIMONIOS (fondo #f5f5f7, máx. 720px centrado)
+   Solo se muestra si se agregan bloques de testimonio (máx. 4) con reseñas REALES y con
+   permiso del cliente. Sin testimonios de ejemplo por defecto.
+   Tarjeta: fondo blanco, radio 12px, padding 28px 32px; cita en cursiva 16px;
+   nombre y ciudad 600 13px azul. No mostrar estrellas si no vienen de reseñas verificadas.
+
+8. LLAMADO FINAL (fondo #1a2440, padding 120px 6%, centrado)
+   Título (DM Serif, clamp(30px, 4.5vw, 64px), blanco): "¿Listo para moverte mejor?"
+   Texto (18px, blanco 75%): "Cursos cortos, a tu ritmo y desde casa."
+   Botón azul: "Ver los cursos" → /collections/cursos-en-linea
+   Nota (300 13px, blanco 60%): "Pago en línea · Acceso digital · Contenido revisado por un médico"
+
+9. AVISO (300 12px, #5f6680, centrado)
+   "Contenido educativo. No reemplaza una consulta, diagnóstico ni tratamiento médico."
+
+====================================================================
+ANIMACIONES
+====================================================================
+| Elemento             | Animación                  | Duración | Retraso   | Curva            |
+|----------------------|----------------------------|----------|-----------|------------------|
+| Título de portada    | opacidad 0→1, y 20→0       | 0.7s     | 0s        | (0.16,1,0.3,1)   |
+| Texto y botones      | opacidad 0→1, y 20→0       | 0.7s     | 0.15s     | (0.16,1,0.3,1)   |
+| Tarjeta flotante     | escala 0.9→1, opacidad 0→1 | 0.7s     | 0.5s      | (0.16,1,0.3,1)   |
+| Tarjetas de temas    | opacidad 0→1, y 20→0       | 0.7s     | 0.07s c/u | (0.16,1,0.3,1)   |
+| Pasos                | opacidad 0→1, y 20→0       | 0.7s     | 0.15s c/u | (0.16,1,0.3,1)   |
+| Tarjetas de cursos   | opacidad 0→1, y 20→0       | 0.7s     | 0.12s c/u | (0.16,1,0.3,1)   |
+| Testimonios          | opacidad 0→1, y 20→0       | 0.7s     | 0.15s c/u | (0.16,1,0.3,1)   |
+| Llamado final        | opacidad 0→1, y 20→0       | 0.7s     | 0s        | (0.16,1,0.3,1)   |
+| Franja de confianza  | desplazamiento horizontal  | 30s      | continuo  | lineal           |
+Cada animación se ejecuta una sola vez al entrar en pantalla.
+Con prefers-reduced-motion: todo visible de inmediato y franja sin movimiento.
+
+====================================================================
+ACCESIBILIDAD Y RENDIMIENTO
+====================================================================
+- Un solo h1 (título de portada); h2 por sección, enlazados con aria-labelledby.
+- Contraste mínimo AA en todo el texto.
+- Tarjetas enlazadas navegables con teclado y con estado de foco igual al hover.
+- Iconos decorativos con aria-hidden="true".
+- Imagen de portada: loading eager, fetchpriority high, srcset con image_url/image_tag.
+- Resto de imágenes: loading lazy con srcset.
+- Sin librerías externas de JavaScript.
+
+====================================================================
+ENTREGABLE
+====================================================================
+- Archivo sections/bienestar-landing.liquid con {% schema %} completo, presets con los
+  textos de este prompt y los 3 pasos y 6 temas como bloques.
+- Instrucciones cortas para instalarla primero en una copia sin publicar del tema,
+  revisarla en celular y computador, y luego publicarla.
