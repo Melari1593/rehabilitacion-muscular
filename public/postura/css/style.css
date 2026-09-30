@@ -1,12 +1,15 @@
 :root {
-  --color-bg: #0f172a;
-  --color-surface: #1e293b;
-  --color-text: #f1f5f9;
-  --color-muted: #94a3b8;
-  --color-primary: #3b82f6;
-  --color-correct: #22c55e;
-  --color-incorrect: #ef4444;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* Paleta de BienEstar en Casa (tomada del video de presentación) */
+  --color-bg: #fdfbf7;
+  --color-surface: #ffffff;
+  --color-border: #e4dacb;
+  --color-text: #2f2a27;
+  --color-muted: #6b6158;
+  --color-primary: #56704a;
+  --color-primary-hover: #465c3c;
+  --color-correct: #2f7d4a;
+  --color-incorrect: #b3261e;
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -47,7 +50,7 @@ main#app {
 
 .exercise-card {
   background: var(--color-surface);
-  border: none;
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 1.25rem 1rem;
   color: var(--color-text);
@@ -116,23 +119,30 @@ main#app {
   color: white;
 }
 
+.btn-primary:hover:not(:disabled) { background: var(--color-primary-hover); }
+
+.btn-primary:focus-visible, .btn-secondary:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
 .btn-primary:disabled {
-  background: #334155;
+  background: var(--color-border);
   color: var(--color-muted);
   cursor: not-allowed;
 }
 
 .btn-secondary {
   background: transparent;
-  color: var(--color-muted);
-  border: 1px solid #334155;
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
 }
 
 .rep-counter-badge {
   position: absolute;
   top: 0.75rem;
   left: 0.75rem;
-  background: rgba(15, 23, 42, 0.75);
+  background: rgba(47, 42, 39, 0.8);
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
@@ -161,7 +171,7 @@ main#app {
   top: 0.75rem;
   right: 0.75rem;
   background: rgba(234, 179, 8, 0.9);
-  color: #1e293b;
+  color: #2f2a27;
   padding: 0.35rem 0.7rem;
   border-radius: 8px;
   font-size: 0.85rem;
@@ -180,6 +190,7 @@ main#app {
 
 .summary-card {
   background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 1rem 0.5rem;
   text-align: center;

@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Paleta tomada del video de presentación: paredes crema, luz cálida,
+     camiseta carbón, madera y planta verde salvia. Todas cumplen contraste AA. */
+  --color-fondo: #fdfbf7;        /* crema cálido (paredes iluminadas) */
+  --color-arena: #f3ede4;        /* secciones alternas (madera clara) */
+  --color-tinta: #2f2a27;        /* carbón cálido (texto y franjas oscuras) */
+  --color-acento: #56704a;       /* verde salvia (planta) · botones y detalles */
+  --color-acento-hover: #465c3c;
+  --color-acento-claro: #b7c79c; /* salvia clara para detalles sobre fondo oscuro */
+  --color-suave: #6b6158;        /* texto secundario gris cálido */
+  --color-borde: #e4dacb;
+  --font-serif: var(--font-dm-serif), Georgia, serif;
+  --font-sans: var(--font-jakarta), system-ui, sans-serif;
+  --ease-suave: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-marquesina: marquesina 30s linear infinite;
+
+  @keyframes marquesina {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-fondo); color: var(--color-tinta); font-family: var(--font-sans); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-marquesina { animation: none; }
+  [data-aparecer] { opacity: 1 !important; transform: none !important; }
+}
+
+/* Sin JavaScript, todo el contenido queda visible */
+@media (scripting: none) {
+  [data-aparecer] { opacity: 1 !important; transform: none !important; }
+}

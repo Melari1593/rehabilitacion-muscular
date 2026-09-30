@@ -76,7 +76,13 @@ async function goToPrepare(exercise) {
     return;
   }
 
-  await loadPoseLandmarker();
+  try {
+    await loadPoseLandmarker();
+  } catch (err) {
+    document.getElementById('prepare-message').textContent =
+      'No pudimos cargar el detector de postura. Revisa tu conexión o desactiva el bloqueador de anuncios y vuelve a intentarlo.';
+    return;
+  }
   runPrepareLoop();
 }
 
