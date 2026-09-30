@@ -9,7 +9,7 @@ function Boton({ etiqueta }: { etiqueta: string }) {
     <button
       type="submit"
       disabled={pending}
-      className="w-full rounded-lg bg-navy px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-azul focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul disabled:cursor-wait disabled:opacity-70"
+      className="w-full rounded-lg bg-tinta px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento disabled:cursor-wait disabled:opacity-70"
     >
       {pending ? 'Abriendo pago seguro…' : etiqueta}
     </button>
