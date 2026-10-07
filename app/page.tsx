@@ -245,6 +245,9 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
                 </Aparecer>
               ))}
             </ul>
+            <p className="mt-8 text-[13px] font-light text-suave">
+              Elige tu talla y color, y paga en el checkout seguro de Shopify, donde verás el costo de envío antes de confirmar.
+            </p>
           </section>
         )}
 

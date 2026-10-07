@@ -14,7 +14,7 @@ const FORMATO_VARIANTE = /^gid:\/\/shopify\/ProductVariant\/\d+$/;
 export async function comprar(formData: FormData) {
   const varianteId = String(formData.get('varianteId') ?? '');
   if (!FORMATO_VARIANTE.test(varianteId)) {
-    redirect('/?error=producto');
+    redirect('/?error=producto#productos');
   }
 
   let checkoutUrl: string;
@@ -22,7 +22,7 @@ export async function comprar(formData: FormData) {
     checkoutUrl = await crearCheckout(varianteId);
   } catch (error) {
     console.error('Error al crear el checkout:', error);
-    redirect('/?error=checkout');
+    redirect('/?error=checkout#productos');
   }
   redirect(checkoutUrl);
 }

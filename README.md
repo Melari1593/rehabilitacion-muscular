@@ -22,9 +22,9 @@ Referencias: [Widget y Web Checkout](https://docs.wompi.co/en/docs/colombia/widg
 
 ### Productos físicos → Shopify
 1. El sitio lee los productos de Shopify (Storefront API) en el servidor.
-2. **Comprar** crea un carrito en Shopify (`cartCreate`) y redirige a su `checkoutUrl`; el pedido aparece en Shopify.
+2. El cliente elige talla/color y pulsa **Comprar**: se crea un carrito en Shopify (`cartCreate`) y se le redirige al checkout de Shopify; el pedido aparece en Shopify.
 
-El sitio nunca ve ni guarda datos de tarjetas. Los secretos de Wompi y el token de Shopify solo se usan en el servidor.
+El sitio nunca ve ni guarda datos de tarjetas. Los secretos de Wompi solo se usan en el servidor.
 
 ## 0. Preparar Wompi en modo de prueba
 1. Crea tu cuenta de comercio en [comercios.wompi.co](https://comercios.wompi.co).
@@ -34,13 +34,14 @@ El sitio nunca ve ni guarda datos de tarjetas. Los secretos de Wompi y el token 
 5. Prueba con los datos del sandbox de Wompi: tarjeta `4242 4242 4242 4242` (aprobada; las demás tarjetas y escenarios están en *Datos de prueba*), cualquier fecha futura y CVC de 3 dígitos.
 6. Para cobrar de verdad: cambia a las llaves de producción (`pub_prod_…`, `prod_integrity_…`, `prod_events_…`) y actualiza la URL de eventos del modo producción.
 
-## 1. Preparar Shopify (una sola vez)
-1. **Activar una pasarela de pago en línea**: Configuración → Pagos.
-2. **Instalar el canal Headless**: en la tienda de apps de Shopify busca "Headless" (app oficial de Shopify) → Agregar canal → Crear storefront.
-3. En el storefront creado, copia el **token de acceso público** de la Storefront API.
-4. En Storefront API → Permisos, verifica que estén activos los de productos, colecciones y carrito (`unauthenticated_read_product_listings`, `unauthenticated_write_checkouts` / `unauthenticated_read_checkouts`).
-5. **Publicar los productos en el canal Headless**: selecciona los cursos y productos → Más acciones → *Incluir en canales de ventas* → Headless.
-6. Los productos deben estar **Activos** (no borrador) para aparecer y poder comprarse.
+## 1. Preparar Shopify
+No hace falta token: el sitio lee la colección `rehabilitacion-y-bienestar` con el acceso público (*tokenless*) de la Storefront API, igual que la tienda online.
+
+1. **Activar una pasarela de pago en línea** para los productos físicos: Configuración → Pagos.
+2. Para que un producto aparezca en el sitio debe estar en la colección **Rehabilitación y bienestar**, en estado **Activo** y publicado en el canal **Tienda online**. Los cursos (`Curso: …`) se filtran: se cobran con Wompi.
+3. Si un producto tiene variantes (color, talla), el sitio muestra un selector y el cliente debe elegir una antes de pagar.
+4. Si la API no responde, el sitio muestra la copia de `lib/catalogo-respaldo.ts` y el botón usa el enlace de carrito de Shopify (`https://orquidbio.com/cart/<variante>:1`). El precio final siempre lo confirma el checkout de Shopify. Actualiza la copia cuando cambies productos o precios.
+5. Opcional, para límites de consulta más altos: instala el canal **Headless**, crea un storefront, publica en él los productos y pon su token público en `SHOPIFY_STOREFRONT_TOKEN`.
 
 ## 2. Publicar en Vercel
 El proyecto `rehabilitacion-muscular` de Vercel ya está conectado a este repositorio y publica desde la raíz. `vercel.json` le indica que es un proyecto Next.js, así que no hace falta cambiar nada en Vercel: cada cambio que llegue a `master` se publica solo.
@@ -54,21 +55,17 @@ El proyecto `rehabilitacion-muscular` de Vercel ya está conectado a este reposi
 | `WOMPI_INTEGRITY_SECRET` | `test_integrity_…` |
 | `WOMPI_EVENTS_SECRET` | `test_events_…` |
 | `RESEND_API_KEY`, `CORREO_REMITENTE`, `CURSO_ACCESO_<CURSO>` | opcionales: correo automático con el acceso |
-| `SHOPIFY_STORE_DOMAIN` | `ndhgpy-aw.myshopify.com` |
-| `SHOPIFY_STOREFRONT_TOKEN` | el token público del paso 1.3 |
-| `SHOPIFY_API_VERSION` | `2026-07` |
-| `SHOPIFY_COLECCION_CURSOS` | `cursos-en-linea` |
-| `SHOPIFY_COLECCION_PRODUCTOS` | `rehabilitacion-y-bienestar` |
+| `SHOPIFY_STORE_DOMAIN`, `SHOPIFY_COLECCION_PRODUCTOS`, `SHOPIFY_DOMINIO_PUBLICO` | opcionales; por defecto `ndhgpy-aw.myshopify.com`, `rehabilitacion-y-bienestar` y `orquidbio.com` |
+| `SHOPIFY_STOREFRONT_TOKEN` | opcional (paso 1.5) |
 
 3. Vuelve a desplegar (*Deployments → Redeploy*). Después puedes conectar un dominio propio en *Settings → Domains*.
 
 ## Desarrollo local
 ```bash
 npm install
-cp .env.example .env.local   # y pon las llaves de Wompi y el token de Shopify
+cp .env.example .env.local   # y pon las llaves de Wompi
 npm run dev                  # http://localhost:3000
 ```
-Sin token puedes ver el diseño con datos de ejemplo: `MOCK_CATALOG=1 npm run dev` (los botones de compra quedan desactivados).
 
 ## Archivos principales
 - `app/page.tsx`: la página de inicio (portada, temas, pasos, análisis de postura, cursos, productos, revisión médica, llamado final).
