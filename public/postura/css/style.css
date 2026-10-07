@@ -9,7 +9,7 @@
   --color-primary-hover: #465c3c;
   --color-correct: #2f7d4a;
   --color-incorrect: #b3261e;
-  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: "Plus Jakarta Sans", "Noto Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 * { box-sizing: border-box; }

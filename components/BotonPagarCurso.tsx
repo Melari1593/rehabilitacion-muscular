@@ -3,7 +3,7 @@
 import { useFormStatus } from 'react-dom';
 import { pagarCurso } from '@/app/actions';
 
-function Boton() {
+function Boton({ etiqueta, abriendo }: { etiqueta: string; abriendo: string }) {
   const { pending } = useFormStatus();
   return (
     <button
@@ -11,24 +11,35 @@ function Boton() {
       disabled={pending}
       className="w-full rounded-lg bg-tinta px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento disabled:cursor-wait disabled:opacity-70"
     >
-      {pending ? 'Abriendo pago seguro…' : 'Comprar curso'}
+      {pending ? abriendo : etiqueta}
     </button>
   );
 }
 
 // Envía al Web Checkout de Wompi. El monto no viaja desde el navegador: el servidor lo toma del catálogo.
-export function BotonPagarCurso({ slug, activo }: { slug: string; activo: boolean }) {
+export function BotonPagarCurso({
+  slug,
+  activo,
+  idioma,
+  textos,
+}: {
+  slug: string;
+  activo: boolean;
+  idioma: string;
+  textos: { comprar: string; abriendo: string; pronto: string };
+}) {
   if (!activo) {
     return (
       <button type="button" disabled className="w-full cursor-not-allowed rounded-lg border border-borde px-6 py-3 text-sm font-semibold text-suave">
-        Disponible pronto
+        {textos.pronto}
       </button>
     );
   }
   return (
     <form action={pagarCurso}>
       <input type="hidden" name="curso" value={slug} />
-      <Boton />
+      <input type="hidden" name="idioma" value={idioma} />
+      <Boton etiqueta={textos.comprar} abriendo={textos.abriendo} />
     </form>
   );
 }

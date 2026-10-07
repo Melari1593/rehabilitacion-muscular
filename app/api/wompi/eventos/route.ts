@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { enviarAccesoCurso } from '@/lib/correo';
-import { cursoDeReferencia } from '@/lib/cursos';
+import { leerReferencia } from '@/lib/cursos';
 import { eventoValido, type EventoWompi } from '@/lib/wompi';
 
 // Webhook de Wompi (URL de eventos en el panel de Wompi → Desarrolladores):
@@ -24,14 +24,15 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   }
 
-  const curso = cursoDeReferencia(transaccion.reference);
-  if (!curso || transaccion.currency !== 'COP' || transaccion.amount_in_cents !== curso.precioCOP * 100) {
+  const compra = leerReferencia(transaccion.reference);
+  const curso = compra?.curso;
+  if (!compra || !curso || transaccion.currency !== 'COP' || transaccion.amount_in_cents !== curso.precioCOP * 100) {
     console.warn(`[wompi] transacción ${transaccion.id} aprobada pero no coincide con ningún curso: ${transaccion.reference} ${transaccion.amount_in_cents}`);
     return NextResponse.json({ ok: true });
   }
 
   if (transaccion.customer_email) {
-    await enviarAccesoCurso({ correo: transaccion.customer_email, curso, referencia: transaccion.reference });
+    await enviarAccesoCurso({ correo: transaccion.customer_email, curso, referencia: transaccion.reference, idioma: compra.idioma });
   } else {
     console.warn(`[wompi] ${transaccion.reference} aprobada sin correo del cliente`);
   }

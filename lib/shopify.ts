@@ -1,5 +1,7 @@
 import 'server-only';
 import { RESPALDO_PRODUCTOS } from './catalogo-respaldo';
+import type { Diccionario } from './diccionarios';
+import { IDIOMA_POR_DEFECTO, IDIOMA_SHOPIFY, LOCALE, type Idioma } from './i18n';
 
 // Cliente mínimo de la Storefront API de Shopify (solo en el servidor).
 // Funciona SIN token: Shopify permite leer productos y crear carritos con acceso "tokenless".
@@ -49,7 +51,7 @@ async function storefront<T>(query: string, variables: Record<string, unknown>, 
 }
 
 const QUERY_COLECCION = /* GraphQL */ `
-  query Coleccion($handle: String!, $first: Int!) {
+  query Coleccion($handle: String!, $first: Int!, $idioma: LanguageCode!) @inContext(language: $idioma) {
     collection(handle: $handle) {
       products(first: $first) {
         nodes {
@@ -81,9 +83,14 @@ type NodoProducto = {
 // Shopify a veces guarda IDs internos como texto alternativo; en ese caso se usa el título.
 const textoAlt = (alt: string | null, titulo: string) => (alt && !alt.startsWith('gid://') ? alt : titulo);
 
-export async function obtenerColeccion(handle: string, cantidad = 12): Promise<Producto[]> {
+// Con @inContext, Shopify devuelve las traducciones de la tienda si existen (si no, el texto original).
+export async function obtenerColeccion(handle: string, cantidad = 12, idioma: Idioma = IDIOMA_POR_DEFECTO): Promise<Producto[]> {
   try {
-    const data = await storefront<{ collection: { products: { nodes: NodoProducto[] } } | null }>(QUERY_COLECCION, { handle, first: cantidad });
+    const data = await storefront<{ collection: { products: { nodes: NodoProducto[] } } | null }>(QUERY_COLECCION, {
+      handle,
+      first: cantidad,
+      idioma: IDIOMA_SHOPIFY[idioma],
+    });
     const productos = (data.collection?.products.nodes ?? []).map((p) => ({
       id: p.id,
       handle: p.handle,
@@ -108,7 +115,7 @@ export async function obtenerColeccion(handle: string, cantidad = 12): Promise<P
 }
 
 const MUTATION_CARRITO = /* GraphQL */ `
-  mutation CrearCarrito($lines: [CartLineInput!]!) {
+  mutation CrearCarrito($lines: [CartLineInput!]!, $idioma: LanguageCode!) @inContext(language: $idioma) {
     cartCreate(input: { lines: $lines }) {
       cart { id checkoutUrl }
       userErrors { field message }
@@ -124,11 +131,11 @@ export function enlaceCarrito(varianteId: string, cantidad = 1): string {
 
 // Crea un carrito en Shopify y devuelve la URL del checkout de Shopify.
 // Si la API falla, usa el enlace permanente de carrito (mismo checkout, sin API).
-export async function crearCheckout(varianteId: string, cantidad = 1): Promise<string> {
+export async function crearCheckout(varianteId: string, idioma: Idioma = IDIOMA_POR_DEFECTO, cantidad = 1): Promise<string> {
   try {
     const data = await storefront<{
       cartCreate: { cart: { checkoutUrl: string } | null; userErrors: { message: string }[] };
-    }>(MUTATION_CARRITO, { lines: [{ merchandiseId: varianteId, quantity: cantidad }] }, 'no-store');
+    }>(MUTATION_CARRITO, { lines: [{ merchandiseId: varianteId, quantity: cantidad }], idioma: IDIOMA_SHOPIFY[idioma] }, 'no-store');
     const { cart, userErrors } = data.cartCreate;
     if (cart && !userErrors.length) return cart.checkoutUrl;
     console.error('cartCreate devolvió errores:', userErrors);
@@ -138,14 +145,17 @@ export async function crearCheckout(varianteId: string, cantidad = 1): Promise<s
   return enlaceCarrito(varianteId, cantidad);
 }
 
-export function formatearPrecio({ monto, moneda }: Producto['precio']): string {
-  return new Intl.NumberFormat('es-CO', { style: 'currency', currency: moneda, minimumFractionDigits: 2 }).format(Number(monto));
+export function formatearPrecio({ monto, moneda }: Producto['precio'], idioma: Idioma = IDIOMA_POR_DEFECTO): string {
+  return new Intl.NumberFormat(LOCALE[idioma], { style: 'currency', currency: moneda, minimumFractionDigits: 2 }).format(Number(monto));
 }
 
-// "negro-2 / 36" → "Negro / 36"
-export function nombreVariante(titulo: string): string {
+// "negro-2 / 36" → "Negro / 36" (o "Black / 36" en inglés)
+export function nombreVariante(titulo: string, t: Diccionario): string {
   return titulo
     .split(' / ')
-    .map((parte) => parte.replace(/-\d+$/, '').replace(/^\p{L}/u, (l) => l.toUpperCase()))
+    .map((parte) => {
+      const base = parte.replace(/-\d+$/, '');
+      return t.productos.colores[base.toLowerCase()] ?? base.replace(/^\p{L}/u, (l) => l.toUpperCase());
+    })
     .join(' / ');
 }
