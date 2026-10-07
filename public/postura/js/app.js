@@ -3,6 +3,7 @@ import { startCamera, stopCamera } from './camera.js';
 import { loadPoseLandmarker, detectForVideo, drawSkeleton } from './pose-detector.js';
 import { createRepCounter, visibilityScore } from './rep-counter.js';
 import { averageBrightness } from './angle-utils.js';
+import { t, traducirPagina } from './i18n.js';
 
 const BRIGHTNESS_THRESHOLD = 55; // 0-255
 const VISIBILITY_THRESHOLD = 0.5;
@@ -80,7 +81,7 @@ async function goToPrepare(exercise) {
     await loadPoseLandmarker();
   } catch (err) {
     document.getElementById('prepare-message').textContent =
-      'No pudimos cargar el detector de postura. Revisa tu conexión o desactiva el bloqueador de anuncios y vuelve a intentarlo.';
+      t('detectorError');
     return;
   }
   runPrepareLoop();
@@ -109,13 +110,13 @@ function runPrepareLoop() {
 
       let ok = true;
       if (brightness < BRIGHTNESS_THRESHOLD) {
-        msgEl.textContent = 'Necesitamos más luz. Busca un lugar mejor iluminado.';
+        msgEl.textContent = t('masLuz');
         ok = false;
       } else if (!hasPose || visibility < VISIBILITY_THRESHOLD) {
-        msgEl.textContent = 'Ajusta la cámara para que se vea tu cuerpo completo.';
+        msgEl.textContent = t('ajustaCamara');
         ok = false;
       } else {
-        msgEl.textContent = '¡Listo! Te vemos bien.';
+        msgEl.textContent = t('listo');
       }
 
       stableOkFrames = ok ? stableOkFrames + 1 : 0;
@@ -226,7 +227,7 @@ function runExerciseLoop() {
 
 // ---------- Pantalla de resumen ----------
 
-const ERROR_LABELS = { shallow: 'movimiento incompleto', deep: 'movimiento excesivo' };
+const ERROR_LABELS = { shallow: t('errorShallow'), deep: t('errorDeep') };
 
 function showSummary(summary, lowConfidenceOccurred) {
   document.getElementById('summary-total').textContent = String(summary.total);
@@ -235,11 +236,11 @@ function showSummary(summary, lowConfidenceOccurred) {
 
   const errorTypeEl = document.getElementById('summary-error-type');
   if (summary.mostCommonError) {
-    errorTypeEl.textContent = `El error más frecuente fue: ${ERROR_LABELS[summary.mostCommonError]}.`;
+    errorTypeEl.textContent = t('errorFrecuente', { error: ERROR_LABELS[summary.mostCommonError] });
   } else if (summary.total > 0) {
-    errorTypeEl.textContent = '¡Todas las repeticiones fueron correctas!';
+    errorTypeEl.textContent = t('todasCorrectas');
   } else {
-    errorTypeEl.textContent = 'No se detectaron repeticiones en esta sesión.';
+    errorTypeEl.textContent = t('sinRepeticiones');
   }
 
   document.getElementById('summary-low-confidence').classList.toggle('hidden', !lowConfidenceOccurred);
@@ -265,5 +266,6 @@ document.getElementById('btn-camera-error-home').addEventListener('click', () =>
 
 // ---------- Arranque ----------
 
+traducirPagina();
 renderHome();
 showView('home');

@@ -1,36 +1,40 @@
 import 'server-only';
+import { RESPALDO_PRODUCTOS } from './catalogo-respaldo';
+import type { Diccionario } from './diccionarios';
+import { IDIOMA_POR_DEFECTO, IDIOMA_SHOPIFY, LOCALE, type Idioma } from './i18n';
 
-// Cliente mínimo de la Storefront API de Shopify.
-// Solo se usa en el servidor: el token nunca llega al navegador.
+// Cliente mínimo de la Storefront API de Shopify (solo en el servidor).
+// Funciona SIN token: Shopify permite leer productos y crear carritos con acceso "tokenless".
+// Si se configura SHOPIFY_STOREFRONT_TOKEN (canal Headless), se usa y tiene límites más altos.
 
-const DOMINIO = process.env.SHOPIFY_STORE_DOMAIN;
+const DOMINIO = process.env.SHOPIFY_STORE_DOMAIN ?? 'ndhgpy-aw.myshopify.com';
 const TOKEN = process.env.SHOPIFY_STOREFRONT_TOKEN;
 const VERSION = process.env.SHOPIFY_API_VERSION ?? '2026-07';
+// Dominio público de la tienda, para el enlace directo al checkout si la API no responde.
+const DOMINIO_TIENDA = process.env.SHOPIFY_DOMINIO_PUBLICO ?? 'orquidbio.com';
 
-export const MODO_EJEMPLO = process.env.MOCK_CATALOG === '1';
+export type Variante = { id: string; titulo: string; disponible: boolean; precio: { monto: string; moneda: string } };
 
 export type Producto = {
   id: string;
   handle: string;
   titulo: string;
-  descripcion: string;
-  imagen: { url: string; alt: string; ancho: number; alto: number } | null;
+  imagen: { url: string; alt: string } | null;
   precio: { monto: string; moneda: string };
-  varianteId: string | null;
-  disponible: boolean;
+  variantes: Variante[];
+  // Nombres de las opciones (ej. "Color", "Talla del calzado") cuando el producto tiene más de una variante.
+  opciones: string[];
+  url: string;
 };
 
 type RespuestaGraphQL<T> = { data?: T; errors?: { message: string }[] };
 
 async function storefront<T>(query: string, variables: Record<string, unknown>, cache: RequestCache | 'isr' = 'isr'): Promise<T> {
-  if (!DOMINIO || !TOKEN) {
-    throw new Error('Faltan SHOPIFY_STORE_DOMAIN o SHOPIFY_STOREFRONT_TOKEN');
-  }
   const res = await fetch(`https://${DOMINIO}/api/${VERSION}/graphql.json`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'X-Shopify-Storefront-Access-Token': TOKEN,
+      ...(TOKEN ? { 'X-Shopify-Storefront-Access-Token': TOKEN } : {}),
     },
     body: JSON.stringify({ query, variables }),
     // El catálogo se revalida cada 5 minutos; el carrito nunca se cachea.
@@ -47,18 +51,18 @@ async function storefront<T>(query: string, variables: Record<string, unknown>, 
 }
 
 const QUERY_COLECCION = /* GraphQL */ `
-  query Coleccion($handle: String!, $first: Int!) {
+  query Coleccion($handle: String!, $first: Int!, $idioma: LanguageCode!) @inContext(language: $idioma) {
     collection(handle: $handle) {
-      title
       products(first: $first) {
         nodes {
           id
           handle
           title
-          description
-          featuredImage { url altText width height }
+          onlineStoreUrl
+          featuredImage { url altText }
           priceRange { minVariantPrice { amount currencyCode } }
-          variants(first: 1) { nodes { id availableForSale } }
+          options { name }
+          variants(first: 50) { nodes { id title availableForSale price { amount currencyCode } } }
         }
       }
     }
@@ -69,40 +73,49 @@ type NodoProducto = {
   id: string;
   handle: string;
   title: string;
-  description: string;
-  featuredImage: { url: string; altText: string | null; width: number; height: number } | null;
+  onlineStoreUrl: string | null;
+  featuredImage: { url: string; altText: string | null } | null;
   priceRange: { minVariantPrice: { amount: string; currencyCode: string } };
-  variants: { nodes: { id: string; availableForSale: boolean }[] };
+  options: { name: string }[];
+  variants: { nodes: { id: string; title: string; availableForSale: boolean; price: { amount: string; currencyCode: string } }[] };
 };
 
-export async function obtenerColeccion(handle: string, cantidad = 9): Promise<Producto[]> {
-  if (MODO_EJEMPLO) return ejemplo(handle);
+// Shopify a veces guarda IDs internos como texto alternativo; en ese caso se usa el título.
+const textoAlt = (alt: string | null, titulo: string) => (alt && !alt.startsWith('gid://') ? alt : titulo);
+
+// Con @inContext, Shopify devuelve las traducciones de la tienda si existen (si no, el texto original).
+export async function obtenerColeccion(handle: string, cantidad = 12, idioma: Idioma = IDIOMA_POR_DEFECTO): Promise<Producto[]> {
   try {
-    const data = await storefront<{ collection: { products: { nodes: NodoProducto[] } } | null }>(
-      QUERY_COLECCION,
-      { handle, first: cantidad },
-    );
-    return (data.collection?.products.nodes ?? []).map((p) => ({
+    const data = await storefront<{ collection: { products: { nodes: NodoProducto[] } } | null }>(QUERY_COLECCION, {
+      handle,
+      first: cantidad,
+      idioma: IDIOMA_SHOPIFY[idioma],
+    });
+    const productos = (data.collection?.products.nodes ?? []).map((p) => ({
       id: p.id,
       handle: p.handle,
       titulo: p.title,
-      descripcion: p.description,
-      imagen: p.featuredImage
-        ? { url: p.featuredImage.url, alt: p.featuredImage.altText ?? p.title, ancho: p.featuredImage.width, alto: p.featuredImage.height }
-        : null,
+      imagen: p.featuredImage ? { url: p.featuredImage.url, alt: textoAlt(p.featuredImage.altText, p.title) } : null,
       precio: { monto: p.priceRange.minVariantPrice.amount, moneda: p.priceRange.minVariantPrice.currencyCode },
-      varianteId: p.variants.nodes[0]?.id ?? null,
-      disponible: p.variants.nodes[0]?.availableForSale ?? false,
+      variantes: p.variants.nodes.map((v) => ({
+        id: v.id,
+        titulo: v.title,
+        disponible: v.availableForSale,
+        precio: { monto: v.price.amount, moneda: v.price.currencyCode },
+      })),
+      opciones: p.variants.nodes.length > 1 ? p.options.map((o) => o.name) : [],
+      url: p.onlineStoreUrl ?? `https://${DOMINIO_TIENDA}/products/${p.handle}`,
     }));
+    return productos.length > 0 ? productos : RESPALDO_PRODUCTOS;
   } catch (error) {
-    // Si Shopify no responde, la página se muestra igual con el mensaje "Muy pronto".
-    console.error(`No se pudo cargar la colección ${handle}:`, error);
-    return [];
+    // Si Shopify no responde, se muestra la copia del catálogo; el precio final lo confirma el checkout de Shopify.
+    console.error(`No se pudo cargar la colección ${handle}; se usa el catálogo de respaldo:`, error);
+    return RESPALDO_PRODUCTOS;
   }
 }
 
 const MUTATION_CARRITO = /* GraphQL */ `
-  mutation CrearCarrito($lines: [CartLineInput!]!) {
+  mutation CrearCarrito($lines: [CartLineInput!]!, $idioma: LanguageCode!) @inContext(language: $idioma) {
     cartCreate(input: { lines: $lines }) {
       cart { id checkoutUrl }
       userErrors { field message }
@@ -110,46 +123,39 @@ const MUTATION_CARRITO = /* GraphQL */ `
   }
 `;
 
-// Crea un carrito en Shopify y devuelve la URL del checkout de Shopify,
-// donde el cliente paga con las pasarelas activadas en la tienda.
-export async function crearCheckout(varianteId: string, cantidad = 1): Promise<string> {
-  const data = await storefront<{
-    cartCreate: { cart: { checkoutUrl: string } | null; userErrors: { message: string }[] };
-  }>(MUTATION_CARRITO, { lines: [{ merchandiseId: varianteId, quantity: cantidad }] }, 'no-store');
-  const { cart, userErrors } = data.cartCreate;
-  if (!cart || userErrors.length) {
-    throw new Error(userErrors.map((e) => e.message).join('; ') || 'No se pudo crear el carrito');
-  }
-  return cart.checkoutUrl;
+// Enlace permanente de carrito de Shopify: lleva directo al checkout con la variante elegida.
+export function enlaceCarrito(varianteId: string, cantidad = 1): string {
+  const numero = varianteId.split('/').pop();
+  return `https://${DOMINIO_TIENDA}/cart/${numero}:${cantidad}`;
 }
 
-export function formatearPrecio({ monto, moneda }: Producto['precio']): string {
-  return new Intl.NumberFormat('es-CO', { style: 'currency', currency: moneda, minimumFractionDigits: 2 }).format(Number(monto));
+// Crea un carrito en Shopify y devuelve la URL del checkout de Shopify.
+// Si la API falla, usa el enlace permanente de carrito (mismo checkout, sin API).
+export async function crearCheckout(varianteId: string, idioma: Idioma = IDIOMA_POR_DEFECTO, cantidad = 1): Promise<string> {
+  try {
+    const data = await storefront<{
+      cartCreate: { cart: { checkoutUrl: string } | null; userErrors: { message: string }[] };
+    }>(MUTATION_CARRITO, { lines: [{ merchandiseId: varianteId, quantity: cantidad }], idioma: IDIOMA_SHOPIFY[idioma] }, 'no-store');
+    const { cart, userErrors } = data.cartCreate;
+    if (cart && !userErrors.length) return cart.checkoutUrl;
+    console.error('cartCreate devolvió errores:', userErrors);
+  } catch (error) {
+    console.error('No se pudo crear el carrito por API; se usa el enlace de carrito:', error);
+  }
+  return enlaceCarrito(varianteId, cantidad);
 }
 
-// Datos de ejemplo para desarrollo local sin token (títulos y precios reales de la tienda).
-function ejemplo(handle: string): Producto[] {
-  const base = (id: number, titulo: string, monto: string): Producto => ({
-    id: `ejemplo-${id}`,
-    handle: `ejemplo-${id}`,
-    titulo,
-    descripcion: '',
-    imagen: null,
-    precio: { monto, moneda: 'USD' },
-    varianteId: null,
-    disponible: false,
-  });
-  if (handle === process.env.SHOPIFY_COLECCION_CURSOS) {
-    return [
-      base(1, 'Curso: Espalda sana para quien trabaja sentado', '14.90'),
-      base(2, 'Curso: Rodillas fuertes, prevención y cuidado', '14.90'),
-      base(3, 'Curso: Automasaje y recuperación muscular', '14.90'),
-      base(4, 'Curso: Fortalece en casa con bandas elásticas', '14.90'),
-      base(5, 'Curso: Frío o calor, cómo manejar molestias musculares en casa', '14.90'),
-    ];
-  }
-  return [
-    base(11, 'CLOUD STEPS - Tu Compañero Infatigable', '46.99'),
-    base(12, 'COMFORT STEPS', '45.99'),
-  ];
+export function formatearPrecio({ monto, moneda }: Producto['precio'], idioma: Idioma = IDIOMA_POR_DEFECTO): string {
+  return new Intl.NumberFormat(LOCALE[idioma], { style: 'currency', currency: moneda, minimumFractionDigits: 2 }).format(Number(monto));
+}
+
+// "negro-2 / 36" → "Negro / 36" (o "Black / 36" en inglés)
+export function nombreVariante(titulo: string, t: Diccionario): string {
+  return titulo
+    .split(' / ')
+    .map((parte) => {
+      const base = parte.replace(/-\d+$/, '');
+      return t.productos.colores[base.toLowerCase()] ?? base.replace(/^\p{L}/u, (l) => l.toUpperCase());
+    })
+    .join(' / ');
 }
