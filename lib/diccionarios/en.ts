@@ -202,7 +202,7 @@ export const en: Diccionario = {
     contacto: 'Contact us',
   },
   catalogo: {
-    'espalda-sana': { titulo: 'Healthy back for people who work sitting down', resumen: '5-day mini course, 10 minutes a day. Includes a PDF plan.' },
+    'espalda-sana': { titulo: 'Healthy back for people who work sitting down', resumen: '5-day mini course, 10 minutes a day. Includes a PDF plan.', alt: 'Woman sitting at a computer with her back supported, feet on the floor and the screen at eye level; lines mark the correct posture.' },
     'rodillas-fuertes': { titulo: 'Strong knees: prevention and care', resumen: '6 video lessons and a 4-week routine in PDF.' },
     automasaje: { titulo: 'Self-massage and muscle recovery', resumen: '4 videos and a visual guide with 2 routines.' },
     'bandas-elasticas': { titulo: 'Get stronger at home with resistance bands', resumen: '5 short videos and a weekly routine in PDF.' },

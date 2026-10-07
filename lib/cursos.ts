@@ -9,10 +9,12 @@ import { esIdioma, IDIOMA_POR_DEFECTO, LOCALE, type Idioma } from './i18n';
 export type Curso = {
   slug: string;
   precioCOP: number; // pesos enteros
+  // Clip opcional para la tarjeta (en /public/cursos). El texto alternativo está en el diccionario (catalogo.<slug>.alt).
+  medio?: { webm: string; mp4: string; poster: string };
 };
 
 export const CURSOS: Curso[] = [
-  { slug: 'espalda-sana', precioCOP: 52150 },
+  { slug: 'espalda-sana', precioCOP: 52150, medio: { webm: '/cursos/espalda-sana.webm', mp4: '/cursos/espalda-sana.mp4', poster: '/cursos/espalda-sana.jpg' } },
   { slug: 'rodillas-fuertes', precioCOP: 52150 },
   { slug: 'automasaje', precioCOP: 52150 },
   { slug: 'bandas-elasticas', precioCOP: 52150 },

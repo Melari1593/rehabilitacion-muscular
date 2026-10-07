@@ -203,7 +203,7 @@ export const fr: Diccionario = {
     contacto: 'Nous contacter',
   },
   catalogo: {
-    'espalda-sana': { titulo: 'Un dos en bonne santé quand on travaille assis', resumen: 'Mini-cours de 5 jours, 10 minutes par jour. Programme PDF inclus.' },
+    'espalda-sana': { titulo: 'Un dos en bonne santé quand on travaille assis', resumen: 'Mini-cours de 5 jours, 10 minutes par jour. Programme PDF inclus.', alt: 'Femme assise devant un ordinateur, le dos soutenu, les pieds au sol et l’écran à hauteur des yeux ; des lignes indiquent la bonne posture.' },
     'rodillas-fuertes': { titulo: 'Genoux solides : prévention et soins', resumen: '6 leçons vidéo et une routine de 4 semaines en PDF.' },
     automasaje: { titulo: 'Auto-massage et récupération musculaire', resumen: '4 vidéos et un guide visuel avec 2 routines.' },
     'bandas-elasticas': { titulo: 'Se renforcer à la maison avec des bandes élastiques', resumen: '5 vidéos courtes et une routine hebdomadaire en PDF.' },

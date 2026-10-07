@@ -207,6 +207,7 @@ export const es = {
     'espalda-sana': {
       titulo: 'Espalda sana para quien trabaja sentado',
       resumen: 'Mini curso de 5 días, 10 minutos al día. Incluye plan en PDF.',
+      alt: 'Mujer sentada frente al computador con la espalda apoyada, los pies en el suelo y la pantalla a la altura de los ojos; líneas marcan la postura correcta.',
     },
     'rodillas-fuertes': { titulo: 'Rodillas fuertes, prevención y cuidado', resumen: '6 lecciones en video y rutina de 4 semanas en PDF.' },
     automasaje: { titulo: 'Automasaje y recuperación muscular', resumen: '4 videos y guía visual con 2 rutinas.' },
@@ -215,7 +216,7 @@ export const es = {
       titulo: 'Frío o calor: cómo manejar molestias musculares en casa',
       resumen: '1 video de 20 minutos e infografía descargable.',
     },
-  } as Record<string, { titulo: string; resumen: string }>,
+  } as Record<string, { titulo: string; resumen: string; alt?: string }>,
   correo: {
     asunto: 'Tu curso:',
     gracias: '¡Gracias por tu compra!',
