@@ -11,8 +11,8 @@
   --color-acento-claro: #b7c79c; /* salvia clara para detalles sobre fondo oscuro */
   --color-suave: #6b6158;        /* texto secundario gris cálido */
   --color-borde: #e4dacb;
-  --font-serif: var(--font-dm-serif), Georgia, serif;
-  --font-sans: var(--font-jakarta), system-ui, sans-serif;
+  --font-serif: var(--font-dm-serif), var(--font-arabe, serif), Georgia, serif;
+  --font-sans: var(--font-jakarta), var(--font-arabe, sans-serif), system-ui, sans-serif;
   --ease-suave: cubic-bezier(0.16, 1, 0.3, 1);
   --animate-marquesina: marquesina 30s linear infinite;
 
@@ -35,3 +35,7 @@ body { background: var(--color-fondo); color: var(--color-tinta); font-family: v
 @media (scripting: none) {
   [data-aparecer] { opacity: 1 !important; transform: none !important; }
 }
+
+/* Árabe: sin mayúsculas ni espaciado de letras (no aplican a su escritura) */
+:lang(ar) .uppercase { text-transform: none; }
+:lang(ar) [class*='tracking-'] { letter-spacing: 0; }

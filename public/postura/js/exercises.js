@@ -1,3 +1,5 @@
+import { t } from './i18n.js';
+
 export const LANDMARKS = {
   LEFT_SHOULDER: 11, RIGHT_SHOULDER: 12,
   LEFT_ELBOW: 13, RIGHT_ELBOW: 14,
@@ -12,9 +14,9 @@ export const LANDMARKS = {
 export const EXERCISES = {
   squat: {
     id: 'squat',
-    name: 'Sentadilla',
+    name: t('squatNombre'),
     icon: '🏋️',
-    instructions: 'Ponte de pie de frente o de perfil a la cámara, con la cabeza y el torso hasta las rodillas visibles (no hace falta que se vean los pies). Baja doblando rodillas y cadera como si te sentaras, y vuelve a subir.',
+    instructions: t('squatInstrucciones'),
     joint: { a: 'SHOULDER', b: 'HIP', c: 'KNEE' }, // ángulo de cadera (flexión de tronco)
     visibilityJoints: ['SHOULDER', 'HIP', 'KNEE'],
     direction: 'decreasing', // el ángulo baja al ejecutar el movimiento
@@ -23,14 +25,14 @@ export const EXERCISES = {
     returnAngle: 145,        // al volver a este ángulo se cierra la repetición
     extremeMin: 70,
     extremeMax: 100,         // rango correcto de profundidad de la sentadilla
-    tooShallowMsg: 'Baja más la cadera',
-    tooDeepMsg: 'No bajes tanto, controla el movimiento',
+    tooShallowMsg: t('squatPoco'),
+    tooDeepMsg: t('squatMucho'),
   },
   armRaise: {
     id: 'armRaise',
-    name: 'Elevación de brazo',
+    name: t('brazoNombre'),
     icon: '🙆',
-    instructions: 'Ponte de pie de frente a la cámara con los brazos abajo. Eleva un brazo estirado hasta la altura del hombro, y vuelve a bajar.',
+    instructions: t('brazoInstrucciones'),
     joint: { a: 'HIP', b: 'SHOULDER', c: 'ELBOW' }, // ángulo de hombro
     visibilityJoints: ['HIP', 'SHOULDER', 'ELBOW'],
     direction: 'increasing', // el ángulo sube al ejecutar el movimiento
@@ -39,7 +41,7 @@ export const EXERCISES = {
     returnAngle: 35,         // al volver a este ángulo se cierra la repetición
     extremeMin: 80,
     extremeMax: 110,         // rango correcto de elevación (aprox. altura del hombro)
-    tooShallowMsg: 'Sube más el brazo',
-    tooDeepMsg: 'No subas tanto el brazo',
+    tooShallowMsg: t('brazoPoco'),
+    tooDeepMsg: t('brazoMucho'),
   },
 };

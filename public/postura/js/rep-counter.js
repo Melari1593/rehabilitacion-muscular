@@ -1,4 +1,5 @@
 import { LANDMARKS } from './exercises.js';
+import { t } from './i18n.js';
 import { angleAtPoint } from './angle-utils.js';
 
 const VISIBILITY_OK_THRESHOLD = 0.5;
@@ -100,7 +101,7 @@ export function createRepCounter(exerciseConfig) {
           message = evaluation.errorType === 'shallow' ? tooShallowMsg : tooDeepMsg;
         } else {
           colorState = 'correct';
-          message = '¡Bien!';
+          message = t('bien');
         }
         state = 'rest';
         extremeAngle = null;
