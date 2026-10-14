@@ -21,6 +21,15 @@ El sitio está en **español, inglés, francés y árabe**: cada página vive ba
 - Cursos: el título y el resumen se traducen; los videos y PDFs siguen en español y así se indica en las otras versiones. La referencia de pago incluye el idioma (`BEC-fr-…`) para enviar el correo de acceso en el idioma de la compra.
 - Productos de Shopify: se piden con `@inContext(language)`, así que si traduces los productos en Shopify (app *Translate & Adapt*), el sitio muestra esas traducciones; si no, el texto original. Los colores de las variantes se traducen en el diccionario.
 
+## Guía de Triage (orientación médica)
+El chat de orientación del proyecto [`triage-project-`](https://github.com/Melari1593/triage-project-) vive en `public/triage/index.html` y se muestra en `/<idioma>/orientacion`.
+
+- **Estado: prototipo en revisión médica.** Sus guiones deben pasar la revisión en dos fases (asesora médica y médico residente de cirugía general) antes de usarse con pacientes reales. Mientras tanto la página existe, pero **no aparece en el menú, en el pie ni en el inicio, y no se indexa** en buscadores.
+- **Para publicarla** cuando ambas revisiones estén aprobadas: en Vercel, *Settings → Environment Variables*, agrega `TRIAGE_PUBLICO=1` y vuelve a desplegar. Aparecerán el enlace "Orientación" en el menú y el pie, y una sección en el inicio.
+- La página siempre muestra el aviso de emergencia (línea **123** en Colombia) y el estado de revisión.
+- El chat existe **solo en español**: en inglés, francés y árabe la página lo explica y enlaza a `/es/orientacion`. Traducirlo es cambiar contenido clínico, así que también debe pasar por la revisión médica.
+- **Para actualizarlo** cuando cambie el proyecto de triage: copia `chat-triage-simulacion.html` sobre `public/triage/index.html` y vuelve a aplicar el bloque de colores de marca (comentado al final del `<style>`), `data-theme="light"` en `<html>` y `<meta name="robots" content="noindex">`. Copiado desde el commit `4e17ae6` del proyecto de triage, sin cambios en su lógica.
+
 ## Cómo funciona el pago
 
 ### Cursos → Wompi (Web Checkout)

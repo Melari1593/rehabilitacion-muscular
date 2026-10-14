@@ -10,6 +10,7 @@ import { CURSOS } from '@/lib/cursos';
 import { diccionario } from '@/lib/diccionarios';
 import { esIdioma } from '@/lib/i18n';
 import { obtenerColeccion } from '@/lib/shopify';
+import { RUTA_TRIAGE, TRIAGE_PUBLICO } from '@/lib/triage';
 import { WOMPI_CONFIGURADO, WOMPI_MODO_PRUEBA } from '@/lib/wompi';
 
 const COLECCION_PRODUCTOS = process.env.SHOPIFY_COLECCION_PRODUCTOS ?? 'rehabilitacion-y-bienestar';
@@ -194,6 +195,23 @@ export default async function Inicio({ params, searchParams }: PageProps<'/[lang
             </Aparecer>
           </div>
         </section>
+
+        {/* 5 bis. Orientación de triage: solo cuando sus guiones estén aprobados (TRIAGE_PUBLICO=1) */}
+        {TRIAGE_PUBLICO && (
+          <section aria-labelledby="titulo-triage" className="border-b border-borde px-[6%] py-16">
+            <Aparecer className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+              <div className="max-w-2xl">
+                <p className={eyebrow}>{t.triage.seccionEyebrow}</p>
+                <h2 id="titulo-triage" className="mb-3 font-serif text-[clamp(26px,3vw,38px)] leading-[1.15]">{t.triage.seccionTitulo}</h2>
+                <p className="text-[15px] leading-relaxed text-suave">{t.triage.seccionTexto}</p>
+                <p className="mt-2 text-[13px] font-semibold text-[#8c1d17]">{t.triage.emergencia}</p>
+              </div>
+              <Link href={`/${lang}${RUTA_TRIAGE}`} className={btnNavy}>
+                {t.triage.seccionBoton}
+              </Link>
+            </Aparecer>
+          </section>
+        )}
 
         {/* 6. Cursos (pago con Wompi) */}
         <section id="cursos" aria-labelledby="titulo-cursos" className="scroll-mt-20 bg-arena px-[6%] py-24">

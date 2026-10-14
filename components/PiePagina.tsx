@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Diccionario } from '@/lib/diccionarios';
 import type { Idioma } from '@/lib/i18n';
+import { RUTA_TRIAGE, TRIAGE_PUBLICO } from '@/lib/triage';
 
 const TIENDA = 'https://orquidbio.com';
 const eyebrow = 'mb-3 text-[11px] font-semibold uppercase tracking-[0.15em] text-acento';
@@ -21,6 +22,9 @@ export function PiePagina({ lang, t }: { lang: Idioma; t: Diccionario }) {
             <li><Link className="hover:text-acento" href={`/${lang}#cursos`}>{t.pie.cursos}</Link></li>
             <li><Link className="hover:text-acento" href={`/${lang}#productos`}>{t.pie.productos}</Link></li>
             <li><Link className="hover:text-acento" href={`/${lang}/analisis-postura`}>{t.pie.postura}</Link></li>
+            {TRIAGE_PUBLICO && (
+              <li><Link className="hover:text-acento" href={`/${lang}${RUTA_TRIAGE}`}>{t.triage.nav}</Link></li>
+            )}
           </ul>
         </div>
         <div>

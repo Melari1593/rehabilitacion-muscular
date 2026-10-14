@@ -2,12 +2,14 @@ import Link from 'next/link';
 import { SelectorIdioma } from './SelectorIdioma';
 import type { Diccionario } from '@/lib/diccionarios';
 import type { Idioma } from '@/lib/i18n';
+import { RUTA_TRIAGE, TRIAGE_PUBLICO } from '@/lib/triage';
 
 export function Encabezado({ lang, t }: { lang: Idioma; t: Diccionario }) {
   const enlaces = [
     { href: `/${lang}#cursos`, texto: t.nav.cursos },
     { href: `/${lang}#productos`, texto: t.nav.productos },
     { href: `/${lang}/analisis-postura`, texto: t.nav.postura },
+    ...(TRIAGE_PUBLICO ? [{ href: `/${lang}${RUTA_TRIAGE}`, texto: t.triage.nav }] : []),
     { href: `/${lang}#revision`, texto: t.nav.revision },
   ];
   return (
@@ -17,7 +19,7 @@ export function Encabezado({ lang, t }: { lang: Idioma; t: Diccionario }) {
           <span className="font-serif">{t.marca.nombre}</span> <span className="font-light">{t.marca.complemento}</span>
         </Link>
         <nav aria-label={t.nav.principal} className="hidden lg:block">
-          <ul className="flex gap-8 text-sm">
+          <ul className="flex gap-6 text-sm xl:gap-8">
             {enlaces.map((e) => (
               <li key={e.href}>
                 <Link className="transition-colors hover:text-acento" href={e.href}>

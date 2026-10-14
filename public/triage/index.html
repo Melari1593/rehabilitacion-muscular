@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de Triage — simulación del chat · BienEstar en Casa</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap">
+<style>
+  :root{
+    --ink:#16302E;
+    --ink-soft:#4C6863;
+    --paper:#EEF2EE;
+    --paper-raised:#FFFFFF;
+    --line:#D7E0D8;
+    --teal:#2F6F63;
+    --teal-dark:#1F4F46;
+    --teal-tint:#DCEAE6;
+    --on-teal:#FFFFFF;
+    --sev-red:#AE3B2E;
+    --sev-red-tint:#F6E1DD;
+    --sev-orange:#B96A1E;
+    --sev-orange-tint:#F6E7D2;
+    --sev-yellow:#96751A;
+    --sev-yellow-tint:#F2EAD0;
+    --sev-green:#2E7A4F;
+    --sev-green-tint:#DEEFE3;
+    --radius:14px;
+    --radius-sm:9px;
+    --shadow:0 1px 2px rgba(22,48,46,.07), 0 10px 26px -14px rgba(22,48,46,.28);
+    --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    --font-serif:Georgia,"Iowan Old Style","Palatino Linotype","Book Antiqua",serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#E9F1EC;
+      --ink-soft:#9FB8B1;
+      --paper:#0E1B19;
+      --paper-raised:#152624;
+      --line:#264240;
+      --teal:#7FC3B0;
+      --teal-dark:#9DD8C6;
+      --teal-tint:#1B322F;
+      --on-teal:#0E1B19;
+      --sev-red:#E19286;
+      --sev-red-tint:#3A211D;
+      --sev-orange:#E3AE6E;
+      --sev-orange-tint:#3A2C18;
+      --sev-yellow:#D9C173;
+      --sev-yellow-tint:#332C15;
+      --sev-green:#8FD1A8;
+      --sev-green-tint:#173226;
+      --shadow:0 1px 2px rgba(0,0,0,.35), 0 12px 28px -16px rgba(0,0,0,.55);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#E9F1EC; --ink-soft:#9FB8B1; --paper:#0E1B19; --paper-raised:#152624;
+    --line:#264240; --teal:#7FC3B0; --teal-dark:#9DD8C6; --teal-tint:#1B322F; --on-teal:#0E1B19;
+    --sev-red:#E19286; --sev-red-tint:#3A211D; --sev-orange:#E3AE6E; --sev-orange-tint:#3A2C18;
+    --sev-yellow:#D9C173; --sev-yellow-tint:#332C15; --sev-green:#8FD1A8; --sev-green-tint:#173226;
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 12px 28px -16px rgba(0,0,0,.55);
+  }
+  :root[data-theme="light"]{
+    --ink:#16302E; --ink-soft:#4C6863; --paper:#EEF2EE; --paper-raised:#FFFFFF;
+    --line:#D7E0D8; --teal:#2F6F63; --teal-dark:#1F4F46; --teal-tint:#DCEAE6; --on-teal:#FFFFFF;
+    --sev-red:#AE3B2E; --sev-red-tint:#F6E1DD; --sev-orange:#B96A1E; --sev-orange-tint:#F6E7D2;
+    --sev-yellow:#96751A; --sev-yellow-tint:#F2EAD0; --sev-green:#2E7A4F; --sev-green-tint:#DEEFE3;
+    --shadow:0 1px 2px rgba(22,48,46,.07), 0 10px 26px -14px rgba(22,48,46,.28);
+  }
+
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font-family:var(--font-ui); font-size:15px; line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .app{
+    max-width:640px; margin:0 auto; min-height:100vh;
+    display:flex; flex-direction:column;
+  }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:12px; padding:14px 18px; border-bottom:1px solid var(--line);
+    background:var(--paper-raised);
+  }
+  .brand{ display:flex; align-items:center; gap:10px; min-width:0; }
+  .brand-mark{
+    flex:0 0 auto; width:34px; height:34px; border-radius:50%;
+    background:var(--teal); color:var(--on-teal);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-serif); font-size:15px; font-weight:700;
+  }
+  .brand-text{ display:flex; flex-direction:column; min-width:0; }
+  .brand-name{
+    font-family:var(--font-serif); font-size:17px; font-weight:700;
+    letter-spacing:.1px; color:var(--ink);
+  }
+  .brand-tag{
+    font-size:10.5px; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--ink-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+  .btn-emergency{
+    flex:0 0 auto; border:1px solid var(--sev-red); color:var(--sev-red);
+    background:transparent; padding:8px 12px; border-radius:999px;
+    font:600 12.5px var(--font-ui); letter-spacing:.01em; cursor:pointer;
+    transition:background .15s ease, color .15s ease;
+  }
+  .btn-emergency:hover{ background:var(--sev-red); color:#fff; }
+  .btn-emergency:focus-visible, button:focus-visible, input:focus-visible{
+    outline:2px solid var(--teal); outline-offset:2px;
+  }
+
+  /* ---------- chat shell ---------- */
+  .chat-shell{ flex:1; display:flex; flex-direction:column; min-height:0; }
+  .chat-toolbar{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:10px 18px; gap:10px; border-bottom:1px solid var(--line);
+    background:var(--paper);
+  }
+  .tree-indicator{
+    font-size:11.5px; letter-spacing:.05em; text-transform:uppercase;
+    color:var(--ink-soft); font-weight:600;
+  }
+  .btn-reset{
+    border:none; background:none; color:var(--teal-dark);
+    font:600 12.5px var(--font-ui); cursor:pointer; padding:4px 6px;
+    border-radius:6px;
+  }
+  .btn-reset:hover{ text-decoration:underline; }
+
+  .thread{
+    flex:1; overflow-y:auto; padding:18px; display:flex; flex-direction:column;
+    gap:10px; scroll-behavior:smooth;
+  }
+
+  /* ---------- messages ---------- */
+  .row{ display:flex; gap:8px; max-width:100%; }
+  .row.bot{ justify-content:flex-start; }
+  .row.user{ justify-content:flex-end; }
+  .avatar{
+    flex:0 0 auto; width:22px; height:22px; border-radius:50%;
+    background:var(--teal); margin-top:2px;
+  }
+  .bubble{
+    max-width:78%; padding:10px 13px; border-radius:var(--radius);
+    font-size:14.5px; line-height:1.48; white-space:pre-wrap; word-wrap:break-word;
+    animation:rise .25s ease both;
+  }
+  @media (prefers-reduced-motion: reduce){ .bubble{ animation:none; } }
+  @keyframes rise{ from{ opacity:0; transform:translateY(6px); } to{ opacity:1; transform:none; } }
+  .row.bot .bubble{
+    background:var(--teal-tint); color:var(--ink); border-bottom-left-radius:4px;
+  }
+  .row.user .bubble{
+    background:var(--paper-raised); color:var(--ink); border:1px solid var(--line);
+    border-bottom-right-radius:4px;
+  }
+  .typing{
+    display:flex; gap:4px; padding:12px 14px; background:var(--teal-tint);
+    border-radius:var(--radius); border-bottom-left-radius:4px; width:fit-content;
+  }
+  .typing span{
+    width:6px; height:6px; border-radius:50%; background:var(--teal-dark);
+    opacity:.5; animation:bounce 1.1s ease-in-out infinite;
+  }
+  .typing span:nth-child(2){ animation-delay:.15s; }
+  .typing span:nth-child(3){ animation-delay:.3s; }
+  @keyframes bounce{ 0%,60%,100%{ transform:translateY(0); opacity:.5; } 30%{ transform:translateY(-4px); opacity:1; } }
+  @media (prefers-reduced-motion: reduce){ .typing span{ animation:none; opacity:.8; } }
+
+  /* ---------- system / severity cards ---------- */
+  .card{
+    border-radius:var(--radius); padding:14px 16px; box-shadow:var(--shadow);
+    animation:rise .3s ease both;
+  }
+  .card .chip{
+    display:inline-block; font:700 10.5px var(--font-ui); letter-spacing:.07em;
+    text-transform:uppercase; padding:3px 9px; border-radius:999px; margin-bottom:8px;
+  }
+  .card p{ margin:0 0 6px 0; font-size:14px; }
+  .card p:last-child{ margin-bottom:0; }
+  .card ul{ margin:6px 0 0 0; padding-left:18px; font-size:13.5px; }
+  .card ul li{ margin-bottom:3px; }
+  .card.red{ background:var(--sev-red-tint); border:1px solid color-mix(in srgb, var(--sev-red) 35%, transparent); }
+  .card.red .chip{ background:var(--sev-red); color:#fff; }
+  .card.orange{ background:var(--sev-orange-tint); border:1px solid color-mix(in srgb, var(--sev-orange) 35%, transparent); }
+  .card.orange .chip{ background:var(--sev-orange); color:#fff; }
+  .card.yellow{ background:var(--sev-yellow-tint); border:1px solid color-mix(in srgb, var(--sev-yellow) 35%, transparent); }
+  .card.yellow .chip{ background:var(--sev-yellow); color:#fff; }
+  .card.green{ background:var(--sev-green-tint); border:1px solid color-mix(in srgb, var(--sev-green) 35%, transparent); }
+  .card.green .chip{ background:var(--sev-green); color:#fff; }
+  .card.neutral{ background:var(--paper-raised); border:1px solid var(--line); }
+  .card.neutral .chip{ background:var(--ink-soft); color:var(--paper-raised); }
+
+  /* ---------- composer ---------- */
+  .composer{
+    border-top:1px solid var(--line); background:var(--paper-raised);
+    padding:12px 16px 16px;
+  }
+  .chips{ display:flex; flex-wrap:wrap; gap:8px; }
+  .chip-btn{
+    border:1px solid var(--teal); background:var(--paper-raised); color:var(--teal-dark);
+    padding:9px 14px; border-radius:999px; font:600 13.5px var(--font-ui);
+    cursor:pointer; transition:background .15s ease, color .15s ease, transform .1s ease;
+  }
+  .chip-btn:hover{ background:var(--teal); color:var(--on-teal); }
+  .chip-btn:active{ transform:scale(.97); }
+  .chip-btn.danger{ border-color:var(--sev-red); color:var(--sev-red); }
+  .chip-btn.danger:hover{ background:var(--sev-red); color:#fff; }
+  .chip-btn[disabled]{ opacity:.45; cursor:default; pointer-events:none; }
+
+  .menu-grid{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  @media (max-width:420px){ .menu-grid{ grid-template-columns:1fr; } }
+  .menu-btn{
+    text-align:left; border:1px solid var(--line); background:var(--paper-raised);
+    padding:11px 13px; border-radius:var(--radius-sm); cursor:pointer;
+    font:600 13.5px var(--font-ui); color:var(--ink);
+    transition:border-color .15s ease, background .15s ease;
+  }
+  .menu-btn:hover{ border-color:var(--teal); background:var(--teal-tint); }
+
+  .text-row{ display:flex; gap:8px; }
+  .text-row input[type="text"]{
+    flex:1; border:1px solid var(--line); border-radius:999px; padding:11px 16px;
+    font:400 14.5px var(--font-ui); background:var(--paper); color:var(--ink);
+  }
+  .text-row button{
+    border:none; background:var(--teal); color:var(--on-teal); padding:0 20px;
+    border-radius:999px; font:700 13.5px var(--font-ui); cursor:pointer;
+  }
+  .text-row button:hover{ background:var(--teal-dark); }
+
+  .slider-card{
+    border:1px solid var(--line); border-radius:var(--radius); padding:14px 16px;
+    background:var(--paper);
+  }
+  .slider-card label{
+    display:block; font-size:13px; color:var(--ink-soft); margin-bottom:10px;
+  }
+  .slider-row{ display:flex; align-items:center; gap:12px; }
+  .slider-row input[type="range"]{ flex:1; accent-color:var(--teal); }
+  .slider-value{
+    font:700 20px var(--font-ui); font-variant-numeric:tabular-nums;
+    width:2.4em; text-align:center; color:var(--teal-dark);
+  }
+  .slider-card button{
+    margin-top:12px; border:none; background:var(--teal); color:var(--on-teal);
+    padding:9px 16px; border-radius:999px; font:700 13px var(--font-ui); cursor:pointer;
+  }
+  .composer-hint{ font-size:11.5px; color:var(--ink-soft); margin:0 0 8px 2px; }
+
+  /* ---------- footer ---------- */
+  .disclaimer{
+    padding:10px 18px 16px; font-size:11px; line-height:1.5; color:var(--ink-soft);
+    text-align:center; background:var(--paper);
+  }
+  .disclaimer code{
+    background:var(--paper-raised); border:1px solid var(--line); border-radius:4px;
+    padding:1px 4px; font-size:10.5px;
+  }
+
+  /* BienEstar en Casa: colores de marca del sitio (solo apariencia; no cambia la lógica clínica) */
+  :root:not([data-theme="dark"]){
+    --ink:#2f2a27; --ink-soft:#6b6158; --paper:#fdfbf7; --paper-raised:#FFFFFF; --line:#e4dacb;
+    --teal:#56704a; --teal-dark:#465c3c; --teal-tint:#e8eee2; --on-teal:#FFFFFF;
+    --font-ui:"Plus Jakarta Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    --font-serif:"DM Serif Display",Georgia,serif;
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">GT</span>
+      <div class="brand-text">
+        <span class="brand-name">Guía de Triage</span>
+        <span class="brand-tag">Simulación · no es un servicio médico real</span>
+      </div>
+    </div>
+    <button class="btn-emergency" id="btnEmergencyTop" type="button">Necesito emergencia ahora</button>
+  </header>
+
+  <main class="chat-shell">
+    <div class="chat-toolbar">
+      <span class="tree-indicator" id="treeIndicator">Elige un motivo de consulta</span>
+      <button class="btn-reset" id="btnReset" type="button">Nueva consulta</button>
+    </div>
+    <div class="thread" id="thread" aria-live="polite"></div>
+    <div class="composer" id="composer"></div>
+  </main>
+
+  <footer class="disclaimer">
+    Prototipo de simulación construido sobre el contenido real de <code>guion-triage-*.md</code> y
+    <code>bloque-riesgo-comun.md</code>. Las reglas de clasificación están simplificadas para esta
+    demo y no sustituyen los guiones completos ni la aprobación del asesor médico.
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var thread = document.getElementById("thread");
+  var composer = document.getElementById("composer");
+  var treeIndicator = document.getElementById("treeIndicator");
+
+  var OPENING_INTRO = "Hola. Soy un asistente que te ayuda a orientarte sobre qué tipo de atención médica podrías necesitar. No soy médico y no doy diagnósticos.";
+  var PEDIATRIC_MSG = "Este asistente todavía no está preparado para orientar sobre síntomas en niños, porque requiere un protocolo distinto y más cuidadoso. Por favor contacta a un pediatra, a tu línea de salud habitual o dirígete a urgencias si el niño o niña está muy decaído/a, le cuesta respirar o tiene menos de 3 meses de edad.";
+  var EMERGENCY_MSG = "Llama ya a la línea de emergencias de tu país o dirígete al servicio de urgencias más cercano. No sigas usando este chat para eso.";
+
+  var RISK_BLOCK = [
+    { key:"r1", q:"¿Estás embarazada o diste a luz o perdiste un embarazo en las últimas semanas?" },
+    { key:"r2", q:"¿Tienes un diagnóstico de cáncer, estás en quimioterapia o tu sistema inmune está debilitado (VIH, trasplante, medicamentos inmunosupresores)?" },
+    { key:"r3", q:"¿Tomas medicamentos anticoagulantes (para diluir la sangre)?" }
+  ];
+
+  // ---------------------------------------------------------------
+  // Definición de los 7 árboles (contenido real de los guiones,
+  // clasificación simplificada para esta demo)
+  // ---------------------------------------------------------------
+  var TREES = {
+
+    pecho: {
+      label: "Dolor de pecho",
+      keywords: ["pecho","torax","tórax","corazon","corazón"],
+      warning: "Si tienes dificultad para respirar, dolor de pecho muy intenso, pérdida de conciencia o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      redFlags: [
+        "¿El dolor es muy fuerte, como una presión o peso en el pecho?",
+        "¿El dolor se extiende hacia tu brazo izquierdo, mandíbula o espalda?",
+        "¿Tienes dificultad para respirar en este momento?",
+        "¿Sientes sudoración fría, náuseas o mareo junto con el dolor?",
+        "¿Has sentido que ibas a desmayarte o perdiste el conocimiento?"
+      ],
+      context: [
+        { type:"yesno", key:"antecedentes", q:"¿Tienes antecedentes de problemas del corazón, presión alta, diabetes o eres fumador?" },
+        { type:"yesno", key:"relacionMovimiento", q:"¿El dolor cambia claramente cuando respiras profundo, toses o te mueves?" },
+        { type:"yesno", key:"causaClara", q:"¿Hay una causa clara (golpe, tos fuerte reciente, ansiedad conocida)?" },
+        { type:"scale", key:"dolor", q:"En una escala del 1 al 10, ¿qué tan fuerte es el dolor ahora?" }
+      ],
+      classify: function(a){
+        if (a.dolor > 6 || a.antecedentes) return "orange";
+        if (a.relacionMovimiento && !a.antecedentes) return "yellow";
+        if (a.causaClara) return "green";
+        return "yellow";
+      },
+      outputs: {
+        orange: "Con lo que me cuentas, es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria. No es necesariamente una emergencia extrema, pero no conviene esperar.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo agendar una cita médica en los próximos días. Si el dolor empeora, se extiende al brazo o mandíbula, o te cuesta respirar — busca atención de urgencia de inmediato.",
+        green: "Esto suena manejable en casa por ahora. Busca atención médica si el dolor empeora, aparece dificultad para respirar, o sientes sudoración fría, náuseas o mareo."
+      }
+    },
+
+    respiratoria: {
+      label: "Dificultad respiratoria",
+      keywords: ["respirar","ahogo","aire","respiratoria"],
+      warning: "Si sientes que te falta mucho el aire, no puedes hablar con normalidad, tus labios o tu cara se están poniendo morados/azulados, o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      redFlags: [
+        "¿Sientes que te falta el aire incluso estando quieto, sin hacer esfuerzo?",
+        "¿Te cuesta hablar en frases completas por falta de aire?",
+        "¿Tus labios, dedos o cara se han puesto morados o azulados?",
+        "¿Escuchas un silbido fuerte o un ruido agudo al respirar?",
+        "¿Tienes dolor de pecho junto con la dificultad para respirar?",
+        "¿Has sentido que ibas a desmayarte o perdiste el conocimiento?",
+        "¿Se te han hinchado de repente los labios, la lengua o la garganta, o te ha salido urticaria junto con esto?"
+      ],
+      context: [
+        { type:"yesno", key:"antecedentes", q:"¿Tienes antecedentes de asma, EPOC, problemas del corazón o eres fumador?" },
+        { type:"yesno", key:"noMejoraInhalador", q:"Si usas inhalador de rescate, ¿lo usaste y no mejoró?" },
+        { type:"yesno", key:"esfuerzoMinimo", q:"¿La dificultad aparece incluso con esfuerzo mínimo (ej. hablar, moverte poco)?" },
+        { type:"yesno", key:"causaClara", q:"¿Hay una causa clara (congestión por gripe común, ansiedad conocida, esfuerzo físico reciente)?" }
+      ],
+      classify: function(a){
+        if (a.esfuerzoMinimo && (a.antecedentes || a.noMejoraInhalador)) return "orange";
+        if (a.antecedentes || a.noMejoraInhalador) return "yellow";
+        if (a.causaClara) return "green";
+        return "yellow";
+      },
+      outputs: {
+        orange: "Es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria. No es necesariamente una emergencia extrema, pero no conviene esperar.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo agendar una cita en los próximos días. Si la dificultad empeora, te cuesta hablar en frases completas o notas los labios morados — busca atención de urgencia de inmediato.",
+        green: "Esto suena manejable en casa por ahora. Busca atención médica si la dificultad empeora, aparece en reposo, o notas labios o cara morados."
+      }
+    },
+
+    abdominal: {
+      label: "Dolor abdominal",
+      keywords: ["abdomen","estomago","estómago","barriga","vientre"],
+      warning: "Si tienes un dolor de abdomen muy intenso y repentino, el abdomen duro como una tabla, vómito con sangre o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      redFlags: [
+        "¿El dolor es muy intenso y apareció de repente?",
+        "¿Sientes el abdomen muy duro o rígido, como una tabla?",
+        "¿Has vomitado sangre o algo con aspecto de café molido?",
+        "¿Has tenido heces muy oscuras, negras o con sangre visible?",
+        "¿Te has sentido mareado, muy débil o a punto de desmayarte?",
+        "¿El dolor se extiende a la espalda y es el peor dolor que has sentido en tu vida?"
+      ],
+      context: [
+        { type:"yesno", key:"empeoraPresionar", q:"¿El dolor empeora al moverte, toser o presionar el abdomen?" },
+        { type:"yesno", key:"fiebre", q:"¿Tienes fiebre junto con el dolor?" },
+        { type:"yesno", key:"causaClara", q:"¿Hay una causa clara (indigestión puntual, gases, cólico menstrual conocido)?" },
+        { type:"scale", key:"dolor", q:"En una escala del 1 al 10, ¿qué tan fuerte es el dolor ahora?" }
+      ],
+      classify: function(a){
+        if (a.dolor > 6 && (a.empeoraPresionar || a.fiebre)) return "orange";
+        if (a.causaClara) return "green";
+        return "yellow";
+      },
+      outputs: {
+        orange: "Es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo una cita en los próximos días. Si el dolor empeora, aparece fiebre alta, vómito con sangre o el abdomen se pone muy duro — busca atención de urgencia.",
+        green: "Esto suena manejable en casa por ahora. Busca atención médica si el dolor empeora, aparece fiebre, o sientes mareo o debilidad."
+      }
+    },
+
+    cabeza: {
+      label: "Dolor de cabeza",
+      keywords: ["cabeza","migrana","migraña","cefalea"],
+      warning: "Si tienes el peor dolor de cabeza de tu vida, apareció de golpe como una explosión o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      redFlags: [
+        "¿Es el peor dolor de cabeza de tu vida o apareció de golpe en segundos?",
+        "¿Tienes rigidez o dolor fuerte en el cuello junto con esto?",
+        "¿Tienes fiebre junto con el dolor de cabeza?",
+        "¿Has notado debilidad, adormecimiento en un lado del cuerpo, dificultad para hablar o problemas de visión?",
+        "¿El dolor empezó después de un golpe en la cabeza o una caída?",
+        "¿Has perdido el conocimiento, tenido una convulsión o te sientes muy confundido?"
+      ],
+      context: [
+        { type:"yesno", key:"distintoHabitual", q:"¿El dolor es distinto o mucho más fuerte que tus dolores de cabeza habituales?" },
+        { type:"yesno", key:"vomitoPersistente", q:"¿Has tenido náuseas o vómito persistente junto con el dolor?" },
+        { type:"yesno", key:"patronHabitual", q:"¿Es un dolor parecido a migrañas que ya has tenido antes, sin cambios?" },
+        { type:"scale", key:"dolor", q:"En una escala del 1 al 10, ¿qué tan fuerte es el dolor ahora?" }
+      ],
+      classify: function(a){
+        if ((a.dolor > 6 && a.distintoHabitual) || a.vomitoPersistente) return "orange";
+        if (a.patronHabitual) return "yellow";
+        return "yellow";
+      },
+      outputs: {
+        orange: "Es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo una cita en los próximos días. Si el dolor se vuelve el peor de tu vida, aparece de golpe, o notas debilidad o problemas para hablar o ver — busca atención de urgencia.",
+        green: "Esto suena manejable en casa por ahora. Busca atención médica si el dolor cambia de patrón, aparece fiebre o rigidez de cuello, o notas debilidad."
+      }
+    },
+
+    fiebre: {
+      label: "Fiebre",
+      keywords: ["fiebre","temperatura","calentura"],
+      warning: "Si tienes fiebre muy alta junto con mucha confusión, dificultad para respirar o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      redFlags: [
+        "¿Te sientes muy confundido/a o te cuesta mantenerte despierto/a?",
+        "¿Tienes rigidez de cuello, dolor de cabeza muy fuerte o mucha sensibilidad a la luz?",
+        "¿Tienes dificultad para respirar?",
+        "¿Han aparecido manchas moradas o rojas en la piel que no desaparecen al presionarlas?",
+        "¿Tienes dolor abdominal muy fuerte junto con la fiebre?",
+        "¿Has viajado recientemente a una zona con riesgo de malaria u otra enfermedad tropical?",
+        "¿Llevas más de 3 días con fiebre alta que no baja con medicamentos comunes?"
+      ],
+      context: [
+        { type:"yesno", key:"sintomasLocalizados", q:"¿Tienes síntomas localizados que sugieren infección (ej. dolor fuerte al orinar, dolor de garganta severo)?" },
+        { type:"yesno", key:"condicionCronica", q:"¿Tienes alguna condición crónica relevante (diabetes, problemas renales, enfermedad pulmonar)?" },
+        { type:"yesno", key:"levesResfriado", q:"¿Los síntomas son leves y parecidos a un resfriado común?" }
+      ],
+      classify: function(a){
+        if (a.sintomasLocalizados || a.condicionCronica) return "orange";
+        if (a.levesResfriado) return "yellow";
+        return "green";
+      },
+      outputs: {
+        orange: "Es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo una cita en los próximos días si no mejora. Si aparece confusión, dificultad para respirar o manchas en la piel — busca atención de urgencia.",
+        green: "Esto suena manejable en casa por ahora. Busca atención médica si la fiebre sube mucho, dura más de 3 días, o aparece confusión o dificultad para respirar."
+      }
+    },
+
+    gripales: {
+      label: "Síntomas gripales",
+      keywords: ["gripe","gripal","mocos","congestion","congestión","resfriado"],
+      warning: "Si tienes mucha dificultad para respirar, dolor de pecho o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      redFlags: [
+        "¿Tienes dificultad para respirar o dolor de pecho junto con esto?",
+        "¿Te sientes muy confundido/a o te cuesta mantenerte despierto/a?",
+        "¿Llevas más de 24 horas sin poder retener líquidos o muchas horas sin orinar?",
+        "¿Tienes rigidez de cuello o mucha sensibilidad a la luz?",
+        "¿Los síntomas habían mejorado y ahora volvieron a empeorar?"
+      ],
+      context: [
+        { type:"yesno", key:"malestarSevero", q:"¿El malestar general es severo, con fiebre alta sostenida varios días?" },
+        { type:"yesno", key:"dificultadComerBeber", q:"¿Tienes dificultad para comer o tomar líquidos con normalidad?" },
+        { type:"yesno", key:"condicionCronica", q:"¿Tienes alguna condición crónica relevante?" },
+        { type:"yesno", key:"toleraTodo", q:"¿Toleras líquidos y comida con normalidad, y los síntomas son leves?" }
+      ],
+      classify: function(a){
+        if (a.dificultadComerBeber || a.condicionCronica || (a.malestarSevero)) return "orange";
+        if (a.toleraTodo) return "green";
+        return "yellow";
+      },
+      outputs: {
+        orange: "Es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo una cita en los próximos días si no mejora. Si te cuesta respirar, aparece dolor de pecho o no puedes retener líquidos — busca atención de urgencia.",
+        green: "Esto suena manejable en casa por ahora. Descansa, mantente hidratado/a y busca atención médica si aparece dificultad para respirar o los síntomas empeoran de nuevo."
+      }
+    },
+
+    trauma: {
+      label: "Trauma menor",
+      keywords: ["golpe","caida","caída","corte","herida","trauma"],
+      warning: "Si tienes un sangrado que no para, un golpe fuerte en la cabeza con pérdida de conocimiento o sientes que esto es una emergencia — no uses este chat. Llama a emergencias o dirígete al servicio de urgencias más cercano ahora mismo.",
+      subramas: {
+        "Corte o herida": [
+          "¿El sangrado no se detiene después de 10 minutos de presión directa?",
+          "¿La herida es profunda, muestra grasa, músculo o hueso, o los bordes están muy separados?",
+          "¿La herida fue causada por un objeto oxidado/sucio, mordedura de animal o persona, o no sabes si estás vacunado/a contra el tétanos?"
+        ],
+        "Golpe o caída (brazo, pierna, torso)": [
+          "¿No puedes apoyar peso en la pierna o no puedes mover con normalidad el brazo/mano afectados?",
+          "¿Ves la extremidad deformada, en un ángulo anormal o con un hueso visible?",
+          "¿Sientes la extremidad muy fría, pálida, morada o sin sensibilidad más allá del punto del golpe?"
+        ],
+        "Golpe en la cabeza": [
+          "¿Hubo pérdida del conocimiento, aunque sea por unos segundos?",
+          "¿Ha vomitado más de una vez desde el golpe?",
+          "¿Está muy confundido/a, con lenguaje raro o distinto a su comportamiento normal?"
+        ]
+      },
+      redFlagsGenerales: [
+        "¿El accidente fue de alto impacto (caída de altura, accidente de tránsito, golpe muy fuerte)?",
+        "¿Sientes mucho dolor que no cede o el dolor es desproporcionado a lo que parece la lesión?",
+        "¿Te sientes mareado/a, muy débil o a punto de desmayarte?"
+      ],
+      context: [
+        { type:"yesno", key:"hinchazonNotable", q:"¿Hay hinchazón notable o dificultad para mover la zona?" },
+        { type:"yesno", key:"mejoraConTiempo", q:"¿Ha mejorado con el tiempo desde que ocurrió?" },
+        { type:"scale", key:"dolor", q:"En una escala del 1 al 10, ¿qué tan fuerte es el dolor ahora?" }
+      ],
+      classify: function(a){
+        if (a.dolor > 6 && a.hinchazonNotable) return "orange";
+        if (a.mejoraConTiempo) return "yellow";
+        return "green";
+      },
+      outputs: {
+        orange: "Es recomendable que te evalúen hoy mismo en un servicio de urgencias o atención prioritaria.",
+        yellow: "No parece algo que requiera urgencias ahora mismo, pero sí te recomiendo que te revisen en los próximos días. Si el dolor empeora mucho, pierdes movilidad o aparecen signos de infección — busca atención de urgencia.",
+        green: "Esto suena manejable en casa por ahora. Busca atención médica si el dolor empeora, pierdes movilidad o aparecen signos de infección."
+      }
+    }
+  };
+
+  var MOTIVO_ORDER = ["pecho","respiratoria","abdominal","cabeza","fiebre","gripales","trauma"];
+
+  // ---------------------------------------------------------------
+  // Motor de conversación
+  // ---------------------------------------------------------------
+  var scrollLock = false;
+
+  function scrollBottom(){
+    requestAnimationFrame(function(){ thread.scrollTop = thread.scrollHeight; });
+  }
+
+  function addRow(role, html){
+    var row = document.createElement("div");
+    row.className = "row " + role;
+    if (role === "bot") {
+      var av = document.createElement("div");
+      av.className = "avatar";
+      row.appendChild(av);
+    }
+    var bubble = document.createElement("div");
+    bubble.className = "bubble";
+    bubble.textContent = html;
+    row.appendChild(bubble);
+    thread.appendChild(row);
+    scrollBottom();
+  }
+
+  function addCard(text, severity, opts){
+    opts = opts || {};
+    var card = document.createElement("div");
+    card.className = "card " + severity;
+    var chip = document.createElement("span");
+    chip.className = "chip";
+    chip.textContent = opts.label || "";
+    if (opts.label) card.appendChild(chip);
+    var p = document.createElement("p");
+    p.textContent = text;
+    card.appendChild(p);
+    if (opts.list) {
+      var ul = document.createElement("ul");
+      opts.list.forEach(function(item){
+        var li = document.createElement("li");
+        li.textContent = item;
+        ul.appendChild(li);
+      });
+      card.appendChild(ul);
+    }
+    thread.appendChild(card);
+    scrollBottom();
+  }
+
+  function botTyping(){
+    return new Promise(function(resolve){
+      var el = document.createElement("div");
+      el.className = "row bot";
+      var av = document.createElement("div");
+      av.className = "avatar";
+      var typing = document.createElement("div");
+      typing.className = "typing";
+      typing.innerHTML = "<span></span><span></span><span></span>";
+      el.appendChild(av);
+      el.appendChild(typing);
+      thread.appendChild(el);
+      scrollBottom();
+      var delay = 380 + Math.random()*260;
+      setTimeout(function(){
+        el.remove();
+        resolve();
+      }, delay);
+    });
+  }
+
+  function botSay(text){
+    return botTyping().then(function(){
+      addRow("bot", text);
+    });
+  }
+
+  function userSay(text){
+    addRow("user", text);
+  }
+
+  function clearComposer(){
+    composer.innerHTML = "";
+  }
+
+  function askChips(question, options, opts){
+    opts = opts || {};
+    return botSay(question).then(function(){
+      return new Promise(function(resolve){
+        clearComposer();
+        var wrap = document.createElement("div");
+        wrap.className = "chips";
+        options.forEach(function(optLabel){
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "chip-btn" + (opts.danger && optLabel === opts.danger ? " danger" : "");
+          btn.textContent = optLabel;
+          btn.addEventListener("click", function(){
+            Array.prototype.forEach.call(wrap.children, function(c){ c.disabled = true; });
+            userSay(optLabel);
+            clearComposer();
+            resolve(optLabel);
+          });
+          wrap.appendChild(btn);
+        });
+        composer.appendChild(wrap);
+      });
+    });
+  }
+
+  function askYesNo(question){
+    return askChips(question, ["Sí", "No"]).then(function(ans){ return ans === "Sí"; });
+  }
+
+  function askScale(question){
+    return botSay(question).then(function(){
+      return new Promise(function(resolve){
+        clearComposer();
+        var card = document.createElement("div");
+        card.className = "slider-card";
+        card.innerHTML =
+          '<label>Desliza para indicar la intensidad</label>' +
+          '<div class="slider-row">' +
+            '<input type="range" min="0" max="10" value="5" id="painRange">' +
+            '<span class="slider-value" id="painValue">5</span>' +
+          '</div>' +
+          '<button type="button" id="painConfirm">Confirmar</button>';
+        composer.appendChild(card);
+        var range = card.querySelector("#painRange");
+        var value = card.querySelector("#painValue");
+        range.addEventListener("input", function(){ value.textContent = range.value; });
+        card.querySelector("#painConfirm").addEventListener("click", function(){
+          var v = parseInt(range.value, 10);
+          userSay(v + " / 10");
+          clearComposer();
+          resolve(v);
+        });
+      });
+    });
+  }
+
+  function askFreeText(placeholder){
+    return new Promise(function(resolve){
+      clearComposer();
+      var row = document.createElement("div");
+      row.className = "text-row";
+      row.innerHTML =
+        '<input type="text" id="freeInput" placeholder="' + placeholder + '" autocomplete="off">' +
+        '<button type="button" id="freeSend">Enviar</button>';
+      composer.appendChild(row);
+      var input = row.querySelector("#freeInput");
+      var send = row.querySelector("#freeSend");
+      input.focus();
+      function submit(){
+        var v = input.value.trim();
+        if (!v) return;
+        userSay(v);
+        clearComposer();
+        resolve(v);
+      }
+      send.addEventListener("click", submit);
+      input.addEventListener("keydown", function(e){ if (e.key === "Enter") submit(); });
+    });
+  }
+
+  function showEmergency(){
+    clearComposer();
+    return botSay(EMERGENCY_MSG).then(function(){
+      addCard(EMERGENCY_MSG, "red", { label: "Rojo — Emergencia" });
+      offerRestart();
+    });
+  }
+
+  function offerRestart(){
+    clearComposer();
+    var wrap = document.createElement("div");
+    wrap.className = "chips";
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "chip-btn";
+    btn.textContent = "Empezar una nueva consulta";
+    btn.addEventListener("click", start);
+    wrap.appendChild(btn);
+    composer.appendChild(wrap);
+  }
+
+  function severityLabel(sev){
+    return { orange:"Naranja — Atención hoy", yellow:"Amarillo — Cita en días", green:"Verde — Casa" }[sev];
+  }
+
+  function detectMotivo(text){
+    var t = text.toLowerCase();
+    for (var i=0;i<MOTIVO_ORDER.length;i++){
+      var id = MOTIVO_ORDER[i];
+      var kws = TREES[id].keywords;
+      for (var j=0;j<kws.length;j++){
+        if (t.indexOf(kws[j]) !== -1) return id;
+      }
+    }
+    return null;
+  }
+
+  function offerMotivoMenu(){
+    clearComposer();
+    return new Promise(function(resolve){
+      var grid = document.createElement("div");
+      grid.className = "menu-grid";
+      MOTIVO_ORDER.forEach(function(id){
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "menu-btn";
+        btn.textContent = TREES[id].label;
+        btn.addEventListener("click", function(){
+          userSay(TREES[id].label);
+          clearComposer();
+          resolve(id);
+        });
+        grid.appendChild(btn);
+      });
+      composer.appendChild(grid);
+    });
+  }
+
+  function runContext(tree){
+    var answers = {};
+    function step(i){
+      if (i >= tree.context.length) return Promise.resolve(answers);
+      var item = tree.context[i];
+      var p = item.type === "scale" ? askScale(item.q) : askYesNo(item.q);
+      return p.then(function(val){
+        answers[item.key] = val;
+        return step(i+1);
+      });
+    }
+    return step(0);
+  }
+
+  function runRedFlags(questions){
+    function step(i){
+      if (i >= questions.length) return Promise.resolve(false);
+      return askYesNo(questions[i]).then(function(yes){
+        if (yes) return true;
+        return step(i+1);
+      });
+    }
+    return step(0);
+  }
+
+  function runRiskBlock(){
+    function step(i){
+      if (i >= RISK_BLOCK.length) return Promise.resolve(false);
+      return askYesNo(RISK_BLOCK[i].q).then(function(yes){
+        if (yes) return true;
+        return step(i+1);
+      });
+    }
+    return step(0);
+  }
+
+  function runSurvey(){
+    return askChips("Antes de irte: ¿qué tan clara sintió la recomendación?", ["1","2","3","4","5"])
+      .then(function(){
+        return askChips("¿Qué vas a hacer después de esto?",
+          ["Ir a urgencias","Agendar cita","Esperar en casa","Llamar emergencias"]);
+      })
+      .then(function(){
+        return botSay("Gracias — esto ayuda a mejorar la guía. Puedes empezar otra consulta cuando quieras.");
+      })
+      .then(offerRestart);
+  }
+
+  function runTree(id){
+    var tree = TREES[id];
+    treeIndicator.textContent = tree.label;
+
+    return botSay(tree.warning)
+      .then(function(){ return askChips("¿Quieres continuar?", ["Sí, continuar", "Necesito emergencia ahora"], { danger:"Necesito emergencia ahora" }); })
+      .then(function(choice){
+        if (choice === "Necesito emergencia ahora") return showEmergency();
+        return proceedAfterDisclaimer(tree);
+      });
+  }
+
+  function proceedAfterDisclaimer(tree){
+    return askChips("Antes de continuar, ¿esto es para ti (una persona adulta) o para un niño o niña?",
+      ["Es para mí / para otro adulto", "Es para un niño o niña"])
+      .then(function(choice){
+        if (choice === "Es para un niño o niña") {
+          return botSay(PEDIATRIC_MSG).then(function(){
+            addCard(PEDIATRIC_MSG, "neutral", { label:"Derivación pediátrica" });
+            offerRestart();
+          });
+        }
+        return runRiskBlock().then(function(flagged){
+          if (flagged) return showEmergency();
+          return proceedTraumaOrFlags(tree);
+        });
+      });
+  }
+
+  function proceedTraumaOrFlags(tree){
+    if (tree.subramas) {
+      var subLabels = Object.keys(tree.subramas);
+      return askChips("¿Qué tipo de golpe o lesión fue?", subLabels).then(function(sub){
+        var questions = tree.redFlagsGenerales.concat(tree.subramas[sub]);
+        return runRedFlags(questions).then(function(flagged){
+          if (flagged) return showEmergency();
+          return finishTree(tree);
+        });
+      });
+    }
+    return runRedFlags(tree.redFlags).then(function(flagged){
+      if (flagged) return showEmergency();
+      return finishTree(tree);
+    });
+  }
+
+  function finishTree(tree){
+    return botSay("Bien, esas son buenas noticias por ahora. Sigamos para entender mejor qué te pasa.")
+      .then(function(){ return runContext(tree); })
+      .then(function(answers){
+        var sev = tree.classify(answers);
+        return botSay(tree.outputs[sev]).then(function(){
+          addCard(tree.outputs[sev], sev, { label: severityLabel(sev) });
+          return runSurvey();
+        });
+      });
+  }
+
+  function start(){
+    thread.innerHTML = "";
+    treeIndicator.textContent = "Elige un motivo de consulta";
+    botSay(OPENING_INTRO).then(function(){
+      return botSay("Cuéntame qué está pasando, con tus palabras (o elige un motivo de la lista).");
+    }).then(function(){
+      return new Promise(function(resolve){
+        clearComposer();
+        var hint = document.createElement("p");
+        hint.className = "composer-hint";
+        hint.textContent = "Escribe libremente o toca un motivo:";
+        composer.appendChild(hint);
+
+        var row = document.createElement("div");
+        row.className = "text-row";
+        row.innerHTML = '<input type="text" id="freeInput" placeholder="Ej. me duele mucho la cabeza..." autocomplete="off">' +
+          '<button type="button" id="freeSend">Enviar</button>';
+        composer.appendChild(row);
+
+        var grid = document.createElement("div");
+        grid.className = "menu-grid";
+        grid.style.marginTop = "10px";
+        MOTIVO_ORDER.forEach(function(id){
+          var btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "menu-btn";
+          btn.textContent = TREES[id].label;
+          btn.addEventListener("click", function(){
+            userSay(TREES[id].label);
+            clearComposer();
+            resolve(id);
+          });
+          grid.appendChild(btn);
+        });
+        composer.appendChild(grid);
+
+        var input = row.querySelector("#freeInput");
+        var send = row.querySelector("#freeSend");
+        function submit(){
+          var v = input.value.trim();
+          if (!v) return;
+          userSay(v);
+          var found = detectMotivo(v);
+          clearComposer();
+          if (found) { resolve(found); }
+          else {
+            botSay("No estoy seguro de a qué árbol corresponde eso — elige el motivo más parecido:")
+              .then(offerMotivoMenu).then(resolve);
+          }
+        }
+        send.addEventListener("click", submit);
+        input.addEventListener("keydown", function(e){ if (e.key === "Enter") submit(); });
+      });
+    }).then(function(id){
+      return runTree(id);
+    });
+  }
+
+  document.getElementById("btnReset").addEventListener("click", start);
+  document.getElementById("btnEmergencyTop").addEventListener("click", function(){
+    thread.innerHTML = "";
+    showEmergency();
+  });
+
+  start();
+})();
+</script>
+</body>
+</html>
