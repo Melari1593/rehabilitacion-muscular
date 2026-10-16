@@ -4,6 +4,7 @@ const ENLACES = [
   { href: '/#cursos', texto: 'Cursos' },
   { href: '/#productos', texto: 'Productos' },
   { href: '/analisis-postura', texto: 'Analiza tu postura' },
+  { href: '/control-prenatal', texto: 'Control prenatal' },
   { href: '/#revision', texto: 'Revisión médica' },
 ];
 

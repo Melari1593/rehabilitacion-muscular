@@ -17,6 +17,7 @@ export function PiePagina() {
             <li><Link className="hover:text-acento" href="/#cursos">Cursos en línea</Link></li>
             <li><Link className="hover:text-acento" href="/#productos">Productos de bienestar</Link></li>
             <li><Link className="hover:text-acento" href="/analisis-postura">Analiza tu postura</Link></li>
+            <li><Link className="hover:text-acento" href="/control-prenatal">Curso de control prenatal</Link></li>
           </ul>
         </div>
         <div>
