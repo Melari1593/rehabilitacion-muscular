@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Activity, Camera, CircleDot, Dumbbell, HeartPulse, Monitor, ShieldCheck, Snowflake } from 'lucide-react';
+import { Activity, Baby, Camera, CircleDot, Dumbbell, HeartPulse, Monitor, ShieldCheck, Snowflake } from 'lucide-react';
 import { Aparecer } from '@/components/Aparecer';
 import { Encabezado } from '@/components/Encabezado';
 import { PiePagina } from '@/components/PiePagina';
@@ -18,7 +18,8 @@ const TEMAS = [
   { icono: CircleDot, titulo: 'Recuperación muscular', texto: 'Automasaje con rodillo y pelota, sin dolor.' },
   { icono: Dumbbell, titulo: 'Fuerza en casa', texto: 'Entrena con bandas elásticas, desde cero.' },
   { icono: Snowflake, titulo: 'Frío o calor', texto: 'Cómo manejar molestias musculares en casa.' },
-  { icono: HeartPulse, titulo: 'Productos de bienestar', texto: 'Todo lo que necesitas para tu rutina.' },
+  { icono: Baby, titulo: 'Control prenatal', texto: 'Curso de 7 sesiones para prepararte para la llegada del bebé.', href: '/control-prenatal' },
+  { icono: HeartPulse, titulo: 'Productos de bienestar', texto: 'Todo lo que necesitas para tu rutina.', href: '#productos' },
 ];
 
 const PASOS = [
@@ -139,10 +140,10 @@ export default async function Inicio({ searchParams }: { searchParams: Promise<{
           <p className={eyebrow}>¿Qué quieres mejorar?</p>
           <h2 id="temas" className={h2}>Elige por dónde empezar a cuidarte.</h2>
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {TEMAS.map(({ icono: Icono, titulo, texto }, i) => (
+            {TEMAS.map(({ icono: Icono, titulo, texto, href }, i) => (
               <Aparecer as="li" key={titulo} retraso={i * 0.07}>
                 <a
-                  href={titulo === 'Productos de bienestar' ? '#productos' : '#cursos'}
+                  href={href ?? '#cursos'}
                   className="group block h-full rounded-lg border border-borde bg-white px-5 py-6 transition-all duration-200 hover:border-transparent hover:bg-acento hover:text-white hover:shadow-[0_4px_16px_rgba(86,112,74,0.25)] focus-visible:border-transparent focus-visible:bg-acento focus-visible:text-white focus-visible:outline-none"
                 >
                   <Icono className="h-[22px] w-[22px] text-acento transition-colors group-hover:text-white group-focus-visible:text-white" aria-hidden="true" />
