@@ -6,7 +6,7 @@ export type Sesion = {
   numero: number;
   semanas: string;
   titulo: string;
-  responsable: 'Psicología' | 'Enfermería';
+  responsable: string;
   aprenderas: string[];
   mensajes: string[];
   guion: string;
@@ -169,4 +169,165 @@ export const SIGNOS_ALARMA = [
   'Disminución o ausencia de los movimientos del bebé',
   'Dificultad para respirar en reposo, o una pierna hinchada, roja y dolorosa',
   'Vómito que no te deja comer ni beber, convulsiones o desmayo',
+];
+
+// ---------------------------------------------------------------------------
+// English version (/en/prenatal-course). Same clinical content as the Spanish
+// version; facilitator scripts are only available in Spanish.
+// ---------------------------------------------------------------------------
+
+export const SESIONES_EN: Sesion[] = [
+  {
+    numero: 1,
+    semanas: 'Before week 14',
+    titulo: 'Emotional changes during pregnancy',
+    responsable: 'Psychology',
+    aprenderas: [
+      'Which emotions are expected in early pregnancy.',
+      'How to tell passing sadness from a symptom that needs a consultation.',
+      'How to build your support network and an emotional self-care plan.',
+      'Where to get help if there is violence or emotional risk.',
+    ],
+    mensajes: [
+      'Mixed emotions during pregnancy are normal.',
+      'Sadness or anxiety that lasts more than 2 weeks needs a consultation.',
+      'Asking for help is caring for your baby.',
+      'Your partner and family are getting ready too; parenting starts today.',
+      'No one deserves violence; help is available.',
+    ],
+    guion: SESIONES[0].guion,
+  },
+  {
+    numero: 2,
+    semanas: 'Weeks 15 to 19',
+    titulo: 'Physical changes, self-care and baby’s development',
+    responsable: 'Nursing',
+    aprenderas: [
+      'Why the most common discomforts happen and how to relieve them.',
+      'Nutrition, weight gain, supplements and vaccines.',
+      'Pelvic floor exercises and good posture.',
+      'How your baby grows week by week.',
+    ],
+    mensajes: [
+      'Most discomforts are normal and easy to relieve.',
+      'You don’t eat for two: you eat better.',
+      'Supplements and vaccines protect both mother and baby.',
+      'Don’t self-medicate.',
+      'If you notice a warning sign, don’t wait: go to the emergency room.',
+    ],
+    guion: SESIONES[1].guion,
+  },
+  {
+    numero: 3,
+    semanas: 'Weeks 20 to 24',
+    titulo: 'Prenatal stimulation and bonding',
+    responsable: 'Nursing',
+    aprenderas: [
+      'What your baby feels and senses inside the womb.',
+      'Stimulation through voice, touch and movement.',
+      'How to learn your baby’s movement pattern.',
+      'Which practices are safe and which to avoid.',
+    ],
+    mensajes: [
+      'Your voice and your touch are the best stimulation.',
+      'The goal is bonding, not competition.',
+      'No loud volume or bright lights on the belly.',
+      'If your baby’s movement pattern changes, seek care the same day.',
+      'From the third trimester on, sleep on your side.',
+    ],
+    guion: SESIONES[2].guion,
+  },
+  {
+    numero: 4,
+    semanas: 'Weeks 25 to 27',
+    titulo: 'Labor',
+    responsable: 'Nursing',
+    aprenderas: [
+      'How to tell practice contractions from labor contractions.',
+      'When to go to the hospital, at term and before term.',
+      'The stages of labor and your rights (Colombian Law 2244 of 2022).',
+      'Breathing, positions and massage for pain; birth plan and hospital bag.',
+    ],
+    mensajes: [
+      'Regular contractions that don’t ease, leaking fluid or bleeding: go to the hospital.',
+      'Before week 37, any regular contractions need a consultation.',
+      'Labor has stages; the first one is the longest.',
+      'Breathing, movement and support relieve pain; an epidural is also an option.',
+      'You have the right to a dignified birth with a companion.',
+    ],
+    guion: SESIONES[3].guion,
+  },
+  {
+    numero: 5,
+    semanas: 'Weeks 28 to 30',
+    titulo: 'Newborn care',
+    responsable: 'Nursing',
+    aprenderas: [
+      'What is done for the baby at birth: vaccines, vitamin K and screenings.',
+      'Bathing, cord care, diaper changes and dressing (hands-on practice with dolls).',
+      'Safe sleep, crying and how to soothe your baby.',
+      'Warning signs, check-ups and paperwork for the first days.',
+    ],
+    mensajes: [
+      'Keep the cord clean and dry; no binders or home remedies.',
+      'Always put the baby to sleep on their back, in their own crib, with nothing else in it.',
+      'Never shake a baby.',
+      'Fever, poor feeding, strong yellow color or trouble breathing: emergency room.',
+      'Baby’s check-up (with a pediatrician) and mother’s check-up between days 3 and 5 after birth.',
+    ],
+    guion: SESIONES[4].guion,
+  },
+  {
+    numero: 6,
+    semanas: 'Weeks 30 to 32',
+    titulo: 'Breastfeeding and family planning',
+    responsable: 'Nursing',
+    aprenderas: [
+      'The benefits of breastfeeding and how milk production works.',
+      'Good latch and breastfeeding positions (hands-on practice).',
+      'Sore nipples, engorgement, expressing and storing milk.',
+      'Contraceptive methods compatible with breastfeeding.',
+    ],
+    mensajes: [
+      'Only breast milk for the first 6 months; continue up to 2 years or more.',
+      'If it hurts, check the latch.',
+      'Feed on demand: 8 to 12 times a day.',
+      'You can get pregnant before your period returns.',
+      'Choose your contraceptive method before giving birth.',
+    ],
+    guion: SESIONES[5].guion,
+  },
+  {
+    numero: 7,
+    semanas: 'Week 32',
+    titulo: 'Parenting practices',
+    responsable: 'Psychology',
+    aprenderas: [
+      'What secure attachment is and how it is built.',
+      'Positive parenting, without physical punishment.',
+      'A shared-responsibility agreement for the home.',
+      'Baby blues, postpartum depression and warning signs for the mother.',
+    ],
+    mensajes: [
+      'Responding to your baby’s crying builds security, not bad habits.',
+      'Talk, read and play with your baby from birth.',
+      'Raise children without hitting or humiliation: it’s the law, and it’s what works.',
+      'Parenting takes two (or everyone): shared responsibility.',
+      'Sadness that lasts more than 2 weeks after birth needs a consultation.',
+    ],
+    guion: SESIONES[6].guion,
+  },
+];
+
+export const SIGNOS_ALARMA_EN = [
+  'Vaginal bleeding',
+  'Fluid leaking from the vagina',
+  'Severe headache, blurred vision, seeing spots or ringing in the ears',
+  'Swelling of the face, hands or feet that appears suddenly or is there when you wake up',
+  'Severe pain in the upper stomach',
+  'Fever, or burning when you urinate',
+  'Regular contractions before week 37',
+  'Your baby moves less than usual or stops moving',
+  'Shortness of breath at rest, or one leg that is swollen, red and painful',
+  'Vomiting that keeps you from eating or drinking, seizures or fainting',
 ];
