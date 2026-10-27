@@ -145,6 +145,7 @@ export const SESIONES: Sesion[] = [
     aprenderas: [
       'Qué es el apego seguro y cómo se construye.',
       'Crianza positiva, sin castigo físico.',
+      'Alimentación con cariño: señales de hambre y saciedad, primeros alimentos y dientes sanos.',
       'Acuerdo de corresponsabilidad en el hogar.',
       'Tristeza posparto, depresión posparto y signos de alarma de la madre.',
     ],
@@ -414,6 +415,7 @@ export const SESIONES_EN: Sesion[] = [
     aprenderas: [
       'What secure attachment is and how it is built.',
       'Positive parenting, without physical punishment.',
+      'Responsive feeding: hunger and fullness cues, first foods and healthy teeth.',
       'A shared-responsibility agreement for the home.',
       'Baby blues, postpartum depression and warning signs for the mother.',
     ],
