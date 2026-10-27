@@ -240,6 +240,10 @@ la mujer ante el equipo si ella lo pide.
 - Solo leche materna los primeros 6 meses, sin agua, tés, jugos ni
   fórmula (salvo indicación médica). A libre demanda, al menos
   8-12 veces en 24 horas.
+- Casi nunca hay que dejar de lactar: con fiebre, mastitis,
+  hepatitis B o C, sífilis en tratamiento o la mayoría de los
+  medicamentos se sigue amamantando. Antes de suspender,
+  pregunte al equipo de salud.
 - En pocos casos no se recomienda amamantar, por ejemplo si la
   madre tiene VIH. El equipo se lo dirá y le enseñará a alimentar
   al bebé de forma segura.
@@ -301,7 +305,7 @@ Signos de alarma del bebé (consultar de inmediato a urgencias):
   temperatura baja (menos de 36,5 °C).
 - No quiere comer, succiona débil o vomita todo.
 - Vomita verde o con sangre.
-- Está muy dormido, difícil de despertar, o "flojito".
+- Está muy dormido, no se despierta para comer, o "flojito".
 - Respira rápido, se le hunden las costillas, quejido o pausas
   largas sin respirar.
 - Tiene los labios o la piel morados o muy pálidos.
@@ -311,8 +315,16 @@ Signos de alarma del bebé (consultar de inmediato a urgencias):
 - Tiene deposiciones blancas, grises o color masilla, u orina muy
   oscura.
 - El ombligo está rojo alrededor, sale pus o huele mal.
-- Moja menos de lo esperado los pañales o no hace deposición.
 - Llanto inconsolable o muy débil.
+Consultar ese mismo día (sin esperar al control) si el bebé:
+- Moja menos pañales de lo esperado para su edad (día 1: 1;
+  día 2: 2; día 3: 3; día 4: 4; día 5: 5; desde el día 6: 6 o
+  más), pero está despierto y come.
+- Sigue con manchas rojizas en el pañal después del tercer día,
+  o sigue con deposiciones negras y pegajosas (meconio) al
+  quinto día.
+Si además está muy dormido, no se despierta para comer o casi
+no se mueve, es urgencia: vaya ya.
 
 [01:27] BLOQUE 7: SIGNOS DE ALARMA DE LA MADRE EN EL POSPARTO
 Consultar de inmediato si tiene:
@@ -460,6 +472,37 @@ a quienes aceptaron recibir mensajes).
 ------------------------------------------------------------
 6. NOTAS PARA EL FACILITADOR
 ------------------------------------------------------------
+Contraindicaciones de la lactancia (para responder preguntas;
+no leer en voz alta):
+- No amamantar ni dar leche extraída: bebé con galactosemia
+  clásica; madre con VIH (en Colombia, fórmula desde el
+  nacimiento hasta los 12 meses, sin alimentación mixta, según
+  la guía nacional de VIH en menores de 13 años); HTLV-1 o
+  HTLV-2; consumo de drogas ilícitas (opioides, cocaína, PCP);
+  ébola sospechado o confirmado; brucelosis sin tratar.
+  (Los CDC, desde 2025, ya no contraindican la lactancia en toda
+  madre con VIH si mantiene la carga viral suprimida; en Colombia
+  rige la norma nacional.)
+- Suspender el pecho por un tiempo, pero dar leche extraída:
+  tuberculosis activa sin tratar (hasta que el tratamiento la
+  deje sin riesgo de contagio); varicela que empezó entre 5 días
+  antes y 2 días después del parto.
+- Sífilis: no se han documentado contagios por la leche; el
+  riesgo está en el contacto con lesiones activas. Se sigue
+  amamantando. Si hay lesiones en el pecho o el pezón, no se da
+  ese pecho hasta que sanen: se extrae la leche y solo se bota si
+  el extractor o la mano tocaron la lesión. La penicilina es
+  compatible con la lactancia. Tratar también a la pareja y
+  evaluar al recién nacido.
+- No contraindican: hepatitis B (el bebé recibe su vacuna) o C;
+  citomegalovirus; COVID-19; mastitis; fiebre (salvo que la cause
+  una de las anteriores); fumar (animar a dejarlo); alcohol
+  ocasional (esperar 2 horas por trago antes de amamantar);
+  ictericia del bebé en la gran mayoría de los casos; la mayoría
+  de los medicamentos (revisar cada uno en LactMed o
+  e-lactancia).
+- Cualquier diagnóstico se habla en privado, nunca en el grupo.
+
 - Por qué esta sesión: la GPC 2013 pide que la información sobre
   preparación para el parto, signos de inicio del trabajo de
   parto, cuidados del recién nacido, autocuidado posnatal y
@@ -637,6 +680,20 @@ el pre y el post de las preguntas abiertas."
 - American Academy of Pediatrics. Safe Sleep recommendations, 2022.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026.
   Complementario (a través de las sesiones de origen).
+- Pañales por día: HSE (Irlanda). Is your baby getting enough
+  breast milk, revisado 2025; tabla de pañales adaptada de UNICEF
+  Baby Friendly (2025). OMS. Recommendations on postnatal care of
+  the mother and newborn, 2013 (signos de peligro del recién
+  nacido). MinSalud. GPC del recién nacido sano, 2013 (control a
+  las 72 horas; "mínimo 4 micciones al día" como señal de buena
+  alimentación, que coincide con la tabla hacia el día 4).
+- Contraindicaciones de la lactancia: CDC. Contraindications to
+  breastfeeding or feeding expressed breast milk to infants,
+  actualizado dic. 2025. AAP. Contraindications to
+  breastfeeding, 2026. MinSalud/IETS. Guía de práctica clínica
+  para la atención de la infección por VIH en menores de 13 años
+  (prevención de la transmisión materno infantil). e-lactancia.
+  Sífilis materna, 2023. MotherToBaby. Syphilis, 2026.
 Método de enseñanza (la evidencia de estos métodos viene sobre
 todo de estudiantes, no de educación a gestantes):
 - Método de enseñanza: Yang C, et al. Psychol Bull.

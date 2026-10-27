@@ -155,7 +155,12 @@ están bien?"
 - Deposiciones: primero meconio (negro-verdoso, pegajoso), luego
   de transición (verdosas) y hacia el día 4-5 amarillas y grumosas
   si toma leche materna.
-- Orina: a partir del día 5, al menos 6 pañales mojados al día.
+- Orina (pañales mojados al día): día 1, al menos 1; día 2, al
+  menos 2; día 3, al menos 3; día 4, al menos 4; día 5, al menos
+  5; desde el día 6, 6 o más, pesados y con orina clara. En los
+  primeros 2 o 3 días pueden verse manchas rosadas o rojizas en
+  el pañal (uratos): es normal. Si siguen después del tercer
+  día, puede estar tomando poca leche: consulte ese mismo día.
 - Sueño: duerme 16-18 horas al día en periodos cortos. Sus
   ciclos de sueño duran unos 45 a 60 minutos (los del adulto,
   unos 90) y se despierta para comer cada 2 a 3 horas: es
@@ -324,7 +329,7 @@ Consultar de inmediato a urgencias si el bebé:
   temperatura baja (menos de 36,5 °C).
 - No quiere comer, succiona débil o vomita todo.
 - Vomita verde o con sangre.
-- Está muy dormido, difícil de despertar, o "flojito".
+- Está muy dormido, no se despierta para comer, o "flojito".
 - Respira rápido, se le hunden las costillas, quejido o pausas
   largas sin respirar.
 - Tiene los labios o la piel morados o muy pálidos.
@@ -334,8 +339,16 @@ Consultar de inmediato a urgencias si el bebé:
 - Tiene deposiciones blancas, grises o color masilla (comparar con
   la tarjeta colorimétrica), u orina muy oscura.
 - El ombligo está rojo alrededor, sale pus o huele mal.
-- Moja menos de lo esperado los pañales o no hace deposición.
 - Llanto inconsolable o muy débil.
+Consultar ese mismo día (sin esperar al control) si el bebé:
+- Moja menos pañales de lo esperado para su edad (día 1: 1;
+  día 2: 2; día 3: 3; día 4: 4; día 5: 5; desde el día 6: 6 o
+  más), pero está despierto y come.
+- Sigue con manchas rojizas en el pañal después del tercer día,
+  o sigue con deposiciones negras y pegajosas (meconio) al
+  quinto día.
+Si además está muy dormido, no se despierta para comer o casi
+no se mueve, es urgencia: vaya ya.
 
 [01:37] BARAJA DE CASOS: ¿NORMAL, CONSULTA PRONTO O URGENCIAS?
 Tres tarjetas grandes en el piso o la pared: NORMAL (verde),
@@ -509,8 +522,9 @@ B. Diga 4 señales del bebé por las que iría a urgencias.
    las costillas o se queja; labios morados o muy pálido;
    convulsiones; amarillo en las primeras 24 horas o hasta
    piernas, palmas y plantas; deposiciones blancas, grises o
-   color masilla; ombligo rojo, con pus o mal olor; moja pocos
-   pañales; llanto inconsolable o muy débil.
+   color masilla; ombligo rojo, con pus o mal olor; llanto
+   inconsolable o muy débil. (Mojar pocos pañales con el bebé
+   despierto y comiendo es consulta ese mismo día, no urgencia.)
 C. ¿Qué haría si a las 33 semanas siente contracciones regulares o
    le sale líquido por la vagina?
    Respuesta esperada: ir a urgencias de inmediato. Antes de la
@@ -551,6 +565,13 @@ el pre y el post de las preguntas abiertas."
   recién nacido, 2022.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 91, 102-103 y 105-118). Complementario.
+- Pañales por día: HSE (Irlanda). Is your baby getting enough
+  breast milk, revisado 2025; tabla de pañales adaptada de UNICEF
+  Baby Friendly (2025). OMS. Recommendations on postnatal care of
+  the mother and newborn, 2013 (signos de peligro del recién
+  nacido). MinSalud. GPC del recién nacido sano, 2013 (control a
+  las 72 horas; "mínimo 4 micciones al día" como señal de buena
+  alimentación, que coincide con la tabla hacia el día 4).
 - Método de enseñanza: Yang C, et al. Psychol Bull.
   2021;147(4):399-435 (práctica de recuperación en aula).
 - Método de enseñanza: Latimier A, et al. Educ Psychol Rev.

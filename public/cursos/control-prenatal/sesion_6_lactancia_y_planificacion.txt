@@ -97,16 +97,18 @@ Del recién nacido (sesión 5):
   36,5 °C).
 - No quiere comer, succiona débil o vomita todo; vomita verde o
   con sangre.
-- Muy dormido, difícil de despertar o "flojito".
+- Muy dormido, no se despierta para comer o "flojito".
 - Respira rápido, se le hunden las costillas, quejido o pausas
   largas sin respirar; labios o piel morados o muy pálidos.
 - Convulsiones o movimientos anormales.
 - Amarillo en las primeras 24 horas, o el amarillo llega a las
   piernas o a las palmas y plantas.
 - Deposiciones blancas, grises o color masilla, u orina muy
-  oscura; moja menos pañales de lo esperado.
+  oscura.
 - Ombligo rojo alrededor, con pus o mal olor.
 - Llanto inconsolable o muy débil.
+Consulta ese mismo día (no urgencia): moja menos pañales de lo
+esperado para su edad, pero está despierto y come.
 (Nota para el facilitador: los signos de alarma de la madre
 después del parto se enseñan en la sesión 7. Si alguien los
 menciona, valorarlo y decir que allí se verán completos.)
@@ -118,6 +120,10 @@ Recomendación (OMS / MinSalud):
   médica).
 - Desde los 6 meses, alimentación complementaria, continuando la
   lactancia hasta los 2 años o más.
+- Casi nunca hay que dejar de lactar: con fiebre, mastitis,
+  hepatitis B o C, sífilis en tratamiento o la mayoría de los
+  medicamentos se sigue amamantando. Antes de suspender,
+  pregunte al equipo de salud.
 - En pocos casos no se recomienda amamantar, por ejemplo si la
   madre tiene VIH. El equipo se lo dirá y le enseñará a alimentar
   al bebé de forma segura.
@@ -234,8 +240,13 @@ Dejar que termine un pecho antes de ofrecer el otro (la leche del
 final tiene más grasa).
 
 Señales de que está comiendo bien:
-- Desde el día 5: al menos 6 pañales mojados y 3-4 deposiciones
-  amarillas al día.
+- Pañales mojados al día: día 1, al menos 1; día 2, al menos 2;
+  día 3, al menos 3; día 4, al menos 4; día 5, al menos 5; desde
+  el día 6, 6 o más, pesados y con orina clara. Desde el día 5,
+  3-4 deposiciones amarillas al día.
+- Manchas rosadas o rojizas en el pañal (uratos): normales en
+  los primeros 2 o 3 días; si siguen después, consultar ese
+  mismo día.
 - Recupera su peso de nacimiento hacia los 10-14 días.
 - Se ve satisfecho después de comer.
 
@@ -278,9 +289,13 @@ Problemas frecuentes:
 - No usar chupos ni biberones en las primeras semanas: pueden
   interferir con el agarre.
 
-Cuándo consultar: el bebé moja pocos pañales, está muy dormido,
-amarillo, no recupera peso; dolor que no mejora o fiebre en la
-madre.
+Cuándo consultar ese mismo día: el bebé moja menos pañales de lo
+esperado pero está despierto y come, siguen las manchas
+rojizas después del tercer día o no recupera peso; dolor que
+no mejora o fiebre en la madre.
+Urgencias: si además el bebé está muy dormido, no se despierta
+para comer o casi no se mueve, o si se pone amarillo en las
+primeras 24 horas o hasta las palmas y plantas.
 Pregunta al grupo: "¿Qué haría si al tercer día del parto tiene
 los pechos duros, calientes y dolorosos?"
 
@@ -388,9 +403,9 @@ Casos (mezclar, no en orden):
    necesitar antibiótico formulado.
 8. "Mi bebé tiene 7 días. Moja solo 2 pañales al día y está muy
    dormido; cuesta despertarlo para comer." → URGENCIAS.
-   Por qué: mojar menos pañales de lo esperado (desde el día 5, al
-   menos 6) y estar muy dormido o difícil de despertar son
-   signos de alarma del recién nacido (sesión 5).
+   Por qué: a los 7 días se esperan 6 o más pañales mojados, y
+   además está muy dormido y cuesta despertarlo: esa combinación
+   es urgencia (sesión 5). Compárelo con el caso 11.
 9. "Mi bebé tiene 3 semanas. Tiene escamas grasosas amarillas en
    el cuero cabelludo; la piel no está roja." → NORMAL.
    Por qué: es costra láctea; se quita sola (sesión 5).
@@ -398,6 +413,12 @@ Casos (mezclar, no en orden):
     moverse nada." → URGENCIAS.
     Por qué: si no lo siente moverse nada, no se cuenta: se va ya
     (sesión 3).
+11. "Mi bebé tiene 4 días. Hoy ha mojado 2 pañales, pero está
+    despierto y pide pecho cada 2 horas." → CONSULTA PRONTO (ese
+    mismo día).
+    Por qué: al día 4 se esperan al menos 4 pañales mojados. Como
+    está despierto y come, no es urgencia, pero hay que pesarlo y
+    revisar el agarre ese mismo día. Compárelo con el caso 8.
 Parejas para comparar: 1 y 7 (pecho duro y doloroso), 3 y 8
 (cómo saber si come bien).
 
@@ -530,6 +551,37 @@ educación de los hijos".
 ------------------------------------------------------------
 6. NOTAS PARA EL FACILITADOR (no leer en voz alta)
 ------------------------------------------------------------
+Contraindicaciones de la lactancia (para responder preguntas;
+no leer en voz alta):
+- No amamantar ni dar leche extraída: bebé con galactosemia
+  clásica; madre con VIH (en Colombia, fórmula desde el
+  nacimiento hasta los 12 meses, sin alimentación mixta, según
+  la guía nacional de VIH en menores de 13 años); HTLV-1 o
+  HTLV-2; consumo de drogas ilícitas (opioides, cocaína, PCP);
+  ébola sospechado o confirmado; brucelosis sin tratar.
+  (Los CDC, desde 2025, ya no contraindican la lactancia en toda
+  madre con VIH si mantiene la carga viral suprimida; en Colombia
+  rige la norma nacional.)
+- Suspender el pecho por un tiempo, pero dar leche extraída:
+  tuberculosis activa sin tratar (hasta que el tratamiento la
+  deje sin riesgo de contagio); varicela que empezó entre 5 días
+  antes y 2 días después del parto.
+- Sífilis: no se han documentado contagios por la leche; el
+  riesgo está en el contacto con lesiones activas. Se sigue
+  amamantando. Si hay lesiones en el pecho o el pezón, no se da
+  ese pecho hasta que sanen: se extrae la leche y solo se bota si
+  el extractor o la mano tocaron la lesión. La penicilina es
+  compatible con la lactancia. Tratar también a la pareja y
+  evaluar al recién nacido.
+- No contraindican: hepatitis B (el bebé recibe su vacuna) o C;
+  citomegalovirus; COVID-19; mastitis; fiebre (salvo que la cause
+  una de las anteriores); fumar (animar a dejarlo); alcohol
+  ocasional (esperar 2 horas por trago antes de amamantar);
+  ictericia del bebé en la gran mayoría de los casos; la mayoría
+  de los medicamentos (revisar cada uno en LactMed o
+  e-lactancia).
+- Cualquier diagnóstico se habla en privado, nunca en el grupo.
+
 Cómo enseñar en esta sesión:
 - No hablar más de 10 a 15 minutos seguidos: después de cada tema,
   hacer una pregunta al grupo ("¿Qué haría usted si...?") o una
@@ -590,7 +642,8 @@ C. Diga 3 señales del bebé recién nacido y 2 suyas durante el
    temperatura baja, no quiere comer, muy dormido, respira con
    dificultad, labios morados, amarillo en las primeras 24 horas,
    deposiciones blancas o color masilla, ombligo rojo o con mal
-   olor, moja pocos pañales. De la madre (2 de estas): sangrado,
+   olor, moja pocos pañales y está muy dormido. De la madre (2 de
+   estas): sangrado,
    salida de líquido, dolor de cabeza fuerte o visión borrosa,
    hinchazón súbita, fiebre, el bebé se mueve menos,
    contracciones antes de la semana 37.
@@ -638,6 +691,20 @@ el pre y el post de las preguntas abiertas."
   artículo sobre fórmula (pp. 79-82) ni la publicidad de la
   revista (Código Internacional de Comercialización de
   Sucedáneos de la Leche Materna; Decreto 1397 de 1992).
+- Pañales por día: HSE (Irlanda). Is your baby getting enough
+  breast milk, revisado 2025; tabla de pañales adaptada de UNICEF
+  Baby Friendly (2025). OMS. Recommendations on postnatal care of
+  the mother and newborn, 2013 (signos de peligro del recién
+  nacido). MinSalud. GPC del recién nacido sano, 2013 (control a
+  las 72 horas; "mínimo 4 micciones al día" como señal de buena
+  alimentación, que coincide con la tabla hacia el día 4).
+- Contraindicaciones de la lactancia: CDC. Contraindications to
+  breastfeeding or feeding expressed breast milk to infants,
+  actualizado dic. 2025. AAP. Contraindications to
+  breastfeeding, 2026. MinSalud/IETS. Guía de práctica clínica
+  para la atención de la infección por VIH en menores de 13 años
+  (prevención de la transmisión materno infantil). e-lactancia.
+  Sífilis materna, 2023. MotherToBaby. Syphilis, 2026.
 - Método de enseñanza: Yang C, et al. Psychol Bull.
   2021;147(4):399-435 (práctica de recuperación en aula).
 - Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
