@@ -54,6 +54,9 @@ FACILITADOR(A):
 para que, cuando llegue el bebé, ya sepan qué hacer y dónde pedir
 ayuda."
 Ronda: nombre, semanas, si ya han amamantado antes y cómo les fue.
+Pregunta de apertura al grupo: "¿Qué saben de la lactancia
+materna?" (anotar las ideas y los mitos para retomarlos durante la
+sesión).
 
 [00:10] BLOQUE 1: ¿POR QUÉ LACTANCIA MATERNA?
 Recomendación (OMS / MinSalud):
@@ -62,6 +65,12 @@ Recomendación (OMS / MinSalud):
   médica).
 - Desde los 6 meses, alimentación complementaria, continuando la
   lactancia hasta los 2 años o más.
+- En pocos casos no se recomienda amamantar, por ejemplo si la
+  madre tiene VIH. El equipo se lo dirá y le enseñará a alimentar
+  al bebé de forma segura.
+- Pregunte si su clínica es IAMI (Institución Amiga de la Mujer y
+  la Infancia): son instituciones que apoyan la lactancia desde el
+  nacimiento.
 
 Beneficios para el bebé:
 - Menos diarreas, infecciones respiratorias y otitis.
@@ -88,8 +97,10 @@ Cómo funciona:
 - No hay que "preparar" los pechos ni los pezones en el
   embarazo: no se necesitan masajes, sacarse leche, cremas,
   bebidas ni ejercicios para formar el pezón. Los pechos se
-  preparan solos. Lo que sí ayuda es informarse, iniciar la
-  lactancia pronto después del parto y pedir ayuda a tiempo.
+  preparan solos. Lo que sí ayuda es informarse y pedir ayuda a
+  tiempo.
+- Apenas nazca, su bebé debe ir piel a piel sobre usted y tomar el
+  pecho en la primera hora. Pida que no los separen.
   (Creciendo Juntos, 2026, pp. 70 y 83)
 
 [00:25] BLOQUE 2: TALLER PRÁCTICO - AGARRE Y POSICIONES (30 min)
@@ -170,14 +181,16 @@ Problemas frecuentes:
   amamantar con más frecuencia, masaje suave, extraer un poco de
   leche antes para ablandar la areola, compresas frías entre
   tomas.
-- Mastitis (una zona del pecho roja, caliente y dolorosa, con
-  fiebre alta, escalofríos o dolor en el cuerpo): consultar el
-  mismo día. Por lo general necesita antibiótico formulado por el
-  médico. NO suspender la lactancia: vaciar bien ese pecho ayuda a
-  sanar. Si en 2 días no mejora o aparece una bola dolorosa, volver
-  a consultar.
+- Mastitis (una zona del pecho roja, caliente y dolorosa, a veces
+  con fiebre, escalofríos o dolor en el cuerpo): NO suspender la
+  lactancia. Siga amamantando como siempre, también de ese pecho,
+  sin sacarse leche de más. Si en 24 horas no mejora o tiene fiebre
+  alta, consulte: puede necesitar antibiótico formulado por el
+  médico. Si aparece una bola dolorosa, volver a consultar.
 - No se necesitan cremas para los pezones de forma rutinaria. La
-  mamá puede comer de todo: no hay alimentos prohibidos.
+  mamá puede comer de todo: no hay alimentos prohibidos. Sí debe
+  evitar el alcohol y el cigarrillo, y no automedicarse: antes de
+  tomar cualquier medicamento, pregunte al equipo de salud.
 - No usar chupos ni biberones en las primeras semanas: pueden
   interferir con el agarre.
 
@@ -265,8 +278,8 @@ Métodos compatibles con la lactancia:
   la salida de la placenta y antes de coser el periné, o dentro de
   las primeras 48 horas. También puede colocarse durante la
   cesárea. Si no se pone en ese tiempo, hay que esperar hasta las
-  4 semanas. El de cobre dura hasta 10 años y el hormonal unos 5
-  años. Muy efectivo.
+  4 semanas. El de cobre dura hasta 10 años y el hormonal de 5 a 8
+  años, según el tipo. Muy efectivo.
   (Nota para el facilitador: momentos según Res. 3280, num. 4.7 y
   4.8. La ventana de "10 minutos", la inserción en cesárea y la
   espera de 4 semanas vienen de la OMS y de Carvajal; la norma
@@ -284,7 +297,8 @@ Métodos compatibles con la lactancia:
   hora, sin pausas. Si se retrasa más de 3 horas, usar condón los 2
   días siguientes (el desogestrel tiene un margen de 12 horas).
 - Condón: protege además contra infecciones de transmisión sexual.
-  Efectividad: 98 % con uso perfecto y 82 % con el uso habitual.
+  Con el uso de todos los días, protege del embarazo a cerca de 87
+  de cada 100 parejas (98 de cada 100 si se usa siempre y bien).
   Se recomienda la doble protección: condón + otro método.
 - Anticoncepción de emergencia: recordar que existe si hubo una
   relación sin protección, se rompió el condón, olvidó dosis o
@@ -323,7 +337,7 @@ C-055 de 2022). Si tiene dudas, puede preguntar en privado al
 equipo de salud.
 
 [01:52] POST-TEST Y CIERRE
-Próxima sesión: Sesión 7, semana 32, "Prácticas de crianza en la
+Próxima sesión: Sesión 7, semanas 32 a 34, "Prácticas de crianza en la
 educación de los hijos".
 
 ------------------------------------------------------------
@@ -367,6 +381,13 @@ educación de los hijos".
   (anticoncepción posevento obstétrico antes del alta, intervalo
   de 18 meses) y 4.10 (lactancia en el piel a piel); Ruta de
   Promoción y Mantenimiento (lactancia; condón). Criterio principal.
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento de las
+  complicaciones del embarazo, parto o puerperio (GPC 2013).
+  Complementaria (lactancia en la primera hora, mastitis,
+  contraindicaciones de la lactancia).
+- UNICEF y MinSalud. Iniciativa Instituciones Amigas de la Mujer y
+  la Infancia (IAMI).
 - OMS. Criterios médicos de elegibilidad para el uso de
   anticonceptivos, 5.ª ed., 2015 (y actualizaciones), a los que
   remite la Res. 3280.

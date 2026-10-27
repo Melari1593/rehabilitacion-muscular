@@ -64,12 +64,13 @@ preparar el cuerpo para el parto y la lactancia.
 - El útero pasa de pesar unos 70 g a cerca de 1 kg al final del
   embarazo. Hacia la semana 12 sale de la pelvis; hacia la semana
   20 llega más o menos al ombligo.
-- Desde la semana 20, en cada control se mide la altura del útero
-  para vigilar que el bebé esté creciendo bien.
+- En cada control se mide la altura del útero para vigilar que el
+  bebé esté creciendo bien.
 - Es normal sentir de vez en cuando que el abdomen se pone duro sin
   dolor fuerte: son contracciones de práctica, irregulares (más o
-  menos una por hora) y más frecuentes al final. Si se vuelven
-  regulares o dolorosas antes de la semana 37, es signo de alarma.
+  menos una por hora) y más frecuentes al final. Si antes de la
+  semana 37 se vuelven regulares o dolorosas, o aumentan frente a
+  lo que venía sintiendo, es signo de alarma (ver Bloque 5).
   Ejercicio rápido (1 min, sale del tiempo de este mismo bloque):
   toquen la punta de la nariz; así de firme se siente el abdomen
   en una contracción de práctica. Ahora toquen la rodilla: así de
@@ -90,15 +91,19 @@ Corazón y sangre
   así, se vigila con exámenes porque la anemia real es frecuente:
   la hemoglobina debe mantenerse en 11 g/dL o más, y se revisa en
   el primer control y hacia la semana 28.
+  (Nota para el facilitador: 11 g/dL es el punto de corte de la
+  OMS a nivel del mar; debe ajustarse según la altitud de la
+  ciudad donde vive la gestante.)
 - Puede haber mareo al levantarse rápido o al estar mucho tiempo
-  de pie.
+  de pie. Si el mareo es frecuente, o si se siente muy débil o se
+  cansa con facilidad, puede ser anemia: consulte.
 
 Respiración
 - Sensación de falta de aire leve por acción de la progesterona y,
   más adelante, por el útero que empuja el diafragma.
 
 Digestión
-- Náuseas (suelen mejorar entre las semanas 12 y 16).
+- Náuseas (suelen mejorar antes de las semanas 16 a 20).
 - Acidez o agrieras: la progesterona relaja la válvula del
   estómago.
 - Estreñimiento: el intestino se mueve más lento.
@@ -140,12 +145,17 @@ complementa.
 - Estreñimiento: agua (unos 8 vasos al día), frutas, verduras,
   granos enteros, caminar. No usar laxantes sin fórmula.
 - Hemorroides: evitar pujar, baños de asiento con agua tibia,
-  manejar el estreñimiento.
+  manejar el estreñimiento y comer alimentos con fibra. Si siguen,
+  el médico puede indicarle una crema.
+- Várices: medias de compresión.
 - Dolor lumbar: buena postura, zapato bajo y cómodo, doblar las
   rodillas para levantar objetos, ejercicios de estiramiento,
-  calor local suave. Si necesita un analgésico, el que se usa en el
-  embarazo es el acetaminofén, siempre formulado; evitar ibuprofeno,
-  naproxeno y otros antiinflamatorios.
+  calor local suave. También ayudan el ejercicio en el agua, la
+  fisioterapia o las clases de cuidado de la espalda. Si necesita
+  un analgésico, el que se usa en el embarazo es el acetaminofén,
+  siempre formulado; evitar ibuprofeno, naproxeno y otros
+  antiinflamatorios.
+- Dolor en el pubis (pubalgia): fisioterapia.
 - Hinchazón de pies: elevar las piernas, no estar mucho tiempo de
   pie o sentada, medias de compresión si se las indican.
   (Si la hinchazón ya está presente al levantarse en la mañana,
@@ -197,6 +207,15 @@ Alimentación
 - Evitar: carnes, huevos o pescados crudos o poco cocidos, quesos
   y leche sin pasteurizar, embutidos sin calentar (riesgo de
   toxoplasmosis y listeria); lavar bien frutas y verduras.
+- Tomar agua potable o hervida.
+- Usar guantes para trabajar con tierra o en el jardín, y lavarse
+  las manos después de hacerlo y de tocar gatos. No limpiar la
+  arena del gato.
+- Citomegalovirus: si cuida niños menores de 3 años, lávese las
+  manos con agua y jabón después de cambiar pañales, limpiarles
+  la nariz o la saliva, o tocar sus juguetes y chupos. No comparta
+  con ellos vasos, cubiertos, cepillos, comida ni toallas, y no
+  los bese en la boca.
 - Café: máximo 1-2 tazas al día. Cero alcohol y cero cigarrillo.
 
 Ganancia de peso recomendada en todo el embarazo (según el índice
@@ -216,18 +235,22 @@ sobrepeso 7-11,5; obesidad 5-9 kg). No mezclar las dos tablas.)
 
 Suplementos (los formula el profesional; tomar como se indica):
 - Ácido fólico: 0,4 mg al día hasta la semana 12 (4 mg si hay alto
-  riesgo de defectos de la columna del bebé). A estas semanas la
-  mayoría ya lo terminó, salvo que se lo hayan indicado más tiempo.
+  riesgo de defectos de la columna del bebé). El ácido fólico solo
+  (400 µg) se toma hasta la semana 12; a estas semanas la mayoría
+  ya lo terminó, salvo que se lo hayan indicado más tiempo. El
+  hierro con ácido fólico, en cambio, se sigue tomando durante
+  todo el embarazo: no lo suspenda.
 - Calcio: 1.200 mg al día desde la semana 14. Ayuda a prevenir la
   preeclampsia (presión alta del embarazo).
 - Hierro: se formula de rutina a todas las gestantes, salvo que la
   hemoglobina esté por encima de 14 g/dL.
 - Si le formularon aspirina en dosis baja para prevenir la
   preeclampsia, tómela todos los días como se la indicaron.
-- Hierro y calcio no se toman juntos: separar por al menos 2
-  horas, porque el calcio dificulta la absorción del hierro.
-- El hierro se absorbe mejor entre comidas o al acostarse, con agua;
-  no tomarlo con leche, café ni té.
+- Hierro y calcio: tomarlos en horas distintas, con al menos 1 hora
+  entre uno y otro; cada uno 2 horas antes o 2 horas después de las
+  comidas principales; nunca con leche.
+- Las multivitaminas no reemplazan el hierro con ácido fólico. No
+  tome vitamina A ni vitamina D por su cuenta.
 
 Vacunas durante el embarazo (verificar esquema PAI vigente):
 - Influenza: desde la semana 14 (una dosis al año).
@@ -235,7 +258,11 @@ Vacunas durante el embarazo (verificar esquema PAI vigente):
   cada embarazo, desde la semana 20. Protege al bebé contra la
   tos ferina en sus primeros meses.
 - Td (tétanos y difteria): según las dosis que ya tenga; lleve
-  su carné de vacunación al control.
+  su carné de vacunación al control. Si nunca se ha vacunado
+  contra el tétanos o no sabe qué dosis tiene, recibirá 3 dosis
+  de Td (la primera, otra a las 4 semanas y otra 6 a 12 meses
+  después); una de ellas se reemplaza por la Tdap después de la
+  semana 20.
 - Virus sincitial respiratorio (VSR): una dosis entre las semanas
   28 y 36. Protege al bebé de la bronquiolitis en sus primeros
   6 meses.
@@ -243,7 +270,11 @@ Vacunas durante el embarazo (verificar esquema PAI vigente):
 - En el embarazo no se aplican vacunas de virus vivos, como la
   triple viral (sarampión, rubéola y paperas) o la de varicela.
   Si le falta alguna, se completa después del parto; la lactancia
-  no impide vacunarse.
+  no impide vacunarse. La excepción es la fiebre amarilla: solo
+  se considera si va a viajar a una zona donde hay la enfermedad,
+  y debe consultarlo antes de viajar.
+- La vacuna contra la hepatitis B no se aplica de rutina en el
+  embarazo.
 - La pareja y quienes viven con usted también deben tener sus
   vacunas al día, en especial contra la tos ferina (pregunten en
   el vacunatorio cuáles les corresponden): así protegen al bebé
@@ -280,12 +311,15 @@ Sexualidad
   parto prematuro anterior, según indicación médica.
 
 Trabajo, viajes y otros
+- Seguir trabajando no está contraindicado. Cuente en el control a
+  qué se dedica.
 - Evitar exposición a químicos, plaguicidas, radiación y cargar
   peso excesivo.
+- El mejor momento para viajar es entre las semanas 14 y 28.
 - Viajes largos: levantarse a caminar al menos cada hora, tomar agua
   y mover pies y pantorrillas (hay más riesgo de trombosis); cinturón
-  de seguridad por debajo del abdomen y la banda superior entre
-  los senos.
+  de seguridad bien puesto: por debajo del abdomen y la banda
+  superior entre los senos.
 - No automedicarse (incluye plantas medicinales sin consultar).
 - Controles prenatales: asistir a todos y llevar el carné. El
   urocultivo se toma en el primer control aunque no tenga
@@ -295,6 +329,9 @@ Trabajo, viajes y otros
 - Las pruebas de VIH y de sífilis se repiten en cada trimestre y
   en el parto; el hemograma, hacia la semana 28, y el cultivo de
   estreptococo del grupo B, entre las semanas 35 y 37.
+  (Nota para el facilitador: la prueba de VIH en cada trimestre
+  sigue la Res. 3280; la GPC de 2013 la indica en la inscripción
+  y en el tercer trimestre.)
 - Los controles de las semanas 36, 38 y 40 los hace el médico.
 
 [01:30] BLOQUE 4: ASÍ CRECE MI BEBÉ
@@ -348,13 +385,19 @@ semanas; se sigue la ventana de la Res. 3280 (num. 4.3.6).
   en los oídos
 - Hinchazón de cara, manos o pies que aparece de repente o que ya
   está desde que se levanta
-- Dolor fuerte en la boca del estómago o debajo de las costillas
+- Dolor en la boca del estómago o debajo de las costillas
   derechas
 - Fiebre
 - Ardor al orinar u orinar muy seguido con molestia; dolor en la
   espalda baja con fiebre
-- Contracciones o dolor tipo cólico regular antes de la semana 37
-- Vómito persistente que no permite comer ni beber
+- Antes de la semana 37, aunque no sean regulares: contracciones
+  que aumentan frente a lo que venía sintiendo, cólico que se
+  corre hacia la espalda o los muslos, cambio en el color del
+  moco vaginal o moco con sangre, salida de líquido, o sensación
+  de que el bebé bajó
+- Vómito: en la primera mitad del embarazo, el que no deja comer
+  ni beber; en la segunda mitad, cualquier vómito, sobre todo si
+  viene con dolor de cabeza o dolor en la boca del estómago
 - Convulsiones o pérdida del conocimiento
 - Dificultad para respirar estando en reposo, o acompañada de
   fiebre, pitos en el pecho o el corazón muy acelerado
@@ -363,7 +406,12 @@ semanas; se sigue la ventana de la Res. 3280 (num. 4.3.6).
 - Caída, golpe en el abdomen o accidente de tránsito, aunque se
   sienta bien (Creciendo Juntos, 2026, pp. 15 y 31)
 - Cuando ya se sienten: disminución o ausencia de movimientos
-  del bebé
+  del bebé. Si después de la semana 28 siente que su bebé se
+  mueve menos, acuéstese de lado de inmediato y cuente sus
+  movimientos durante 2 horas. Si son menos de 10, vaya a
+  urgencias enseguida. Si no lo siente moverse nada, no cuente:
+  vaya ya. Si el bebé se mueve como siempre, no hace falta
+  contarle los movimientos todos los días.
 Consultar pronto (sin esperar al próximo control) si hay:
 - Flujo vaginal con mal olor, color verde-amarillo o picazón
 - Tos que no mejora
@@ -415,6 +463,11 @@ Próxima sesión: Sesión 3, semanas 20-24, "Estimulación intrauterina".
   no modifica el num. 4.3).
 - MinSalud. Esquema nacional de vacunación 2026 y Lineamiento
   técnico de la vacuna materna contra el VSR (noviembre de 2025).
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento del embarazo,
+  parto o puerperio. Guías n.º 11-15, abril de 2013 (molestias
+  frecuentes, suplementos, prevención de infecciones, vacunación,
+  trabajo y viajes, signos de alarma y movimientos fetales).
 - Institute of Medicine. Weight Gain During Pregnancy, 2009.
 - Programa Ampliado de Inmunizaciones (PAI) Colombia, esquema vigente.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026

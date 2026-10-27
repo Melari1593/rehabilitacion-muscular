@@ -65,8 +65,10 @@ Explicar cada intervención y su propósito:
   de latir, en bebés que nacen bien): le aporta reservas de hierro.
 - Lactancia en la primera hora, iniciada durante el piel a piel.
 - Estreptococo del grupo B: si el cultivo del control prenatal
-  (semanas 35 a 37) salió positivo, recibirá antibiótico durante el
-  parto para proteger al bebé. Avíselo al llegar a la clínica y,
+  (semanas 35 a 37) salió positivo, o si se lo encontraron en el
+  examen de orina del tercer trimestre, recibirá antibiótico
+  durante el parto para proteger al bebé. Avíselo al llegar a la
+  clínica y,
   en los primeros días, esté atenta a fiebre, decaimiento o
   dificultad para respirar del bebé.
 - Vitamina K: una inyección en el muslo (1 mg; 0,5 mg si pesa
@@ -261,6 +263,10 @@ Consultar de inmediato a urgencias si el bebé:
 - Salida: el bebé sano sale desde las 24 horas de vida (48 horas
   si nació por cesárea o tiene algún riesgo), con sus vacunas,
   tamizajes tomados o programados y el certificado de nacido vivo.
+- Si les dan salida antes de 48 horas, deben revisarlos a usted y
+  al bebé entre las 24 y las 48 horas después del parto; pregunten
+  quién los revisará. Si salen después de las 48 horas, el control
+  es entre el día 3 y el 5.
 - Control del recién nacido con pediatra (o médico entrenado)
   dentro de los 5 días siguientes a la salida, idealmente entre
   el día 3 y el 5. Es una consulta aparte de la de la madre (que
@@ -322,6 +328,11 @@ en el grupo.
   pinzamiento, vitamina K, profilaxis, vacunas, tamizajes, egreso)
   y 4.12 (seguimiento del recién nacido); Ruta de Promoción y
   Mantenimiento, primera infancia. Criterio principal.
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento de las
+  complicaciones del embarazo, parto o puerperio (GPC 2013).
+  Complementaria (estreptococo B, control posparto tras alta
+  temprana).
 - Congreso de Colombia. Ley 1980 de 2019 (tamizaje neonatal).
 - MinSalud. Resolución 207 de 2024 y Resolución 117 de 2026
   (lineamientos del Programa de Tamizaje Neonatal).

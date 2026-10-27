@@ -238,7 +238,8 @@ Si responde "sí" a alguna, le preguntarán si siente que necesita
 ayuda. Si nota estos síntomas antes del control, no espere:
 cuénteselo al médico o a la enfermera.
 También le preguntarán si en el último año o durante el embarazo
-ha sufrido maltrato o violencia. Si la respuesta es "sí", el
+ha sufrido maltrato o violencia, y si alguna vez ha sido forzada
+a tener relaciones sexuales. Si la respuesta es "sí", el
 equipo de salud la orienta y activa la ruta de atención.
 
 Violencia durante el embarazo:
@@ -266,6 +267,11 @@ Recomendaciones de autocuidado:
   en dulces puede aliviarlas, y anotar qué comidas u olores las
   desencadenan ayuda a evitarlos. Si el vómito no la deja comer
   o está perdiendo peso, consulte. (Creciendo Juntos, 2026, p. 14)
+  Si las náuseas no mejoran con estas medidas, el médico puede
+  formularle medicamentos seguros en el embarazo (jengibre,
+  antihistamínicos y vitamina B6, a criterio médico). En la
+  mayoría de las mujeres se resuelven antes de las semanas 16 a
+  20 y no afectan al bebé.
 - Tomar el ácido fólico como fue formulado (de rutina, 0,4 mg al
   día hasta la semana 12; la dosis es mayor si hay alto riesgo,
   por ejemplo un bebé anterior con defecto de la columna): protege
@@ -284,6 +290,15 @@ Recomendaciones de autocuidado:
 - No suspender medicamentos psiquiátricos por cuenta propia: si
   ya toma alguno, consultar al médico para valorar riesgos y
   beneficios según su caso y sus semanas de embarazo.
+
++-----------------------------------------------------------+
+| SIGNOS DE ALARMA AL INICIO DEL EMBARAZO: IR A URGENCIAS   |
+| - Sangrado por la vagina                                  |
+| - Salida de líquido por la vagina                         |
+| - Fiebre                                                  |
+| - Dolor fuerte en el abdomen                              |
+| - Vómito que no la deja comer ni beber                    |
++-----------------------------------------------------------+
 
 [01:50] PREGUNTAS, POST-TEST Y CIERRE
 - Resolver preguntas abiertas.
@@ -359,6 +374,11 @@ Recomendaciones de autocuidado:
 - MinSalud. Resolución 276 de 2019, que modifica la Res. 3280
   (no cambia los numerales 4.3 ni 4.4 del lineamiento materno
   perinatal).
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento del embarazo,
+  parto o puerperio. Guías n.º 11-15,
+  abril de 2013 (tamizaje de violencia, manejo de náuseas y
+  vómito, signos de alarma).
 - OMS. Recomendaciones sobre atención prenatal para una experiencia
   positiva del embarazo, 2016.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026

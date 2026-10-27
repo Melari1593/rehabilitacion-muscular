@@ -1,7 +1,7 @@
 CURSO MATERNO - GUION DE SESIÓN 7
 PRÁCTICAS DE CRIANZA EN LA EDUCACIÓN DE LOS HIJOS
 ============================================================
-Población: gestantes de 32 semanas y su acompañante
+Población: gestantes de 32 a 34 semanas y su acompañante
 Responsable: Psicología
 Duración: 2 horas (120 minutos)
 
@@ -114,7 +114,8 @@ Demostración: leer el libro de cartón señalando y nombrando las
 imágenes, con pausas para que el bebé "responda".
 
 Pantallas: la OMS recomienda que los menores de 2 años no tengan
-tiempo frente a pantallas (excepto videollamadas con familiares).
+tiempo frente a pantallas. La Academia Americana de Pediatría (AAP)
+hace una excepción con las videollamadas con la familia.
 El celular de los adultos también compite con la interacción: crear
 momentos sin pantalla.
 
@@ -147,7 +148,7 @@ Herramientas según la edad (adelantarse a lo que viene):
   sin rabia ni amenazas. (Creciendo Juntos, 2026, pp. 170-175)
 - Rutinas y consistencia: mismos límites entre los cuidadores.
 - Cuidar al adulto: si estoy desbordado, me alejo un momento con
-  el niño seguro, respiro y vuelvo.
+  el niño seguro, respiro y vuelvo. Nunca sacuda a un bebé.
 - Preparar la casa a medida que el bebé se mueve más: tapar
   enchufes, poner barreras en escaleras, guardar medicamentos,
   químicos y objetos pequeños fuera de su alcance, y nunca dejarlo
@@ -226,9 +227,10 @@ Depresión posparto:
   durante la lactancia. Si ya recibía tratamiento, no lo suspenda
   por su cuenta; hable con su médico. Consultar en el control
   posparto o antes.
-- En la institución y en el control posparto le harán preguntas
-  sobre su ánimo (tamizaje de depresión). Responda con sinceridad:
-  sirve para darle apoyo a tiempo.
+- En el control prenatal, en la institución y en el control
+  posparto le harán preguntas sobre su ánimo (tamizaje de
+  depresión). Responda con sinceridad: sirve para darle apoyo a
+  tiempo. Si se ha sentido triste o sin ganas, dígalo desde ahora.
 
 Urgente (consultar el mismo día o llamar a una línea de crisis):
 - Pensamientos de hacerse daño o de hacerle daño al bebé.
@@ -299,6 +301,20 @@ su propio control con pediatría en esos mismos días.
   último mes); si ambas son positivas, valoración por psicología
   y psiquiatría. EPDS (Edimburgo) mayor de 12: seguimiento por
   salud mental después del alta.
+- GPC 2013: las 2 preguntas de ánimo se hacen en el primer control
+  prenatal, en la semana 28 y en la consulta de puerperio. Si
+  responde "sí" a cualquiera de las dos, hacer una tercera: "¿Siente
+  que necesita ayuda?". Si hay alto riesgo de depresión posparto,
+  intervenir en el posparto inmediato, antes del alta.
+- GPC 2013, tamizaje de violencia: preguntar a toda gestante, en
+  privado y en un ambiente seguro:
+  1. En el último año, ¿fue golpeada, bofeteada, pateada o
+     lastimada físicamente de otra manera?
+  2. Desde que está embarazada, ¿ha sido golpeada, bofeteada,
+     pateada o lastimada físicamente de alguna manera?
+  3. En el último año, ¿fue forzada a tener relaciones sexuales?
+  Si alguna es positiva, se reporta el caso y se orienta a la
+  gestante a recibir apoyo de un equipo multidisciplinario.
 - Ruta de Promoción y Mantenimiento (primera infancia): la norma
   pide educar a las familias en crianza protectora, prevención de
   violencias y del castigo corporal, salud mental, sueño seguro,
@@ -342,7 +358,13 @@ su propio control con pediatría en esos mismos días.
   (puerperio: control, signos de alarma, tamizaje de depresión) y
   4.12 (seguimiento del recién nacido); Ruta de Promoción y
   Mantenimiento, primera infancia (educación en crianza).
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento de las
+  complicaciones del embarazo, parto o puerperio (GPC 2013).
+  Complementaria (tamizaje de depresión y de violencia).
 - Congreso de Colombia. Ley 2089 de 2021.
+- American Academy of Pediatrics (AAP). Recomendaciones sobre uso
+  de medios en menores de 2 años (excepción de videollamadas).
 - OMS. Directrices sobre actividad física, comportamiento
   sedentario y sueño para menores de 5 años, 2019.
 - OMS/UNICEF. Marco del cuidado cariñoso y sensible para el

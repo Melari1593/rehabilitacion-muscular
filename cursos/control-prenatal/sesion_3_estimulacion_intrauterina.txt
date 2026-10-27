@@ -25,7 +25,6 @@ Específicos:
 ------------------------------------------------------------
 - Colchonetas o sillas cómodas, cojines
 - Música suave (volumen moderado, por parlante, no audífonos)
-- Linterna (para explicar estímulo luminoso)
 - Lámina de desarrollo de los sentidos
 - Hoja "Diario del vínculo con mi bebé"
 - Pre-test / post-test (anexo)
@@ -147,17 +146,15 @@ recostadas de lado o semisentadas, acompañante al lado.
      que se está haciendo, leerle un cuento o cantarle.
    - Ejercicio: el acompañante habla cerca del abdomen con voz
      tranquila. Elegir una canción "de la familia" que luego se le
-     cantará al nacer: ayuda a calmarlo después del parto.
+     cantará al nacer: puede ayudar a calmarlo después del parto.
    - Música suave por parlante a volumen moderado.
 
 4. Estimulación de movimiento (5 min)
    - Mecerse suavemente sentada (balón o silla), caminar, bailar
      suave. El balanceo rítmico suele ser agradable para el bebé.
 
-5. Estimulación visual (2 min, demostrativa)
-   - Explicar que es la menos relevante. Si se hace: una linterna
-     normal cerca del abdomen por pocos segundos, nunca luz intensa
-     ni repetida.
+5. Estimulación visual (2 min, sin demostración)
+   - "La luz no aporta nada al vínculo; no es necesaria."
 
 6. Diario del vínculo (8 min)
    - Cada familia escribe una carta corta al bebé o anota cuándo
@@ -184,16 +181,18 @@ Movimientos del bebé
   regulares o dolorosas, ni un dolor muy fuerte o un abdomen duro
   que no se afloja: en esos casos se consulta de inmediato.
   (Creciendo Juntos, 2026, pp. 16 y 36-37)
-- Desde el tercer trimestre (alrededor de la semana 28): si siente
-  que el bebé se mueve menos de lo habitual: una hora después de
-  comer, acostarse de lado (izquierdo o derecho), en un lugar
-  tranquilo y sin estimularlo, y contar los movimientos durante 2
-  horas. Si son menos de 10, o si no lo siente moverse, ir a
-  urgencias ese mismo día. No esperar al día siguiente.
+- Si después de la semana 28 siente que su bebé se mueve menos,
+  acuéstese de lado de inmediato (izquierdo o derecho) y cuente sus
+  movimientos durante 2 horas. Si son menos de 10, vaya a urgencias
+  enseguida. Si no lo siente moverse nada, no cuente: vaya ya.
+  No esperar al día siguiente.
+- Si el bebé se mueve como siempre, no hace falta contarle los
+  movimientos todos los días.
 - La mayoría de las veces que el bebé "se mueve menos", al revisarlo
   está bien; aun así, siempre se consulta.
-  (Nota para el facilitador: este conteo es el que describe el
-  manual de Carvajal. La Res. 3280 (num. 4.3.6) no fija un método
+  (Nota para el facilitador: este conteo es el que recomiendan la
+  GPC MinSalud 2013 y el manual de Carvajal; la GPC no recomienda
+  el conteo rutinario diario. La Res. 3280 (num. 4.3.6) no fija un método
   de conteo: solo pide enseñar como signo de alarma la disminución
   marcada o la ausencia de movimientos. La guía RCOG n.º 57
   prefiere no usar un número fijo y consultar ante cualquier
@@ -216,15 +215,21 @@ Signos de alarma (repaso)
   oídos, hinchazón súbita
 - Dolor en la boca del estómago
 - Fiebre; ardor o dolor al orinar
-- Contracciones regulares antes de la semana 37
+- Antes de la semana 37, aunque no sean regulares: contracciones
+  que aumentan, cólico hacia la espalda o los muslos, cambio en el
+  moco vaginal o moco con sangre, o sensación de que el bebé bajó
 - Disminución o ausencia de movimientos del bebé
-- Vómito que no deja comer ni beber; convulsiones o desmayo
+- Vómito: en la primera mitad del embarazo, el que no deja comer
+  ni beber; en la segunda mitad, cualquier vómito, sobre todo si
+  viene con dolor de cabeza o dolor en la boca del estómago
+- Convulsiones o desmayo
 - Dificultad para respirar en reposo; una pierna hinchada, roja y
   dolorosa; caídas, golpes en el abdomen o accidentes de
   tránsito, aunque se sienta bien (Creciendo Juntos, 2026, pp. 15
   y 31)
 - Consultar pronto: flujo con mal olor o picazón, tos que no
-  mejora, tristeza o angustia intensa, no poder dormir
+  mejora, tristeza o angustia intensa, no poder dormir; debilidad,
+  cansancio fácil o vértigo (puede ser anemia)
 
 [01:50] POST-TEST Y CIERRE
 Recordar: ecografía de detalle anatómico (de la semana 18 a la
@@ -241,7 +246,7 @@ Próxima sesión: Sesión 4, semanas 25-27, "Trabajo de parto".
 2. El objetivo es el vínculo, no la competencia.
 3. Nada de volumen alto ni luces intensas sobre el abdomen.
 4. Conozca el patrón de movimientos de su bebé; si cambia, consulte
-   el mismo día.
+   enseguida.
 5. Desde el tercer trimestre, a dormir de lado.
 
 ------------------------------------------------------------
@@ -276,6 +281,11 @@ Próxima sesión: Sesión 4, semanas 25-27, "Trabajo de parto".
   de detalle de 18 a 23+6 semanas; vacunación).
 - MinSalud. Esquema nacional de vacunación 2026 (Tdap desde la
   semana 20; VSR de 28 a 36 semanas).
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento del embarazo,
+  parto o puerperio. Guías n.º 11-15, abril de 2013 (conteo de
+  movimientos fetales ante disminución percibida; signos de
+  alarma).
 - RCOG. Reduced Fetal Movements, Green-top Guideline n.º 57.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 15, 16, 31, 35, 36-37, 61 y 62). Complementario.

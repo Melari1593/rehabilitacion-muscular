@@ -1,6 +1,7 @@
 // Contenido del curso de preparación para la maternidad y la paternidad.
 // Fuente: guiones en cursos/control-prenatal/ (ajustados a la Res. 3280 de 2018,
-// Manual de Obstetricia y Ginecología de Carvajal y Ralph, y revista Creciendo Juntos 2026).
+// GPC de embarazo, parto y puerperio MinSalud 2013, Manual de Obstetricia y
+// Ginecología de Carvajal y Ralph, y revista Creciendo Juntos 2026).
 
 export type Sesion = {
   numero: number;
@@ -37,7 +38,7 @@ export const SESIONES: Sesion[] = [
   },
   {
     numero: 2,
-    semanas: 'Semanas 15 a 19',
+    semanas: 'Semanas 14 a 19',
     titulo: 'Cambios físicos, cuidados y desarrollo del bebé',
     responsable: 'Enfermería',
     aprenderas: [
@@ -70,7 +71,7 @@ export const SESIONES: Sesion[] = [
       'Su voz y sus caricias son el mejor estímulo.',
       'El objetivo es el vínculo, no la competencia.',
       'Nada de volumen alto ni luces intensas sobre el abdomen.',
-      'Si el patrón de movimientos de su bebé cambia, consulte el mismo día.',
+      'Si su bebé se mueve menos, acuéstese de lado y cuente 2 horas; con menos de 10 movimientos, o si no se mueve, vaya a urgencias enseguida.',
       'Desde el tercer trimestre, a dormir de lado.',
     ],
     guion: `${RUTA}sesion_3_estimulacion_intrauterina.txt`,
@@ -88,7 +89,7 @@ export const SESIONES: Sesion[] = [
     ],
     mensajes: [
       'Contracciones regulares que no ceden, salida de líquido o sangrado: ir a la clínica.',
-      'Antes de la semana 37, cualquier contracción regular se consulta.',
+      'Antes de la semana 37: contracciones que aumentan, dolor hacia la espalda o los muslos, moco con sangre o sentir que el bebé bajó se consultan, aunque no sean regulares.',
       'El parto tiene etapas; la primera es la más larga.',
       'Respiración, movimiento y acompañamiento alivian el dolor; la epidural también es una opción.',
       'Tienes derecho a un parto digno y acompañado.',
@@ -111,7 +112,7 @@ export const SESIONES: Sesion[] = [
       'A dormir siempre boca arriba, en su cuna, sin objetos.',
       'Nunca sacudir a un bebé.',
       'Fiebre, mal comer, color amarillo intenso o dificultad para respirar: urgencias.',
-      'Control del bebé (con pediatra) y de la madre entre los días 3 y 5 después del parto.',
+      'Control del bebé y de la madre entre los días 3 y 5 después del parto; si salen antes de 48 horas, revisión entre las 24 y 48 horas.',
     ],
     guion: `${RUTA}sesion_5_cuidados_recien_nacido.txt`,
   },
@@ -128,6 +129,7 @@ export const SESIONES: Sesion[] = [
     ],
     mensajes: [
       'Solo leche materna los primeros 6 meses; continuar hasta 2 años o más.',
+      'Piel a piel y primera toma en la primera hora de vida.',
       'Si duele, revisa el agarre.',
       'Libre demanda: 8 a 12 veces al día.',
       'Puedes quedar embarazada antes de que regrese la menstruación.',
@@ -137,7 +139,7 @@ export const SESIONES: Sesion[] = [
   },
   {
     numero: 7,
-    semanas: 'Semana 32',
+    semanas: 'Semanas 32 a 34',
     titulo: 'Prácticas de crianza',
     responsable: 'Psicología',
     aprenderas: [
@@ -157,18 +159,19 @@ export const SESIONES: Sesion[] = [
   },
 ];
 
-// Signos de alarma en el embarazo (Res. 3280 de 2018, num. 4.3.6).
+// Signos de alarma en el embarazo (Res. 3280 de 2018, num. 4.3.6, y GPC MinSalud 2013).
 export const SIGNOS_ALARMA = [
   'Sangrado vaginal',
   'Salida de líquido por la vagina',
   'Dolor de cabeza fuerte, visión borrosa, lucecitas o zumbido en los oídos',
   'Hinchazón de cara, manos o pies que aparece de repente o desde que te levantas',
-  'Dolor fuerte en la boca del estómago',
+  'Dolor en la boca del estómago',
+  'En la segunda mitad del embarazo, vómito (en la primera mitad, vómito que no te deja comer ni beber)',
   'Fiebre, o ardor al orinar',
-  'Contracciones regulares antes de la semana 37',
-  'Disminución o ausencia de los movimientos del bebé',
+  'Antes de la semana 37: contracciones que aumentan, dolor que baja a la espalda o los muslos, moco con sangre o de otro color, o sentir que el bebé bajó',
+  'Tu bebé se mueve menos: acuéstate de lado y cuenta 2 horas; si son menos de 10, o si no se mueve, ve ya',
   'Dificultad para respirar en reposo, o una pierna hinchada, roja y dolorosa',
-  'Vómito que no te deja comer ni beber, convulsiones o desmayo',
+  'Convulsiones o desmayo',
 ];
 
 // ---------------------------------------------------------------------------
@@ -199,7 +202,7 @@ export const SESIONES_EN: Sesion[] = [
   },
   {
     numero: 2,
-    semanas: 'Weeks 15 to 19',
+    semanas: 'Weeks 14 to 19',
     titulo: 'Physical changes, self-care and baby’s development',
     responsable: 'Nursing',
     aprenderas: [
@@ -232,7 +235,7 @@ export const SESIONES_EN: Sesion[] = [
       'Your voice and your touch are the best stimulation.',
       'The goal is bonding, not competition.',
       'No loud volume or bright lights on the belly.',
-      'If your baby’s movement pattern changes, seek care the same day.',
+      'If your baby moves less, lie on your side and count for 2 hours; if there are fewer than 10 movements, or none, go to the emergency room right away.',
       'From the third trimester on, sleep on your side.',
     ],
     guion: SESIONES[2].guion,
@@ -250,7 +253,7 @@ export const SESIONES_EN: Sesion[] = [
     ],
     mensajes: [
       'Regular contractions that don’t ease, leaking fluid or bleeding: go to the hospital.',
-      'Before week 37, any regular contractions need a consultation.',
+      'Before week 37: contractions that increase, pain moving to your back or thighs, bloody mucus or feeling the baby has dropped need a consultation, even if they are not regular.',
       'Labor has stages; the first one is the longest.',
       'Breathing, movement and support relieve pain; an epidural is also an option.',
       'You have the right to a dignified birth with a companion.',
@@ -273,7 +276,7 @@ export const SESIONES_EN: Sesion[] = [
       'Always put the baby to sleep on their back, in their own crib, with nothing else in it.',
       'Never shake a baby.',
       'Fever, poor feeding, strong yellow color or trouble breathing: emergency room.',
-      'Baby’s check-up (with a pediatrician) and mother’s check-up between days 3 and 5 after birth.',
+      'Baby’s and mother’s check-up between days 3 and 5 after birth; if you go home before 48 hours, a check-up between 24 and 48 hours.',
     ],
     guion: SESIONES[4].guion,
   },
@@ -290,6 +293,7 @@ export const SESIONES_EN: Sesion[] = [
     ],
     mensajes: [
       'Only breast milk for the first 6 months; continue up to 2 years or more.',
+      'Skin-to-skin contact and the first feed within the first hour of life.',
       'If it hurts, check the latch.',
       'Feed on demand: 8 to 12 times a day.',
       'You can get pregnant before your period returns.',
@@ -299,7 +303,7 @@ export const SESIONES_EN: Sesion[] = [
   },
   {
     numero: 7,
-    semanas: 'Week 32',
+    semanas: 'Weeks 32 to 34',
     titulo: 'Parenting practices',
     responsable: 'Psychology',
     aprenderas: [
@@ -324,10 +328,11 @@ export const SIGNOS_ALARMA_EN = [
   'Fluid leaking from the vagina',
   'Severe headache, blurred vision, seeing spots or ringing in the ears',
   'Swelling of the face, hands or feet that appears suddenly or is there when you wake up',
-  'Severe pain in the upper stomach',
+  'Pain in the upper stomach',
+  'In the second half of pregnancy, vomiting (in the first half, vomiting that keeps you from eating or drinking)',
   'Fever, or burning when you urinate',
-  'Regular contractions before week 37',
-  'Your baby moves less than usual or stops moving',
+  'Before week 37: contractions that increase, pain moving to your back or thighs, bloody or discolored mucus, or feeling the baby has dropped',
+  'Your baby moves less: lie on your side and count for 2 hours; if there are fewer than 10 movements, or none, go right away',
   'Shortness of breath at rest, or one leg that is swollen, red and painful',
-  'Vomiting that keeps you from eating or drinking, seizures or fainting',
+  'Seizures or fainting',
 ];

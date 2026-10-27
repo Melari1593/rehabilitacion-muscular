@@ -63,8 +63,10 @@ Ronda: nombre, semanas y una idea o miedo sobre el parto.
   calmarse con reposo, cambio de posición o hidratación.
 - Expulsión del tapón mucoso: moco espeso, a veces con hilos de
   sangre. Puede salir desde horas hasta dos semanas antes, y no
-  todas lo notan; por sí solo no indica ir a
-  urgencias (sí, si es sangrado como menstruación).
+  todas lo notan. A término (semana 37 o más), por sí solo no
+  indica ir a urgencias (sí, si es sangrado como menstruación).
+  Antes de la semana 37, en cambio, el moco con sangre o de otro
+  color sí es motivo para ir a urgencias (ver Bloque 2).
 - Aumento del flujo, dolor lumbar, sensación de presión en la pelvis.
 
 Contracciones de trabajo de parto (verdaderas):
@@ -103,16 +105,36 @@ Si aún no cumple, deben explicarle qué señales vigilar y cuándo
 volver. Si vive lejos, le cuesta llegar o tiene algún riesgo,
 dígalo: según su caso pueden dejarla en observación, en un hogar
 de paso (albergue) u hospitalizada.
+(Nota para el facilitador: según la GPC 2013, la gestante que
+consulta y no está en trabajo de parto debe quedar en observación
+al menos 2 horas y ser examinada de nuevo antes de volver a casa.)
 
 ANTES DE LA SEMANA 37 (parto prematuro):
 - Contracciones regulares, dolor tipo cólico, presión en la pelvis,
   dolor lumbar persistente o salida de líquido ANTES de la semana
   37: consultar de inmediato. Detectarlo a tiempo permite
   medicamentos que maduran los pulmones del bebé.
+- Antes de la semana 37 vaya también a urgencias, aunque las
+  contracciones no sean regulares, si:
+  - sale moco con sangre o de otro color;
+  - siente que el bebé bajó;
+  - las contracciones aumentan frente a lo que venía sintiendo, o
+    el dolor se va hacia la espalda o los muslos;
+  - sale líquido por la vagina.
   (Nota para el facilitador: según Carvajal, los corticoides se usan
   entre las 24 y 34 semanas, el mismo rango que usa la Res. 3280
   (num. 4.9.4.2, mod. Res. 276/2019); se sospecha trabajo de parto
   prematuro con 4 contracciones en 20 minutos o 6 en 30 minutos.)
+
+SI LLEGA A LA SEMANA 40:
+- En el control de la semana 38 le explicarán qué opciones hay si
+  el embarazo se prolonga.
+- Desde la semana 41 aumenta el riesgo para el bebé. Por eso el
+  equipo le propondrá controles del bienestar del bebé y programar
+  la inducción del parto.
+- Ningún embarazo debe pasar de la semana 42.
+  (Nota para el facilitador: la GPC 2013 pide informar estas
+  opciones a las 38 semanas; ver también Carvajal y Ralph, cap. 28.)
 
 [00:40] BLOQUE 3: LAS ETAPAS DEL PARTO
 Usar la pelvis, el muñeco y la lámina de dilatación.
@@ -132,24 +154,31 @@ Primera etapa: dilatación
   6 a 10 cm; admisión con dinámica uterina regular, borramiento
   mayor de 50 % y 4 cm. La OMS 2018 usa 5 cm; Carvajal 2017 (3 cm
   con borramiento 100 %) y el libro 2 (4-5 cm) usan cortes más
-  bajos. Ante diferencias, prevalece la 3280.)
+  bajos. Ante diferencias, prevalece la 3280. La GPC 2013 de
+  MinSalud usa fase latente hasta 4 cm y admisión con 3-4 cm y
+  borramiento > 50 %; en este curso se sigue la Res. 3280.)
 - Durante esta etapa se escucha el corazón del bebé (cada 30
   minutos en la fase activa) y se vigilan las contracciones, la
   presión arterial y la temperatura. Los tactos vaginales se
   hacen solo los necesarios, en general con 4 horas o más entre
   uno y otro.
 - Puede caminar, moverse y elegir la posición más cómoda. Se
-  recomienda tomar líquidos para no deshidratarse.
+  recomienda tomar sorbos de líquidos claros para no
+  deshidratarse; las bebidas hidratantes (isotónicas) son mejores
+  que el agua sola.
 
 Segunda etapa: expulsivo (nacimiento)
 - Desde la dilatación completa hasta el nacimiento del bebé.
 - Aparecen las ganas de pujar. Se recomienda pujar cuando el
   cuerpo lo pida (pujo espontáneo), no de forma forzada antes.
-- Puede durar hasta 2 horas en el primer parto y 1 hora en los
-  siguientes; con epidural, una hora más.
+- La duración varía de una mujer a otra y puede ser más larga con
+  epidural. El equipo vigila al bebé todo el tiempo y le dirá si es
+  necesario intervenir.
   (Nota para el facilitador: la Res. 3280 no fija la duración del
-  expulsivo; estas cifras son de Carvajal 2017. Seguir el
-  protocolo institucional.)
+  expulsivo; como referencia, Carvajal 2017 da hasta 2 horas en
+  nulíparas y 1 hora en multíparas, una hora más con epidural.
+  Seguir el protocolo institucional. La GPC 2013 recomienda
+  compresas calientes en el periné durante el expulsivo.)
 - No se debe empujar el abdomen desde arriba (maniobra de
   Kristeller). Cuando sale la cabeza, el equipo le pedirá dejar de
   pujar para cuidar el periné.
@@ -195,6 +224,9 @@ Cuarta etapa: posparto inmediato (primeras 2 horas)
   bebé están bien. Antes de salir deben darle por escrito los
   signos de alarma, el método de planificación que eligió y las
   citas de control para usted y para el bebé (días 3 a 5).
+  Si les dan salida antes de 48 horas, deben revisarlos a usted y
+  al bebé entre las 24 y las 48 horas después del parto; pregunten
+  quién los revisará.
   (Nota para el facilitador: antes del alta también se verifica la
   inmunoglobulina anti-D en madres Rh negativo con bebé Rh positivo
   y las vacunas maternas pendientes, según el num. 4.8.)
@@ -247,6 +279,9 @@ combinar.
    - Masaje suave en hombros y espalda entre contracciones.
    - Paños tibios en la parte baja de la espalda.
    - Ducha tibia, si la institución lo permite.
+   (Nota para el facilitador: la GPC 2013 no recomienda la
+   estimulación nerviosa transcutánea (TENS) para el dolor en el
+   trabajo de parto establecido.)
 
 4. Rol del acompañante (6 min)
    - Mantener la calma, recordar la respiración, ofrecer agua y
@@ -264,25 +299,30 @@ Métodos farmacológicos
   aliviar el dolor; basta con que usted lo pida.
 - Analgesia epidural (peridural): medicamento en la espalda que
   disminuye mucho el dolor; la mujer sigue despierta. Es el método
-  de elección para el dolor. No hace más lento el trabajo de parto
-  y puede pedirse cuando se necesite (el equipo revisará que no
-  haya una contraindicación). Puede hacer que la etapa del pujo
-  dure un poco más y que necesite guía del equipo para pujar.
-  Antes de aplicarla le pedirán su consentimiento. Se pone
+  de elección para el dolor y puede pedirse cuando se necesite (el
+  equipo revisará que no haya una contraindicación). Puede alargar
+  un poco la etapa del pujo y aumentar la probabilidad de necesitar
+  oxitocina o ayuda con instrumentos; también puede necesitar guía
+  del equipo para pujar. El equipo le explicará los riesgos y
+  beneficios antes de aplicarla y le pedirá su consentimiento. Se pone
   sentada e inclinada hacia adelante; queda un tubito delgado
   (catéter) en la espalda para dar más dosis si se necesita.
   Las piernas pueden sentirse débiles un rato: pida ayuda para
   levantarse. Si después tiene un dolor de cabeza fuerte que
   empeora de pie y mejora acostada, avísele al equipo.
   (Creciendo Juntos, 2026, pp. 49-50)
-- Otros analgésicos según protocolo institucional.
+- Otros analgésicos según protocolo institucional. Los analgésicos
+  inyectados (opioides) alivian poco el dolor y pueden dar náuseas.
+- En algunas instituciones pequeñas, pedir la epidural puede
+  requerir remisión a otra institución. Pregunte desde el control
+  prenatal.
 
 [01:40] BLOQUE 5: DERECHOS, PLAN DE PARTO Y MALETA
 Derechos (Ley 2244 de 2022 - parto digno, respetado y humanizado):
 - Recibir información clara y dar su consentimiento antes de los
   procedimientos.
-- Estar acompañada por la persona de su elección durante el
-  trabajo de parto y el parto (según condiciones clínicas).
+- Estar acompañada todo el tiempo por la persona que usted elija
+  durante el trabajo de parto y el parto.
 - Trato digno, sin violencia verbal ni física, con respeto a su
   intimidad.
 - El enema (lavado intestinal) y el rasurado del vello no son de
@@ -354,12 +394,19 @@ Próxima sesión: Sesión 5, semanas 28-30, "Cuidados del recién nacido".
   4.8 (puerperio), modificada por la Res. 276 de 2019. Es el
   criterio principal (fases, admisión, pinzamiento, alumbramiento,
   egreso, analgesia, plan de parto).
+- MinSalud, Colciencias. Guía de Práctica Clínica para la
+  prevención, detección temprana y tratamiento de las
+  complicaciones del embarazo, parto o puerperio (GPC 2013).
+  Complementaria (observación de 2 horas, analgesia, líquidos,
+  compresas calientes, embarazo prolongado, alta temprana).
 - Congreso de Colombia. Ley 2244 de 2022 (parto digno, respetado
   y humanizado).
 - Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed.,
   2017, caps. 5 (fisiología del parto), 10 (manejo del trabajo de
-  parto y atención del parto), 15 (cesárea), 19 (parto prematuro) y
-  20 (rotura prematura de membranas). Complementario.
+  parto y atención del parto), 15 (cesárea), 19 (parto prematuro),
+  20 (rotura prematura de membranas) y 28 (embarazo en vías de
+  prolongación).
+  Complementario.
 - Libro 2: Ruiz Parra AI, cap. 6 "Nomenclatura obstétrica, trabajo
   de parto y parto eutócico". Complementario.
 - OMS. Recomendaciones: cuidados durante el parto para una
