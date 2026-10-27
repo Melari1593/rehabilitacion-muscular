@@ -28,20 +28,29 @@ Específicos:
 - Tarjeta colorimétrica de heces (si la IPS la tiene)
 - Lámina de sueño seguro
 - Lámina de signos de alarma del recién nacido
+- Lámina de signos de alarma del embarazo (para el recuerdo
+  inicial)
+- Baraja de casos (tarjetas) y tres carteles: NORMAL / CONSULTA
+  PRONTO / URGENCIAS
 - Pre-test / post-test (anexo)
 
 ------------------------------------------------------------
 3. AGENDA
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:30  Bloque 1: Al nacer: los primeros minutos y días
-00:30 - 00:45  Bloque 2: ¿Cómo es un recién nacido normal?
-00:45 - 01:15  Bloque 3: Taller práctico: baño, ombligo, pañal,
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:29  Bloque 1: Al nacer: los primeros minutos y días
+00:29 - 00:38  Bloque 2: ¿Cómo es un recién nacido normal?
+00:38 - 01:08  Bloque 3: Taller práctico: baño, ombligo, pañal,
                vestido, cargar al bebé
-01:15 - 01:25  Pausa
-01:25 - 01:40  Bloque 4: Sueño seguro, llanto y seguridad en casa
-01:40 - 01:52  Bloque 5: Signos de alarma
-01:52 - 02:00  Trámites, controles, post-test y cierre
+01:08 - 01:18  Pausa
+01:18 - 01:29  Bloque 4: Sueño seguro, llanto y seguridad en casa
+01:29 - 01:37  Bloque 5: Signos de alarma
+01:37 - 01:45  Baraja de casos: ¿normal, consulta pronto o
+               urgencias?
+01:45 - 01:50  Trámites y controles
+01:50 - 01:55  Cierre en parejas: enséñele al otro
+01:55 - 02:00  Post-test y cierre
 
 ------------------------------------------------------------
 4. DESARROLLO DEL GUION
@@ -55,7 +64,41 @@ aquí es la mejor forma de aprender."
 Ronda: nombre, semanas y qué es lo que más les preocupa de cuidar
 al bebé.
 
-[00:10] BLOQUE 1: AL NACER - PRIMEROS MINUTOS Y DÍAS
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de alarma y
+  el grupo compara: ¿cuáles dijimos? ¿cuáles se nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final de la sesión.
+Esta sesión el recuerdo incluye (sesiones 2, 3 y 4):
+- Sangrado o salida de líquido por la vagina.
+- Dolor de cabeza fuerte, visión borrosa, lucecitas, zumbido en
+  los oídos, hinchazón súbita.
+- Dolor en la boca del estómago.
+- Fiebre; ardor o dolor al orinar.
+- Vómito: en la primera mitad del embarazo, el que no deja comer
+  ni beber; en la segunda mitad, cualquier vómito.
+- Convulsiones o desmayo; dificultad para respirar en reposo; una
+  pierna hinchada, roja y dolorosa; caídas, golpes en el abdomen o
+  accidentes de tránsito, aunque se sienta bien.
+- Movimientos del bebé: si después de la semana 28 siente que se
+  mueve menos, acostarse de lado y contar los movimientos 2 horas.
+  Si son menos de 10, o si no se mueve nada, ir a urgencias ya.
+- Inicio del parto (sesión 4): contracciones regulares que no
+  ceden con reposo (2 o 3 en 10 minutos durante una hora), salida
+  de líquido aunque no haya dolor, o sangrado: ir a la clínica.
+- Antes de la semana 37: cualquier contracción regular se consulta
+  de inmediato; también, aunque no sean regulares, contracciones
+  que aumentan, cólico hacia la espalda o los muslos, moco con
+  sangre o de otro color, o sensación de que el bebé bajó.
+- Consultar pronto: flujo con mal olor o picazón, tos que no
+  mejora, tristeza o angustia intensa, no poder dormir.
+
+[00:15] BLOQUE 1: AL NACER - PRIMEROS MINUTOS Y DÍAS
 Explicar cada intervención y su propósito:
 - Contacto piel a piel inmediato, sin separarlos durante al menos
   la primera hora si los dos están bien: regula la temperatura, la
@@ -68,9 +111,8 @@ Explicar cada intervención y su propósito:
   (semanas 35 a 37) salió positivo, o si se lo encontraron en el
   examen de orina del tercer trimestre, recibirá antibiótico
   durante el parto para proteger al bebé. Avíselo al llegar a la
-  clínica y,
-  en los primeros días, esté atenta a fiebre, decaimiento o
-  dificultad para respirar del bebé.
+  clínica y, en los primeros días, esté atenta a fiebre,
+  decaimiento o dificultad para respirar del bebé.
 - Vitamina K: una inyección en el muslo (1 mg; 0,5 mg si pesa
   menos de 1.500 g). Previene sangrados.
 - Profilaxis ocular: gotas o pomada en los ojos para prevenir
@@ -93,8 +135,11 @@ Explicar cada intervención y su propósito:
   Preguntar siempre por el resultado y guardarlo. Si le dan
   salida antes de que tomen la muestra de talón, pregunte dónde y
   cuándo debe llevar al bebé.
+Pregunta al grupo: "¿Qué pedirían si a las pocas horas de nacer
+quieren pesar al bebé y ustedes están en piel a piel y los dos
+están bien?"
 
-[00:30] BLOQUE 2: ¿CÓMO ES UN RECIÉN NACIDO NORMAL?
+[00:29] BLOQUE 2: ¿CÓMO ES UN RECIÉN NACIDO NORMAL?
 - Peso: es normal que pierda hasta un 7-10 % de su peso en los
   primeros días y lo recupere hacia los 10-14 días.
 - Piel: puede descamarse, tener puntitos blancos en la nariz
@@ -122,9 +167,40 @@ Explicar cada intervención y su propósito:
   baño y retirar las escamas con suavidad, sin arrancarlas.
   Consultar si la piel se pone roja, caliente, con picazón o si
   se extiende. (Creciendo Juntos, 2026, pp. 91 y 105-106)
+Pregunta al grupo: "¿Qué haría si a su bebé de 2 horas de nacido
+se le ven las manos y los pies algo morados? ¿Y si son los
+labios?"
 
-[00:45] BLOQUE 3: TALLER PRÁCTICO (30 min)
+[00:38] BLOQUE 3: TALLER PRÁCTICO (30 min)
 Demostración y luego práctica de cada pareja con el muñeco.
+
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa, de principio a fin,
+   diciendo en voz alta cada paso.
+2. Cada pareja la practica con el muñeco mientras el facilitador
+   recorre el salón.
+3. Corregir con frases concretas que digan qué cambiar, por
+   ejemplo: "Ponga la mano debajo de la cabeza y el cuello antes
+   de levantarlo; la cabeza no debe quedar colgando". Evitar
+   solo "muy bien".
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+El acompañante también practica, no solo observa: cada
+destreza la hacen los dos con el muñeco (primero uno y luego el
+otro), y quien no tiene el muñeco dice los pasos en voz alta.
+Ejemplos de retroalimentación concretos:
+- Cargar: "Sostenga la cabeza y el cuello con una mano y con la
+  otra las nalgas; acérquelo a su cuerpo."
+- Pañal: "Limpie de adelante hacia atrás, no al revés. Doble el
+  borde del pañal por debajo del ombligo. Deje siempre una mano
+  sobre el bebé mientras alcanza las cosas."
+- Ombligo: "Seque bien alrededor del ombligo después de limpiarlo
+  y no le ponga nada encima: ni fajero ni moneda."
+- Baño: "Pruebe el agua con el codo antes de meterlo. Use un
+  algodón distinto para cada ojo, de adentro hacia afuera, y deje
+  la zona del pañal para el final."
+- Vestido: "Tóquele la nuca o el pecho, no las manos, para saber
+  si tiene frío o calor."
 
 1. Lavado de manos (antes de cualquier cuidado). Siempre.
 
@@ -181,9 +257,9 @@ Demostración y luego práctica de cada pareja con el muñeco.
      manos.
    - Uñas: limarlas, no cortarlas con los dientes.
 
-[01:15] PAUSA (10 min)
+[01:08] PAUSA (10 min)
 
-[01:25] BLOQUE 4: SUEÑO SEGURO, LLANTO Y SEGURIDAD
+[01:18] BLOQUE 4: SUEÑO SEGURO, LLANTO Y SEGURIDAD
 Sueño seguro (prevención de muerte súbita del lactante):
 - Siempre boca arriba para dormir, en siestas y en la noche.
 - Superficie firme y plana, en su propia cuna o moisés.
@@ -239,8 +315,10 @@ Seguridad:
 - No se recomiendan tés, aguas ni remedios caseros: solo leche
   materna, salvo que el equipo de salud indique otra cosa por una
   razón médica.
+Pregunta al grupo: "¿Qué haría si el bebé llora y llora, usted ya
+probó todo y se siente desbordada?"
 
-[01:40] BLOQUE 5: SIGNOS DE ALARMA DEL RECIÉN NACIDO
+[01:29] BLOQUE 5: SIGNOS DE ALARMA DEL RECIÉN NACIDO
 Consultar de inmediato a urgencias si el bebé:
 - Tiene fiebre (temperatura axilar de 37,5 °C o más) o
   temperatura baja (menos de 36,5 °C).
@@ -259,7 +337,56 @@ Consultar de inmediato a urgencias si el bebé:
 - Moja menos de lo esperado los pañales o no hace deposición.
 - Llanto inconsolable o muy débil.
 
-[01:52] TRÁMITES, CONTROLES Y CIERRE
+[01:37] BARAJA DE CASOS: ¿NORMAL, CONSULTA PRONTO O URGENCIAS?
+Tres tarjetas grandes en el piso o la pared: NORMAL (verde),
+CONSULTA PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en una de las tres, diciendo por qué. El grupo
+opina; el facilitador corrige y explica.
+Casos (mezclar, no en orden):
+1. "Mi bebé nació hace 2 horas. Tiene las manos y los pies algo
+   morados, pero la boca y los labios rosados." → NORMAL.
+   Por qué: las manos y los pies algo morados las primeras horas
+   son normales.
+2. "Tengo 35 semanas. Desde hace una hora tengo contracciones
+   regulares, cada 10 minutos." → URGENCIAS.
+   Por qué: antes de la semana 37, cualquier contracción regular
+   se consulta de inmediato (sesión 4).
+3. "Mi bebé tiene 5 días y le veo los labios morados."
+   → URGENCIAS.
+   Por qué: la boca y los labios morados NO son normales.
+4. "Mi bebé tiene 4 días. Le tomé la temperatura en la axila y
+   marcó 37,8 °C." → URGENCIAS.
+   Por qué: 37,5 °C o más en la axila es fiebre en el recién
+   nacido.
+5. "Tengo 28 semanas y tengo un flujo verde-amarillo con picazón.
+   No tengo fiebre." → CONSULTA PRONTO.
+   Por qué: el flujo con mal olor, color verde-amarillo o picazón
+   se consulta sin esperar al próximo control (sesión 2).
+6. "Mi bebé tiene 6 días. Pesa un poco menos que al nacer, pero
+   come cada 2 a 3 horas y moja 6 pañales al día." → NORMAL.
+   Por qué: es normal que pierda hasta un 7-10 % de su peso los
+   primeros días; lo recupera hacia los 10-14 días.
+7. "Mi bebé tiene 8 días. Se le cayó el ombligo y salió una
+   gotica de sangre." → NORMAL.
+   Por qué: el cordón se cae entre los 5 y 15 días, y un poco de
+   sangre al caerse es normal.
+8. "Mi bebé tiene 7 días. Tiene el ombligo rojo alrededor y huele
+   mal." → URGENCIAS.
+   Por qué: ombligo rojo alrededor, con pus o mal olor, es signo
+   de alarma.
+9. "Tengo 30 semanas y desde esta mañana no he sentido al bebé
+   moverse nada." → URGENCIAS.
+   Por qué: si no lo siente moverse nada, no se cuenta: se va ya
+   (sesión 3).
+10. "Mi bebé tiene 3 semanas. Las escamas de la cabeza (costra
+    láctea) se le pusieron rojas, calientes, le pican y se están
+    extendiendo." → CONSULTA PRONTO.
+    Por qué: la costra láctea es normal, pero se consulta si la
+    piel se pone roja, caliente, con picazón o si se extiende.
+Parejas para comparar: 1 y 3 (color morado), 7 y 8 (ombligo).
+
+[01:45] TRÁMITES Y CONTROLES
 - Salida: el bebé sano sale desde las 24 horas de vida (48 horas
   si nació por cesárea o tiene algún riesgo), con sus vacunas,
   tamizajes tomados o programados y el certificado de nacido vivo.
@@ -289,15 +416,32 @@ Consultar de inmediato a urgencias si el bebé:
 - Consulta de valoración integral de la primera infancia según la
   Ruta de Promoción y Mantenimiento de la Salud (en el control del
   recién nacido le dan la remisión).
+(Nota para el facilitador: si el tiempo no alcanza, entregar esta
+lista por escrito y resaltar solo la salida y los controles de
+los días 3 a 5.)
+
+[01:50] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, cómo va a acostar
+al bebé para dormir y qué señales del bebé son urgencia. Luego
+cambien: el acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+próxima sesión.)
+
+[01:55] POST-TEST Y CIERRE
+Tarea del acompañante para esta semana: practicar en casa el baño
+con un muñeco o una cobija enrollada, en el orden aprendido
+(cara sin jabón, cabeza, cuerpo y al final la zona del pañal),
+con la toalla y la ropa listas antes de empezar. Si la gestante
+viene sola, la tarea es para la persona que la va a acompañar en
+casa.
 Post-test.
 Próxima sesión: Sesión 6, semanas 30-32, "Lactancia materna y
 planificación familiar".
-
-------------------------------------------------------------
-NOTA PARA EL FACILITADOR (no leer en voz alta)
-Si una gestante vive con VIH, abordar el tema en privado: según la
-norma, no amamantará y el programa le entrega fórmula. No exponerlo
-en el grupo.
 
 ------------------------------------------------------------
 5. MENSAJES PARA LLEVAR A CASA
@@ -311,8 +455,38 @@ en el grupo.
    5 después del parto: son dos consultas distintas.
 
 ------------------------------------------------------------
-6. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+6. NOTAS PARA EL FACILITADOR (no leer en voz alta)
 ------------------------------------------------------------
+Si una gestante vive con VIH, abordar el tema en privado: según la
+norma, no amamantará y el programa le entrega fórmula. No exponerlo
+en el grupo.
+
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada tema,
+  hacer una pregunta al grupo ("¿Qué haría usted si...?") o una
+  práctica corta.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo del inicio de la próxima sesión.
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes): enviar
+  una sola pregunta 3 a 4 días después de la sesión y la respuesta
+  al día siguiente. Invitar a responder; contestar dudas. No
+  enviar datos clínicos personales por el grupo.
+  Pregunta: "¿Qué temperatura del bebé es motivo para ir a
+  urgencias?"
+  Respuesta: "37,5 °C o más en la axila (fiebre), o menos de
+  36,5 °C (temperatura baja). Vaya también a urgencias si no
+  quiere comer, está muy dormido o 'flojito', o respira rápido o
+  con las costillas hundidas."
+
+------------------------------------------------------------
+7. ANEXO: PRE-TEST / POST-TEST
+------------------------------------------------------------
+Verdadero o Falso:
 1. El bebé debe dormir boca abajo para no ahogarse. (F)
 2. Se debe poner un fajero o una moneda en el ombligo. (F)
 3. Es normal que el bebé pierda algo de peso los primeros días. (V)
@@ -320,8 +494,35 @@ en el grupo.
    consultar. (V)
 5. Las deposiciones blancas o color masilla son normales. (F)
 
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. ¿Cómo va a acostar a su bebé para dormir?
+   Respuesta esperada: siempre boca arriba (siestas y noche), en
+   su propia cuna o moisés, superficie firme, sin almohadas,
+   cojines, peluches ni cobijas sueltas; en la habitación de los
+   padres pero no en la cama con ellos.
+B. Diga 4 señales del bebé por las que iría a urgencias.
+   Respuesta esperada (4 de estas): fiebre (37,5 °C o más) o
+   temperatura baja (menos de 36,5 °C); no quiere comer o vomita
+   todo; muy dormido o "flojito"; respira rápido, se le hunden
+   las costillas o se queja; labios morados o muy pálido;
+   convulsiones; amarillo en las primeras 24 horas o hasta
+   piernas, palmas y plantas; deposiciones blancas, grises o
+   color masilla; ombligo rojo, con pus o mal olor; moja pocos
+   pañales; llanto inconsolable o muy débil.
+C. ¿Qué haría si a las 33 semanas siente contracciones regulares o
+   le sale líquido por la vagina?
+   Respuesta esperada: ir a urgencias de inmediato. Antes de la
+   semana 37, cualquier contracción regular se consulta; la
+   salida de líquido se consulta aunque no haya dolor (fijarse en
+   el color y anotar la hora).
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
+
 ------------------------------------------------------------
-7. REFERENCIAS SUGERIDAS (verificar edición vigente)
+8. REFERENCIAS SUGERIDAS (verificar edición vigente)
 ------------------------------------------------------------
 - MinSalud. Resolución 3280 de 2018, Lineamiento de la Ruta
   Materno Perinatal, num. 4.10 (cuidado del recién nacido:
@@ -350,3 +551,16 @@ en el grupo.
   recién nacido, 2022.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 91, 102-103 y 105-118). Complementario.
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada; baraja de casos).
+- Método de enseñanza: Wisniewski B, et al. Front Psychol.
+  2020;10:3087 (retroalimentación en las prácticas).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+  Nota: la evidencia de estos métodos viene sobre todo de
+  estudiantes, no de educación a gestantes.

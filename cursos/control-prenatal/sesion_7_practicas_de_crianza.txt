@@ -30,17 +30,24 @@ Específicos:
 - Libro infantil de cartón (para demostrar lectura temprana)
 - Pre-test / post-test (anexo)
 - Volante de líneas de ayuda (ver sección 8)
+- Lámina de signos de alarma (embarazo, parto, recién nacido y
+  posparto) para el recuerdo inicial
+- Minibaraja de casos (5 tarjetas) y tres carteles: NORMAL /
+  CONSULTA PRONTO / URGENCIAS
 
 ------------------------------------------------------------
 3. AGENDA
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:25  Bloque 1: ¿Cómo me criaron? ¿Cómo quiero criar?
-00:25 - 00:45  Bloque 2: Apego y necesidades del bebé
-00:45 - 01:05  Bloque 3: Crianza positiva y sin violencia
-01:05 - 01:15  Pausa
-01:15 - 01:35  Bloque 4: Corresponsabilidad y red de apoyo
-01:35 - 01:50  Bloque 5: Salud mental en el posparto
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:28  Bloque 1: ¿Cómo me criaron? ¿Cómo quiero criar?
+00:28 - 00:43  Bloque 2: Apego y necesidades del bebé
+00:43 - 01:00  Bloque 3: Crianza positiva y sin violencia
+01:00 - 01:10  Pausa
+01:10 - 01:28  Bloque 4: Corresponsabilidad y red de apoyo
+01:28 - 01:40  Bloque 5: Salud mental en el posparto
+01:40 - 01:45  Minibaraja de casos: madre y bebé en el posparto
+01:45 - 01:50  Cierre en parejas: enséñele al otro
 01:50 - 02:00  Post-test, cierre del curso y certificados
 
 ------------------------------------------------------------
@@ -53,7 +60,43 @@ FACILITADOR(A):
 del bebé y de la lactancia. Hoy hablamos de algo que dura toda la
 vida: cómo vamos a acompañar a nuestros hijos a crecer."
 
-[00:10] BLOQUE 1: ¿CÓMO ME CRIARON? ¿CÓMO QUIERO CRIAR?
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de alarma y
+  el grupo compara: ¿cuáles dijimos? ¿cuáles se nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final de la sesión.
+Esta sesión el recuerdo incluye todo lo visto en el curso:
+- Embarazo: sangrado; salida de líquido; dolor de cabeza fuerte,
+  visión borrosa o lucecitas; hinchazón de cara, manos o pies de
+  repente o desde que se levanta; dolor en la boca del estómago;
+  fiebre; ardor al orinar; vómito; convulsiones; dificultad para
+  respirar; una pierna hinchada, roja o dolorosa; caída o golpe
+  en el abdomen.
+- Movimientos del bebé: si se mueve menos, acostarse de lado y
+  contar 2 horas; si son menos de 10, urgencias; si no se mueve
+  nada, no contar: ir ya.
+- Parto: contracciones regulares que no ceden con reposo, salida
+  de líquido o sangrado; antes de la semana 37, cualquier
+  contracción regular.
+- Recién nacido: fiebre (37,5 °C o más) o temperatura baja; no
+  come o succiona débil; muy dormido o "flojito"; respira rápido
+  o se le hunden las costillas; labios morados; convulsiones;
+  amarillo en las primeras 24 horas o hasta piernas, palmas y
+  plantas; ombligo rojo, con pus o mal olor.
+- Madre en el posparto: fiebre de 38 °C o más; sangrado abundante
+  o con mal olor; dolor de cabeza fuerte o visión borrosa; dolor
+  en el pecho o dificultad para respirar; pierna hinchada;
+  tristeza que no la deja cuidarse ni cuidar al bebé.
+- Lactancia (consultar): zona del pecho roja, caliente y dolorosa
+  que no mejora en 24 horas o con fiebre alta; bebé que moja
+  pocos pañales, está muy dormido, amarillo o no recupera peso.
+
+[00:15] BLOQUE 1: ¿CÓMO ME CRIARON? ¿CÓMO QUIERO CRIAR?
 Ejercicio de reflexión individual (5 min), en una hoja:
 1. Algo de mi crianza que quiero repetir.
 2. Algo de mi crianza que no quiero repetir.
@@ -65,7 +108,7 @@ FACILITADOR(A):
 es el primer paso para elegir. Ninguna familia es perfecta; lo
 importante es la intención de reparar cuando nos equivocamos."
 
-[00:25] BLOQUE 2: APEGO Y NECESIDADES DEL BEBÉ
+[00:28] BLOQUE 2: APEGO Y NECESIDADES DEL BEBÉ
 Mensajes clave:
 - El apego es el vínculo emocional entre el bebé y las personas
   que lo cuidan. Un apego seguro se construye cuando el bebé
@@ -147,6 +190,8 @@ Necesidades del bebé en el primer año:
 
 Demostración: leer el libro de cartón señalando y nombrando las
 imágenes, con pausas para que el bebé "responda".
+Luego cada pareja lo practica: primero la gestante y después el
+acompañante (el acompañante practica también, no solo observa).
 
 Pantallas: la OMS recomienda que los menores de 2 años no tengan
 tiempo frente a pantallas. La Academia Americana de Pediatría (AAP)
@@ -154,7 +199,7 @@ hace una excepción con las videollamadas con la familia.
 El celular de los adultos también compite con la interacción: crear
 momentos sin pantalla.
 
-[00:45] BLOQUE 3: CRIANZA POSITIVA Y SIN VIOLENCIA
+[00:43] BLOQUE 3: CRIANZA POSITIVA Y SIN VIOLENCIA
 Mensajes clave:
 - En Colombia está prohibido el castigo físico, los tratos crueles,
   humillantes o degradantes hacia niñas, niños y adolescentes
@@ -199,9 +244,9 @@ situación y propone una respuesta respetuosa:
 4. "La mamá está agotada y el papá dice que eso es cosa de ella."
 Cada grupo comparte; el facilitador retroalimenta.
 
-[01:05] PAUSA (10 min)
+[01:00] PAUSA (10 min)
 
-[01:15] BLOQUE 4: CORRESPONSABILIDAD Y RED DE APOYO
+[01:10] BLOQUE 4: CORRESPONSABILIDAD Y RED DE APOYO
 Mensajes clave:
 - La crianza es responsabilidad compartida, no "ayuda". El padre o
   la pareja puede hacer todo excepto amamantar: cambiar pañales,
@@ -234,7 +279,7 @@ En pareja (o con el acompañante), completar:
   (El cansancio de los primeros meses es real: planear turnos de
   sueño y aceptar ayuda es parte de cuidar al bebé.)
 
-[01:35] BLOQUE 5: SALUD MENTAL EN EL POSPARTO
+[01:28] BLOQUE 5: SALUD MENTAL EN EL POSPARTO
 Tristeza posparto ("baby blues"):
 - Muy frecuente (muchas madres la presentan).
 - Llanto fácil, sensibilidad, irritabilidad, ansiedad.
@@ -287,7 +332,9 @@ Signos de alarma de la madre (consultar de inmediato):
 - Sangrado abundante, o sangrado o flujo con mal olor.
 - Dolor fuerte en el bajo vientre, o dolor en la zona del ano o
   del útero que aumenta o reaparece.
-- Pecho rojo, caliente y doloroso.
+- Pecho rojo, caliente y doloroso con fiebre o escalofríos, o
+  que no mejora en 24 horas: consultar ese mismo día, sin
+  suspender la lactancia.
 - Dolor en los puntos (episiotomía o cesárea) que no cede con
   analgésicos, o herida roja o con secreción.
 - Dolor de cabeza fuerte, visión borrosa o lucecitas, dolor en la
@@ -306,13 +353,73 @@ lactancia, la herida o los puntos, la presión arterial, la
 anemia, sus vacunas y el método de planificación. El bebé tiene
 su propio control con pediatría en esos mismos días.
 
+[01:40] MINIBARAJA: ¿NORMAL, CONSULTA PRONTO O URGENCIAS? (5 min)
+Casos de salud de la madre y del bebé en el posparto (los casos
+de crianza ya se trabajaron en el Bloque 3).
+Tres carteles en el piso o la pared: NORMAL (verde), CONSULTA
+PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en uno de los tres carteles, diciendo por qué. El
+grupo opina; el facilitador corrige y explica.
+Casos (mezclar, no en orden):
+1. "Tengo 4 días de parida. Lloro por todo y estoy muy sensible,
+   pero duermo cuando el bebé duerme y lo cuido bien."
+   → NORMAL. Por qué: es la tristeza posparto; es muy frecuente
+   y mejora sola en unas 2 semanas con descanso y apoyo.
+2. "Al bebé de 6 días la piel alrededor del ombligo se le puso
+   roja y le huele mal."
+   → URGENCIAS. Por qué: ombligo rojo alrededor, con pus o mal
+   olor es un signo de alarma del recién nacido.
+3. "Tengo 5 semanas de parida. Cuido al bebé, pero sigo triste
+   casi todo el día, ya nada me gusta y siento que soy mala
+   madre."
+   → CONSULTA PRONTO (en el control posparto o antes). Por qué:
+   dura más de 2 semanas; puede ser depresión posparto y tiene
+   tratamiento. Si además piensa en hacerse daño o en hacerle
+   daño al bebé, es URGENCIAS ese mismo día.
+4. "Tengo 6 días de parida, 38,5 °C de fiebre y el flujo me huele
+   mal."
+   → URGENCIAS. Por qué: fiebre de 38 °C o más después del
+   primer día y flujo con mal olor son signos de alarma de la
+   madre.
+5. "Al bebé de 8 días se le cayó el ombligo y salió una gotica de
+   sangre. Está seco y no huele mal."
+   → NORMAL. Por qué: el cordón se cae entre los 5 y 15 días y
+   un poco de sangre al caerse es normal. Mantenerlo limpio y
+   seco.
+Casos que se parecen y se clasifican distinto: 1 y 3 (tristeza),
+2 y 5 (ombligo). Hacer notar la diferencia al grupo.
+
+[01:45] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, qué van a hacer
+cuando el bebé llore y la mamá esté agotada, y qué señales de
+tristeza en el posparto se consultan. Luego cambien: el
+acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el seguimiento
+en el control posparto.)
+
 [01:50] POST-TEST, CIERRE DEL CURSO Y CERTIFICADOS
-- Aplicar post-test.
+- Aplicar post-test (Verdadero o Falso y preguntas abiertas).
 - Ronda final: "Un compromiso que me llevo para mi familia."
 - Entregar certificados de asistencia (si la IPS los expide) y
   recordar las sesiones pendientes.
 - Recordar: control prenatal, vacunas, maleta lista a partir de la
   semana 34-36, plan de parto y método de planificación elegido.
+- Tarea del acompañante (para esta semana): en casa, terminar el
+  "Acuerdo de corresponsabilidad" y sumarle un acuerdo de crianza
+  en pareja: qué hará cada uno cuando el bebé llore y la mamá
+  esté agotada (turnarse, acostar al bebé en un lugar seguro,
+  salir un momento, respirar y pedir ayuda; nunca sacudirlo), y
+  cómo pondrán límites a los consejos de la familia. Pegarlo en
+  un lugar visible. Si la gestante viene sola, la tarea es para
+  la persona que la va a acompañar en casa.
+- Avisar que en 3 a 4 días llegará la pregunta de la semana por
+  WhatsApp (solo a quienes aceptaron recibir mensajes).
 
 ------------------------------------------------------------
 5. MENSAJES PARA LLEVAR A CASA
@@ -368,9 +475,53 @@ su propio control con pediatría en esos mismos días.
   prevención de accidentes, límite de pantallas y el rol del
   padre como cuidador. Este guion los cubre.
 
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada
+  tema, hacer una pregunta al grupo ("¿Qué haría usted si...?")
+  o una práctica corta. Por ejemplo, en el Bloque 2: "¿Qué haría
+  si la abuela le dice que no cargue al bebé cuando llora?"
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo. Como esta es la última sesión, ese
+  repaso queda en la pregunta de WhatsApp y en el control
+  posparto.
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes):
+  enviar una sola pregunta 3 a 4 días después de la sesión y la
+  respuesta al día siguiente. Invitar a responder y contestar
+  dudas. No enviar datos clínicos personales por el grupo.
+  Pregunta: "¿Qué hace si el bebé llora mucho y usted siente que
+  ya no aguanta más?"
+  Respuesta: "Acueste al bebé boca arriba en un lugar seguro,
+  salga unos minutos, respire, pida ayuda y vuelva. Nunca lo
+  sacuda. Y si después del parto la tristeza dura más de 2
+  semanas, consulte."
+
+Continuación posparto:
+- Contactar a cada madre a la semana del parto (llamada, visita o
+  en el control posparto) para revisar: lactancia y agarre,
+  signos de alarma de la madre y del bebé, ánimo (las 2 preguntas
+  de la GPC 2013) y método de planificación.
+- La evidencia muestra mejores resultados de lactancia cuando la
+  educación sigue después del parto y se involucra a la familia
+  (Xie 2026).
+
+Cómo saber si el curso funciona:
+Además del pre-test y el post-test, registrar por cohorte:
+1. Consultas por signos de alarma que llegaron a tiempo frente a
+   las que llegaron tarde (si la IPS puede verlo).
+2. Lactancia materna exclusiva al mes (preguntar en el control).
+3. Asistencia al control posparto y al control del recién
+   nacido.
+4. Método de planificación elegido antes del parto.
+
 ------------------------------------------------------------
-7. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+7. ANEXO: PRE-TEST / POST-TEST
 ------------------------------------------------------------
+Verdadero o Falso:
 1. Cargar al bebé cada vez que llora lo malcría. (F)
 2. En Colombia está prohibido el castigo físico a niños y niñas. (V)
 3. Se recomienda que los menores de 2 años no usen pantallas. (V)
@@ -379,6 +530,33 @@ su propio control con pediatría en esos mismos días.
 5. Cuidar al bebé es responsabilidad solo de la madre. (F)
 6. Si el bebé no quiere comer, hay que insistir hasta que se acabe
    el plato. (F)
+
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. ¿Qué haría si el bebé llora mucho y usted (o su pareja) se
+   siente desbordada?
+   Respuesta esperada: acostar al bebé boca arriba en un lugar
+   seguro, alejarse un momento, respirar, pedir ayuda y volver.
+   Nunca sacudirlo ni pegarle.
+B. ¿Cómo sabe si la tristeza después del parto es la que pasa
+   sola o una que hay que consultar?
+   Respuesta esperada: la de los primeros días mejora sola en
+   unas 2 semanas. Si dura más de 2 semanas, o no la deja
+   cuidarse ni cuidar al bebé, consultar. Si piensa en hacerse
+   daño o en hacerle daño al bebé, consultar ese mismo día.
+C. Diga 3 señales por las que la madre o el bebé deben ir a
+   urgencias después del parto.
+   Respuesta esperada (3 de estas): madre: fiebre de 38 °C o más,
+   sangrado abundante o con mal olor, dolor de cabeza fuerte o
+   visión borrosa, dolor en el pecho o dificultad para respirar,
+   pierna hinchada. Bebé: fiebre de 37,5 °C o más, no come, muy
+   dormido, respira rápido o se le hunden las costillas, labios
+   morados, amarillo hasta piernas o palmas, ombligo rojo o con
+   mal olor.
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
 
 ------------------------------------------------------------
 8. LÍNEAS DE AYUDA (verificar vigencia antes de imprimir)
@@ -430,3 +608,19 @@ su propio control con pediatría en esos mismos días.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 57-58, 60-62, 65-67, 91-95, 163-165 y 170-175).
   Complementario.
+Método de enseñanza (la evidencia de estos métodos viene sobre
+todo de estudiantes, no de educación a gestantes):
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada; minibaraja).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+- Método de enseñanza: Xie Z, et al. Nurs Open.
+  2026;13(7):e70669 (lactancia centrada en la familia, prenatal
+  y posnatal).
+- Método de enseñanza: Purohit H, et al. Breastfeed Med. 2026
+  (consejería individual en lactancia).

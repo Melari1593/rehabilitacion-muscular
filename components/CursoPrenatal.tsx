@@ -36,7 +36,7 @@ const TEXTOS = {
     aprenderas: 'Lo que aprenderás',
     paraCasa: 'Para llevar a casa',
     notaSesiones:
-      'Cada sesión dura 2 horas y combina conversación, práctica y un repaso al final. Si te pierdes una, puedes tomarla en el siguiente ciclo del curso. Si empiezas después de la semana 34, hay una ruta corta de 2 encuentros, y desde la semana 37 una sesión esencial. Consulta los horarios y sedes con tu IPS.',
+      'Cada sesión dura 2 horas: empieza repasando de memoria los signos de alarma, combina conversación, casos para practicar cuándo consultar y práctica con las manos, y termina explicándole a tu acompañante lo aprendido. Si te pierdes una, puedes tomarla en el siguiente ciclo del curso. Si empiezas después de la semana 34, hay una ruta corta de 2 encuentros, y desde la semana 37 una sesión esencial. Consulta los horarios y sedes con tu IPS.',
     alarmaEtiqueta: 'No esperes al próximo control',
     alarmaTitulo: 'Signos de alarma en el embarazo.',
     alarmaAntes: 'Si tienes alguno de estos signos, ve a urgencias de inmediato o llama al ',
@@ -44,7 +44,7 @@ const TEXTOS = {
     equipo: 'Para el equipo de salud',
     tituloGuiones: 'Guiones de las sesiones.',
     introGuiones:
-      'Guiones completos para enfermería y psicología: objetivos, agenda minuto a minuto, dinámicas, pre-test y post-test, notas para el facilitador y referencias. Ajustados a la Resolución 3280 de 2018 (Ruta Materno Perinatal) y a la GPC de embarazo, parto y puerperio de 2013. Incluyen una ruta corta (semanas 34 a 36) y una sesión esencial (semana 37 o más) para quien empieza tarde.',
+      'Guiones completos para enfermería y psicología: objetivos, agenda minuto a minuto, dinámicas, repaso acumulado de signos de alarma, barajas de casos (normal, consulta pronto o urgencias), práctica guiada con retroalimentación, cierre en parejas, pre-test y post-test con preguntas abiertas, notas para el facilitador y referencias. Ajustados a la Resolución 3280 de 2018 (Ruta Materno Perinatal) y a la GPC de embarazo, parto y puerperio de 2013. Incluyen una ruta corta (semanas 34 a 36) y una sesión esencial (semana 37 o más) para quien empieza tarde.',
     fuentes: 'Fuentes',
     textoFuentes:
       'Ministerio de Salud y Protección Social, Resolución 3280 de 2018 (modificada por la Res. 276 de 2019). Ministerio de Salud y Protección Social y Colciencias, Guía de Práctica Clínica para la prevención, detección temprana y tratamiento de las complicaciones del embarazo, parto o puerperio, 2013. Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed., 2017. Ley 2244 de 2022. Ley 1980 de 2019. OMS. Material complementario de la revista Creciendo Juntos (2026), parafraseado y citado.',
@@ -70,7 +70,7 @@ const TEXTOS = {
     aprenderas: 'What you will learn',
     paraCasa: 'Take-home messages',
     notaSesiones:
-      'Each session lasts 2 hours and combines conversation, hands-on practice and a review at the end. If you miss one, you can take it in the next round of the course. If you start after week 34, there is a short track of 2 meetings, and from week 37 an essential session. Ask your health provider (IPS) for schedules and locations. Sessions are taught in Spanish.',
+      'Each session lasts 2 hours: it starts by recalling the warning signs from memory, combines conversation, cases to practice when to seek care and hands-on practice, and ends with you explaining what you learned to your companion. If you miss one, you can take it in the next round of the course. If you start after week 34, there is a short track of 2 meetings, and from week 37 an essential session. Ask your health provider (IPS) for schedules and locations. Sessions are taught in Spanish.',
     alarmaEtiqueta: 'Don’t wait for your next check-up',
     alarmaTitulo: 'Warning signs during pregnancy.',
     alarmaAntes: 'If you have any of these signs, go to the emergency room right away or call ',
@@ -78,7 +78,7 @@ const TEXTOS = {
     equipo: 'For health professionals',
     tituloGuiones: 'Session scripts.',
     introGuiones:
-      'Complete scripts for nursing and psychology staff: objectives, minute-by-minute agenda, activities, pre- and post-tests, facilitator notes and references. Aligned with Colombian Resolution 3280 of 2018 (Maternal and Perinatal Care Pathway) and the 2013 Colombian clinical practice guideline on pregnancy, childbirth and the postpartum period. They include a short track (weeks 34 to 36) and an essential session (week 37 or later) for those who start late. The scripts are available in Spanish only.',
+      'Complete scripts for nursing and psychology staff: objectives, minute-by-minute agenda, activities, cumulative warning-sign recall, case decks (normal, see a provider soon or go to the emergency room), guided practice with feedback, closing teach-back in pairs, pre- and post-tests with open questions, facilitator notes and references. Aligned with Colombian Resolution 3280 of 2018 (Maternal and Perinatal Care Pathway) and the 2013 Colombian clinical practice guideline on pregnancy, childbirth and the postpartum period. They include a short track (weeks 34 to 36) and an essential session (week 37 or later) for those who start late. The scripts are available in Spanish only.',
     fuentes: 'Sources',
     textoFuentes:
       'Colombian Ministry of Health and Social Protection, Resolution 3280 of 2018 (amended by Resolution 276 of 2019). Colombian Ministry of Health and Colciencias, Clinical practice guideline for the prevention, early detection and treatment of complications of pregnancy, childbirth and the postpartum period, 2013. Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8th ed., 2017. Colombian Law 2244 of 2022. Colombian Law 1980 of 2019. World Health Organization. Supplementary material from Creciendo Juntos magazine (2026), paraphrased and cited.',

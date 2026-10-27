@@ -54,6 +54,7 @@ Encuentro 1:
 - Lámina de dilatación del cuello (círculos de 1 a 10 cm)
 - Formato "Mi plan de parto"
 - Lista de la maleta
+- Muñeco de tamaño real (para practicar el agarre)
 - Pre-test / post-test del Encuentro 1 (anexo)
 
 Encuentro 2:
@@ -67,6 +68,10 @@ Encuentro 2:
   píldora, condón)
 - Volante de líneas de ayuda (ver sección 9)
 - Copias del material de lectura: sesiones 1, 3 y 7
+- Minibaraja de casos (6 tarjetas) y tres carteles: NORMAL /
+  CONSULTA PRONTO / URGENCIAS
+- Lámina de signos de alarma (embarazo, parto, recién nacido y
+  posparto) para el recuerdo
 - Pre-test / post-test del Encuentro 2 (anexo)
 
 ------------------------------------------------------------
@@ -74,31 +79,37 @@ Encuentro 2:
 ------------------------------------------------------------
 ENCUENTRO 1
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:20  Bloque 1: Signos de alarma (resumen)
-00:20 - 00:35  Bloque 2: ¿Cuándo ir a la clínica? (a término y
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:22  Bloque 1: Signos de alarma (resumen)
+00:22 - 00:35  Bloque 2: ¿Cuándo ir a la clínica? (a término y
                antes de término)
-00:35 - 00:55  Bloque 3: Las etapas del parto y sus derechos
-00:55 - 01:05  Pausa
-01:05 - 01:30  Bloque 4: Taller: manejo del dolor (respiración,
+00:35 - 00:52  Bloque 3: Las etapas del parto y sus derechos
+00:52 - 01:02  Pausa
+01:02 - 01:27  Bloque 4: Taller: manejo del dolor (respiración,
                posiciones, masaje, epidural)
-01:30 - 01:40  Bloque 5: Plan de parto y maleta
-01:40 - 01:45  Bloque 6: Si llega a la semana 40
-01:45 - 01:55  Bloque 7: Piel a piel, lactancia en la primera
+01:27 - 01:35  Bloque 5: Plan de parto y maleta
+01:35 - 01:40  Bloque 6: Si llega a la semana 40
+01:40 - 01:50  Bloque 7: Piel a piel, lactancia en la primera
                hora y buen agarre
+01:50 - 01:55  Cierre en parejas y recuerdo final
 01:55 - 02:00  Post-test y cierre
 
 ENCUENTRO 2
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:30  Bloque 1: Cuidados esenciales del recién nacido
+00:10 - 00:15  Recuerdo inicial del Encuentro 1: ¿cuándo vamos
+               a urgencias?
+00:15 - 00:30  Bloque 1: Cuidados esenciales del recién nacido
                (sueño seguro, ombligo, nunca sacudir)
-00:30 - 00:40  Bloque 2: Signos de alarma del recién nacido
-00:40 - 01:05  Bloque 3: Lactancia: libre demanda, problemas
+00:30 - 00:38  Bloque 2: Signos de alarma del recién nacido
+00:38 - 01:00  Bloque 3: Lactancia: libre demanda, problemas
                frecuentes y cuándo no amamantar
-01:05 - 01:15  Pausa
-01:15 - 01:35  Bloque 4: Planificación familiar en el posparto
-01:35 - 01:45  Bloque 5: Autocuidado y signos de alarma de la
+01:00 - 01:10  Pausa
+01:10 - 01:26  Bloque 4: Planificación familiar en el posparto
+01:26 - 01:34  Bloque 5: Autocuidado y signos de alarma de la
                madre en el posparto
-01:45 - 01:53  Bloque 6: Tristeza y depresión posparto
+01:34 - 01:42  Bloque 6: Tristeza y depresión posparto
+01:42 - 01:48  Minibaraja de casos: madre y bebé
+01:48 - 01:53  Cierre en parejas y recuerdo final
 01:53 - 02:00  Controles, material de lectura, post-test y cierre
 
 ------------------------------------------------------------
@@ -116,7 +127,22 @@ Ronda: nombre, semanas y una idea o miedo sobre el parto.
 Preguntar en privado (no en el grupo) quién aún no ha iniciado
 control prenatal (ver notas para el facilitador).
 
-[00:10] BLOQUE 1: SIGNOS DE ALARMA (resumen; consultar a urgencias)
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de alarma y
+  el grupo compara: ¿cuáles dijimos? ¿cuáles se nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final del encuentro.
+Este encuentro el recuerdo parte de lo que ya sepan por el control
+prenatal: los signos de alarma del embarazo y los movimientos del
+bebé. El Bloque 1 completa la lista (no repetir lo que el grupo
+ya dijo bien: solo lo que faltó).
+
+[00:15] BLOQUE 1: SIGNOS DE ALARMA (resumen; consultar a urgencias)
 - Sangrado vaginal
 - Salida de líquido por la vagina
 - Dolor de cabeza fuerte, visión borrosa, lucecitas o zumbido
@@ -154,7 +180,7 @@ Consultar pronto (sin esperar al próximo control) si hay:
 - Tos que no mejora
 - Tristeza o angustia intensa, o no poder dormir
 
-[00:20] BLOQUE 2: ¿CUÁNDO IR A LA CLÍNICA?
+[00:22] BLOQUE 2: ¿CUÁNDO IR A LA CLÍNICA?
 Señales de que el parto se acerca (días o semanas antes):
 - Descenso del bebé ("se bajó la barriga"): se respira mejor pero
   se orina más.
@@ -282,14 +308,33 @@ Derechos (Ley 2244 de 2022 - parto digno, respetado y humanizado):
   madre y el bebé están bien.
 - Manejo del dolor.
 
-[00:55] PAUSA (10 min)
+[00:52] PAUSA (10 min)
 
-[01:05] BLOQUE 4: TALLER - MANEJO DEL DOLOR (25 min)
+[01:02] BLOQUE 4: TALLER - MANEJO DEL DOLOR (25 min)
 Explicar: el dolor del parto es real y cada mujer lo vive distinto.
 Existen métodos no farmacológicos y farmacológicos, y se pueden
 combinar.
 
-1. Respiración (7 min)
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa, de principio a fin,
+   diciendo en voz alta cada paso.
+2. Cada pareja la practica (entre ellos, con balón o colchoneta)
+   mientras el facilitador recorre el salón. El acompañante
+   practica también (contar, presionar, sostener), no solo
+   observa.
+3. Corregir con frases concretas que digan qué cambiar. Evitar
+   solo "muy bien". Ejemplos:
+   - "Suelte los hombros y la mandíbula mientras bota el aire."
+   - "Bote el aire más despacio: que la salida dure más que la
+     entrada."
+   - "Acompañante: cuente más lento y en voz baja, al ritmo de
+     ella."
+   - "Presione con toda la palma en la parte baja de la espalda
+     y sostenga durante toda la contracción, no solo al inicio."
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+
+1. Respiración (8 min)
    - Al inicio de la contracción: inhalar profundo por la nariz y
      exhalar largo por la boca ("respiración de bienvenida").
    - Durante la contracción: respiración lenta y rítmica, soltando
@@ -319,7 +364,7 @@ combinar.
    posición, ser la voz de la mujer ante el equipo si ella lo
    pide.
 
-4. Métodos farmacológicos (6 min)
+4. Métodos farmacológicos (5 min)
    - Toda mujer tiene derecho a métodos eficaces y seguros para
      aliviar el dolor; basta con que usted lo pida.
    - Analgesia epidural (peridural): medicamento en la espalda que
@@ -342,7 +387,7 @@ combinar.
      requerir remisión a otra institución. Pregunte en el control
      prenatal.
 
-[01:30] BLOQUE 5: PLAN DE PARTO Y MALETA
+[01:27] BLOQUE 5: PLAN DE PARTO Y MALETA
 Plan de parto: se define en el control prenatal e incluye el
 lugar, la institución y quién atenderá el parto, y cómo llegará
 (transporte, sobre todo si vive lejos). Agregue sus preferencias
@@ -362,7 +407,7 @@ Para la salida: una muda cómoda para la madre.
 Para el acompañante: cargador de celular, algo de efectivo, agua
 y algo de comer, una muda de ropa y cepillo de dientes.
 
-[01:40] BLOQUE 6: SI LLEGA A LA SEMANA 40
+[01:35] BLOQUE 6: SI LLEGA A LA SEMANA 40
 - En el control de la semana 38 le explicarán qué opciones hay si
   el embarazo se prolonga.
 - Desde la semana 41 aumenta el riesgo para el bebé. Por eso el
@@ -370,7 +415,7 @@ y algo de comer, una muda de ropa y cepillo de dientes.
   la inducción del parto.
 - Ningún embarazo debe pasar de la semana 42.
 
-[01:45] BLOQUE 7: PIEL A PIEL, LACTANCIA EN LA PRIMERA HORA Y
+[01:40] BLOQUE 7: PIEL A PIEL, LACTANCIA EN LA PRIMERA HORA Y
 BUEN AGARRE
 - Contacto piel a piel inmediato, sin separarlos durante al menos
   la primera hora si los dos están bien: regula la temperatura, la
@@ -382,6 +427,24 @@ BUEN AGARRE
 - El calostro (primera leche, amarilla y espesa, en poca cantidad)
   es como una primera vacuna: rico en defensas. Es suficiente para
   el estómago pequeño del recién nacido.
+
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa con el muñeco, de
+   principio a fin, diciendo en voz alta cada paso.
+2. Cada pareja la practica con el muñeco mientras el facilitador
+   recorre el salón. El acompañante practica también: sostiene
+   al muñeco y acomoda cojines, no solo observa.
+3. Corregir con frases concretas que digan qué cambiar. Evitar
+   solo "muy bien". Ejemplos:
+   - "Acérquelo más: barriga con barriga, que no tenga que
+     voltear la cabeza."
+   - "Espere a que abra bien la boca, como un bostezo, y ahí sí
+     lléveselo al pecho."
+   - "Mírele el labio de abajo: tiene que quedar hacia afuera."
+   - "Se ve mucha areola por debajo de la boca: acerque el
+     mentón del bebé al pecho."
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
 
 Principios de una buena posición (demostrar con el muñeco):
 - Madre cómoda, espalda apoyada, hombros relajados.
@@ -400,9 +463,35 @@ Signos de buen agarre:
 Si duele: introducir el dedo meñique por la comisura de la boca
 para romper el vacío, retirar y volver a intentar.
 
+Verificación individual: el agarre aprendido en grupo se revisa
+uno a uno. Anotar en el carné "revisar agarre" para que en la
+primera visita posparto (entre las 24 y las 48 horas si salen
+antes de 48 horas; si no, entre los días 3 y 5) o en el control
+del bebé, el profesional observe una toma completa.
+
+[01:50] CIERRE EN PAREJAS Y RECUERDO FINAL (5 min)
+FACILITADOR(A):
+"Sin mirar la lámina: explíquele a su acompañante, con sus
+palabras, cuándo hay que ir a urgencias. Luego cambien: el
+acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el recuerdo del
+inicio del Encuentro 2.)
+
 [01:55] POST-TEST Y CIERRE
-- Aplicar post-test del Encuentro 1.
+- Aplicar post-test del Encuentro 1 (Verdadero o Falso y
+  preguntas abiertas).
 - Recordar: maleta lista, plan de parto y carné perinatal.
+- Tarea del acompañante (antes del Encuentro 2): conocer la ruta
+  y el tiempo hasta la clínica (también de noche), dejar listo el
+  transporte y revisar con ella la maleta. Si la gestante viene
+  sola, la tarea es para la persona que la va a acompañar en el
+  parto.
+- Avisar que entre los dos encuentros llegará una pregunta por
+  WhatsApp (solo a quienes aceptaron recibir mensajes).
 Próximo encuentro: Encuentro 2, "Recién nacido, lactancia,
 planificación y posparto" (idealmente antes de la semana 36).
 
@@ -418,13 +507,29 @@ método de planificación. Nadie nace sabiendo: equivocarse aquí es
 la mejor forma de aprender."
 Ronda: nombre, semanas y qué es lo que más les preocupa de cuidar
 al bebé.
-Repasar en un minuto: cuándo ir a la clínica y movimientos del
-bebé (si siente que su bebé se mueve menos, acuéstese de lado de
-inmediato y cuente sus movimientos durante 2 horas; si son menos
-de 10, vaya a urgencias enseguida; si no lo siente moverse nada,
-no cuente: vaya ya).
 
-[00:10] BLOQUE 1: CUIDADOS ESENCIALES DEL RECIÉN NACIDO
+[00:10] RECUERDO INICIAL DEL ENCUENTRO 1: ¿CUÁNDO VAMOS A
+URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de alarma y
+  el grupo compara: ¿cuáles dijimos? ¿cuáles se nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final del encuentro.
+Este encuentro el recuerdo incluye lo del Encuentro 1:
+- Signos de alarma del embarazo (Bloque 1 del Encuentro 1).
+- Movimientos del bebé: si siente que su bebé se mueve menos,
+  acuéstese de lado de inmediato y cuente sus movimientos durante
+  2 horas; si son menos de 10, vaya a urgencias enseguida; si no
+  lo siente moverse nada, no cuente: vaya ya.
+- Cuándo ir a la clínica: contracciones regulares que no ceden
+  con reposo, salida de líquido o sangrado; antes de la semana
+  37, cualquier contracción regular.
+
+[00:15] BLOQUE 1: CUIDADOS ESENCIALES DEL RECIÉN NACIDO
 Lavado de manos antes de cualquier cuidado. Siempre.
 
 Al nacer: vitamina K (una inyección en el muslo, previene
@@ -448,6 +553,19 @@ Sueño seguro (prevención de muerte súbita del lactante):
 - Tiempo boca abajo solo cuando está despierto y vigilado.
 
 Cuidado del ombligo (practicar con el muñeco):
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa con el muñeco, de
+   principio a fin, diciendo en voz alta cada paso.
+2. Cada pareja la practica con el muñeco mientras el facilitador
+   recorre el salón. El acompañante practica también, no solo
+   observa.
+3. Corregir con frases concretas que digan qué cambiar. Evitar
+   solo "muy bien". Ejemplos:
+   - "Primero lávese las manos; después toque el ombligo."
+   - "Seque bien alrededor del cordón antes de cerrar el pañal."
+   - "Doble el borde del pañal por debajo del ombligo."
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
 - Mantenerlo limpio y seco. Limpiar con agua y jabón suave si se
   ensucia y secar bien. No es necesario aplicar alcohol u otras
   sustancias salvo indicación del equipo de salud.
@@ -500,7 +618,7 @@ Si el cultivo de estreptococo del grupo B salió positivo, avíselo
 al llegar a la clínica y, en los primeros días, esté atenta a
 fiebre, decaimiento o dificultad para respirar del bebé.
 
-[00:40] BLOQUE 3: LACTANCIA
+[00:38] BLOQUE 3: LACTANCIA
 Recomendación (OMS / MinSalud):
 - Lactancia materna exclusiva durante los primeros 6 meses: solo
   leche materna, sin agua, tés, jugos ni fórmula (salvo indicación
@@ -529,6 +647,15 @@ Encuentro 1. Posiciones útiles: cuna cruzada (mayor control de la
 cabeza los primeros días), balón de fútbol (útil después de
 cesárea, gemelos o senos grandes) y acostada de lado (para
 descansar en la noche; luego volver al bebé a su cuna).
+Práctica guiada: cada pareja hace el agarre con el muñeco sin
+ayuda (la pareja dice los pasos sola); el acompañante también lo
+practica y acomoda cojines. El facilitador corrige con frases
+concretas (como en el Encuentro 1) y revisa el agarre uno a uno.
+Verificación individual: el agarre aprendido en grupo se revisa
+uno a uno. Anotar en el carné "revisar agarre" para que en la
+primera visita posparto (entre las 24 y las 48 horas si salen
+antes de 48 horas; si no, entre los días 3 y 5) o en el control
+del bebé, el profesional observe una toma completa.
 
 Problemas frecuentes:
 - Dolor y grietas en el pezón: casi siempre por mal agarre.
@@ -562,9 +689,9 @@ Cuándo consultar: el bebé moja pocos pañales, está muy dormido,
 amarillo, no recupera peso; dolor que no mejora o fiebre en la
 madre.
 
-[01:05] PAUSA (10 min)
+[01:00] PAUSA (10 min)
 
-[01:15] BLOQUE 4: PLANIFICACIÓN FAMILIAR EN EL POSPARTO
+[01:10] BLOQUE 4: PLANIFICACIÓN FAMILIAR EN EL POSPARTO
 Mensajes clave:
 - La fertilidad puede regresar antes de la primera menstruación.
   En mujeres que no lactan, la ovulación puede ocurrir desde las
@@ -616,7 +743,7 @@ considera y anota sus dudas para el control prenatal. Pedir que
 el método elegido quede registrado en el carné perinatal, para
 que lo apliquen antes del alta.
 
-[01:35] BLOQUE 5: AUTOCUIDADO Y SIGNOS DE ALARMA DE LA MADRE
+[01:26] BLOQUE 5: AUTOCUIDADO Y SIGNOS DE ALARMA DE LA MADRE
 Autocuidado posnatal:
 - La primera semana en casa debe hacer reposo relativo, sin tareas
   pesadas; la actividad física completa se retoma hacia las 6
@@ -639,7 +766,9 @@ Signos de alarma de la madre (consultar de inmediato):
 - Sangrado abundante, o sangrado o flujo con mal olor.
 - Dolor fuerte en el bajo vientre, o dolor en la zona del ano o
   del útero que aumenta o reaparece.
-- Pecho rojo, caliente y doloroso.
+- Pecho rojo, caliente y doloroso con fiebre o escalofríos, o
+  que no mejora en 24 horas: consultar ese mismo día, sin
+  suspender la lactancia.
 - Dolor en los puntos (episiotomía o cesárea) que no cede con
   analgésicos, o herida roja o con secreción.
 - Dolor de cabeza fuerte, visión borrosa o lucecitas, dolor en la
@@ -651,7 +780,7 @@ Signos de alarma de la madre (consultar de inmediato):
 - Tristeza o cambios del ánimo que no la dejan cuidarse, cuidar al
   bebé o relacionarse con otros.
 
-[01:45] BLOQUE 6: TRISTEZA Y DEPRESIÓN POSPARTO
+[01:34] BLOQUE 6: TRISTEZA Y DEPRESIÓN POSPARTO
 Tristeza posparto ("baby blues"):
 - Muy frecuente: llanto fácil, sensibilidad, irritabilidad,
   ansiedad.
@@ -679,6 +808,61 @@ Para la pareja y la familia: observar, preguntar sin juzgar,
 acompañar a consulta. Decir "eso es normal, ya se le pasa" puede
 retrasar la ayuda.
 
+[01:42] MINIBARAJA: ¿NORMAL, CONSULTA PRONTO O URGENCIAS? (6 min)
+Tres carteles en el piso o la pared: NORMAL (verde), CONSULTA
+PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en uno de los tres carteles, diciendo por qué. El
+grupo opina; el facilitador corrige y explica. Los casos mezclan
+el Encuentro 1 (embarazo y parto) con el Encuentro 2 (madre y
+bebé después del parto).
+Casos (mezclar, no en orden):
+1. "Tengo 35 semanas y boté un moco con hilitos de sangre. No
+   tengo contracciones."
+   → URGENCIAS. Por qué: antes de la semana 37, el moco con
+   sangre o de otro color es motivo para ir a urgencias, aunque
+   no haya contracciones regulares.
+2. "Al bebé de 8 días se le cayó el ombligo y salió una gotica de
+   sangre. Está seco y no huele mal."
+   → NORMAL. Por qué: el cordón se cae entre los 5 y 15 días y
+   un poco de sangre al caerse es normal. Mantenerlo limpio y
+   seco.
+3. "Tengo 5 semanas de parida. Cuido al bebé, pero sigo triste
+   casi todo el día, ya nada me gusta y siento que soy mala
+   madre."
+   → CONSULTA PRONTO (en el control posparto o antes). Por qué:
+   dura más de 2 semanas; puede ser depresión posparto y tiene
+   tratamiento. Si además piensa en hacerse daño o en hacerle
+   daño al bebé, es URGENCIAS ese mismo día.
+4. "Tengo 38 semanas y boté un moco espeso con hilitos de sangre.
+   No sangro como una menstruación, no tengo contracciones y el
+   bebé se mueve como siempre."
+   → NORMAL. Por qué: a término (semana 37 o más), el tapón
+   mucoso por sí solo no indica ir a urgencias. Sí, si es
+   sangrado como menstruación.
+5. "Al bebé de 10 días le medí 37,8 °C en la axila."
+   → URGENCIAS. Por qué: temperatura axilar de 37,5 °C o más es
+   fiebre, un signo de alarma del recién nacido.
+6. "Al bebé de 6 días la piel alrededor del ombligo se le puso
+   roja y le huele mal."
+   → URGENCIAS. Por qué: ombligo rojo alrededor, con pus o mal
+   olor es un signo de alarma del recién nacido.
+Casos que se parecen y se clasifican distinto: 1 y 4 (moco con
+sangre a las 35 y a las 38 semanas), 2 y 6 (ombligo). Hacer
+notar la diferencia al grupo.
+
+[01:48] CIERRE EN PAREJAS Y RECUERDO FINAL (5 min)
+FACILITADOR(A):
+"Sin mirar la lámina: explíquele a su acompañante, con sus
+palabras, cuándo hay que ir a urgencias por usted y cuándo por
+el bebé. Luego cambien: el acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+pregunta de WhatsApp ni el del control posparto.)
+
 [01:53] CONTROLES, MATERIAL DE LECTURA Y CIERRE
 Controles después del parto:
 - Salida: como mínimo 24 horas después de un parto vaginal y 48
@@ -700,7 +884,13 @@ Controles después del parto:
 Material de lectura: entregar las sesiones 1 (cambios
 psicológicos), 3 (estimulación intrauterina) y 7 (prácticas de
 crianza), y recomendar leerlas en pareja o con el acompañante.
-Aplicar post-test del Encuentro 2.
+Aplicar post-test del Encuentro 2 (Verdadero o Falso y preguntas
+abiertas).
+Tarea del acompañante (para esta semana): aprender cómo apoyar
+la lactancia: traer agua y algo de comer en cada toma, cargar al
+bebé para sacarle los gases, cambiar pañales y proteger el
+descanso de la madre. Si la gestante viene sola, la tarea es
+para la persona que la va a acompañar en casa.
 
 ------------------------------------------------------------
 6. MENSAJES PARA LLEVAR A CASA
@@ -773,9 +963,41 @@ Encuentro 2:
 - Si el tiempo no alcanza, entregar por escrito la lista de la
   maleta y la de signos de alarma, en lugar de leerlas.
 
+Cómo enseñar en esta ruta:
+- No hay tiempo para espaciar entre sesiones: por eso los signos
+  de alarma se recuerdan al inicio y otra vez al final de cada
+  encuentro, y el Encuentro 2 empieza con el recuerdo del
+  Encuentro 1.
+- No hablar más de 10 a 15 minutos seguidos: después de cada
+  tema, hacer una pregunta al grupo ("¿Qué haría usted si...?")
+  o una práctica corta.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo.
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta por WhatsApp (si la IPS tiene grupo o lista de
+  difusión y la gestante aceptó recibir mensajes): enviar una
+  sola pregunta y la respuesta al día siguiente. Invitar a
+  responder y contestar dudas. No enviar datos clínicos
+  personales por el grupo.
+  Entre los dos encuentros (2 a 3 días después del Encuentro 1):
+  Pregunta: "¿Cuándo debe salir para la clínica?"
+  Respuesta: "Si tiene contracciones regulares que no se quitan
+  con reposo, si sale líquido por la vagina aunque no duela, si
+  sangra o si el bebé se mueve menos. Antes de la semana 37,
+  cualquier contracción regular: vaya ya. Si tuvo una cesárea,
+  vaya apenas empiecen las contracciones."
+  Después del Encuentro 2 (3 a 4 días después):
+  Pregunta: "¿Qué hace si su bebé tiene fiebre?"
+  Respuesta: "Si tiene 37,5 °C o más en la axila (o menos de
+  36,5 °C), vaya a urgencias ya. No le dé remedios caseros."
+
 ------------------------------------------------------------
-8. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+8. ANEXO: PRE-TEST / POST-TEST
 ------------------------------------------------------------
+Verdadero o Falso:
 Encuentro 1:
 1. Si sale líquido por la vagina pero no tengo dolor, puedo
    esperar en casa. (F)
@@ -794,6 +1016,46 @@ Encuentro 2:
    menstruación. (F)
 5. La tristeza que dura más de 2 semanas después del parto debe
    consultarse. (V)
+
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+Encuentro 1:
+A. ¿Qué haría si a las 35 semanas siente contracciones cada vez
+   más seguidas que no se quitan con reposo?
+   Respuesta esperada: ir a urgencias de inmediato; antes de la
+   semana 37, cualquier contracción regular se consulta ya.
+B. Diga 3 señales por las que hay que ir a urgencias en el
+   embarazo.
+   Respuesta esperada (3 de estas): sangrado, salida de líquido,
+   dolor de cabeza fuerte o visión borrosa, hinchazón de cara o
+   manos de repente, dolor en la boca del estómago, fiebre,
+   convulsiones, el bebé se mueve menos o nada.
+C. ¿Cómo sabe que el bebé está bien agarrado al pecho?
+   Respuesta esperada: boca bien abierta, labio de abajo hacia
+   afuera, mentón tocando el pecho, más areola arriba que abajo,
+   mejillas redondas, se oye tragar y no duele.
+Encuentro 2:
+A. ¿Qué haría si su bebé de una semana tiene 37,8 °C en la
+   axila?
+   Respuesta esperada: ir a urgencias ya (37,5 °C o más es
+   fiebre en el recién nacido).
+B. Diga 3 señales por las que usted o su bebé deben ir a
+   urgencias después del parto.
+   Respuesta esperada (3 de estas): madre: fiebre de 38 °C o más,
+   sangrado abundante o con mal olor, dolor de cabeza fuerte o
+   visión borrosa, dolor en el pecho o dificultad para respirar,
+   pierna hinchada. Bebé: fiebre, no come, muy dormido, respira
+   rápido o se le hunden las costillas, labios morados, amarillo
+   hasta piernas o palmas, ombligo rojo o con mal olor.
+C. ¿Cómo debe dormir su bebé?
+   Respuesta esperada: siempre boca arriba, en su propia cuna o
+   moisés, en superficie firme, sin almohadas, peluches ni
+   cobijas sueltas, en la habitación de los padres pero no en su
+   cama.
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
 
 ------------------------------------------------------------
 9. LÍNEAS DE AYUDA (verificar vigencia antes de imprimir)
@@ -850,3 +1112,21 @@ Encuentro 2:
   la Infancia (IAMI).
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026.
   Complementario (a través de las sesiones de origen).
+Método de enseñanza (la evidencia de estos métodos viene sobre
+todo de estudiantes, no de educación a gestantes):
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada; minibaraja).
+- Método de enseñanza: Wisniewski B, et al. Front Psychol.
+  2020;10:3087 (retroalimentación en las prácticas).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+- Método de enseñanza: Xie Z, et al. Nurs Open.
+  2026;13(7):e70669 (lactancia centrada en la familia, prenatal
+  y posnatal).
+- Método de enseñanza: Purohit H, et al. Breastfeed Med. 2026
+  (consejería individual en lactancia).

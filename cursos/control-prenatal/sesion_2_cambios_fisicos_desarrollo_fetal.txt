@@ -1,7 +1,7 @@
 CURSO MATERNO - GUION DE SESIÓN 2
 CAMBIOS FÍSICOS DEL EMBARAZO, CUIDADOS Y DESARROLLO EMBRIONARIO Y FETAL
 ============================================================
-Población: gestantes de 15 a 19 semanas y su acompañante
+Población: gestantes de 14 a 19 semanas y su acompañante
 Responsable: Enfermería
 Duración: 2 horas (120 minutos)
 
@@ -29,19 +29,28 @@ Específicos:
 - Plato de alimentación saludable (lámina)
 - Tarjetas "Molestia / Qué hago"
 - Lámina de signos de alarma
+- Lámina o papelógrafo con las señales de la sesión 1 (ánimo y
+  signos de alarma al inicio del embarazo), para el recuerdo
+  inicial
+- Baraja de casos (tarjetas) y tres carteles: NORMAL / CONSULTA
+  PRONTO / URGENCIAS
 - Pre-test / post-test (anexo)
 
 ------------------------------------------------------------
 3. AGENDA
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:40  Bloque 1: Cambios físicos por sistemas
-00:40 - 01:00  Bloque 2: Molestias frecuentes y cómo aliviarlas
-01:00 - 01:10  Pausa activa
-01:10 - 01:30  Bloque 3: Cuidados: alimentación, suplementos,
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:35  Bloque 1: Cambios físicos por sistemas
+00:35 - 00:53  Bloque 2: Molestias frecuentes y cómo aliviarlas
+00:53 - 01:03  Pausa activa
+01:03 - 01:20  Bloque 3: Cuidados: alimentación, suplementos,
                vacunas, actividad física, sexualidad, trabajo
-01:30 - 01:45  Bloque 4: Así crece mi bebé
-01:45 - 01:55  Bloque 5: Signos de alarma
+01:20 - 01:32  Bloque 4: Así crece mi bebé
+01:32 - 01:40  Bloque 5: Signos de alarma
+01:40 - 01:50  Baraja de casos: ¿normal, consulta pronto o
+               urgencias?
+01:50 - 01:55  Cierre en parejas: enséñele al otro
 01:55 - 02:00  Post-test y cierre
 
 ------------------------------------------------------------
@@ -55,8 +64,38 @@ para entender por qué cambia, y vamos a conocer cómo está
 creciendo el bebé en este momento."
 Ronda: nombre, semanas y la molestia que más le ha incomodado.
 Anotar las molestias; se resuelven en el Bloque 2.
+Pre-test (5 min) - ver anexo. Se aplica antes del recuerdo
+inicial para que mida lo que el grupo sabe al llegar.
 
-[00:10] BLOQUE 1: CAMBIOS FÍSICOS POR SISTEMAS
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que pedir ayuda o ir a
+urgencias. Empecemos por lo que vimos en la sesión 1."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina con las señales de
+  la sesión 1 y el grupo compara: ¿cuáles dijimos? ¿cuáles se
+  nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final de la sesión.
+Esta sesión el recuerdo incluye (lo enseñado en la sesión 1):
+- Consultar si durante 2 semanas o más se siente triste, vacía o
+  sin esperanza, perdió el gusto por casi todo, no puede dormir
+  aunque tenga oportunidad, o siente angustia intensa.
+- Urgencias o línea de crisis (192, opción 4) si tiene
+  pensamientos de hacerse daño o de no querer vivir, escucha o ve
+  cosas que otros no perciben, o usa alcohol u otras sustancias
+  para aguantar.
+- Violencia de pareja o en casa: nadie merece maltrato; hay ruta
+  de atención y línea 155.
+- Al inicio del embarazo, ir a urgencias si hay sangrado o salida
+  de líquido por la vagina, fiebre, dolor fuerte en el abdomen o
+  vómito que no la deja comer ni beber.
+Es la primera vez que se hace este recuerdo; hoy, en el Bloque 5,
+se aprende la lista completa de signos de alarma del embarazo.
+
+[00:15] BLOQUE 1: CAMBIOS FÍSICOS POR SISTEMAS
 Explicar que los cambios son adaptaciones para nutrir al bebé y
 preparar el cuerpo para el parto y la lactancia.
 
@@ -97,6 +136,9 @@ Corazón y sangre
 - Puede haber mareo al levantarse rápido o al estar mucho tiempo
   de pie. Si el mareo es frecuente, o si se siente muy débil o se
   cansa con facilidad, puede ser anemia: consulte.
+Pregunta al grupo (1 min, a mitad del bloque): "¿Qué haría usted
+si se marea casi todos los días y se cansa con nada?" Respuesta
+completa: consultar, porque puede ser anemia.
 
 Respiración
 - Sensación de falta de aire leve por acción de la progesterona y,
@@ -128,7 +170,7 @@ Circulación de piernas
 - Hinchazón de tobillos al final del día, várices y hemorroides,
   por la presión del útero sobre las venas.
 
-[00:40] BLOQUE 2: MOLESTIAS FRECUENTES Y CÓMO ALIVIARLAS
+[00:35] BLOQUE 2: MOLESTIAS FRECUENTES Y CÓMO ALIVIARLAS
 Dinámica "Molestia / Qué hago": se reparten tarjetas con una
 molestia; cada pareja propone qué hacer y el facilitador
 complementa.
@@ -170,16 +212,17 @@ complementa.
   picazón. Consultar si tiene mal olor, color verde-amarillo,
   picazón o ardor.
 
-[01:00] PAUSA ACTIVA (10 min)
+[00:53] PAUSA ACTIVA (10 min)
 Movilidad de cuello y hombros, círculos de cadera sentada en
 silla o balón, estiramiento de pantorrillas.
+El acompañante también hace los movimientos, no solo observa.
 Ejercicio de piso pélvico (Kegel): apretar los músculos que se usan
 para cortar la orina, sostener 5 segundos y soltar 5 segundos;
 repetir 10 veces, 3 veces al día (no hacerlo mientras orina).
 Higiene postural: sentarse con la espalda apoyada; para levantarse
 de la cama, girar primero de lado y apoyarse en los brazos.
 
-[01:10] BLOQUE 3: CUIDADOS
+[01:03] BLOQUE 3: CUIDADOS
 Alimentación
 - Plato balanceado: la mitad verduras y frutas, un cuarto
   proteína (carnes, huevo, leguminosas, lácteos) y un cuarto
@@ -251,6 +294,11 @@ Suplementos (los formula el profesional; tomar como se indica):
   comidas principales; nunca con leche.
 - Las multivitaminas no reemplazan el hierro con ácido fólico. No
   tome vitamina A ni vitamina D por su cuenta.
+Pregunta al grupo (1 min, a mitad del bloque): "¿Qué haría usted
+si quiere tomarse el hierro y el calcio con el desayuno y un vaso
+de leche?" Respuesta completa: no; cada uno en horas distintas,
+con 1 hora entre ellos, 2 horas antes o después de las comidas
+principales y nunca con leche.
 
 Vacunas durante el embarazo (verificar esquema PAI vigente):
 - Influenza: desde la semana 14 (una dosis al año).
@@ -334,7 +382,7 @@ Trabajo, viajes y otros
   y en el tercer trimestre.)
 - Los controles de las semanas 36, 38 y 40 los hace el médico.
 
-[01:30] BLOQUE 4: ASÍ CRECE MI BEBÉ
+[01:20] BLOQUE 4: ASÍ CRECE MI BEBÉ
 Usar las frutas para comparar tamaños.
 
 Periodo embrionario (semanas 3 a 8 después de la fecundación; más o
@@ -378,7 +426,7 @@ más 6 días.)
 Nota para el facilitador: el manual de Carvajal sugiere 20-24
 semanas; se sigue la ventana de la Res. 3280 (num. 4.3.6).
 
-[01:45] BLOQUE 5: SIGNOS DE ALARMA (consultar a urgencias)
+[01:32] BLOQUE 5: SIGNOS DE ALARMA (consultar a urgencias)
 - Sangrado vaginal
 - Salida de líquido por la vagina
 - Dolor de cabeza fuerte, visión borrosa, lucecitas o zumbido
@@ -417,7 +465,85 @@ Consultar pronto (sin esperar al próximo control) si hay:
 - Tos que no mejora
 - Tristeza o angustia intensa, o no poder dormir
 
+[01:40] BARAJA DE CASOS: ¿NORMAL, CONSULTA PRONTO O URGENCIAS?
+(10 min)
+Tres tarjetas grandes en el piso o la pared: NORMAL (verde),
+CONSULTA PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en una de las tres, diciendo por qué. El grupo
+opina; el facilitador corrige y explica.
+Casos (mezclar, no en orden):
+1. "Tengo 17 semanas. Al final del día se me hinchan los tobillos,
+   pero en la mañana me levanto con los pies normales."
+   → NORMAL. Por qué: la hinchazón de tobillos al final del día
+   es por la presión del útero sobre las venas; ayuda elevar las
+   piernas y no estar mucho tiempo de pie.
+2. "Tengo 19 semanas. Desde ayer me arde al orinar, tengo fiebre
+   y me duele la espalda baja."
+   → URGENCIAS. Por qué: fiebre, ardor al orinar y dolor en la
+   espalda baja con fiebre son signos de alarma.
+3. "Tengo 18 semanas. Me está saliendo un flujo verde-amarillo,
+   con mal olor y mucha picazón."
+   → CONSULTA PRONTO. Por qué: el flujo con mal olor, color
+   verde-amarillo o picazón se consulta sin esperar al próximo
+   control, pero no es urgencia.
+4. "Tengo 30 semanas. De vez en cuando, más o menos una vez por
+   hora, la barriga se me pone dura, como la punta de la nariz,
+   sin dolor fuerte, y se me pasa."
+   → NORMAL. Por qué: son contracciones de práctica, irregulares
+   y sin dolor fuerte.
+5. "Tengo 16 semanas. Desde hace 3 semanas me siento triste casi
+   todo el día y ya nada me da gusto." (sesión 1)
+   → CONSULTA PRONTO. Por qué: la tristeza o la pérdida del gusto
+   que dura 2 semanas o más se consulta; contárselo al médico o a
+   la enfermera sin esperar al control. (Si hubiera ideas de
+   hacerse daño, sería URGENCIAS o línea 192, opción 4.)
+6. "Tengo 18 semanas. Hoy me levanté con la cara y las manos
+   hinchadas."
+   → URGENCIAS. Por qué: la hinchazón de cara o manos que ya está
+   desde que se levanta, o que aparece de repente, es signo de
+   alarma (puede ser presión alta del embarazo).
+7. "Tengo 16 semanas. Me dan ganas de orinar a cada rato, pero no
+   me arde ni me molesta."
+   → NORMAL. Por qué: las ganas frecuentes de orinar son un cambio
+   normal del embarazo; lo que alarma es el ardor, la molestia o
+   la fiebre.
+8. "Tengo 19 semanas. Tengo un dolor de cabeza muy fuerte y veo
+   lucecitas."
+   → URGENCIAS. Por qué: dolor de cabeza fuerte, visión borrosa o
+   lucecitas son signos de alarma de presión alta del embarazo.
+9. "Tengo 17 semanas. Me sale más flujo que antes, blanco, sin
+   olor y sin picazón."
+   → NORMAL. Por qué: es normal que el flujo aumente si es blanco,
+   sin olor ni picazón.
+10. "Tengo 32 semanas. Desde hace un rato la barriga se me pone
+    dura cada vez más seguido, me duele y el cólico se me corre
+    hacia la espalda."
+    → URGENCIAS. Por qué: antes de la semana 37, las contracciones
+    que aumentan o el cólico que se corre a la espalda o a los
+    muslos son signo de alarma, aunque no sean regulares.
+Parejas de casos para comparar al final: 1 y 6 (hinchazón),
+3 y 9 (flujo), 4 y 10 (barriga dura), 2 y 7 (orina).
+
+[01:50] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, cuándo hay que ir
+a urgencias y qué suplementos toma usted y cómo se los toma.
+Luego cambien: el acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+próxima sesión.)
+
 [01:55] POST-TEST Y CIERRE
+- Aplicar post-test.
+- Tarea del acompañante para esta semana: aprenderse 3 signos de
+  alarma y saber dónde queda la urgencia que les corresponde,
+  cómo llegar y cuánto se demoran. Si la gestante vino sola, la
+  tarea es para la persona que la va a acompañar en el parto o
+  en casa.
 Próxima sesión: Sesión 3, semanas 20-24, "Estimulación intrauterina".
 
 ------------------------------------------------------------
@@ -430,8 +556,36 @@ Próxima sesión: Sesión 3, semanas 20-24, "Estimulación intrauterina".
 5. Ante un signo de alarma, no esperar: ir a urgencias.
 
 ------------------------------------------------------------
-6. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+6. NOTAS PARA EL FACILITADOR
 ------------------------------------------------------------
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada
+  tema, hacer una pregunta al grupo ("¿Qué haría usted si...?")
+  o una práctica corta. Esta sesión tiene mucho contenido: en
+  los Bloques 1 y 3 hacer al menos una pregunta a la mitad.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo del inicio de la próxima sesión (la
+  sesión 3 empieza preguntando los signos de alarma del
+  Bloque 5).
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes):
+  enviar una sola pregunta 3 a 4 días después de la sesión y la
+  respuesta al día siguiente.
+  Pregunta: "Si se levanta con la cara o las manos hinchadas, o
+  tiene un dolor de cabeza fuerte con lucecitas, ¿qué hace?"
+  Respuesta: "Ir a urgencias ya, sin esperar al control: pueden
+  ser señales de presión alta del embarazo."
+  Invitar a responder y contestar dudas. No enviar datos clínicos
+  personales por el grupo.
+
+------------------------------------------------------------
+7. ANEXO: PRE-TEST / POST-TEST
+------------------------------------------------------------
+Verdadero o Falso:
 1. En el embarazo hay que comer el doble. (F)
 2. El hierro se absorbe mejor si se toma con leche. (F)
 3. La hinchazón súbita de la cara es un signo de alarma. (V)
@@ -439,8 +593,38 @@ Próxima sesión: Sesión 3, semanas 20-24, "Estimulación intrauterina".
 5. Los órganos del bebé se forman principalmente en las primeras
    semanas del embarazo. (V)
 
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. ¿Qué haría si a las 18 semanas se levanta con la cara y las
+   manos hinchadas y con un dolor de cabeza muy fuerte?
+   Respuesta esperada: ir a urgencias de inmediato, sin esperar
+   al control (pueden ser señales de presión alta del embarazo).
+B. ¿Cómo se toman el hierro y el calcio?
+   Respuesta esperada: todos los días, como se los formularon; en
+   horas distintas, con al menos 1 hora entre uno y otro; cada
+   uno 2 horas antes o 2 horas después de las comidas
+   principales; nunca con leche. El hierro con ácido fólico se
+   toma todo el embarazo; el calcio, desde la semana 14.
+C. Diga todas las señales que conozca por las que una embarazada
+   debe ir a urgencias.
+   Respuesta esperada (completa si dice 5 o más; parcial si dice
+   de 1 a 4): sangrado o salida de líquido por la vagina; dolor
+   de cabeza fuerte, visión borrosa, lucecitas o zumbido;
+   hinchazón de cara, manos o pies de repente o desde que se
+   levanta; dolor en la boca del estómago; fiebre; ardor al
+   orinar o dolor de espalda baja con fiebre; antes de la semana
+   37, contracciones que aumentan o cólico hacia la espalda;
+   vómito (en la segunda mitad, cualquiera); convulsiones;
+   dificultad para respirar en reposo; pierna hinchada, roja y
+   dolorosa; caída o golpe en el abdomen; el bebé se mueve menos
+   o no se mueve; ideas de hacerse daño (sesión 1).
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
+
 ------------------------------------------------------------
-7. REFERENCIAS SUGERIDAS (verificar edición vigente)
+8. REFERENCIAS SUGERIDAS (verificar edición vigente)
 ------------------------------------------------------------
 - Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed.,
   2017, caps. 3 (cambios fisiológicos) y 7 (control prenatal).
@@ -473,3 +657,14 @@ Próxima sesión: Sesión 3, semanas 20-24, "Estimulación intrauterina".
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 14, 15, 18, 19, 22, 31, 32-33 y 37). Complementario.
   (Páginas según la numeración impresa de la revista.)
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+  Nota: la evidencia de estos métodos viene sobre todo de
+  estudiantes, no de educación a gestantes.

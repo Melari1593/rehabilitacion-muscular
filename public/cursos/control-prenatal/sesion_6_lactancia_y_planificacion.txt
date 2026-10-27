@@ -29,20 +29,28 @@ Específicos:
 - Recipientes para leche, lámina de extracción manual
 - Muestrario de métodos anticonceptivos (implante, DIU, inyectable,
   píldora, condón)
+- Lámina de signos de alarma (embarazo y recién nacido, para el
+  recuerdo inicial)
+- Baraja de casos (tarjetas) y tres carteles: NORMAL / CONSULTA
+  PRONTO / URGENCIAS
 - Pre-test / post-test (anexo)
 
 ------------------------------------------------------------
 3. AGENDA
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:25  Bloque 1: ¿Por qué lactancia materna?
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:25  Bloque 1: ¿Por qué lactancia materna?
 00:25 - 00:55  Bloque 2: Taller práctico: agarre y posiciones
-00:55 - 01:10  Bloque 3: ¿Está comiendo bien? Problemas frecuentes
-01:10 - 01:15  Pausa
-01:15 - 01:30  Bloque 4: Extracción, conservación y regreso al
+00:55 - 01:07  Bloque 3: ¿Está comiendo bien? Problemas frecuentes
+01:07 - 01:12  Pausa
+01:12 - 01:24  Bloque 4: Extracción, conservación y regreso al
                trabajo
-01:30 - 01:52  Bloque 5: Planificación familiar en el posparto
-01:52 - 02:00  Post-test y cierre
+01:24 - 01:32  Baraja de casos: ¿normal, consulta pronto o
+               urgencias?
+01:32 - 01:50  Bloque 5: Planificación familiar en el posparto
+01:50 - 01:55  Cierre en parejas: enséñele al otro
+01:55 - 02:00  Post-test y cierre
 
 ------------------------------------------------------------
 4. DESARROLLO DEL GUION
@@ -58,7 +66,52 @@ Pregunta de apertura al grupo: "¿Qué saben de la lactancia
 materna?" (anotar las ideas y los mitos para retomarlos durante la
 sesión).
 
-[00:10] BLOQUE 1: ¿POR QUÉ LACTANCIA MATERNA?
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de alarma y
+  el grupo compara: ¿cuáles dijimos? ¿cuáles se nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final de la sesión.
+Esta sesión el recuerdo incluye (sesiones 2 a 5):
+De la madre en el embarazo:
+- Sangrado o salida de líquido por la vagina.
+- Dolor de cabeza fuerte, visión borrosa, lucecitas, zumbido en
+  los oídos, hinchazón súbita; dolor en la boca del estómago.
+- Fiebre; ardor o dolor al orinar; vómito en la segunda mitad del
+  embarazo.
+- Convulsiones o desmayo; dificultad para respirar en reposo; una
+  pierna hinchada, roja y dolorosa; caídas, golpes en el abdomen o
+  accidentes de tránsito.
+- El bebé se mueve menos: de lado y contar 2 horas; menos de 10, o
+  nada, ir a urgencias ya.
+- Inicio del parto: contracciones regulares que no ceden con
+  reposo, salida de líquido aunque no haya dolor, o sangrado.
+  Antes de la semana 37, cualquier contracción regular se
+  consulta de inmediato.
+Del recién nacido (sesión 5):
+- Fiebre (37,5 °C o más en la axila) o temperatura baja (menos de
+  36,5 °C).
+- No quiere comer, succiona débil o vomita todo; vomita verde o
+  con sangre.
+- Muy dormido, difícil de despertar o "flojito".
+- Respira rápido, se le hunden las costillas, quejido o pausas
+  largas sin respirar; labios o piel morados o muy pálidos.
+- Convulsiones o movimientos anormales.
+- Amarillo en las primeras 24 horas, o el amarillo llega a las
+  piernas o a las palmas y plantas.
+- Deposiciones blancas, grises o color masilla, u orina muy
+  oscura; moja menos pañales de lo esperado.
+- Ombligo rojo alrededor, con pus o mal olor.
+- Llanto inconsolable o muy débil.
+(Nota para el facilitador: los signos de alarma de la madre
+después del parto se enseñan en la sesión 7. Si alguien los
+menciona, valorarlo y decir que allí se verán completos.)
+
+[00:15] BLOQUE 1: ¿POR QUÉ LACTANCIA MATERNA?
 Recomendación (OMS / MinSalud):
 - Lactancia materna exclusiva durante los primeros 6 meses: solo
   leche materna, sin agua, tés, jugos ni fórmula (salvo indicación
@@ -102,8 +155,39 @@ Cómo funciona:
 - Apenas nazca, su bebé debe ir piel a piel sobre usted y tomar el
   pecho en la primera hora. Pida que no los separen.
   (Creciendo Juntos, 2026, pp. 70 y 83)
+Pregunta al grupo: "¿Qué le respondería a una vecina que le dice
+que su leche es débil y que le dé agüita al bebé?"
 
 [00:25] BLOQUE 2: TALLER PRÁCTICO - AGARRE Y POSICIONES (30 min)
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa, de principio a fin,
+   diciendo en voz alta cada paso.
+2. Cada pareja la practica con el muñeco y el modelo de mama
+   mientras el facilitador recorre el salón.
+3. Corregir con frases concretas que digan qué cambiar, por
+   ejemplo: "Lleve al bebé hacia el pecho; no se incline usted
+   hacia él". Evitar solo "muy bien".
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+El acompañante también practica, no solo observa: acomoda los
+cojines, pone al muñeco en cada posición y revisa en voz alta los
+signos de buen agarre de su pareja.
+Ejemplos de retroalimentación concretos:
+- "Gírele todo el cuerpo hacia usted: barriga con barriga, y
+  oreja, hombro y cadera del bebé en línea recta."
+- "Espere a que abra bien la boca, como un bostezo, antes de
+  acercarlo al pecho."
+- "Se ve más areola por debajo que por encima: acérquelo con el
+  mentón primero, para que el mentón toque el pecho y el labio de
+  abajo quede hacia afuera."
+- "Si le duele, no lo jale: meta el dedo meñique por la comisura
+  de la boca, retírelo y vuelva a intentar."
+Verificación individual: el agarre aprendido en grupo se revisa
+uno a uno. Anotar en el carné "revisar agarre" para que en la
+primera visita posparto (entre los días 3 y 5; entre las 24 y
+las 48 horas si les dan salida antes de 48 horas) o en el
+control del bebé, el profesional observe una toma completa.
+
 Principios de una buena posición:
 - Madre cómoda, espalda apoyada, hombros relajados.
 - Bebé pegado al cuerpo de la madre, "barriga con barriga".
@@ -197,10 +281,31 @@ Problemas frecuentes:
 Cuándo consultar: el bebé moja pocos pañales, está muy dormido,
 amarillo, no recupera peso; dolor que no mejora o fiebre en la
 madre.
+Pregunta al grupo: "¿Qué haría si al tercer día del parto tiene
+los pechos duros, calientes y dolorosos?"
 
-[01:10] PAUSA (5 min)
+[01:07] PAUSA (5 min)
 
-[01:15] BLOQUE 4: EXTRACCIÓN, CONSERVACIÓN Y REGRESO AL TRABAJO
+[01:12] BLOQUE 4: EXTRACCIÓN, CONSERVACIÓN Y REGRESO AL TRABAJO
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la extracción completa en el modelo, de
+   principio a fin, diciendo en voz alta cada paso.
+2. Cada pareja la practica en el modelo (o la gestante sobre su
+   ropa, sin extraer leche) mientras el facilitador recorre el
+   salón. El acompañante también la practica en el modelo, para
+   poder ayudar y recordarle los pasos.
+3. Corregir con frases concretas, por ejemplo: "Ponga los dedos
+   más atrás, a unos 3 cm de la base del pezón, en forma de C; no
+   apriete el pezón". Evitar solo "muy bien".
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+Ejemplos de retroalimentación concretos:
+- "Primero empuje hacia el tórax, luego comprima y suelte, con
+  ritmo; no deslice los dedos sobre la piel."
+- "Vaya rotando los dedos alrededor de la areola para sacar
+  leche de todo el pecho."
+- "Marque el recipiente con la fecha y la hora antes de
+  guardarlo."
 Extracción manual (practicar con el modelo):
 1. Lavar las manos; masaje suave del pecho.
 2. Colocar pulgar arriba e índice abajo, a unos 3 cm de la base
@@ -242,7 +347,61 @@ Derechos laborales (verificar vigencia):
 - Salas amigas de la familia lactante en entornos laborales
   (Ley 1823 de 2017).
 
-[01:30] BLOQUE 5: PLANIFICACIÓN FAMILIAR EN EL POSPARTO
+[01:24] BARAJA DE CASOS: ¿NORMAL, CONSULTA PRONTO O URGENCIAS?
+Tres tarjetas grandes en el piso o la pared: NORMAL (verde),
+CONSULTA PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en una de las tres, diciendo por qué. El grupo
+opina; el facilitador corrige y explica.
+Casos (mezclar, no en orden):
+1. "Tengo 4 días de parto. Los dos pechos están duros, calientes
+   y me duelen." → NORMAL (se maneja en casa).
+   Por qué: es congestión, frecuente entre los días 3 y 5:
+   amamantar más seguido, masaje suave, sacar un poco de leche
+   antes para ablandar la areola y compresas frías entre tomas.
+2. "Mi bebé tiene 5 días. Le tomé la temperatura en la axila y
+   marcó 37,6 °C." → URGENCIAS.
+   Por qué: 37,5 °C o más en la axila es fiebre en el recién
+   nacido (sesión 5).
+3. "Mi bebé tiene 3 semanas. Desde hace 2 días pide pecho mucho
+   más seguido y está inquieto, pero moja sus pañales y sube de
+   peso." → NORMAL.
+   Por qué: es un brote de crecimiento: al succionar más, aumenta
+   la leche y en pocos días se regula.
+4. "Tengo 31 semanas. A ratos la barriga se pone dura, sin dolor
+   y sin ritmo, y se calma al descansar." → NORMAL.
+   Por qué: son contracciones de entrenamiento (sesión 4).
+5. "Me duele el pezón durante toda la toma y ya tengo una
+   grieta." → CONSULTA PRONTO.
+   Por qué: casi siempre es mal agarre. Corregir el agarre y
+   pedir ayuda pronto a una asesora de lactancia; el dolor no se
+   aguanta. Seguir dando ese pecho con buen agarre.
+6. "Tengo 39 semanas. Me sale líquido claro por la vagina y no
+   tengo dolor." → URGENCIAS.
+   Por qué: la salida de líquido se consulta aunque no haya dolor
+   (sesión 4).
+7. "Tengo 2 semanas de parto. Una parte del pecho está roja,
+   caliente y dolorosa, tengo fiebre alta y no he mejorado en un
+   día." → CONSULTA PRONTO (ese mismo día).
+   Por qué: puede ser mastitis. No suspender la lactancia; si en
+   24 horas no mejora o hay fiebre alta, consultar: puede
+   necesitar antibiótico formulado.
+8. "Mi bebé tiene 7 días. Moja solo 2 pañales al día y está muy
+   dormido; cuesta despertarlo para comer." → URGENCIAS.
+   Por qué: mojar menos pañales de lo esperado (desde el día 5, al
+   menos 6) y estar muy dormido o difícil de despertar son
+   signos de alarma del recién nacido (sesión 5).
+9. "Mi bebé tiene 3 semanas. Tiene escamas grasosas amarillas en
+   el cuero cabelludo; la piel no está roja." → NORMAL.
+   Por qué: es costra láctea; se quita sola (sesión 5).
+10. "Tengo 30 semanas y desde esta mañana no he sentido al bebé
+    moverse nada." → URGENCIAS.
+    Por qué: si no lo siente moverse nada, no se cuenta: se va ya
+    (sesión 3).
+Parejas para comparar: 1 y 7 (pecho duro y doloroso), 3 y 8
+(cómo saber si come bien).
+
+[01:32] BLOQUE 5: PLANIFICACIÓN FAMILIAR EN EL POSPARTO
 Mensajes clave:
 - La fertilidad puede regresar antes de la primera menstruación.
   En mujeres que no lactan, la ovulación puede ocurrir desde las 3-4
@@ -336,7 +495,25 @@ embarazo en los casos que permite la ley en Colombia (Sentencia
 C-055 de 2022). Si tiene dudas, puede preguntar en privado al
 equipo de salud.
 
-[01:52] POST-TEST Y CIERRE
+[01:50] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, cómo se ve un
+buen agarre y qué método de planificación eligieron. Luego
+cambien: el acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+próxima sesión.)
+
+[01:55] POST-TEST Y CIERRE
+Tarea del acompañante para esta semana: acordar con la gestante
+cómo va a apoyar la lactancia en casa: traerle agua en cada toma,
+cargar al bebé para sacarle los gases, cambiar pañales y
+proteger el descanso de la madre (manejar las visitas). Si la
+gestante viene sola, la tarea es para la persona que la va a
+acompañar en casa.
 Próxima sesión: Sesión 7, semanas 32 a 34, "Prácticas de crianza en la
 educación de los hijos".
 
@@ -351,8 +528,38 @@ educación de los hijos".
 5. Elija su método de planificación antes del parto.
 
 ------------------------------------------------------------
-6. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+6. NOTAS PARA EL FACILITADOR (no leer en voz alta)
 ------------------------------------------------------------
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada tema,
+  hacer una pregunta al grupo ("¿Qué haría usted si...?") o una
+  práctica corta.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo del inicio de la próxima sesión.
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- El agarre no se da por aprendido con la práctica en grupo:
+  verificar que quede anotado "revisar agarre" en el carné de cada
+  gestante (ver Bloque 2).
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes): enviar
+  una sola pregunta 3 a 4 días después de la sesión y la respuesta
+  al día siguiente. Invitar a responder; contestar dudas. No
+  enviar datos clínicos personales por el grupo.
+  Pregunta: "¿Qué hace si le duele al amamantar?"
+  Respuesta: "Revisar el agarre: boca bien abierta, labio de abajo
+  hacia afuera, mentón tocando el pecho y más areola por encima
+  de la boca que por debajo. Si duele, meta el dedo meñique por
+  la comisura de la boca, retírelo y vuelva a intentar. El dolor
+  no se aguanta: si no mejora, pida ayuda pronto a una asesora
+  de lactancia."
+
+------------------------------------------------------------
+7. ANEXO: PRE-TEST / POST-TEST
+------------------------------------------------------------
+Verdadero o Falso:
 1. El bebé necesita agua o tés además de la leche materna. (F)
 2. Si amamantar duele, casi siempre es por mal agarre. (V)
 3. La leche materna puede guardarse en la nevera hasta 4 días. (V)
@@ -361,8 +568,38 @@ educación de los hijos".
 5. El implante y el DIU pueden colocarse antes de salir de la
    clínica. (V)
 
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. ¿Cómo se da cuenta de que su bebé está bien agarrado al
+   pecho?
+   Respuesta esperada: boca bien abierta, labio de abajo hacia
+   afuera, mentón tocando el pecho, más areola por encima de la
+   boca que por debajo, mejillas redondas, succiones lentas y
+   profundas, se oye tragar y no duele.
+B. ¿Puede quedar embarazada antes de que le vuelva la
+   menstruación? ¿Qué va a hacer para evitarlo?
+   Respuesta esperada: sí. Elegir el método durante el embarazo,
+   que quede anotado en el carné y pedir que se lo apliquen o
+   entreguen antes de salir de la institución (por ejemplo,
+   implante o DIU). El MELA solo sirve si se cumplen las tres
+   condiciones.
+C. Diga 3 señales del bebé recién nacido y 2 suyas durante el
+   embarazo por las que iría a urgencias.
+   Respuesta esperada: del bebé (3 de estas): fiebre o
+   temperatura baja, no quiere comer, muy dormido, respira con
+   dificultad, labios morados, amarillo en las primeras 24 horas,
+   deposiciones blancas o color masilla, ombligo rojo o con mal
+   olor, moja pocos pañales. De la madre (2 de estas): sangrado,
+   salida de líquido, dolor de cabeza fuerte o visión borrosa,
+   hinchazón súbita, fiebre, el bebé se mueve menos,
+   contracciones antes de la semana 37.
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
+
 ------------------------------------------------------------
-7. REFERENCIAS SUGERIDAS (verificar edición vigente)
+8. REFERENCIAS SUGERIDAS (verificar edición vigente)
 ------------------------------------------------------------
 - Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed.,
   2017, caps. 17 (puerperio, lactancia, congestión y mastitis), 60
@@ -401,3 +638,20 @@ educación de los hijos".
   artículo sobre fórmula (pp. 79-82) ni la publicidad de la
   revista (Código Internacional de Comercialización de
   Sucedáneos de la Leche Materna; Decreto 1397 de 1992).
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada; baraja de casos).
+- Método de enseñanza: Wisniewski B, et al. Front Psychol.
+  2020;10:3087 (retroalimentación en las prácticas).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+- Método de enseñanza: Xie Z, et al. Nurs Open.
+  2026;13(7):e70669 (lactancia centrada en la familia, prenatal
+  y posnatal); Purohit H, et al. Breastfeed Med. 2026
+  (consejería individual).
+  Nota: la evidencia de estos métodos viene sobre todo de
+  estudiantes, no de educación a gestantes.

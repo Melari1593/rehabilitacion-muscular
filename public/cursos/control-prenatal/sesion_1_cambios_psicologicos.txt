@@ -37,12 +37,13 @@ Específicos (al terminar, la participante podrá):
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida, encuadre y acuerdos del grupo
 00:10 - 00:15  Pre-test
-00:15 - 00:35  Bloque 1: ¿Qué está pasando en mi mente y en mi cuerpo?
-00:35 - 00:55  Bloque 2: Emociones frecuentes del primer trimestre
-00:55 - 01:05  Pausa activa + respiración
-01:05 - 01:25  Bloque 3: La pareja, la familia y la red de apoyo
-01:25 - 01:40  Bloque 4: Señales de alerta en salud mental y violencia
-01:40 - 01:50  Taller: "Mi plan de autocuidado emocional"
+00:15 - 00:32  Bloque 1: ¿Qué está pasando en mi mente y en mi cuerpo?
+00:32 - 00:50  Bloque 2: Emociones frecuentes del primer trimestre
+00:50 - 01:00  Pausa activa + respiración (práctica guiada)
+01:00 - 01:20  Bloque 3: La pareja, la familia y la red de apoyo
+01:20 - 01:35  Bloque 4: Señales de alerta en salud mental y violencia
+01:35 - 01:45  Taller: "Mi plan de autocuidado emocional"
+01:45 - 01:50  Cierre en parejas: enséñele al otro
 01:50 - 02:00  Preguntas, post-test y cierre
 
 ------------------------------------------------------------
@@ -100,7 +101,7 @@ frecuentes del embarazo temprano."
 Pregunta al grupo: "¿Qué les dijeron que iban a sentir? ¿Qué han
 sentido realmente?" (5 min de conversación abierta).
 
-[00:35] BLOQUE 2: EMOCIONES FRECUENTES DEL PRIMER TRIMESTRE
+[00:32] BLOQUE 2: EMOCIONES FRECUENTES DEL PRIMER TRIMESTRE
 Retomar las palabras del tablero y agruparlas en:
 
 a) Emociones esperables
@@ -126,7 +127,25 @@ Cada participante escribe en una tarjeta un miedo y en otra una
 ilusión (anónimo). Se recogen, se leen algunas en voz alta y se
 normalizan: "Fíjense cuántas personas comparten el mismo miedo."
 
-[00:55] PAUSA ACTIVA + RESPIRACIÓN (10 min)
+[00:50] PAUSA ACTIVA + RESPIRACIÓN (10 min)
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa, de principio a fin,
+   diciendo en voz alta cada paso.
+2. Cada pareja la practica mientras el facilitador recorre el
+   salón. El acompañante también hace el ejercicio, no solo
+   observa: así podrá guiarla después en casa y en el parto.
+3. Corregir con frases concretas que digan qué cambiar, por
+   ejemplo: "Se le mueve la mano del pecho: lleve el aire más
+   abajo, hasta que suba la mano del abdomen". Evitar solo
+   "muy bien".
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+Ejemplos de retroalimentación para la respiración:
+- "Está subiendo los hombros: déjelos caer y afloje la quijada."
+- "Está botando el aire muy rápido: cuente despacio hasta 6."
+- "No aguante tanto el aire: sostenga solo 1 o 2 segundos."
+- "Tome el aire por la nariz, no por la boca."
+
 Ejercicio de respiración diafragmática:
 1. Sentada cómoda, una mano en el pecho y otra en el abdomen.
 2. Inhalar por la nariz contando 4, sintiendo que sube la mano
@@ -138,7 +157,7 @@ FACILITADOR(A): "Esta técnica la pueden usar cuando sientan
 angustia, cuando no puedan dormir y, más adelante, en el trabajo
 de parto."
 
-[01:05] BLOQUE 3: LA PAREJA, LA FAMILIA Y LA RED DE APOYO
+[01:00] BLOQUE 3: LA PAREJA, LA FAMILIA Y LA RED DE APOYO
 Mensajes clave:
 - El embarazo también transforma a la pareja: hay nuevas
   responsabilidades, cambios en la intimidad y, a veces, celos o
@@ -198,7 +217,7 @@ Para acompañantes - preguntas guía:
 - "¿Qué puedo hacer esta semana para aliviar la carga de ella?"
 - "¿Cómo le pregunto cómo se siente, sin juzgar?"
 
-[01:25] BLOQUE 4: SEÑALES DE ALERTA EN SALUD MENTAL Y VIOLENCIA
+[01:20] BLOQUE 4: SEÑALES DE ALERTA EN SALUD MENTAL Y VIOLENCIA
 FACILITADOR(A):
 "Estar sensible es normal. Pero hay señales que nos dicen que
 necesitamos ayuda profesional, y pedirla es un acto de cuidado
@@ -252,13 +271,16 @@ Violencia durante el embarazo:
   (Manejo sensible: hablar en general, no pedir testimonios en
   grupo. Ofrecer conversación individual al terminar.)
 
-[01:40] TALLER: "MI PLAN DE AUTOCUIDADO EMOCIONAL"
+[01:35] TALLER: "MI PLAN DE AUTOCUIDADO EMOCIONAL"
 Cada participante completa en la tercera tarjeta:
 1. Algo que me hace sentir bien y puedo hacer cada día (caminar,
    música, orar, hablar con alguien, descansar).
 2. Una persona a la que llamo si me siento mal.
 3. Una señal que me indica que debo pedir ayuda.
 Invitar a guardar la tarjeta junto al carné prenatal.
+El acompañante también llena su tarjeta, no solo observa: una
+cosa que hará esta semana para apoyarla y una señal que le
+indicaría que ella necesita ayuda.
 
 Recomendaciones de autocuidado:
 - Dormir y descansar cuando sea posible; siestas cortas.
@@ -300,9 +322,27 @@ Recomendaciones de autocuidado:
 | - Vómito que no la deja comer ni beber                    |
 +-----------------------------------------------------------+
 
+[01:45] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, qué señales le
+dicen que debe pedir ayuda y a quién llama. Luego cambien: el
+acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir en voz alta las señales del Bloque 4 que el grupo no
+recordó (en la próxima sesión se volverán a preguntar).
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+próxima sesión.)
+
 [01:50] PREGUNTAS, POST-TEST Y CIERRE
 - Resolver preguntas abiertas.
 - Aplicar post-test.
+- Tarea del acompañante para esta semana: preguntarle a ella cada
+  día cómo se siente y escuchar sin juzgar; hacer una tarea de la
+  casa que normalmente hace ella; y guardar en el celular el 123
+  y la línea 192, opción 4. Si la gestante vino sola, la tarea es
+  para la persona que la va a acompañar en casa.
 - Ronda final: "Una palabra con la que me voy hoy."
 - Recordar la próxima sesión: Sesión 2, semanas 15-19,
   "Cambios físicos, cuidados y desarrollo del bebé".
@@ -336,9 +376,35 @@ Recomendaciones de autocuidado:
   programa 2 horas. Coordinación debe documentar la razón (por
   ejemplo, sesión teórico-práctica) o ajustar la agenda.
 
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada
+  tema, hacer una pregunta al grupo ("¿Qué haría usted si...?")
+  o una práctica corta.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo del inicio de la próxima sesión (la
+  sesión 2 empieza preguntando las señales de este día).
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes):
+  enviar una sola pregunta 3 a 4 días después de la sesión y la
+  respuesta al día siguiente.
+  Pregunta: "Si lleva más de 2 semanas triste o sin ganas de
+  nada, ¿qué hace?"
+  Respuesta: "Contárselo al médico o a la enfermera, sin esperar
+  al próximo control. Si tiene ideas de hacerse daño o de no
+  querer vivir, vaya a urgencias o llame a la línea 192,
+  opción 4."
+  Invitar a responder y contestar dudas. No enviar datos clínicos
+  personales por el grupo, y no tratar casos de violencia por
+  ese medio: ofrecer conversación individual.
+
 ------------------------------------------------------------
-7. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+7. ANEXO: PRE-TEST / POST-TEST
 ------------------------------------------------------------
+Verdadero o Falso:
 1. Es anormal sentir miedo o dudas al inicio del embarazo. (F)
 2. El cansancio y las náuseas pueden afectar el estado de ánimo. (V)
 3. Si me siento triste casi todos los días por más de 2 semanas,
@@ -346,6 +412,28 @@ Recomendaciones de autocuidado:
 4. La pareja no necesita prepararse emocionalmente para el embarazo. (F)
 5. Si estoy tomando un medicamento para la ansiedad, debo
    suspenderlo yo misma al saber que estoy embarazada. (F)
+
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. Si usted se siente triste casi todos los días desde hace 3
+   semanas y ya nada le da gusto, ¿qué haría?
+   Respuesta esperada: consultar (contárselo al médico o a la
+   enfermera) sin esperar al próximo control; la tristeza que
+   dura 2 semanas o más se consulta.
+B. ¿Qué señales en el ánimo son para ir de inmediato a urgencias
+   o llamar a una línea de crisis?
+   Respuesta esperada: pensamientos de hacerse daño o de no
+   querer vivir; ver o escuchar cosas que otros no perciben;
+   tomar alcohol u otras sustancias para aguantar.
+C. ¿Qué señales del cuerpo al inicio del embarazo son para ir a
+   urgencias?
+   Respuesta esperada: sangrado por la vagina, salida de
+   líquido, fiebre, dolor fuerte en el abdomen, vómito que no la
+   deja comer ni beber.
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
 
 ------------------------------------------------------------
 8. REFERENCIAS SUGERIDAS (verificar edición vigente)
@@ -384,6 +472,17 @@ Recomendaciones de autocuidado:
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 14, 32, 34, 55-56, 57, 59 y 60). Complementario.
   (Páginas según la numeración impresa de la revista.)
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Wisniewski B, et al. Front Psychol.
+  2020;10:3087 (retroalimentación).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+  Nota: la evidencia de estos métodos viene sobre todo de
+  estudiantes, no de educación a gestantes.
 
 ------------------------------------------------------------
 9. LÍNEAS DE AYUDA (verificar vigencia antes de imprimir)

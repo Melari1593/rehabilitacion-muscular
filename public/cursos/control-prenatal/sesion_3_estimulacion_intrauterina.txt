@@ -27,20 +27,28 @@ Específicos:
 - Música suave (volumen moderado, por parlante, no audífonos)
 - Lámina de desarrollo de los sentidos
 - Hoja "Diario del vínculo con mi bebé"
+- Lámina de signos de alarma (la de la sesión 2), para el
+  recuerdo inicial
+- Baraja de casos (tarjetas) y tres carteles: NORMAL / CONSULTA
+  PRONTO / URGENCIAS
 - Pre-test / post-test (anexo)
 
 ------------------------------------------------------------
 3. AGENDA
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:30  Bloque 1: ¿Qué siente y qué percibe mi bebé?
-00:30 - 00:45  Bloque 2: Qué es (y qué no es) la estimulación
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:28  Bloque 1: ¿Qué siente y qué percibe mi bebé?
+00:28 - 00:39  Bloque 2: Qué es (y qué no es) la estimulación
                intrauterina
-00:45 - 01:25  Bloque 3: Taller práctico por sentidos
-01:25 - 01:35  Pausa
-01:35 - 01:50  Bloque 4: Movimientos fetales, posición para
+00:39 - 01:19  Bloque 3: Taller práctico por sentidos
+01:19 - 01:29  Pausa
+01:29 - 01:40  Bloque 4: Movimientos fetales, posición para
                dormir y signos de alarma
-01:50 - 02:00  Post-test y cierre
+01:40 - 01:50  Baraja de casos: ¿normal, consulta pronto o
+               urgencias?
+01:50 - 01:55  Cierre en parejas: enséñele al otro
+01:55 - 02:00  Post-test y cierre
 
 ------------------------------------------------------------
 4. DESARROLLO DEL GUION
@@ -53,8 +61,47 @@ y cómo podemos comunicarnos con él desde ya. Más que hacer al bebé
 'más inteligente', el objetivo es crear vínculo y disfrutar el
 embarazo en familia."
 Ronda: nombre, semanas, si ya siente al bebé y cómo lo describe.
+Pre-test (5 min) - ver anexo. Se aplica antes del recuerdo
+inicial para que mida lo que el grupo sabe al llegar.
 
-[00:10] BLOQUE 1: ¿QUÉ SIENTE Y QUÉ PERCIBE MI BEBÉ?
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de
+  alarma y el grupo compara: ¿cuáles dijimos? ¿cuáles se nos
+  olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final de la sesión.
+Esta sesión el recuerdo incluye (Bloque 5 de la sesión 2):
+- Sangrado o salida de líquido por la vagina.
+- Dolor de cabeza fuerte, visión borrosa, lucecitas o zumbido en
+  los oídos.
+- Hinchazón de cara, manos o pies que aparece de repente o que ya
+  está desde que se levanta.
+- Dolor en la boca del estómago o debajo de las costillas
+  derechas.
+- Fiebre; ardor al orinar u orinar muy seguido con molestia;
+  dolor en la espalda baja con fiebre.
+- Antes de la semana 37, aunque no sean regulares: contracciones
+  que aumentan, cólico que se corre a la espalda o los muslos,
+  cambio en el moco vaginal o moco con sangre, o sensación de que
+  el bebé bajó.
+- Vómito: en la primera mitad, el que no deja comer ni beber; en
+  la segunda mitad, cualquier vómito.
+- Convulsiones o pérdida del conocimiento.
+- Dificultad para respirar en reposo.
+- Una pierna hinchada, roja, caliente o dolorosa.
+- Caída, golpe en el abdomen o accidente de tránsito, aunque se
+  sienta bien.
+- Disminución o ausencia de movimientos del bebé.
+- Consultar pronto: flujo con mal olor, verde-amarillo o con
+  picazón; tos que no mejora; tristeza o angustia intensa, o no
+  poder dormir.
+
+[00:15] BLOQUE 1: ¿QUÉ SIENTE Y QUÉ PERCIBE MI BEBÉ?
 (Fechas aproximadas; varían entre bebés.)
 
 Tacto
@@ -94,7 +141,7 @@ Sueño y vigilia
   dormido, es normal que no responda un rato a los estímulos; no hay
   que insistir ni sacudir el abdomen.
 
-[00:30] BLOQUE 2: QUÉ ES (Y QUÉ NO ES) LA ESTIMULACIÓN INTRAUTERINA
+[00:28] BLOQUE 2: QUÉ ES (Y QUÉ NO ES) LA ESTIMULACIÓN INTRAUTERINA
 Mensajes clave:
 - Es el conjunto de actividades que la familia realiza para
   comunicarse con el bebé usando los sentidos que ya funcionan.
@@ -122,13 +169,36 @@ Prácticas a evitar:
   o masajes profundos por parte de personas sin formación.
 - Productos o aparatos que prometan resultados de inteligencia.
 
-[00:45] BLOQUE 3: TALLER PRÁCTICO POR SENTIDOS (40 min)
+[00:39] BLOQUE 3: TALLER PRÁCTICO POR SENTIDOS (40 min)
 Preparar el ambiente: luz tenue, música suave, gestantes
 recostadas de lado o semisentadas, acompañante al lado.
 
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa, de principio a fin,
+   diciendo en voz alta cada paso (en sí misma, en una
+   voluntaria o en un muñeco sobre una almohada).
+2. Cada pareja la practica mientras el facilitador recorre el
+   salón. El acompañante practica cada técnica también, no solo
+   observa: toca, le habla al bebé y la mece.
+3. Corregir con frases concretas que digan qué cambiar, por
+   ejemplo: "Está apretando con toda la mano: use solo la yema
+   de los dedos, suave". Evitar solo "muy bien".
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+Ejemplos de retroalimentación para la estimulación:
+- "Está girando al revés: haga los círculos alrededor del
+  ombligo en el sentido de las manecillas del reloj."
+- "Después del toque, quédese quieta unos segundos y espere la
+  respuesta; si el bebé patea, toque en ese mismo sitio."
+- "Hable más cerca y más despacio, con voz de conversación; no
+  hace falta subir la voz ni pegar el celular a la barriga."
+- "Si el bebé no responde, puede estar dormido: no sacuda la
+  barriga; inténtelo más tarde, cuando esté activo."
+
 1. Respiración y relajación (5 min)
    Respiración diafragmática (repasar de la sesión 1). La calma
-   de la madre es el primer estímulo.
+   de la madre es el primer estímulo. El acompañante respira
+   con ella.
 
 2. Estimulación táctil (10 min)
    - Manos tibias y con un poco de aceite o crema.
@@ -152,6 +222,8 @@ recostadas de lado o semisentadas, acompañante al lado.
 4. Estimulación de movimiento (5 min)
    - Mecerse suavemente sentada (balón o silla), caminar, bailar
      suave. El balanceo rítmico suele ser agradable para el bebé.
+   - El acompañante baila o camina con ella y la ayuda a
+     mecerse.
 
 5. Estimulación visual (2 min, sin demostración)
    - "La luz no aporta nada al vínculo; no es necesaria."
@@ -164,9 +236,9 @@ recostadas de lado o semisentadas, acompañante al lado.
      prueba, la primera ecografía, la primera patadita).
      (Creciendo Juntos, 2026, p. 61)
 
-[01:25] PAUSA (10 min)
+[01:19] PAUSA (10 min)
 
-[01:35] BLOQUE 4: MOVIMIENTOS FETALES, POSICIÓN PARA DORMIR Y
+[01:29] BLOQUE 4: MOVIMIENTOS FETALES, POSICIÓN PARA DORMIR Y
 SIGNOS DE ALARMA
 
 Movimientos del bebé
@@ -210,6 +282,8 @@ Posición para dormir
   solo debe girarse.
 
 Signos de alarma (repaso)
+(Repaso breve: la lista ya se recordó al inicio de la sesión.
+Aquí insistir en las señales que el grupo olvidó.)
 - Sangrado o salida de líquido por la vagina
 - Dolor de cabeza fuerte, visión borrosa, lucecitas, zumbido en los
   oídos, hinchazón súbita
@@ -231,7 +305,83 @@ Signos de alarma (repaso)
   mejora, tristeza o angustia intensa, no poder dormir; debilidad,
   cansancio fácil o vértigo (puede ser anemia)
 
-[01:50] POST-TEST Y CIERRE
+[01:40] BARAJA DE CASOS: ¿NORMAL, CONSULTA PRONTO O URGENCIAS?
+(10 min)
+Tres tarjetas grandes en el piso o la pared: NORMAL (verde),
+CONSULTA PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en una de las tres, diciendo por qué. El grupo
+opina; el facilitador corrige y explica.
+Casos (mezclar, no en orden):
+1. "Tengo 22 semanas. Cuando el bebé se mueve, una partecita de
+   la barriga se me pone dura un momento, sin dolor, y luego se
+   afloja."
+   → NORMAL. Por qué: desde la semana 20 es una contracción
+   pequeña y localizada, sin dolor, que no desencadena el parto.
+2. "Tengo 30 semanas. Hoy sentí que el bebé se movía menos. Me
+   acosté de lado y en 2 horas le conté 6 movimientos."
+   → URGENCIAS. Por qué: después de la semana 28, si en 2 horas
+   de lado cuenta menos de 10 movimientos, se va a urgencias
+   enseguida.
+3. "Tengo 21 semanas. Anoche me dio un dolor de cabeza muy fuerte
+   y veo lucecitas." (sesión 2)
+   → URGENCIAS. Por qué: dolor de cabeza fuerte, visión borrosa o
+   lucecitas son signos de alarma de presión alta del embarazo.
+4. "Tengo 30 semanas. Me desperté boca arriba y estaba un poco
+   mareada; me giré de lado y se me pasó."
+   → NORMAL. Por qué: boca arriba el útero aprieta la vena cava y
+   puede dar mareo; si se despierta boca arriba, solo debe
+   girarse de lado.
+5. "Tengo 24 semanas. Me sale un flujo verde-amarillo, con mal
+   olor y picazón." (sesión 2)
+   → CONSULTA PRONTO. Por qué: el flujo con mal olor, color
+   verde-amarillo o picazón se consulta sin esperar al control,
+   pero no es urgencia.
+6. "Tengo 23 semanas. Toda la barriga se me puso dura, me duele
+   muchísimo y no se afloja."
+   → URGENCIAS. Por qué: un dolor muy fuerte o un abdomen duro
+   que no se afloja no es normal: se consulta de inmediato.
+7. "Tengo 22 semanas. Desde hace 3 semanas casi no duermo aunque
+   tenga tiempo y lloro casi todo el día." (sesión 1)
+   → CONSULTA PRONTO. Por qué: no poder dormir o la tristeza que
+   duran 2 semanas o más se consultan, sin esperar al control.
+   (Si hubiera ideas de hacerse daño, sería URGENCIAS.)
+8. "Tengo 32 semanas. Le hablo al bebé y no responde; a la media
+   hora se mueve como siempre."
+   → NORMAL. Por qué: el bebé tiene ciclos de sueño y puede estar
+   quieto 20 a 40 minutos; si se mueve como siempre, no hay que
+   contarle los movimientos.
+9. "Tengo 23 semanas. Me mareo casi todos los días, me siento muy
+   débil y me canso con nada." (sesión 2)
+   → CONSULTA PRONTO. Por qué: la debilidad, el cansancio fácil o
+   el vértigo pueden ser anemia; se consulta pronto.
+10. "Tengo 31 semanas. Desde ayer en la tarde no siento al bebé
+    moverse nada; voy a esperar a mañana a ver si se mueve."
+    → URGENCIAS. Por qué: si no lo siente moverse nada, no se
+    cuenta ni se espera al día siguiente: se va ya.
+Parejas de casos para comparar al final: 1 y 6 (barriga dura),
+8 y 2 (bebé quieto), 8 y 10 (no responde vs. no se mueve nada).
+
+[01:50] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, qué hay que hacer
+si el bebé se mueve menos. Luego cambien: el acompañante le
+explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+próxima sesión.)
+
+[01:55] POST-TEST Y CIERRE
+- Aplicar post-test.
+- Tarea del acompañante para esta semana: hablarle o cantarle al
+  bebé unos minutos cada día y hacer con ella el "juego de las
+  pataditas"; aprenderse qué hacer si el bebé se mueve menos
+  (acostarla de lado, contar 2 horas; menos de 10 o nada:
+  urgencias). Si la gestante vino sola, la tarea es para la
+  persona que la va a acompañar en el parto o en casa.
 Recordar: ecografía de detalle anatómico (de la semana 18 a la
 23 más 6 días; si aún no se la han hecho, pedirla ya), vacuna
 Tdap desde la semana 20, prueba de azúcar con 75 g entre las
@@ -250,8 +400,34 @@ Próxima sesión: Sesión 4, semanas 25-27, "Trabajo de parto".
 5. Desde el tercer trimestre, a dormir de lado.
 
 ------------------------------------------------------------
-6. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+6. NOTAS PARA EL FACILITADOR
 ------------------------------------------------------------
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada
+  tema, hacer una pregunta al grupo ("¿Qué haría usted si...?")
+  o una práctica corta.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo del inicio de la próxima sesión (la
+  sesión 4 empieza preguntando los signos de alarma y qué hacer
+  si el bebé se mueve menos).
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes):
+  enviar una sola pregunta 3 a 4 días después de la sesión y la
+  respuesta al día siguiente.
+  Pregunta: "¿Qué hace si siente que su bebé se mueve menos?"
+  Respuesta: "Acostarse de lado y contar los movimientos 2 horas.
+  Si son menos de 10, o si no se mueve nada, ir a urgencias ya."
+  Invitar a responder y contestar dudas. No enviar datos clínicos
+  personales por el grupo.
+
+------------------------------------------------------------
+7. ANEXO: PRE-TEST / POST-TEST
+------------------------------------------------------------
+Verdadero o Falso:
 1. El bebé puede escuchar la voz de su madre antes de nacer. (V)
 2. Poner audífonos a alto volumen sobre el abdomen es una buena
    forma de estimular al bebé. (F)
@@ -261,8 +437,38 @@ Próxima sesión: Sesión 4, semanas 25-27, "Trabajo de parto".
    al otro día para ver si mejora. (F)
 5. En el tercer trimestre se recomienda dormir de lado. (V)
 
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. ¿Qué haría si a las 30 semanas siente que su bebé se mueve
+   menos que de costumbre?
+   Respuesta esperada: acostarse de lado de inmediato y contar
+   los movimientos durante 2 horas; si son menos de 10, ir a
+   urgencias enseguida; si no se mueve nada, no contar e ir ya;
+   no esperar al día siguiente.
+B. ¿Cómo puede comunicarse con su bebé y qué cosas debe evitar?
+   Respuesta esperada: hablarle, cantarle o leerle con voz
+   tranquila; caricias suaves y el juego de las pataditas;
+   mecerse o caminar suave. Evitar audífonos o parlantes pegados
+   al abdomen a alto volumen, luces intensas y presionar o
+   "acomodar" al bebé con fuerza.
+C. Diga todas las señales que conozca por las que una embarazada
+   debe ir a urgencias.
+   Respuesta esperada (completa si dice 5 o más; parcial si dice
+   de 1 a 4): sangrado o salida de líquido; dolor de cabeza
+   fuerte, visión borrosa, lucecitas o zumbido; hinchazón súbita
+   o desde que se levanta; dolor en la boca del estómago; fiebre
+   o ardor al orinar; antes de la semana 37, contracciones que
+   aumentan o cólico hacia la espalda; el bebé se mueve menos o
+   no se mueve; abdomen duro con dolor fuerte que no se afloja;
+   vómito; convulsiones o desmayo; dificultad para respirar; una
+   pierna hinchada, roja y dolorosa; caída o golpe en el abdomen.
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
+
 ------------------------------------------------------------
-7. REFERENCIAS SUGERIDAS (verificar edición vigente)
+8. REFERENCIAS SUGERIDAS (verificar edición vigente)
 ------------------------------------------------------------
 - Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed.,
   2017, caps. 7 (control prenatal: percepción de movimientos) y 12
@@ -290,3 +496,16 @@ Próxima sesión: Sesión 4, semanas 25-27, "Trabajo de parto".
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 15, 16, 31, 35, 36-37, 61 y 62). Complementario.
   (Páginas según la numeración impresa de la revista.)
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada).
+- Método de enseñanza: Wisniewski B, et al. Front Psychol.
+  2020;10:3087 (retroalimentación).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+  Nota: la evidencia de estos métodos viene sobre todo de
+  estudiantes, no de educación a gestantes.

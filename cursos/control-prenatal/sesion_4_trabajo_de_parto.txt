@@ -28,20 +28,27 @@ Específicos:
 - Lámina de dilatación del cuello (círculos de 1 a 10 cm)
 - Formato "Mi plan de parto"
 - Lista de la maleta
+- Lámina de signos de alarma (para el recuerdo inicial)
+- Baraja de casos (tarjetas) y tres carteles: NORMAL / CONSULTA
+  PRONTO / URGENCIAS
 - Pre-test / post-test (anexo)
 
 ------------------------------------------------------------
 3. AGENDA
 ------------------------------------------------------------
 00:00 - 00:10  Bienvenida y pre-test
-00:10 - 00:25  Bloque 1: Señales de que el parto se acerca
-00:25 - 00:40  Bloque 2: ¿Cuándo ir a la clínica?
-00:40 - 01:00  Bloque 3: Las etapas del parto
-01:00 - 01:10  Pausa
-01:10 - 01:40  Bloque 4: Taller: manejo del dolor (respiración,
+00:10 - 00:15  Recuerdo inicial: ¿cuándo vamos a urgencias?
+00:15 - 00:27  Bloque 1: Señales de que el parto se acerca
+00:27 - 00:39  Bloque 2: ¿Cuándo ir a la clínica?
+00:39 - 00:54  Bloque 3: Las etapas del parto
+00:54 - 01:04  Pausa
+01:04 - 01:34  Bloque 4: Taller: manejo del dolor (respiración,
                posiciones, masaje, rol del acompañante)
-01:40 - 01:50  Bloque 5: Derechos, plan de parto y maleta
-01:50 - 02:00  Preguntas, post-test y cierre
+01:34 - 01:42  Baraja de casos: ¿normal, consulta pronto o
+               urgencias?
+01:42 - 01:50  Bloque 5: Derechos, plan de parto y maleta
+01:50 - 01:55  Cierre en parejas: enséñele al otro
+01:55 - 02:00  Preguntas, post-test y cierre
 
 ------------------------------------------------------------
 4. DESARROLLO DEL GUION
@@ -54,7 +61,37 @@ sabemos qué va a pasar. Hoy vamos a conocer el proceso paso a paso
 y a practicar herramientas para vivirlo con más confianza."
 Ronda: nombre, semanas y una idea o miedo sobre el parto.
 
-[00:10] BLOQUE 1: SEÑALES DE QUE EL PARTO SE ACERCA
+[00:10] RECUERDO INICIAL: ¿CUÁNDO VAMOS A URGENCIAS? (5 min)
+FACILITADOR(A):
+"Sin mirar el volante ni el carné: en parejas, digan todas las
+señales que conozcan por las que hay que ir a urgencias."
+- 2 minutos en parejas (la gestante dice primero; el acompañante
+  completa). Quien no sepa escribir lo dice en voz alta.
+- 3 minutos: el facilitador muestra la lámina de signos de alarma y
+  el grupo compara: ¿cuáles dijimos? ¿cuáles se nos olvidaron?
+- Corregir sin juzgar. Las señales que el grupo olvidó se repiten
+  en voz alta y se vuelven a preguntar al final de la sesión.
+Esta sesión el recuerdo incluye (sesiones 2 y 3):
+- Sangrado o salida de líquido por la vagina.
+- Dolor de cabeza fuerte, visión borrosa, lucecitas, zumbido en
+  los oídos, hinchazón súbita.
+- Dolor en la boca del estómago.
+- Fiebre; ardor o dolor al orinar.
+- Antes de la semana 37, aunque no sean regulares: contracciones
+  que aumentan, cólico hacia la espalda o los muslos, cambio en el
+  moco vaginal o moco con sangre, o sensación de que el bebé bajó.
+- Vómito: en la primera mitad del embarazo, el que no deja comer
+  ni beber; en la segunda mitad, cualquier vómito.
+- Convulsiones o desmayo; dificultad para respirar en reposo; una
+  pierna hinchada, roja y dolorosa; caídas, golpes en el abdomen o
+  accidentes de tránsito, aunque se sienta bien.
+- Movimientos del bebé: si después de la semana 28 siente que se
+  mueve menos, acostarse de lado y contar los movimientos 2 horas.
+  Si son menos de 10, o si no se mueve nada, ir a urgencias ya.
+- Consultar pronto: flujo con mal olor o picazón, tos que no
+  mejora, tristeza o angustia intensa, no poder dormir.
+
+[00:15] BLOQUE 1: SEÑALES DE QUE EL PARTO SE ACERCA
 (Pueden aparecer días o semanas antes del parto.)
 - Descenso del bebé ("se bajó la barriga"): se respira mejor pero
   se orina más.
@@ -78,8 +115,10 @@ Contracciones de trabajo de parto (verdaderas):
 Ejercicio: enseñar a medir contracciones. Desde el inicio de una
 hasta el inicio de la siguiente = frecuencia. Cuánto dura cada una
 = duración. Anotar durante una hora.
+Pregunta al grupo: "¿Qué haría si a las 30 semanas la barriga se
+le pone dura a ratos, sin ritmo, y se calma al descansar?"
 
-[00:25] BLOQUE 2: ¿CUÁNDO IR A LA CLÍNICA?
+[00:27] BLOQUE 2: ¿CUÁNDO IR A LA CLÍNICA?
 Ir a urgencias si:
 - Contracciones regulares: como referencia, 2 o 3 en 10 minutos
   (o cada 5 minutos) durante una hora, que no ceden con reposo.
@@ -135,8 +174,10 @@ SI LLEGA A LA SEMANA 40:
 - Ningún embarazo debe pasar de la semana 42.
   (Nota para el facilitador: la GPC 2013 pide informar estas
   opciones a las 38 semanas; ver también Carvajal y Ralph, cap. 28.)
+Pregunta al grupo: "¿Qué haría si a las 39 semanas le sale líquido
+por la vagina y no tiene dolor?"
 
-[00:40] BLOQUE 3: LAS ETAPAS DEL PARTO
+[00:39] BLOQUE 3: LAS ETAPAS DEL PARTO
 Usar la pelvis, el muñeco y la lámina de dilatación.
 
 Primera etapa: dilatación
@@ -238,12 +279,39 @@ Cesárea
   cuando el parto no avanza). No es "más fácil": tiene más riesgos que un parto
   vaginal cuando no está indicada.
 
-[01:00] PAUSA (10 min)
+[00:54] PAUSA (10 min)
 
-[01:10] BLOQUE 4: TALLER - MANEJO DEL DOLOR (30 min)
+[01:04] BLOQUE 4: TALLER - MANEJO DEL DOLOR (30 min)
 Explicar: el dolor del parto es real y cada mujer lo vive distinto.
 Existen métodos no farmacológicos y farmacológicos, y se pueden
 combinar.
+
+Cómo enseñar esta práctica (modelar, practicar, corregir):
+1. El facilitador hace la técnica completa, de principio a fin,
+   diciendo en voz alta cada paso.
+2. Cada pareja la practica (entre ellos, con balón o colchoneta)
+   mientras el facilitador recorre el salón.
+3. Corregir con frases concretas que digan qué cambiar, por
+   ejemplo: "Está soltando el aire muy rápido: suéltelo largo por
+   la boca, más largo que cuando lo toma". Evitar solo "muy bien".
+4. La segunda vez, el facilitador ya no dice los pasos: la
+   pareja los dice sola.
+El acompañante también practica, no solo observa: hace las
+respiraciones con ella, la sostiene en las posiciones y da la
+contrapresión. Luego cambian: ella le da la contrapresión a él,
+para que sienta cuánta fuerza usar.
+Ejemplos de retroalimentación concretos:
+- Respiración: "Suelte los hombros y la mandíbula; respire lento,
+  no rápido, para que no se maree."
+- Posiciones: "En el balón, apoye bien los dos pies en el piso y
+  haga los círculos de cadera más amplios y despacio."
+- Pujo de práctica: "No haga fuerza de verdad: tome aire y
+  suéltelo despacio mientras empuja suave."
+- Contrapresión: "Presione con la palma, no con las puntas de los
+  dedos, en la parte baja de la espalda, y mantenga la presión
+  toda la contracción."
+- Acompañante: "Cuente más despacio y en voz baja; ella sigue su
+  ritmo."
 
 1. Respiración (8 min)
    - Al inicio de la contracción: inhalar profundo por la nariz y
@@ -317,7 +385,62 @@ Métodos farmacológicos
   requerir remisión a otra institución. Pregunte desde el control
   prenatal.
 
-[01:40] BLOQUE 5: DERECHOS, PLAN DE PARTO Y MALETA
+[01:34] BARAJA DE CASOS: ¿NORMAL, CONSULTA PRONTO O URGENCIAS?
+Tres tarjetas grandes en el piso o la pared: NORMAL (verde),
+CONSULTA PRONTO (amarillo), URGENCIAS (rojo).
+Cada pareja saca una tarjeta de caso, la lee (o el facilitador la
+lee) y la ubica en una de las tres, diciendo por qué. El grupo
+opina; el facilitador corrige y explica.
+Casos (mezclar, no en orden):
+1. "Tengo 30 semanas. Por las tardes la barriga se me pone dura a
+   ratos, sin un ritmo fijo, y se me quita cuando me acuesto y
+   tomo agua." → NORMAL.
+   Por qué: son contracciones de entrenamiento: irregulares, no
+   aumentan y se calman con reposo o hidratación.
+2. "Tengo 29 semanas. Al final del día se me hinchan los tobillos,
+   y en la mañana amanezco bien." → NORMAL.
+   Por qué: es una molestia frecuente (sesión 2): elevar las
+   piernas y no estar mucho tiempo de pie o sentada.
+3. "Tengo 34 semanas y boté un moco con hilitos de sangre. No
+   tengo dolor." → URGENCIAS.
+   Por qué: antes de la semana 37, el moco con sangre o de otro
+   color es motivo de urgencias, aunque no haya contracciones.
+4. "Tengo 38 semanas. Se me mojó la ropa interior con un líquido
+   claro que sigue saliendo. No tengo dolor." → URGENCIAS.
+   Por qué: la salida de líquido se consulta aunque no haya dolor.
+   Fijarse en el color y anotar la hora.
+5. "Tengo 28 semanas y tengo un flujo verde-amarillo con picazón.
+   No tengo fiebre." → CONSULTA PRONTO.
+   Por qué: el flujo con mal olor, color verde-amarillo o picazón
+   se consulta sin esperar al próximo control (sesión 2).
+6. "Tengo 31 semanas. Hoy sentí que el bebé se movía menos. Me
+   acosté de lado y en 2 horas conté 6 movimientos."
+   → URGENCIAS.
+   Por qué: menos de 10 movimientos en 2 horas es motivo de ir a
+   urgencias enseguida (sesión 3).
+7. "Tengo 39 semanas. Esta mañana boté un moco espeso con hilitos
+   de sangre. No tengo contracciones ni sangrado." → NORMAL.
+   Por qué: a término, el tapón mucoso por sí solo no indica ir a
+   urgencias. Sí se va si es sangrado como una menstruación.
+8. "Tengo 32 semanas. Desde hace una hora tengo contracciones cada
+   vez más seguidas y más fuertes." → URGENCIAS.
+   Por qué: antes de la semana 37, las contracciones regulares o
+   que aumentan se consultan de inmediato. A tiempo, hay
+   medicamentos que maduran los pulmones del bebé.
+9. "Tengo 33 semanas. Me levanté con la cara y las manos hinchadas
+   y me duele mucho la cabeza." → URGENCIAS.
+   Por qué: hinchazón que ya está al levantarse, en la cara o las
+   manos, con dolor de cabeza fuerte, es signo de alarma (sesión
+   2).
+10. "Tengo 40 semanas. Desde hace una hora tengo 3 contracciones
+    cada 10 minutos y no se quitan con el reposo." → URGENCIAS
+    (ir a la clínica).
+    Por qué: contracciones regulares, 2 o 3 en 10 minutos durante
+    una hora, que no ceden con reposo: es hora de salir.
+Parejas para comparar: 1 y 8 (contracciones), 3 y 7 (moco con
+sangre antes y después de la semana 37), 2 y 9 (hinchazón).
+
+[01:42] BLOQUE 5: DERECHOS, PLAN DE PARTO Y MALETA
 Derechos (Ley 2244 de 2022 - parto digno, respetado y humanizado):
 - Recibir información clara y dar su consentimiento antes de los
   procedimientos.
@@ -360,7 +483,24 @@ Para el acompañante: cargador de celular, algo de efectivo, agua
 y algo de comer, una muda de ropa y cepillo de dientes.
 (Creciendo Juntos, 2026, pp. 63-64)
 
-[01:50] PREGUNTAS, POST-TEST Y CIERRE
+[01:50] CIERRE EN PAREJAS: ENSÉÑELE AL OTRO (5 min)
+FACILITADOR(A):
+"Explíquele a su acompañante, con sus palabras, cómo sabe que
+empezó el parto y cuándo salir para el hospital. Luego cambien:
+el acompañante le explica a usted."
+El facilitador escucha a 2 o 3 parejas y corrige lo que falte.
+Repetir las señales que el grupo olvidó en el recuerdo inicial.
+Si la gestante viene sola, hace la dinámica con otra gestante.
+(Nota: esta dinámica ayuda a que la gestante se sienta capaz de
+actuar y permite detectar errores; no reemplaza el repaso de la
+próxima sesión.)
+
+[01:55] PREGUNTAS, POST-TEST Y CIERRE
+Tarea del acompañante para esta semana: conocer la ruta a la
+institución donde será el parto y cuánto tiempo se demora en
+llegar (de día y de noche), y dejar lista la maleta desde la
+semana 34-36. Si la gestante viene sola, la tarea es para la
+persona que la va a acompañar en el parto.
 Próxima sesión: Sesión 5, semanas 28-30, "Cuidados del recién nacido".
 
 ------------------------------------------------------------
@@ -375,8 +515,36 @@ Próxima sesión: Sesión 5, semanas 28-30, "Cuidados del recién nacido".
 5. Tiene derecho a un parto digno y acompañado.
 
 ------------------------------------------------------------
-6. ANEXO: PRE-TEST / POST-TEST (Verdadero o Falso)
+6. NOTAS PARA EL FACILITADOR (no leer en voz alta)
 ------------------------------------------------------------
+Cómo enseñar en esta sesión:
+- No hablar más de 10 a 15 minutos seguidos: después de cada tema,
+  hacer una pregunta al grupo ("¿Qué haría usted si...?") o una
+  práctica corta.
+- Corregir siempre con la respuesta completa.
+- El volante es apoyo para la casa; el repaso de verdad es la
+  pregunta de recuerdo del inicio de la próxima sesión.
+- No adaptar la sesión a "estilos de aprendizaje" (visual,
+  auditivo): para todas, usar preguntas orales, láminas con
+  dibujos y práctica con las manos.
+- Pregunta de la semana por WhatsApp (si la IPS tiene grupo o
+  lista de difusión y la gestante aceptó recibir mensajes): enviar
+  una sola pregunta 3 a 4 días después de la sesión y la respuesta
+  al día siguiente. Invitar a responder; contestar dudas. No
+  enviar datos clínicos personales por el grupo.
+  Pregunta: "¿Cuándo debe salir para la clínica si tiene
+  contracciones?"
+  Respuesta: "Cuando sean regulares (2 o 3 en 10 minutos durante
+  una hora) y no se quiten con reposo. Salga antes si vive lejos,
+  si ya tuvo partos rápidos, si es su segundo bebé o más, o si
+  tuvo una cesárea. Si sale líquido o sangre, vaya ya, aunque no
+  haya dolor. Antes de la semana 37, cualquier contracción regular
+  se consulta de inmediato."
+
+------------------------------------------------------------
+7. ANEXO: PRE-TEST / POST-TEST
+------------------------------------------------------------
+Verdadero o Falso:
 1. Si sale líquido por la vagina pero no tengo dolor, puedo
    esperar en casa. (F)
 2. Las contracciones de entrenamiento suelen ceder con reposo. (V)
@@ -386,8 +554,36 @@ Próxima sesión: Sesión 5, semanas 28-30, "Cuidados del recién nacido".
 5. Contracciones regulares a las 32 semanas son normales y no
    requieren consulta. (F)
 
+Preguntas abiertas (responder con sus palabras, oral o escrito;
+el facilitador registra si la respuesta es completa, parcial o
+no la sabe):
+A. ¿Qué haría si a las 39 semanas le sale líquido por la vagina y
+   no tiene dolor?
+   Respuesta esperada: ir a la clínica sin esperar a tener dolor;
+   fijarse en el color (claro, verde o con sangre) y anotar la
+   hora.
+B. ¿Cómo sabe que las contracciones ya son de trabajo de parto y
+   cuándo sale para la clínica?
+   Respuesta esperada: son regulares, cada vez más seguidas, más
+   largas y más fuertes, y no se quitan con reposo; salir con 2 o
+   3 en 10 minutos durante una hora (antes si vive lejos, tuvo
+   partos rápidos, es su segundo bebé o más, o tuvo cesárea).
+   Antes de la semana 37, cualquier contracción regular se
+   consulta de inmediato.
+C. Diga 4 señales por las que iría a urgencias durante el
+   embarazo.
+   Respuesta esperada (4 de estas): sangrado; salida de líquido;
+   dolor de cabeza fuerte o visión borrosa; hinchazón súbita o
+   desde que se levanta; dolor en la boca del estómago; fiebre;
+   el bebé se mueve menos (menos de 10 en 2 horas, de lado) o
+   nada; contracciones antes de la semana 37; convulsiones o
+   desmayo; golpe en el abdomen.
+Nota: "Las preguntas abiertas miden recuerdo, que es más difícil
+que reconocer una respuesta en un Verdadero o Falso. Comparar
+el pre y el post de las preguntas abiertas."
+
 ------------------------------------------------------------
-7. REFERENCIAS SUGERIDAS (verificar edición vigente)
+8. REFERENCIAS SUGERIDAS (verificar edición vigente)
 ------------------------------------------------------------
 - MinSalud. Resolución 3280 de 2018, Lineamiento de la Ruta
   Materno Perinatal, num. 4.4 (curso), 4.7 (atención del parto) y
@@ -413,3 +609,16 @@ Próxima sesión: Sesión 5, semanas 28-30, "Cuidados del recién nacido".
   experiencia de parto positiva, 2018.
 - Gestar con Amor & Ser Mamá. Creciendo Juntos, 2.ª ed., 2026
   (pp. 41-50, 53-54 y 63-64). Complementario.
+- Método de enseñanza: Yang C, et al. Psychol Bull.
+  2021;147(4):399-435 (práctica de recuperación en aula).
+- Método de enseñanza: Latimier A, et al. Educ Psychol Rev.
+  2021;33:959-987 (práctica espaciada).
+- Método de enseñanza: Brunmair M, Richter T. Psychol Bull.
+  2019;145(11):1029-52 (práctica intercalada; baraja de casos).
+- Método de enseñanza: Wisniewski B, et al. Front Psychol.
+  2020;10:3087 (retroalimentación en las prácticas).
+- Método de enseñanza: Vick JB, et al. J Gen Intern Med. 2026
+  (teach-back: mejora autoeficacia y adherencia; sin beneficio
+  claro en conocimiento).
+  Nota: la evidencia de estos métodos viene sobre todo de
+  estudiantes, no de educación a gestantes.
