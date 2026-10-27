@@ -175,6 +175,111 @@ export const SIGNOS_ALARMA = [
 ];
 
 // ---------------------------------------------------------------------------
+// Ruta según la semana de inicio (ingreso tardío al curso).
+// La GPC MinSalud 2013 pide dar antes de la semana 36 la preparación para el
+// parto, los signos de inicio, los cuidados del recién nacido, el autocuidado
+// posnatal y la planificación; y a las 38 semanas, las opciones si el embarazo
+// se prolonga. Quien empieza tarde recibe primero lo que necesita antes del
+// parto; el resto queda como material de lectura o para el control posparto.
+// ---------------------------------------------------------------------------
+
+export type ModoPaso = 'grupo' | 'resumen' | 'lectura' | 'posparto';
+
+// Un paso apunta a una sesión (1 a 7) o a un guion de la ruta corta o esencial.
+export type PasoRuta = { sesion: number; modo: ModoPaso } | { guion: ClaveGuionRuta; modo: 'grupo' };
+
+export type ClaveGuionRuta = 'corta1' | 'corta2' | 'esencial';
+
+export type TramoRuta = { desde: number; hasta: number; pasos: PasoRuta[] };
+
+export const SEMANA_MINIMA = 4;
+export const SEMANA_MAXIMA = 42;
+
+export const RUTAS: TramoRuta[] = [
+  {
+    desde: SEMANA_MINIMA,
+    hasta: 19,
+    pasos: [1, 2, 3, 4, 5, 6, 7].map((sesion) => ({ sesion, modo: 'grupo' as const })),
+  },
+  {
+    desde: 20,
+    hasta: 27,
+    pasos: [
+      { sesion: 2, modo: 'grupo' },
+      { sesion: 3, modo: 'grupo' },
+      { sesion: 4, modo: 'grupo' },
+      { sesion: 5, modo: 'grupo' },
+      { sesion: 6, modo: 'grupo' },
+      { sesion: 7, modo: 'grupo' },
+      { sesion: 1, modo: 'lectura' },
+    ],
+  },
+  {
+    desde: 28,
+    hasta: 33,
+    pasos: [
+      { sesion: 2, modo: 'resumen' },
+      { sesion: 4, modo: 'grupo' },
+      { sesion: 6, modo: 'grupo' },
+      { sesion: 5, modo: 'grupo' },
+      { sesion: 7, modo: 'grupo' },
+      { sesion: 1, modo: 'lectura' },
+      { sesion: 3, modo: 'lectura' },
+    ],
+  },
+  {
+    desde: 34,
+    hasta: 36,
+    pasos: [
+      { guion: 'corta1', modo: 'grupo' },
+      { guion: 'corta2', modo: 'grupo' },
+      { sesion: 1, modo: 'lectura' },
+      { sesion: 3, modo: 'lectura' },
+      { sesion: 7, modo: 'lectura' },
+    ],
+  },
+  {
+    desde: 37,
+    hasta: SEMANA_MAXIMA,
+    pasos: [
+      { guion: 'esencial', modo: 'grupo' },
+      { sesion: 1, modo: 'lectura' },
+      { sesion: 2, modo: 'lectura' },
+      { sesion: 3, modo: 'lectura' },
+      { sesion: 7, modo: 'posparto' },
+    ],
+  },
+];
+
+export function rutaPorSemana(semana: number): TramoRuta | undefined {
+  if (!Number.isInteger(semana) || semana < SEMANA_MINIMA || semana > SEMANA_MAXIMA) return undefined;
+  return RUTAS.find((r) => semana >= r.desde && semana <= r.hasta);
+}
+
+export type GuionRuta = { clave: ClaveGuionRuta; titulo: string; semanas: string; guion: string };
+
+export const GUIONES_RUTA: GuionRuta[] = [
+  {
+    clave: 'corta1',
+    titulo: 'Ruta corta, encuentro 1: cuándo ir a la clínica, parto y primera hora con el bebé',
+    semanas: 'Semanas 34 a 36',
+    guion: `${RUTA}ruta_corta_34_a_36_semanas.txt`,
+  },
+  {
+    clave: 'corta2',
+    titulo: 'Ruta corta, encuentro 2: recién nacido, lactancia, planificación y posparto',
+    semanas: 'Semanas 34 a 36',
+    guion: `${RUTA}ruta_corta_34_a_36_semanas.txt`,
+  },
+  {
+    clave: 'esencial',
+    titulo: 'Sesión esencial: lo indispensable antes del parto',
+    semanas: 'Semana 37 o más',
+    guion: `${RUTA}sesion_esencial_37_semanas_o_mas.txt`,
+  },
+];
+
+// ---------------------------------------------------------------------------
 // English version (/en/prenatal-course). Same clinical content as the Spanish
 // version; facilitator scripts are only available in Spanish.
 // ---------------------------------------------------------------------------
@@ -320,6 +425,27 @@ export const SESIONES_EN: Sesion[] = [
       'Sadness that lasts more than 2 weeks after birth needs a consultation.',
     ],
     guion: SESIONES[6].guion,
+  },
+];
+
+export const GUIONES_RUTA_EN: GuionRuta[] = [
+  {
+    clave: 'corta1',
+    titulo: 'Short track, meeting 1: when to go to the hospital, labor and the first hour with your baby',
+    semanas: 'Weeks 34 to 36',
+    guion: GUIONES_RUTA[0].guion,
+  },
+  {
+    clave: 'corta2',
+    titulo: 'Short track, meeting 2: newborn care, breastfeeding, family planning and postpartum',
+    semanas: 'Weeks 34 to 36',
+    guion: GUIONES_RUTA[1].guion,
+  },
+  {
+    clave: 'esencial',
+    titulo: 'Essential session: what you need before the birth',
+    semanas: 'Week 37 or later',
+    guion: GUIONES_RUTA[2].guion,
   },
 ];
 

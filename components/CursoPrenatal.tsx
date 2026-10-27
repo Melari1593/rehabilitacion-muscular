@@ -3,7 +3,15 @@ import { AlertTriangle, Baby, CalendarCheck, Download, HeartHandshake, Languages
 import { Aparecer } from '@/components/Aparecer';
 import { Encabezado, type Idioma } from '@/components/Encabezado';
 import { PiePagina } from '@/components/PiePagina';
-import { SESIONES, SESIONES_EN, SIGNOS_ALARMA, SIGNOS_ALARMA_EN } from '@/lib/cursoPrenatal';
+import { RutaPorSemana } from '@/components/RutaPorSemana';
+import {
+  GUIONES_RUTA,
+  GUIONES_RUTA_EN,
+  SESIONES,
+  SESIONES_EN,
+  SIGNOS_ALARMA,
+  SIGNOS_ALARMA_EN,
+} from '@/lib/cursoPrenatal';
 
 // Página del curso de preparación para la maternidad y la paternidad, en español
 // (/control-prenatal) e inglés (/en/prenatal-course). El contenido clínico es el mismo.
@@ -28,7 +36,7 @@ const TEXTOS = {
     aprenderas: 'Lo que aprenderás',
     paraCasa: 'Para llevar a casa',
     notaSesiones:
-      'Cada sesión dura 2 horas y combina conversación, práctica y un repaso al final. Si te pierdes una, puedes tomarla en el siguiente ciclo del curso. Consulta los horarios y sedes con tu IPS.',
+      'Cada sesión dura 2 horas y combina conversación, práctica y un repaso al final. Si te pierdes una, puedes tomarla en el siguiente ciclo del curso. Si empiezas después de la semana 34, hay una ruta corta de 2 encuentros, y desde la semana 37 una sesión esencial. Consulta los horarios y sedes con tu IPS.',
     alarmaEtiqueta: 'No esperes al próximo control',
     alarmaTitulo: 'Signos de alarma en el embarazo.',
     alarmaAntes: 'Si tienes alguno de estos signos, ve a urgencias de inmediato o llama al ',
@@ -36,10 +44,10 @@ const TEXTOS = {
     equipo: 'Para el equipo de salud',
     tituloGuiones: 'Guiones de las sesiones.',
     introGuiones:
-      'Guiones completos para enfermería y psicología: objetivos, agenda minuto a minuto, dinámicas, pre-test y post-test, notas para el facilitador y referencias. Ajustados a la Resolución 3280 de 2018 (Ruta Materno Perinatal).',
+      'Guiones completos para enfermería y psicología: objetivos, agenda minuto a minuto, dinámicas, pre-test y post-test, notas para el facilitador y referencias. Ajustados a la Resolución 3280 de 2018 (Ruta Materno Perinatal) y a la GPC de embarazo, parto y puerperio de 2013. Incluyen una ruta corta (semanas 34 a 36) y una sesión esencial (semana 37 o más) para quien empieza tarde.',
     fuentes: 'Fuentes',
     textoFuentes:
-      'Ministerio de Salud y Protección Social, Resolución 3280 de 2018 (modificada por la Res. 276 de 2019). Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed., 2017. Ley 2244 de 2022. Ley 1980 de 2019. OMS. Material complementario de la revista Creciendo Juntos (2026), parafraseado y citado.',
+      'Ministerio de Salud y Protección Social, Resolución 3280 de 2018 (modificada por la Res. 276 de 2019). Ministerio de Salud y Protección Social y Colciencias, Guía de Práctica Clínica para la prevención, detección temprana y tratamiento de las complicaciones del embarazo, parto o puerperio, 2013. Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8.ª ed., 2017. Ley 2244 de 2022. Ley 1980 de 2019. OMS. Material complementario de la revista Creciendo Juntos (2026), parafraseado y citado.',
     aviso: 'Contenido educativo revisado por un médico. No reemplaza tus controles prenatales ni la valoración de tu equipo de salud.',
     quienRevisa: 'Quién revisa el contenido',
   },
@@ -62,7 +70,7 @@ const TEXTOS = {
     aprenderas: 'What you will learn',
     paraCasa: 'Take-home messages',
     notaSesiones:
-      'Each session lasts 2 hours and combines conversation, hands-on practice and a review at the end. If you miss one, you can take it in the next round of the course. Ask your health provider (IPS) for schedules and locations. Sessions are taught in Spanish.',
+      'Each session lasts 2 hours and combines conversation, hands-on practice and a review at the end. If you miss one, you can take it in the next round of the course. If you start after week 34, there is a short track of 2 meetings, and from week 37 an essential session. Ask your health provider (IPS) for schedules and locations. Sessions are taught in Spanish.',
     alarmaEtiqueta: 'Don’t wait for your next check-up',
     alarmaTitulo: 'Warning signs during pregnancy.',
     alarmaAntes: 'If you have any of these signs, go to the emergency room right away or call ',
@@ -70,10 +78,10 @@ const TEXTOS = {
     equipo: 'For health professionals',
     tituloGuiones: 'Session scripts.',
     introGuiones:
-      'Complete scripts for nursing and psychology staff: objectives, minute-by-minute agenda, activities, pre- and post-tests, facilitator notes and references. Aligned with Colombian Resolution 3280 of 2018 (Maternal and Perinatal Care Pathway). The scripts are available in Spanish only.',
+      'Complete scripts for nursing and psychology staff: objectives, minute-by-minute agenda, activities, pre- and post-tests, facilitator notes and references. Aligned with Colombian Resolution 3280 of 2018 (Maternal and Perinatal Care Pathway) and the 2013 Colombian clinical practice guideline on pregnancy, childbirth and the postpartum period. They include a short track (weeks 34 to 36) and an essential session (week 37 or later) for those who start late. The scripts are available in Spanish only.',
     fuentes: 'Sources',
     textoFuentes:
-      'Colombian Ministry of Health and Social Protection, Resolution 3280 of 2018 (amended by Resolution 276 of 2019). Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8th ed., 2017. Colombian Law 2244 of 2022. Colombian Law 1980 of 2019. World Health Organization. Supplementary material from Creciendo Juntos magazine (2026), paraphrased and cited.',
+      'Colombian Ministry of Health and Social Protection, Resolution 3280 of 2018 (amended by Resolution 276 of 2019). Colombian Ministry of Health and Colciencias, Clinical practice guideline for the prevention, early detection and treatment of complications of pregnancy, childbirth and the postpartum period, 2013. Carvajal J, Ralph C. Manual de Obstetricia y Ginecología, 8th ed., 2017. Colombian Law 2244 of 2022. Colombian Law 1980 of 2019. World Health Organization. Supplementary material from Creciendo Juntos magazine (2026), paraphrased and cited.',
     aviso: 'Educational content reviewed by a physician. It does not replace your prenatal check-ups or your health team’s assessment.',
     quienRevisa: 'Who reviews the content',
   },
@@ -87,6 +95,10 @@ export function CursoPrenatal({ idioma }: { idioma: Idioma }) {
   const t = TEXTOS[idioma];
   const sesiones = idioma === 'en' ? SESIONES_EN : SESIONES;
   const signos = idioma === 'en' ? SIGNOS_ALARMA_EN : SIGNOS_ALARMA;
+  // La ruta corta tiene 2 encuentros en un mismo archivo: se descarga una sola vez.
+  const guionesRuta = (idioma === 'en' ? GUIONES_RUTA_EN : GUIONES_RUTA).filter(
+    (g, i, todos) => todos.findIndex((x) => x.guion === g.guion) === i,
+  );
 
   return (
     <>
@@ -144,6 +156,9 @@ export function CursoPrenatal({ idioma }: { idioma: Idioma }) {
           </ul>
         </section>
 
+        {/* Ruta según la semana de inicio */}
+        <RutaPorSemana idioma={idioma} />
+
         {/* Sesiones */}
         <section id="sesiones" aria-labelledby="titulo-sesiones" className="scroll-mt-20 bg-arena px-[6%] py-24">
           <p className={eyebrow}>{t.programa}</p>
@@ -151,7 +166,7 @@ export function CursoPrenatal({ idioma }: { idioma: Idioma }) {
           <ol className="grid gap-4">
             {sesiones.map((s, i) => (
               <Aparecer as="li" key={s.numero} retraso={Math.min(i, 4) * 0.06}>
-                <details className="group rounded-xl border border-borde bg-white open:shadow-[0_8px_32px_rgba(47,42,39,0.08)]">
+                <details id={`sesion-${s.numero}`} className="group scroll-mt-24 rounded-xl border border-borde bg-white open:shadow-[0_8px_32px_rgba(47,42,39,0.08)]">
                   <summary className="flex cursor-pointer list-none items-start gap-5 p-5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento sm:items-center sm:p-6 [&::-webkit-details-marker]:hidden">
                     <span className="font-serif text-4xl leading-none text-acento/40" aria-hidden="true">
                       {String(s.numero).padStart(2, '0')}
@@ -246,6 +261,24 @@ export function CursoPrenatal({ idioma }: { idioma: Idioma }) {
                       {t.sesion} {s.numero}
                     </span>
                     <span className="block text-[14px] font-semibold group-hover:text-acento">{s.titulo}</span>
+                  </span>
+                </a>
+              </li>
+            ))}
+            {guionesRuta.map((g) => (
+              <li key={g.guion}>
+                <a
+                  href={g.guion}
+                  download
+                  hrefLang="es"
+                  className="group flex h-full items-start gap-3 rounded-lg border border-borde bg-white p-4 transition-colors hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento"
+                >
+                  <Download className="mt-0.5 h-4 w-4 shrink-0 text-acento" aria-hidden="true" />
+                  <span>
+                    <span className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-suave">{g.semanas}</span>
+                    <span className="block text-[14px] font-semibold group-hover:text-acento">
+                      {g.clave === 'esencial' ? g.titulo : g.titulo.split(':')[0]}
+                    </span>
                   </span>
                 </a>
               </li>
