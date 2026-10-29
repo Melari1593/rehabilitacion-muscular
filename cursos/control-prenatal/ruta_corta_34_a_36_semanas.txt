@@ -728,7 +728,8 @@ Cuándo no amamantar:
 - Casi nunca hay que dejar de lactar: con fiebre, mastitis,
   hepatitis B o C, sífilis en tratamiento o la mayoría de los
   medicamentos se sigue amamantando. Antes de suspender,
-  pregunte al equipo de salud.
+  pregunte al equipo de salud o consulte e-lactancia.org
+  (gratis y en español).
 - En pocos casos no se recomienda amamantar, por ejemplo si la
   madre tiene VIH. El equipo se lo dirá y le enseñará a alimentar
   al bebé de forma segura.
@@ -1002,6 +1003,23 @@ no leer en voz alta):
   de los medicamentos (revisar cada uno en LactMed o
   e-lactancia).
 - Cualquier diagnóstico se habla en privado, nunca en el grupo.
+Cómo usar e-lactancia.org (APILAM, España; gratis, en español):
+- Buscar por principio activo, nombre comercial, planta o
+  enfermedad. Cada ficha da uno de cuatro niveles:
+  Compatible ("seguro, mejor opción"): seguir amamantando.
+  Compatibilidad probable ("bastante seguro"): compatible;
+  vigilar al bebé, puede haber una alternativa mejor.
+  Compatibilidad limitada ("poco seguro"): buscar alternativa o
+  valorar riesgo y beneficio con el médico.
+  Incompatible ("muy inseguro"): no amamantar mientras se use, o
+  cambiar de producto.
+- Es una fuente de consulta rápida (opinión de expertos de una
+  asociación, no revisión sistemática). Para casos dudosos,
+  revisar también LactMed (NIH, en inglés). La norma colombiana
+  prevalece (por ejemplo, VIH).
+- Las plantas medicinales son lo más buscado: revisarlas también.
+- Su contenido tiene licencia CC BY-NC-SA 4.0: se puede citar y
+  enlazar; no copiar las fichas en material comercial.
 
 - Por qué esta ruta: la GPC 2013 pide que la información sobre
   preparación para el parto, signos de inicio del trabajo de
