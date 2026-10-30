@@ -7,6 +7,8 @@ import { RutaPorSemana } from '@/components/RutaPorSemana';
 import {
   GUIONES_RUTA,
   GUIONES_RUTA_EN,
+  MATERIALES_APOYO,
+  MATERIALES_APOYO_EN,
   SESIONES,
   SESIONES_EN,
   SIGNOS_ALARMA,
@@ -99,6 +101,7 @@ export function CursoPrenatal({ idioma }: { idioma: Idioma }) {
   const guionesRuta = (idioma === 'en' ? GUIONES_RUTA_EN : GUIONES_RUTA).filter(
     (g, i, todos) => todos.findIndex((x) => x.guion === g.guion) === i,
   );
+  const materiales = idioma === 'en' ? MATERIALES_APOYO_EN : MATERIALES_APOYO;
 
   return (
     <>
@@ -279,6 +282,22 @@ export function CursoPrenatal({ idioma }: { idioma: Idioma }) {
                     <span className="block text-[14px] font-semibold group-hover:text-acento">
                       {g.clave === 'esencial' ? g.titulo : g.titulo.split(':')[0]}
                     </span>
+                  </span>
+                </a>
+              </li>
+            ))}
+            {materiales.map((m) => (
+              <li key={m.archivo}>
+                <a
+                  href={m.archivo}
+                  download
+                  hrefLang="es"
+                  className="group flex h-full items-start gap-3 rounded-lg border border-borde bg-white p-4 transition-colors hover:border-acento focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-acento"
+                >
+                  <Download className="mt-0.5 h-4 w-4 shrink-0 text-acento" aria-hidden="true" />
+                  <span>
+                    <span className="block text-[11px] font-semibold uppercase tracking-[0.1em] text-suave">{m.etiqueta}</span>
+                    <span className="block text-[14px] font-semibold group-hover:text-acento">{m.titulo}</span>
                   </span>
                 </a>
               </li>

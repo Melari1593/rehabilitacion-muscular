@@ -451,6 +451,25 @@ export const GUIONES_RUTA_EN: GuionRuta[] = [
   },
 ];
 
+// Material de apoyo para entregar a las familias (se descarga junto con los guiones).
+export type MaterialApoyo = { etiqueta: string; titulo: string; archivo: string };
+
+export const MATERIALES_APOYO: MaterialApoyo[] = [
+  {
+    etiqueta: 'Sesión 7 · Para las familias',
+    titulo: 'Recetario de alimentación complementaria (6 a 24 meses)',
+    archivo: `${RUTA}recetario_alimentacion_complementaria.txt`,
+  },
+];
+
+export const MATERIALES_APOYO_EN: MaterialApoyo[] = [
+  {
+    etiqueta: 'Session 7 · For families',
+    titulo: 'Complementary feeding recipe book (6 to 24 months)',
+    archivo: MATERIALES_APOYO[0].archivo,
+  },
+];
+
 export const SIGNOS_ALARMA_EN = [
   'Vaginal bleeding',
   'Fluid leaking from the vagina',

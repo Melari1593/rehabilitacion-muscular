@@ -34,6 +34,8 @@ Específicos:
   posparto) para el recuerdo inicial
 - Minibaraja de casos (5 tarjetas) y tres carteles: NORMAL /
   CONSULTA PRONTO / URGENCIAS
+- Recetario de alimentación complementaria (6 a 24 meses), para
+  entregar a cada familia
 
 ------------------------------------------------------------
 3. AGENDA
@@ -188,6 +190,10 @@ Necesidades del bebé en el primer año:
   (Fuentes: OMS 2023, alimentación complementaria; Hendricks,
   Duggan y Walker, Manual of Pediatric Nutrition, caps. 7, 8, 12
   y 27; AAP, salud oral.)
+  Entregar el recetario de alimentación complementaria: 16
+  recetas sin azúcar ni sal, con alimentos de Colombia, y las
+  cantidades por edad. Mostrar una receta como ejemplo (por
+  ejemplo, la arepa blanda con fríjol y guayaba de postre).
 
 Demostración: leer el libro de cartón señalando y nombrando las
 imágenes, con pausas para que el bebé "responda".
