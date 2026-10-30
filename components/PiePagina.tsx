@@ -11,6 +11,7 @@ const TEXTOS = {
     enlaces: [
       { href: '/#cursos', texto: 'Cursos en línea' },
       { href: '/#productos', texto: 'Productos de bienestar' },
+      { href: '/ejercicios-por-musculo', texto: 'Ejercicios por músculo' },
       { href: '/analisis-postura', texto: 'Analiza tu postura' },
       { href: '/control-prenatal', texto: 'Curso de control prenatal' },
     ],

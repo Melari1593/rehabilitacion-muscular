@@ -6,6 +6,7 @@ Sitio en **Next.js** para publicar en **Vercel**. Muestra los cursos y productos
 - `app/`, `components/`, `lib/`: el sitio (Next.js).
 - `app/analisis-postura/`: página que muestra la app de postura.
 - `public/postura/`: la app de análisis de postura (HTML + JavaScript + MediaPipe, sin dependencias). También funciona sola en `/postura/index.html`.
+- `app/ejercicios-por-musculo/`: cuerpo 3D (three.js) donde se toca un músculo y se ven los ejercicios de los cursos que lo trabajan. Ver [Ejercicios por músculo](#ejercicios-por-músculo).
 - `cursos/`: guiones, PDFs y prompts de los cursos.
 - `tienda/`: sección para el tema de Shopify, prompt del sitio y textos legales.
 - `spec.md`, `roadmap.md`, `plan.md`: documentación de la app de postura.
@@ -60,3 +61,17 @@ Sin token puedes ver el diseño con datos de ejemplo: `MOCK_CATALOG=1 npm run de
 
 ## Contenido
 Solo datos reales: sin testimonios, cifras ni urgencia inventados, y sin promesas de salud. El registro del médico revisor (**Registro médico RETHUS 1018459438**) está en `app/page.tsx`.
+
+## Ejercicios por músculo
+Página `/ejercicios-por-musculo`: un cuerpo 3D con músculos y huesos. Al tocar un músculo (o elegir un grupo en la lista) se resalta el grupo y se muestran los ejercicios de los cursos que lo trabajan. El grupo elegido queda en la dirección (`?grupo=cuadriceps`) para compartir el enlace.
+
+- `lib/gruposMusculares.ts`: los 10 grupos (nombre, función, músculos) y qué piezas del modelo 3D resalta cada uno.
+- `lib/ejercicios.ts`: los ejercicios de Rodillas fuertes, Espalda sana y Automasaje, con el grupo que trabajan como **principal** o de **apoyo**. Es una copia de los diccionarios de `cursos/pdf/generar_*.py`: si cambias un ejercicio allí, cámbialo también aquí.
+- `components/Musculos3D.tsx` y `components/ExploradorMusculos.tsx`: el visor y la página interactiva.
+- `public/musculos/`: el modelo 3D (3,6 MB comprimido). Se genera una sola vez con:
+  ```bash
+  git clone --depth 1 https://github.com/ashemag/human-atlas ../human-atlas
+  node scripts/musculos/extraer-modelo.mjs ../human-atlas
+  ```
+
+Modelo anatómico: BodyParts3D 4.0 © The Database Center for Life Science, licencia CC BY 4.0, simplificado a partir de [Human Atlas](https://github.com/ashemag/human-atlas). La página muestra esta atribución al final. El modelo no incluye recto abdominal, transverso, dorsal ancho, multífidos ni cuadrado lumbar.
