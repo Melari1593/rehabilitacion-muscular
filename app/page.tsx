@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Activity, Baby, Camera, CircleDot, Dumbbell, HeartPulse, Monitor, ShieldCheck, Snowflake } from 'lucide-react';
+import { Activity, Baby, Camera, CircleDot, Dumbbell, HeartPulse, Monitor, PersonStanding, ShieldCheck, Snowflake } from 'lucide-react';
 import { Aparecer } from '@/components/Aparecer';
 import { Encabezado } from '@/components/Encabezado';
 import { PiePagina } from '@/components/PiePagina';
@@ -18,6 +18,7 @@ const TEMAS = [
   { icono: CircleDot, titulo: 'Recuperación muscular', texto: 'Automasaje con rodillo y pelota, sin dolor.' },
   { icono: Dumbbell, titulo: 'Fuerza en casa', texto: 'Entrena con bandas elásticas, desde cero.' },
   { icono: Snowflake, titulo: 'Frío o calor', texto: 'Cómo manejar molestias musculares en casa.' },
+  { icono: PersonStanding, titulo: 'Ejercicios por músculo', texto: 'Toca un músculo en el cuerpo 3D y mira cómo trabajarlo.', href: '/ejercicios-por-musculo' },
   { icono: Baby, titulo: 'Control prenatal', texto: 'Curso de 7 sesiones para prepararte para la llegada del bebé.', href: '/control-prenatal' },
   { icono: HeartPulse, titulo: 'Productos de bienestar', texto: 'Todo lo que necesitas para tu rutina.', href: '#productos' },
 ];

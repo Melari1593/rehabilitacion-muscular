@@ -7,6 +7,7 @@ const TEXTOS = {
     enlaces: [
       { href: '/#cursos', texto: 'Cursos' },
       { href: '/#productos', texto: 'Productos' },
+      { href: '/ejercicios-por-musculo', texto: 'Ejercicios por músculo' },
       { href: '/analisis-postura', texto: 'Analiza tu postura' },
       { href: '/control-prenatal', texto: 'Control prenatal' },
       { href: '/#revision', texto: 'Revisión médica' },
