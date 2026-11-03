@@ -150,7 +150,7 @@ Resultado:
 
 **Indicadores de seguridad, obligatorios:**
 - El 100 % de los eventos "Me siento mal" y "Me caí" generan un aviso entregado y un registro.
-- Ninguna persona que respondió sí en el filtro de seguridad empieza el ejercicio sin prescripción médica registrada.
+- Ninguna persona que respondió sí a cualquiera de las cinco primeras preguntas del filtro de seguridad empieza el ejercicio sin prescripción médica registrada. Responder sí solo a la sexta no exige prescripción: activa el modo sin límite de pulso.
 - Se cuentan las caídas durante las sesiones. Cualquier caída con lesión se revisa caso por caso.
 
 ## V2

@@ -226,7 +226,7 @@ No hay stack decidido. Los componentes se nombran de forma lógica; cuando exist
   - Proporción de personas activas: al menos 2 de 3 sesiones semanales en las semanas 10 a 12.
   - Porcentaje de sesiones prescritas completadas.
   - Proporción de eventos "Me siento mal" y "Me caí" con aviso entregado y registro.
-  - Personas que empezaron el ejercicio sin prescripción registrada tras responder sí en el filtro.
+  - Personas que empezaron el ejercicio sin prescripción registrada tras responder sí a cualquiera de las cinco primeras preguntas del filtro (responder sí solo a la sexta no exige prescripción).
   - Caídas durante sesiones.
 - **Componentes:** módulo de reportes.
 - **Hecho cuando:** los indicadores se calculan sobre datos de prueba y coinciden con un cálculo manual.
